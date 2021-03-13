@@ -1,0 +1,14 @@
+{
+  "parent": "block/structure_block",
+  "overrides": [
+    {"predicate": {"custom_model_data": 423000}, "model": "florcraft:item/empty"},
+    {"predicate": {"custom_model_data": 423001}, "model": "florcraft:item/left_arrow"},
+    {"predicate": {"custom_model_data": 423002}, "model": "florcraft:item/right_arrow"},
+    {"predicate": {"custom_model_data": 423003}, "model": "florcraft:item/locked_recipe"},
+    {"predicate": {"custom_model_data": 423004}, "model": "florcraft:item/essence_flask_empty"},
+    {"predicate": {"custom_model_data": 423005}, "model": "florcraft:item/knowledge_point"},
+    {"predicate": {"custom_model_data": 423006}, "model": "florcraft:item/arid_essence"},
+    {"predicate": {"custom_model_data": 423007}, "model": "florcraft:item/aqueous_essence"},
+    {"predicate": {"custom_model_data": 423008}, "model": "florcraft:item/verdant_essence"}
+  ]
+}

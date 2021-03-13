@@ -1,0 +1,21 @@
+{
+	"criteria": {
+	  "click_undercrafter": {
+		"trigger": "minecraft:item_used_on_block",
+		"conditions": {
+		  "location": {
+			"block": {
+			  "block": "minecraft:barrel",
+			  "state": {
+				"open": "true"
+			  },
+			  "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"florcraft:infused_workbench\",\"text\":\"\uF001\ua000\"}'}"
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "florcraft:block/infused_workbench/interact/enter"
+	}
+  }

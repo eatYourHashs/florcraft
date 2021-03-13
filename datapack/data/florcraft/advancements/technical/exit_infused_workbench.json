@@ -1,0 +1,15 @@
+{
+	"criteria": {
+	  "exit_gui": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": {
+			"nbt": "{Tags:[\"flor.inside_infused_workbench_gui\"]}"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "florcraft:block/infused_workbench/interact/exit"
+	}
+  } 

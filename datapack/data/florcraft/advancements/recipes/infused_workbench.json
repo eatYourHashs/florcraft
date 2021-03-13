@@ -1,0 +1,15 @@
+{
+  "parent": "florcraft:recipes/root",
+  "rewards": {
+    "function": "florcraft:entity/player/nbt_recipe",
+    "loot": ["florcraft:item/infused_workbench"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "florcraft:infused_workbench"
+      }
+    }
+  }
+}

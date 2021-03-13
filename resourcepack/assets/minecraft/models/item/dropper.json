@@ -1,0 +1,7 @@
+{
+  "parent": "block/dropper",
+  "overrides": [
+    {"predicate": {"custom_model_data": 423000}, "model": "florcraft:block/natures_oculus"},
+    {"predicate": {"custom_model_data": 423001}, "model": "florcraft:block/infused_workbench"}
+  ]
+}

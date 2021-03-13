@@ -1,0 +1,18 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 423000}, "model": "florcraft:item/essence_flask_empty"},
+    {"predicate": {"custom_model_data": 423001}, "model": "florcraft:item/essence_flask_arid_1"},
+    {"predicate": {"custom_model_data": 423002}, "model": "florcraft:item/essence_flask_arid_2"},
+    {"predicate": {"custom_model_data": 423003}, "model": "florcraft:item/essence_flask_arid_3"},
+    {"predicate": {"custom_model_data": 423004}, "model": "florcraft:item/essence_flask_aqueous_1"},
+    {"predicate": {"custom_model_data": 423005}, "model": "florcraft:item/essence_flask_aqueous_2"},
+    {"predicate": {"custom_model_data": 423006}, "model": "florcraft:item/essence_flask_aqueous_3"},
+    {"predicate": {"custom_model_data": 423007}, "model": "florcraft:item/essence_flask_verdant_1"},
+    {"predicate": {"custom_model_data": 423008}, "model": "florcraft:item/essence_flask_verdant_2"},
+    {"predicate": {"custom_model_data": 423009}, "model": "florcraft:item/essence_flask_verdant_3"}
+  ]
+}

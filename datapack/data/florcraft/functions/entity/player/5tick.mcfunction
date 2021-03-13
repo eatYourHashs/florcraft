@@ -1,0 +1,1 @@
+clear @s minecraft:structure_block{flor_dat:{cleared:1b}}

@@ -1,0 +1,28 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "florcraft:gui/infused_workbench/gui.png",
+      "ascent": 13,
+      "height": 71,
+      "chars": [
+        "\ua000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "florcraft:gui/negative_space.png",
+      "ascent": -32768,
+      "height": -3,
+      "chars": [
+        "\uF000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "florcraft:gui/negative_space.png",
+      "ascent": -3000,
+      "height": -10,
+      "chars": ["\uF001"]
+    }
+  ]
+}
