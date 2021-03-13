@@ -5,6 +5,8 @@ execute if entity @s[nbt={HurtTime:9s}] run scoreboard players add @s flor.dummy
 execute if entity @s[nbt={HurtTime:9s}] run playsound minecraft:entity.vex.hurt neutral @a ~ ~ ~ 1 1
 execute if entity @s[nbt={HurtTime:9s}] run playsound minecraft:entity.vex.hurt neutral @a ~ ~ ~ 1 1
 execute if entity @s[nbt={HurtTime:9s}] run playsound minecraft:entity.vex.hurt neutral @a ~ ~ ~ 1 1
+execute if entity @s[nbt={HurtTime:9s}] run playsound minecraft:entity.arrow.hit_player neutral @p ~ ~ ~ 1 1.5
+execute if entity @s[nbt={HurtTime:9s}] run scoreboard players add @p[scores=!{flor.knowledge=64..}] flor.knowledge 1
 execute if entity @s[nbt={HurtTime:9s}] run spreadplayers ~ ~ 1 32 false @s
 effect give @s minecraft:invisibility 1 1 true
 scoreboard players add @s flor.dummy 1
