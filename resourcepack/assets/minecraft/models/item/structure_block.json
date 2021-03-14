@@ -9,6 +9,7 @@
     {"predicate": {"custom_model_data": 423005}, "model": "florcraft:item/knowledge_point"},
     {"predicate": {"custom_model_data": 423006}, "model": "florcraft:item/arid_essence"},
     {"predicate": {"custom_model_data": 423007}, "model": "florcraft:item/aqueous_essence"},
-    {"predicate": {"custom_model_data": 423008}, "model": "florcraft:item/verdant_essence"}
+    {"predicate": {"custom_model_data": 423008}, "model": "florcraft:item/verdant_essence"},
+    {"predicate": {"custom_model_data": 423009}, "model": "florcraft:item/druidic_scepter"}
   ]
 }
