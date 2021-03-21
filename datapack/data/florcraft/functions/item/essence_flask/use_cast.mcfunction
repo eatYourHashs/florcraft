@@ -1,0 +1,6 @@
+scoreboard players add $cast.temp flor.dummy 1
+execute if block ~ ~ ~ air unless score $cast.temp flor.dummy matches 14.. positioned ^ ^ ^0.25 run function florcraft:item/essence_flask/use_cast
+execute if block ~ ~ ~ cave_air unless score $cast.temp flor.dummy matches 14.. positioned ^ ^ ^0.25 run function florcraft:item/essence_flask/use_cast
+execute if block ~ ~ ~ oak_wood align xyz positioned ~0.5 ~0.5 ~0.5 if entity @e[type=armor_stand,distance=..0.6,tag=flor.pylon] if score @e[type=armor_stand,distance=..0.6,tag=flor.pylon,limit=1] flor.arid_ess matches 1.. run function florcraft:item/essence_flask/fill_arid_from_pylon
+execute if block ~ ~ ~ oak_wood align xyz positioned ~0.5 ~0.5 ~0.5 if entity @e[type=armor_stand,distance=..0.6,tag=flor.pylon] if score @e[type=armor_stand,distance=..0.6,tag=flor.pylon,limit=1] flor.aqueous_ess matches 1.. run function florcraft:item/essence_flask/fill_aqueous_from_pylon
+execute if block ~ ~ ~ oak_wood align xyz positioned ~0.5 ~0.5 ~0.5 if entity @e[type=armor_stand,distance=..0.6,tag=flor.pylon] if score @e[type=armor_stand,distance=..0.6,tag=flor.pylon,limit=1] flor.verdant_ess matches 1.. run function florcraft:item/essence_flask/fill_verdant_from_pylon
