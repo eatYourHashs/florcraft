@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Right click to fire a frost ray using Aqueous Essence,",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "dealing damage and freezing entities.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Frost Rod",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423011,flor_dat:{arid_cost:0b,aqueous_cost:5b,verdant_cost:0b,frost_rod:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,9 @@
     {"predicate": {"custom_model_data": 423007}, "model": "florcraft:item/aqueous_essence"},
     {"predicate": {"custom_model_data": 423008}, "model": "florcraft:item/verdant_essence"},
     {"predicate": {"custom_model_data": 423009}, "model": "florcraft:item/druidic_scepter"},
-    {"predicate": {"custom_model_data": 423010}, "model": "florcraft:block/pylon"}
+    {"predicate": {"custom_model_data": 423010}, "model": "florcraft:block/pylon"},
+    {"predicate": {"custom_model_data": 423011}, "model": "florcraft:item/ignition_rod"},
+    {"predicate": {"custom_model_data": 423012}, "model": "florcraft:item/frost_rod"},
+    {"predicate": {"custom_model_data": 423013}, "model": "florcraft:item/overgrowth_rod"}
   ]
 }
