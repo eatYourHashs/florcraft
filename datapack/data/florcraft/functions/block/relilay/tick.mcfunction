@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ crimson_fungus run function florcraft:block/relilay/break

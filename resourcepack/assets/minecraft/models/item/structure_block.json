@@ -14,6 +14,12 @@
     {"predicate": {"custom_model_data": 423010}, "model": "florcraft:block/pylon"},
     {"predicate": {"custom_model_data": 423011}, "model": "florcraft:item/ignition_rod"},
     {"predicate": {"custom_model_data": 423012}, "model": "florcraft:item/frost_rod"},
-    {"predicate": {"custom_model_data": 423013}, "model": "florcraft:item/overgrowth_rod"}
+    {"predicate": {"custom_model_data": 423013}, "model": "florcraft:item/overgrowth_rod"},
+    {"predicate": {"custom_model_data": 423014}, "model": "florcraft:item/absorbloom"},
+    {"predicate": {"custom_model_data": 423015}, "model": "florcraft:item/dispoppy"},
+    {"predicate": {"custom_model_data": 423016}, "model": "florcraft:item/relilay"},
+    {"predicate": {"custom_model_data": 423017}, "model": "florcraft:block/absorbloom"},
+    {"predicate": {"custom_model_data": 423018}, "model": "florcraft:block/dispoppy"},
+    {"predicate": {"custom_model_data": 423019}, "model": "florcraft:block/relilay"}
   ]
 }

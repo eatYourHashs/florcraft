@@ -17,6 +17,9 @@
     {"predicate": {"custom_model_data": 423010}, "model": "florcraft:item/ignition_rod"},
     {"predicate": {"custom_model_data": 423011}, "model": "florcraft:item/frost_rod"},
     {"predicate": {"custom_model_data": 423012}, "model": "florcraft:item/overgrowth_rod"},
-    {"predicate": {"custom_model_data": 423013}, "model": "florcraft:anim/overgrown_vine"}
+    {"predicate": {"custom_model_data": 423013}, "model": "florcraft:anim/overgrown_vine"},
+    {"predicate": {"custom_model_data": 423014}, "model": "florcraft:item/absorbloom"},
+    {"predicate": {"custom_model_data": 423015}, "model": "florcraft:item/dispoppy"},
+    {"predicate": {"custom_model_data": 423016}, "model": "florcraft:item/relilay"}
   ]
 }

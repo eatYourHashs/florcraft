@@ -5,3 +5,6 @@ execute if entity @s[tag=flor.aqueous_spirit] run function florcraft:entity/spir
 execute if entity @s[tag=flor.verdant_spirit] run function florcraft:entity/spirit/verdant_tick
 execute if entity @s[tag=flor.pylon] run function florcraft:block/pylon/tick
 execute if entity @s[tag=flor.overgrown_vine] run function florcraft:entity/overgrown_vine/tick
+execute if entity @s[tag=flor.absorbloom] run function florcraft:block/absorbloom/tick
+execute if entity @s[tag=flor.relilay] run function florcraft:block/relilay/tick
+execute if entity @s[tag=flor.dispoppy] run function florcraft:block/dispoppy/tick
