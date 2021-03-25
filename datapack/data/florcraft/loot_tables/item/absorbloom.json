@@ -12,7 +12,7 @@
           "function": "minecraft:set_lore",
           "lore": [
             {
-              "text": "Siphons essence from the nearest pylon.",
+              "text": "Siphons essence from nearby pylons.",
               "color": "gray",
               "italic": false
             },
