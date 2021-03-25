@@ -10,6 +10,7 @@ scoreboard objectives add flor.aqueous_ess dummy
 scoreboard objectives add flor.verdant_ess dummy
 scoreboard objectives add flor.time dummy
 scoreboard objectives add flor.ess_time dummy
+scoreboard objectives add flor.pages dummy
 
 forceload add -30000000 24576
 setblock -30000000 0 24576 yellow_shulker_box
