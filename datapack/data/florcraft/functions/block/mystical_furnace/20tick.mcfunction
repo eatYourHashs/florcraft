@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ minecraft:furnace[lit=true] unless data entity @s ArmorItems[3].tag{CustomModelData:423004} run replaceitem entity @s armor.head minecraft:dropper{CustomModelData:423004}
+execute if block ~ ~ ~ minecraft:furnace[lit=false] unless data entity @s ArmorItems[3].tag{CustomModelData:423003} run replaceitem entity @s armor.head minecraft:dropper{CustomModelData:423003}
+stopsound @a * minecraft:item.armor.equip_generic

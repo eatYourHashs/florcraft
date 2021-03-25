@@ -8,3 +8,4 @@ execute if entity @s[tag=flor.overgrown_vine] run function florcraft:entity/over
 execute if entity @s[tag=flor.absorbloom] run function florcraft:block/absorbloom/tick
 execute if entity @s[tag=flor.relilay] run function florcraft:block/relilay/tick
 execute if entity @s[tag=flor.dispoppy] run function florcraft:block/dispoppy/tick
+execute if entity @s[tag=flor.mystical_furnace] run function florcraft:block/mystical_furnace/tick

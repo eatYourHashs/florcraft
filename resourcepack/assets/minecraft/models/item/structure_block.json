@@ -21,6 +21,7 @@
     {"predicate": {"custom_model_data": 423017}, "model": "florcraft:block/absorbloom"},
     {"predicate": {"custom_model_data": 423018}, "model": "florcraft:block/dispoppy"},
     {"predicate": {"custom_model_data": 423019}, "model": "florcraft:block/relilay"},
-    {"predicate": {"custom_model_data": 423020}, "model": "florcraft:item/basic_rune"}
+    {"predicate": {"custom_model_data": 423020}, "model": "florcraft:item/basic_rune"},
+    {"predicate": {"custom_model_data": 423021}, "model": "florcraft:block/mystical_furnace"}
   ]
 }
