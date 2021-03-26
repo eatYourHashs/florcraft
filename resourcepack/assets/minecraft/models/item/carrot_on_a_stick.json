@@ -20,6 +20,9 @@
     {"predicate": {"custom_model_data": 423013}, "model": "florcraft:anim/overgrown_vine"},
     {"predicate": {"custom_model_data": 423014}, "model": "florcraft:item/absorbloom"},
     {"predicate": {"custom_model_data": 423015}, "model": "florcraft:item/dispoppy"},
-    {"predicate": {"custom_model_data": 423016}, "model": "florcraft:item/relilay"}
+    {"predicate": {"custom_model_data": 423016}, "model": "florcraft:item/relilay"},
+    {"predicate": {"custom_model_data": 423017}, "model": "florcraft:item/burning_scepter"},
+    {"predicate": {"custom_model_data": 423018}, "model": "florcraft:item/blizzard_scepter"},
+    {"predicate": {"custom_model_data": 423019}, "model": "florcraft:item/snare_scepter"}
   ]
 }

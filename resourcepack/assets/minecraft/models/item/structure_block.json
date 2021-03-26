@@ -22,6 +22,9 @@
     {"predicate": {"custom_model_data": 423018}, "model": "florcraft:block/dispoppy"},
     {"predicate": {"custom_model_data": 423019}, "model": "florcraft:block/relilay"},
     {"predicate": {"custom_model_data": 423020}, "model": "florcraft:item/basic_rune"},
-    {"predicate": {"custom_model_data": 423021}, "model": "florcraft:block/mystical_furnace"}
+    {"predicate": {"custom_model_data": 423021}, "model": "florcraft:block/mystical_furnace"},
+    {"predicate": {"custom_model_data": 423022}, "model": "florcraft:item/burning_scepter"},
+    {"predicate": {"custom_model_data": 423023}, "model": "florcraft:item/blizzard_scepter"},
+    {"predicate": {"custom_model_data": 423024}, "model": "florcraft:item/snare_scepter"}
   ]
 }
