@@ -8,7 +8,7 @@
            "predicate":{
               "equipment":{
                  "mainhand":{
-                    "nbt":"{flor_dat:{fill:0b}}"
+                    "nbt":"{flor_dat:{essence_flask:1b,fill:0b}}"
                  }
               }
            }
@@ -24,7 +24,7 @@
                     "predicate":{
                        "equipment":{
                           "mainhand":{
-                             "nbt":"{flor_dat:{fill:5b}}"
+                             "nbt":"{flor_dat:{essence_flask:1b,fill:5b}}"
                           }
                        }
                     }
@@ -37,7 +37,7 @@
                        "predicate":{
                           "equipment":{
                              "mainhand":{
-                                "nbt":"{flor_dat:{ess:\"verdant\"}}"
+                                "nbt":"{flor_dat:{essence_flask:1b,ess:\"aqueous\"}}"
                              }
                           }
                        }

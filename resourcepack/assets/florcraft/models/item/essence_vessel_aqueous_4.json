@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "florcraft:item/essence_vessel_aqueous_4"
+    }
+}
