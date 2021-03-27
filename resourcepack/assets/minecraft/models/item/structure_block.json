@@ -25,6 +25,9 @@
     {"predicate": {"custom_model_data": 423021}, "model": "florcraft:block/mystical_furnace"},
     {"predicate": {"custom_model_data": 423022}, "model": "florcraft:item/burning_scepter"},
     {"predicate": {"custom_model_data": 423023}, "model": "florcraft:item/blizzard_scepter"},
-    {"predicate": {"custom_model_data": 423024}, "model": "florcraft:item/snare_scepter"}
+    {"predicate": {"custom_model_data": 423024}, "model": "florcraft:item/snare_scepter"},
+    {"predicate": {"custom_model_data": 423025}, "model": "florcraft:item/ender_rift_scepter"},
+    {"predicate": {"custom_model_data": 423026}, "model": "florcraft:item/barrier_scepter"},
+    {"predicate": {"custom_model_data": 423027}, "model": "florcraft:item/mending_scepter"}
   ]
 }

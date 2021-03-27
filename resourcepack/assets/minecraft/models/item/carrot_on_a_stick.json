@@ -23,6 +23,9 @@
     {"predicate": {"custom_model_data": 423016}, "model": "florcraft:item/relilay"},
     {"predicate": {"custom_model_data": 423017}, "model": "florcraft:item/burning_scepter"},
     {"predicate": {"custom_model_data": 423018}, "model": "florcraft:item/blizzard_scepter"},
-    {"predicate": {"custom_model_data": 423019}, "model": "florcraft:item/snare_scepter"}
+    {"predicate": {"custom_model_data": 423019}, "model": "florcraft:item/snare_scepter"},
+    {"predicate": {"custom_model_data": 423020}, "model": "florcraft:item/ender_rift_scepter"},
+    {"predicate": {"custom_model_data": 423021}, "model": "florcraft:item/barrier_scepter"},
+    {"predicate": {"custom_model_data": 423022}, "model": "florcraft:item/mending_scepter"}
   ]
 }
