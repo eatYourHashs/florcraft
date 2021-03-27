@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Right click to defend against the next attack using Aqueous Essence,",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "protecting you from its damage.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Barrier Scepter",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423021,flor_dat:{arid_cost:5b,aqueous_cost:10b,verdant_cost:0b,barrier_scepter:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

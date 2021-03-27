@@ -9,3 +9,6 @@ execute if data entity @s SelectedItem.tag.flor_dat{relilay:1b} run function flo
 execute if data entity @s SelectedItem.tag.flor_dat{burning_scepter:1b} run function florcraft:item/burning_scepter/use
 execute if data entity @s SelectedItem.tag.flor_dat{blizzard_scepter:1b} run function florcraft:item/blizzard_scepter/use
 execute if data entity @s SelectedItem.tag.flor_dat{snare_scepter:1b} run function florcraft:item/snare_scepter/use
+execute if data entity @s SelectedItem.tag.flor_dat{ender_rift_scepter:1b} run function florcraft:item/ender_rift_scepter/use
+execute if data entity @s SelectedItem.tag.flor_dat{barrier_scepter:1b} run function florcraft:item/barrier_scepter/use
+execute if data entity @s SelectedItem.tag.flor_dat{mending_scepter:1b} run function florcraft:item/mending_scepter/use

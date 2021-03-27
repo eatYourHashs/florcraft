@@ -4,6 +4,7 @@ scoreboard objectives add flor.cstick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add flor.sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add flor.sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add flor.take_damage minecraft.custom:minecraft.damage_taken
+scoreboard objectives add flor.res_damage minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add flor.page dummy
 scoreboard objectives add flor.knowledge dummy
 scoreboard objectives add flor.arid_ess dummy
