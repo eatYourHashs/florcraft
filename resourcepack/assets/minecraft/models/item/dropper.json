@@ -5,6 +5,7 @@
     {"predicate": {"custom_model_data": 423001}, "model": "florcraft:block/infused_workbench"},
     {"predicate": {"custom_model_data": 423002}, "model": "florcraft:block/pylon"},
     {"predicate": {"custom_model_data": 423003}, "model": "florcraft:block/mystical_furnace"},
-    {"predicate": {"custom_model_data": 423004}, "model": "florcraft:block/mystical_furnace_lit"}
+    {"predicate": {"custom_model_data": 423004}, "model": "florcraft:block/mystical_furnace_lit"},
+    {"predicate": {"custom_model_data": 423005}, "model": "florcraft:block/runic_pylon"}
   ]
 }
