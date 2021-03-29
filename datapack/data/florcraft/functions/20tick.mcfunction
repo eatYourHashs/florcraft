@@ -5,3 +5,5 @@ execute as @e[type=item_frame,tag=flor.absorbloom] at @s run function florcraft:
 execute as @e[type=armor_stand,tag=flor.pylon] at @s run function florcraft:block/pylon/20tick
 execute as @e[type=armor_stand,tag=flor.mystical_furnace] at @s run function florcraft:block/mystical_furnace/20tick
 execute as @e[type=armor_stand,tag=flor.runic_pylon] at @s run function florcraft:block/runic_pylon/20tick
+scoreboard players add $100t flor.dummy 1
+execute if score $100t flor.dummy matches 5.. run function florcraft:100tick

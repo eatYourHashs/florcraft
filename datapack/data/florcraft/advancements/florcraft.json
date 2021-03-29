@@ -3,7 +3,8 @@
 			"title": "Florcraft",
 			"description": "A nature magic datapack.",
 			"icon": {
-				"item": "minecraft:oak_leaves"
+				"item": "minecraft:iron_hoe",
+				"nbt": "{CustomModelData:423000}"
 			},
 			"announce_to_chat": false,
 			"show_toast": false

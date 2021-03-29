@@ -4,6 +4,9 @@
     "layer0": "item/iron_hoe"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 423000}, "model": "florcraft:item/druidic_scepter"}
+    {"predicate": {"custom_model_data": 423000}, "model": "florcraft:item/druidic_scepter"},
+    {"predicate": {"custom_model_data": 423001}, "model": "florcraft:item/arid_hoe"},
+    {"predicate": {"custom_model_data": 423002}, "model": "florcraft:item/aqueous_hoe"},
+    {"predicate": {"custom_model_data": 423003}, "model": "florcraft:item/verdant_hoe"}
   ]
 }

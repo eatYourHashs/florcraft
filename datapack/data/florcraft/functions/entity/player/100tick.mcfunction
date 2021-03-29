@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem.tag.flor_dat.ess_repair if data entity @s SelectedItem.tag.Damage unless data entity @s SelectedItem.tag{Damage:0} run function florcraft:item/ess_tools/repair

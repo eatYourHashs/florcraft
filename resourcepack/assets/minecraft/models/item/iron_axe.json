@@ -1,0 +1,11 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/iron_axe"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 423001}, "model": "florcraft:item/arid_axe"},
+    {"predicate": {"custom_model_data": 423002}, "model": "florcraft:item/aqueous_axe"},
+    {"predicate": {"custom_model_data": 423003}, "model": "florcraft:item/verdant_axe"}
+  ]
+}
