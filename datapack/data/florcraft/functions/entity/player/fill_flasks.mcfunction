@@ -15,3 +15,6 @@ execute if data entity @s Inventory[{Slot:8b,tag:{flor_dat:{essence_flask:1b}}}]
 execute if predicate florcraft:location/arid run function florcraft:entity/player/spawn_arid_spirit
 execute if predicate florcraft:location/aqueous run function florcraft:entity/player/spawn_aqueous_spirit
 execute if predicate florcraft:location/verdant run function florcraft:entity/player/spawn_verdant_spirit
+execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_arid_spirit
+execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_aqueous_spirit
+execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_verdant_spirit
