@@ -1,5 +1,8 @@
 scoreboard players set $in flor.dummy 50
 execute store result score $temp flor.dummy run data get entity @s SelectedItem.tag.Enchantments[{id:"minecraft:sharpness"}].lvl
+scoreboard players operation $temp flor.dummy *= $cons.5 flor.dummy
+scoreboard players operation $in flor.dummy += $temp flor.dummy
+execute store result score $temp flor.dummy run data get entity @s SelectedItem.tag.Enchantments[{id:"minecraft:fire_aspect"}].lvl
 scoreboard players operation $temp flor.dummy *= $cons.10 flor.dummy
 scoreboard players operation $in flor.dummy += $temp flor.dummy
 execute as @e[dx=5,dz=5,dy=1,distance=0.01..10,sort=nearest,tag=!global.ignore,tag=!flor.user,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
