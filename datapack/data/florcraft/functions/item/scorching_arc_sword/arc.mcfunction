@@ -1,6 +1,7 @@
 scoreboard players set $in flor.dummy 50
 execute store result score $temp flor.dummy run data get entity @s SelectedItem.tag.Enchantments[{id:"minecraft:sharpness"}].lvl
 scoreboard players operation $temp flor.dummy *= $cons.5 flor.dummy
+scoreboard players add $temp flor.dummy 5
 scoreboard players operation $in flor.dummy += $temp flor.dummy
 execute store result score $temp flor.dummy run data get entity @s SelectedItem.tag.Enchantments[{id:"minecraft:fire_aspect"}].lvl
 scoreboard players operation $temp flor.dummy *= $cons.10 flor.dummy
