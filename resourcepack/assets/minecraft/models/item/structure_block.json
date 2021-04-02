@@ -34,6 +34,7 @@
     {"predicate": {"custom_model_data": 423030}, "model": "florcraft:item/arid_alloy"},
     {"predicate": {"custom_model_data": 423031}, "model": "florcraft:item/aqueous_alloy"},
     {"predicate": {"custom_model_data": 423032}, "model": "florcraft:item/verdant_alloy"},
-    {"predicate": {"custom_model_data": 423033}, "model": "florcraft:item/arid_pickaxe"}
+    {"predicate": {"custom_model_data": 423033}, "model": "florcraft:item/arid_pickaxe"},
+    {"predicate": {"custom_model_data": 423034}, "model": "florcraft:block/arid_attuned_pylon"}
   ]
 }

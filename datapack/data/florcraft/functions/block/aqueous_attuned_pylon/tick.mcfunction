@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ oak_wood run function florcraft:block/aqueous_attuned_pylon/break
