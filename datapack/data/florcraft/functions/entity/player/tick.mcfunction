@@ -3,5 +3,7 @@ execute if entity @s[tag=flor.inside_infused_workbench_gui] as @e[type=armor_sta
 execute if score @s flor.cstick matches 1.. run function florcraft:entity/player/cstick
 execute if score @s flor.res_damage matches 1.. if entity @s[tag=flor.barrier] run effect clear @s resistance
 execute if score @s flor.res_damage matches 1.. if entity @s[tag=flor.barrier] run tag @s remove flor.barrier
+execute if score @s flor.deal_damage matches 1.. run function florcraft:entity/player/deal_damage
+scoreboard players set @s flor.deal_damage 0
 scoreboard players set @s flor.take_damage 0
 scoreboard players set @s flor.res_damage 0
