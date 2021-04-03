@@ -19,8 +19,29 @@ scoreboard objectives add flor.uuid2 dummy
 scoreboard objectives add flor.uuid3 dummy
 scoreboard objectives add flor.uuid4 dummy
 
+scoreboard objectives add flor.oak minecraft.mined:minecraft.oak_log
+scoreboard objectives add flor.birch minecraft.mined:minecraft.birch_log
+scoreboard objectives add flor.spruce minecraft.mined:minecraft.spruce_log
+scoreboard objectives add flor.jungle minecraft.mined:minecraft.jungle_log
+scoreboard objectives add flor.acacia minecraft.mined:minecraft.acacia_log
+scoreboard objectives add flor.dark_oak minecraft.mined:minecraft.dark_oak_log
+scoreboard objectives add flor.coal minecraft.mined:minecraft.coal_ore
+scoreboard objectives add flor.lapis minecraft.mined:minecraft.lapis_ore
+scoreboard objectives add flor.nether_gold minecraft.mined:minecraft.nether_gold_ore
+scoreboard objectives add flor.gold minecraft.mined:minecraft.gold_ore
+scoreboard objectives add flor.quartz minecraft.mined:minecraft.nether_quartz_ore
+scoreboard objectives add flor.diamond minecraft.mined:minecraft.diamond_ore
+scoreboard objectives add flor.redstone minecraft.mined:minecraft.redstone_ore
+scoreboard objectives add flor.iron minecraft.mined:minecraft.iron_ore
+scoreboard objectives add flor.emerald minecraft.mined:minecraft.emerald_ore
+scoreboard objectives add flor.debris minecraft.mined:minecraft.ancient_debris
+
 forceload add -30000000 24576
 setblock -30000000 0 24576 yellow_shulker_box
+execute in minecraft:the_nether run forceload add -30000000 24576
+execute in minecraft:the_nether run setblock -30000000 0 24576 yellow_shulker_box
+execute in minecraft:the_end run forceload add -30000000 24576
+execute in minecraft:the_end run setblock -30000000 0 24576 yellow_shulker_box
 
 scoreboard players set $cons.rng_a flor.dummy 1103515245
 execute store result score $cons.rng_seed flor.dummy run data get entity @e[limit=1,sort=random] UUID[0]
