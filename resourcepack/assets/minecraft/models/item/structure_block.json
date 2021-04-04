@@ -36,10 +36,10 @@
     {"predicate": {"custom_model_data": 423032}, "model": "florcraft:item/verdant_alloy"},
     {"predicate": {"custom_model_data": 423033}, "model": "florcraft:item/arid_pickaxe"},
     {"predicate": {"custom_model_data": 423034}, "model": "florcraft:block/arid_attuned_pylon"},
-    {"predicate": {"custom_model_data": 423035}, "model": "florcraft:block/scorching_arc_sword"},
-    {"predicate": {"custom_model_data": 423036}, "model": "florcraft:block/burning_fire_axe"},
-    {"predicate": {"custom_model_data": 423037}, "model": "florcraft:block/raging_river_pickaxe"},
-    {"predicate": {"custom_model_data": 423038}, "model": "florcraft:block/fortunate_seeker_shovel"},
-    {"predicate": {"custom_model_data": 423039}, "model": "florcraft:block/bountiful_earth_hoe"}
+    {"predicate": {"custom_model_data": 423035}, "model": "florcraft:item/scorching_arc_sword"},
+    {"predicate": {"custom_model_data": 423036}, "model": "florcraft:item/burning_fire_axe"},
+    {"predicate": {"custom_model_data": 423037}, "model": "florcraft:item/raging_river_pickaxe"},
+    {"predicate": {"custom_model_data": 423038}, "model": "florcraft:item/fortunate_seeker_shovel"},
+    {"predicate": {"custom_model_data": 423039}, "model": "florcraft:item/bountiful_earth_hoe"}
   ]
 }
