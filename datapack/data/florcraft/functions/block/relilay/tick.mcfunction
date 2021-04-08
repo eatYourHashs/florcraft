@@ -1,1 +1,2 @@
 execute unless block ~ ~ ~ crimson_fungus run function florcraft:block/relilay/break
+execute if score $20t flor.dummy matches 1 if entity @s[tag=flor.disabled] run particle dust 1 0 0 1 ~ ~0.5 ~ 0.2 0.2 0.2 1 4
