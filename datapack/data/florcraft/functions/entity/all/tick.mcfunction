@@ -20,3 +20,5 @@ execute if entity @s[tag=flor.blizzard_scepter] run function florcraft:item/bliz
 execute if entity @s[tag=flor.snare_scepter] run scoreboard players set @s flor.dummy2 0
 execute if entity @s[tag=flor.snare_scepter] run function florcraft:item/snare_scepter/tick
 execute if entity @s[tag=flor.redstone_control_matrix] run function florcraft:block/redstone_control_matrix/tick
+execute if entity @s[tag=flor.spirit_orb] run scoreboard players set @s flor.dummy2 0
+execute if entity @s[tag=flor.spirit_orb] run function florcraft:item/spirit_binder_staff/tick

@@ -11,7 +11,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Right click to shoot magic orbs using 3 of any essence,",
+                  "text": "Right click to shoot magic orbs using 2 of any essence,",
                   "color": "gray",
                   "italic": false
                 },

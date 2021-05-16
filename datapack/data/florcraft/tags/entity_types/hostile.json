@@ -1,0 +1,28 @@
+{
+	"values": [
+		"#florcraft:undead",
+		"minecraft:ghast",
+		"minecraft:blaze",
+		"minecraft:creeper",
+		"minecraft:elder_guardian",
+		"minecraft:endermite",
+		"minecraft:evoker",
+		"minecraft:guardian",
+		"minecraft:magma_cube",
+		"minecraft:pillager",
+		"minecraft:ravager",
+		"minecraft:shulker",
+		"minecraft:silverfish",
+		"minecraft:slime",
+		"minecraft:spider",
+		"minecraft:cave_spider",
+		"minecraft:vex",
+		"minecraft:vindicator",
+		"minecraft:witch",
+		"minecraft:piglin",
+		"minecraft:hoglin",
+		"minecraft:enderman",
+		"minecraft:piglin_brute",
+		"minecraft:ender_dragon"
+	]
+}

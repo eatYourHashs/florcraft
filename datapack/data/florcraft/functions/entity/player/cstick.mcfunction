@@ -12,3 +12,4 @@ execute if data entity @s SelectedItem.tag.flor_dat{snare_scepter:1b} run functi
 execute if data entity @s SelectedItem.tag.flor_dat{ender_rift_scepter:1b} run function florcraft:item/ender_rift_scepter/use
 execute if data entity @s SelectedItem.tag.flor_dat{barrier_scepter:1b} run function florcraft:item/barrier_scepter/use
 execute if data entity @s SelectedItem.tag.flor_dat{mending_scepter:1b} run function florcraft:item/mending_scepter/use
+execute if data entity @s SelectedItem.tag.flor_dat{spirit_binder_staff:1b} run function florcraft:item/spirit_binder_staff/use
