@@ -41,6 +41,8 @@
     {"predicate": {"custom_model_data": 423037}, "model": "florcraft:item/raging_river_pickaxe"},
     {"predicate": {"custom_model_data": 423038}, "model": "florcraft:item/fortunate_seeker_shovel"},
     {"predicate": {"custom_model_data": 423039}, "model": "florcraft:item/bountiful_earth_hoe"},
-    {"predicate": {"custom_model_data": 423040}, "model": "florcraft:block/redstone_control_matrix"}
+    {"predicate": {"custom_model_data": 423040}, "model": "florcraft:block/redstone_control_matrix"},
+    {"predicate": {"custom_model_data": 423041}, "model": "florcraft:item/advanced_rune"},
+    {"predicate": {"custom_model_data": 423042}, "model": "florcraft:item/spirit_binder_staff"}
   ]
 }
