@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ dropper run function florcraft:block/redstone_resonance_matrix/break
