@@ -18,6 +18,12 @@ execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_vessel:1b
 execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_vessel:1b,ess:"aqueous"} if score $temp flor.aqueous_ess matches 11..15 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423032
 execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_vessel:1b,ess:"aqueous"} if score $temp flor.aqueous_ess matches 16..20 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423033
 execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_vessel:1b,ess:"aqueous"} if score $temp flor.aqueous_ess matches 21..25 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423034
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"aqueous"} unless score $temp flor.aqueous_ess matches 1.. run loot replace block -30000000 0 24576 container.0 loot florcraft:item/reinforced_vessel
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"aqueous"} if score $temp flor.aqueous_ess matches 1..20 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423048
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"aqueous"} if score $temp flor.aqueous_ess matches 21..40 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423049
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"aqueous"} if score $temp flor.aqueous_ess matches 41..60 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423050
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"aqueous"} if score $temp flor.aqueous_ess matches 61..80 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423051
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"aqueous"} if score $temp flor.aqueous_ess matches 81..100 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423052
 loot replace entity @s weapon.offhand 1 mine -30000000 0 24576 air{drop_contents: 1b}
 data remove storage flor:process Items
 setblock -30000000 0 24576 minecraft:yellow_shulker_box

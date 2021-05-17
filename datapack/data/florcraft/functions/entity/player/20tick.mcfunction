@@ -12,3 +12,6 @@ execute if predicate florcraft:dispoppy/accepts_verdant_flask run tag @s add flo
 execute if predicate florcraft:dispoppy/accepts_arid_vessel run tag @s add flor.arid_acceptor
 execute if predicate florcraft:dispoppy/accepts_aqueous_vessel run tag @s add flor.aqueous_acceptor
 execute if predicate florcraft:dispoppy/accepts_verdant_vessel run tag @s add flor.verdant_acceptor
+execute if predicate florcraft:dispoppy/accepts_arid_reinforced_vessel run tag @s add flor.arid_acceptor
+execute if predicate florcraft:dispoppy/accepts_aqueous_reinforced_vessel run tag @s add flor.aqueous_acceptor
+execute if predicate florcraft:dispoppy/accepts_verdant_reinforced_vessel run tag @s add flor.verdant_acceptor

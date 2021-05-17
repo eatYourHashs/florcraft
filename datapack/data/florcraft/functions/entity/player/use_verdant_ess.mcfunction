@@ -18,6 +18,12 @@ execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_vessel:1b
 execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 11..15 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423037
 execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 16..20 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423038
 execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 21..25 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423039
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"verdant"} unless score $temp flor.verdant_ess matches 1.. run loot replace block -30000000 0 24576 container.0 loot florcraft:item/reinforced_vessel
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 1..20 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423053
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 21..40 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423054
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 41..60 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423055
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 61..80 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423056
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{reinforced_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 81..100 run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423057
 loot replace entity @s weapon.offhand 1 mine -30000000 0 24576 air{drop_contents: 1b}
 data remove storage flor:process Items
 setblock -30000000 0 24576 minecraft:yellow_shulker_box
