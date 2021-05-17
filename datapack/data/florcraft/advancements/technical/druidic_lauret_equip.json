@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "equip_lauret": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "item": "minecraft:leather_helmet",
+              "nbt": "{flor_dat:{druidic_lauret:1b}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "item": "minecraft:leather_helmet",
+            "nbt": "{flor_dat:{druidic_lauret:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "florcraft:item/druidic_lauret/schedule_equip"
+  }
+}

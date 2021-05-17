@@ -43,6 +43,7 @@
     {"predicate": {"custom_model_data": 423039}, "model": "florcraft:item/bountiful_earth_hoe"},
     {"predicate": {"custom_model_data": 423040}, "model": "florcraft:block/redstone_control_matrix"},
     {"predicate": {"custom_model_data": 423041}, "model": "florcraft:item/advanced_rune"},
-    {"predicate": {"custom_model_data": 423042}, "model": "florcraft:item/spirit_binder_staff"}
+    {"predicate": {"custom_model_data": 423042}, "model": "florcraft:item/spirit_binder_staff"},
+    {"predicate": {"custom_model_data": 423043}, "model": "florcraft:item/druidic_lauret"}
   ]
 }

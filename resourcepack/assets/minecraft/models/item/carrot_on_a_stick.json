@@ -43,6 +43,7 @@
     {"predicate": {"custom_model_data": 423037}, "model": "florcraft:item/essence_vessel_verdant_3"},
     {"predicate": {"custom_model_data": 423038}, "model": "florcraft:item/essence_vessel_verdant_4"},
     {"predicate": {"custom_model_data": 423039}, "model": "florcraft:item/essence_vessel_verdant_5"},
-    {"predicate": {"custom_model_data": 423040}, "model": "florcraft:item/spirit_binder_staff"}
+    {"predicate": {"custom_model_data": 423040}, "model": "florcraft:item/spirit_binder_staff"},
+    {"predicate": {"custom_model_data": 423041}, "model": "florcraft:item/druidic_lauret"}
   ]
 }

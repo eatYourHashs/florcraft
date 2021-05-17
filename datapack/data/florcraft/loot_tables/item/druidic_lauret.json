@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "placeholder",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Doubles spirit spawn rate and flask speed",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "and increases the damage of your magic attacks.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Druidic Lauret",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2,CustomModelData:423041,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,druidic_lauret:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

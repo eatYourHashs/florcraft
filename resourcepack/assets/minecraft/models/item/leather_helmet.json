@@ -1,0 +1,13 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/leather_helmet",
+    "layer1": "item/leather_helmet_overlay"
+  },
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 423041
+    },
+    "model": "florcraft:item/druidic_lauret"
+  }]
+}
