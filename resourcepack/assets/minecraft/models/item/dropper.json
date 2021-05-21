@@ -10,6 +10,7 @@
     {"predicate": {"custom_model_data": 423006}, "model": "florcraft:block/arid_attuned_pylon"},
     {"predicate": {"custom_model_data": 423007}, "model": "florcraft:block/aqueous_attuned_pylon"},
     {"predicate": {"custom_model_data": 423008}, "model": "florcraft:block/verdant_attuned_pylon"},
-    {"predicate": {"custom_model_data": 423009}, "model": "florcraft:block/redstone_control_matrix"}
+    {"predicate": {"custom_model_data": 423009}, "model": "florcraft:block/redstone_control_matrix"},
+    {"predicate": {"custom_model_data": 423010}, "model": "florcraft:block/reinforced_pylon"}
   ]
 }

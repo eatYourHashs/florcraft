@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ oak_wood run function florcraft:block/reinforced_pylon/break

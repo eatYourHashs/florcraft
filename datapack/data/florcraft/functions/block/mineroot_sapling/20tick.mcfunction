@@ -1,0 +1,4 @@
+execute if score @s flor.arid_ess matches 5.. if score @s flor.aqueous_ess matches 5.. if score @s flor.verdant_ess matches 5.. unless score @s flor.dummy matches 1.. run function florcraft:block/mineroot_sapling/stage_1
+execute if score @s flor.arid_ess matches 5.. if score @s flor.aqueous_ess matches 5.. if score @s flor.verdant_ess matches 5.. if score @s flor.dummy matches 1 run function florcraft:block/mineroot_sapling/stage_2
+execute if score @s flor.arid_ess matches 5.. if score @s flor.aqueous_ess matches 5.. if score @s flor.verdant_ess matches 5.. if score @s flor.dummy matches 2 run function florcraft:block/mineroot_sapling/stage_3
+execute if score @s flor.arid_ess matches 10.. if score @s flor.aqueous_ess matches 10.. if score @s flor.verdant_ess matches 10.. if score @s flor.dummy matches 3 run function florcraft:block/mineroot_sapling/stage_4

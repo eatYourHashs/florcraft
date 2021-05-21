@@ -7,3 +7,4 @@ execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"arid_
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"aqueous_attuned_pylon"}}}]} run function florcraft:block/aqueous_attuned_pylon/place
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"verdant_attuned_pylon"}}}]} run function florcraft:block/verdant_attuned_pylon/place
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"redstone_control_matrix"}}}]} run function florcraft:block/redstone_control_matrix/place
+execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"reinforced_pylon"}}}]} run function florcraft:block/reinforced_pylon/place
