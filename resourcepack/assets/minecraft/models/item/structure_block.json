@@ -47,6 +47,7 @@
     {"predicate": {"custom_model_data": 423043}, "model": "florcraft:item/druidic_lauret"},
     {"predicate": {"custom_model_data": 423044}, "model": "florcraft:item/reinforced_vessel_empty"},
     {"predicate": {"custom_model_data": 423045}, "model": "florcraft:block/reinforced_pylon"},
-    {"predicate": {"custom_model_data": 423046}, "model": "florcraft:item/mineroot_sapling"}
+    {"predicate": {"custom_model_data": 423046}, "model": "florcraft:item/mineroot_sapling"},
+    {"predicate": {"custom_model_data": 423047}, "model": "florcraft:block/mineroot_sapling"}
   ]
 }
