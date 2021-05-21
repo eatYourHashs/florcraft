@@ -6,6 +6,7 @@ execute if data entity @s SelectedItem.tag.flor_dat{overgrowth_rod:1b} run funct
 execute if data entity @s SelectedItem.tag.flor_dat{absorbloom:1b} run function florcraft:block/placement/absorbloom/item
 execute if data entity @s SelectedItem.tag.flor_dat{dispoppy:1b} run function florcraft:block/placement/dispoppy/item
 execute if data entity @s SelectedItem.tag.flor_dat{relilay:1b} run function florcraft:block/placement/relilay/item
+execute if data entity @s SelectedItem.tag.flor_dat{mineroot_sapling:1b} run function florcraft:block/placement/mineroot_sapling/item
 execute if data entity @s SelectedItem.tag.flor_dat{burning_scepter:1b} run function florcraft:item/burning_scepter/use
 execute if data entity @s SelectedItem.tag.flor_dat{blizzard_scepter:1b} run function florcraft:item/blizzard_scepter/use
 execute if data entity @s SelectedItem.tag.flor_dat{snare_scepter:1b} run function florcraft:item/snare_scepter/use

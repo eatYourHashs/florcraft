@@ -1,0 +1,43 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{HideFlags:4,RepairCost:100,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,mineroot_sapling:1b},CustomModelData:423058,Unbreakable:1b}"
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "text": "Consumes all essence types to grow and draw in ores.",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "Better ores are drawn by larger trees.",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "Chop down the tree to receive the ores.",
+              "color": "gray",
+              "italic": false
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "text": "Mineroot Sapling",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ],
+      "name": "minecraft:carrot_on_a_stick"
+    }]
+  }]
+}

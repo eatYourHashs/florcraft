@@ -18,13 +18,6 @@ scoreboard objectives add flor.uuid1 dummy
 scoreboard objectives add flor.uuid2 dummy
 scoreboard objectives add flor.uuid3 dummy
 scoreboard objectives add flor.uuid4 dummy
-scoreboard objectives add flor.coal dummy
-scoreboard objectives add flor.iron dummy
-scoreboard objectives add flor.gold dummy
-scoreboard objectives add flor.redstone dummy
-scoreboard objectives add flor.lapis dummy
-scoreboard objectives add flor.diamond dummy
-scoreboard objectives add flor.emerald dummy
 
 scoreboard objectives add flor.oak minecraft.mined:minecraft.oak_log
 scoreboard objectives add flor.birch minecraft.mined:minecraft.birch_log
