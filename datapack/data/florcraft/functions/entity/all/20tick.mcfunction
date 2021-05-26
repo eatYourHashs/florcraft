@@ -1,0 +1,10 @@
+execute if entity @s[type=item_frame,tag=flor.dispoppy] run function florcraft:block/dispoppy/20tick
+execute if entity @s[type=item_frame,tag=flor.absorbloom] run function florcraft:block/absorbloom/20tick
+execute if entity @s[type=armor_stand,tag=flor.pylon] run function florcraft:block/pylon/20tick
+execute if entity @s[type=armor_stand,tag=flor.mystical_furnace] run function florcraft:block/mystical_furnace/20tick
+execute if entity @s[type=armor_stand,tag=flor.runic_pylon] run function florcraft:block/runic_pylon/20tick
+execute if entity @s[type=armor_stand,tag=flor.reinforced_pylon] run function florcraft:block/reinforced_pylon/20tick
+execute if entity @s[type=armor_stand,tag=flor.arid_attuned_pylon] run function florcraft:block/arid_attuned_pylon/20tick
+execute if entity @s[type=armor_stand,tag=flor.aqueous_attuned_pylon] run function florcraft:block/aqueous_attuned_pylon/20tick
+execute if entity @s[type=armor_stand,tag=flor.verdant_attuned_pylon] run function florcraft:block/verdant_attuned_pylon/20tick
+execute if entity @s[type=item_frame,tag=flor.mineroot_sapling] run function florcraft:block/mineroot_sapling/20tick
