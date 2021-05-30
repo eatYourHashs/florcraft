@@ -4,6 +4,10 @@ execute if entity @s[tag=flor.inside_infused_workbench_gui] as @e[type=armor_sta
 execute if score @s flor.cstick matches 1.. run function florcraft:entity/player/cstick
 execute if score @s flor.res_damage matches 1.. if entity @s[tag=flor.barrier] run effect clear @s resistance
 execute if score @s flor.res_damage matches 1.. if entity @s[tag=flor.barrier] run tag @s remove flor.barrier
+execute if score @s flor.res_damage matches 1.. if entity @s[tag=flor.aqueous_guard] run effect clear @s resistance
+execute if score @s flor.res_damage matches 1.. if entity @s[tag=flor.aqueous_guard] run playsound minecraft:block.glass.break player @a ~ ~ ~ 1 0.6
+execute if score @s flor.res_damage matches 1.. if entity @s[tag=flor.aqueous_guard] run particle minecraft:item_snowball ~ ~1 ~ 0.5 0.5 0.5 0.3 40
+execute if score @s flor.res_damage matches 1.. if entity @s[tag=flor.aqueous_guard] run tag @s remove flor.aqueous_guard
 execute if score @s flor.deal_damage matches 1.. run function florcraft:entity/player/deal_damage
 execute if score @s flor.oak matches 1.. if data storage flor:storage SelectedItem.tag.flor_dat.burning_fire_axe run function florcraft:item/burning_fire_axe/break_oak_wood
 execute if score @s flor.birch matches 1.. if data storage flor:storage SelectedItem.tag.flor_dat.burning_fire_axe run function florcraft:item/burning_fire_axe/break_birch_wood

@@ -61,6 +61,7 @@
     {"predicate": {"custom_model_data": 423055}, "model": "florcraft:item/reinforced_vessel_verdant_3"},
     {"predicate": {"custom_model_data": 423056}, "model": "florcraft:item/reinforced_vessel_verdant_4"},
     {"predicate": {"custom_model_data": 423057}, "model": "florcraft:item/reinforced_vessel_verdant_5"},
-    {"predicate": {"custom_model_data": 423058}, "model": "florcraft:item/mineroot_sapling"}
+    {"predicate": {"custom_model_data": 423058}, "model": "florcraft:item/mineroot_sapling"},
+    {"predicate": {"custom_model_data": 423059}, "model": "florcraft:item/charm_of_invocation"}
   ]
 }
