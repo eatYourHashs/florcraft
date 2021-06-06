@@ -96,4 +96,4 @@ setblock ~ ~ ~1 oak_leaves keep
 setblock ~ ~ ~-1 oak_leaves keep
 setblock ~ ~1 ~ oak_leaves keep
 particle minecraft:happy_villager ~ ~0.5 ~ 0.3 0.3 0.3 1 20
-replaceitem entity @s container.0 air
+item replace entity @s container.0 with air

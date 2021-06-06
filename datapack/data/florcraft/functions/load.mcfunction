@@ -2,7 +2,13 @@ scoreboard objectives add flor.dummy dummy
 scoreboard objectives add flor.dummy2 dummy
 scoreboard objectives add flor.cstick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add flor.sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add flor.walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add flor.jump minecraft.custom:minecraft.jump
 scoreboard objectives add flor.sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add flor.fly minecraft.custom:minecraft.fly_one_cm
+scoreboard objectives add flor.elytra minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add flor.swim minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add flor.water_walk minecraft.custom:minecraft.walk_under_water_one_cm
 scoreboard objectives add flor.deal_damage minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add flor.take_damage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add flor.res_damage minecraft.custom:minecraft.damage_resisted
@@ -65,3 +71,4 @@ scoreboard players set $cons.25 flor.dummy 25
 scoreboard players set $cons.30 flor.dummy 30
 scoreboard players set $cons.60 flor.dummy 60
 scoreboard players set $cons.100 flor.dummy 100
+scoreboard players set $cons.115 flor.dummy 115

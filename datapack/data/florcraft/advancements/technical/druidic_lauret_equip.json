@@ -3,17 +3,37 @@
     "equip_lauret": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": {
-          "equipment": {
-            "head": {
-              "item": "minecraft:leather_helmet",
-              "nbt": "{flor_dat:{druidic_lauret:1b}}"
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ],
+                  "nbt": "{flor_dat:{druidic_lauret:1b}}"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"flor.ignore_lauret\"]}"
+              }
             }
           }
-        },
+        ],
         "items": [
           {
-            "item": "minecraft:leather_helmet",
+            "items": [
+              "minecraft:leather_helmet"
+            ],
             "nbt": "{flor_dat:{druidic_lauret:1b}}"
           }
         ]

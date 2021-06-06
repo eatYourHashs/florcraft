@@ -4,4 +4,4 @@ execute store result score @e[sort=nearest,limit=1,tag=flor.spirit_orb] flor.uui
 execute store result score @e[sort=nearest,limit=1,tag=flor.spirit_orb] flor.uuid2 run data get entity @s UUID[1]
 execute store result score @e[sort=nearest,limit=1,tag=flor.spirit_orb] flor.uuid3 run data get entity @s UUID[2]
 execute store result score @e[sort=nearest,limit=1,tag=flor.spirit_orb] flor.uuid4 run data get entity @s UUID[3]
-execute if entity @s[predicate=florcraft:item/druidic_lauret] run tag @e[sort=nearest,limit=1,tag=flor.spirit_orb] add flor.buffed_magic_30
+execute if entity @s[predicate=florcraft:item/druidic_lauret] run tag @e[sort=nearest,limit=1,tag=flor.spirit_orb] add flor.buffed_magic_15

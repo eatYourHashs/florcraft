@@ -1,1 +1,0 @@
-execute as @a[tag=flor.druidic_lauret_unequip] run function florcraft:item/druidic_lauret/unequip

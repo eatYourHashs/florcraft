@@ -3,6 +3,8 @@ scoreboard players add $cast.temp flor.dummy 1
 particle minecraft:block blue_ice ~ ~ ~ 0.05 0.05 0.05 0 1
 execute if entity @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!global.ignore,tag=!flor.user,nbt={HurtTime:0s}] run scoreboard players set $cast.temp flor.dummy 9999
 scoreboard players set $in flor.dummy 30
+execute if entity @s[tag=flor.buffed_magic_15] run scoreboard players operation $in flor.dummy *= $cons.115 flor.dummy
+execute if entity @s[tag=flor.buffed_magic_15] run scoreboard players operation $in flor.dummy /= $cons.100 flor.dummy
 execute if entity @s[tag=flor.buffed_magic_30] run scoreboard players operation $in flor.dummy *= $cons.13 flor.dummy
 execute if entity @s[tag=flor.buffed_magic_30] run scoreboard players operation $in flor.dummy /= $cons.10 flor.dummy
 effect give @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!global.ignore,tag=!flor.user] slowness 5 0 true
