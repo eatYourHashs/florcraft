@@ -35,12 +35,21 @@ scoreboard objectives add flor.coal minecraft.mined:minecraft.coal_ore
 scoreboard objectives add flor.lapis minecraft.mined:minecraft.lapis_ore
 scoreboard objectives add flor.nether_gold minecraft.mined:minecraft.nether_gold_ore
 scoreboard objectives add flor.gold minecraft.mined:minecraft.gold_ore
+scoreboard objectives add flor.copper minecraft.mined:minecraft.copper_ore
 scoreboard objectives add flor.quartz minecraft.mined:minecraft.nether_quartz_ore
 scoreboard objectives add flor.diamond minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add flor.redstone minecraft.mined:minecraft.redstone_ore
 scoreboard objectives add flor.iron minecraft.mined:minecraft.iron_ore
 scoreboard objectives add flor.emerald minecraft.mined:minecraft.emerald_ore
 scoreboard objectives add flor.debris minecraft.mined:minecraft.ancient_debris
+scoreboard objectives add flor.dcoal minecraft.mined:minecraft.deepslate_coal_ore
+scoreboard objectives add flor.dlapis minecraft.mined:minecraft.deepslate_lapis_ore
+scoreboard objectives add flor.dgold minecraft.mined:minecraft.deepslate_gold_ore
+scoreboard objectives add flor.dcopper minecraft.mined:minecraft.deepslate_copper_ore
+scoreboard objectives add flor.ddiamond minecraft.mined:minecraft.deepslate_diamond_ore
+scoreboard objectives add flor.dredstone minecraft.mined:minecraft.deepslate_redstone_ore
+scoreboard objectives add flor.diron minecraft.mined:minecraft.deepslate_iron_ore
+scoreboard objectives add flor.demerald minecraft.mined:minecraft.deepslate_emerald_ore
 
 forceload add -30000000 24576
 setblock -30000000 0 24576 yellow_shulker_box

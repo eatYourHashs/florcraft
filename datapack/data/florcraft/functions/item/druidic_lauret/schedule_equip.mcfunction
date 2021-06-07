@@ -4,4 +4,3 @@ data modify storage flor:storage root.temp.item set from entity @s Inventory[{Sl
 item replace entity @s armor.head with minecraft:carrot_on_a_stick
 item modify entity @s armor.head florcraft:copy_nbt
 schedule function florcraft:item/druidic_lauret/remove_ignore_tag 1t
-say equip

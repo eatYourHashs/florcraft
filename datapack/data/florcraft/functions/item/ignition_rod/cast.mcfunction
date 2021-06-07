@@ -7,7 +7,7 @@ execute if entity @s[tag=flor.buffed_magic_15] run scoreboard players operation 
 execute if entity @s[tag=flor.buffed_magic_15] run scoreboard players operation $in flor.dummy /= $cons.100 flor.dummy
 execute if entity @s[tag=flor.buffed_magic_30] run scoreboard players operation $in flor.dummy *= $cons.13 flor.dummy
 execute if entity @s[tag=flor.buffed_magic_30] run scoreboard players operation $in flor.dummy /= $cons.10 flor.dummy
-execute as @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!global.ignore,tag=!flor.user,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
+execute as @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!global.ignore,tag=!flor.user,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:item/ignition_rod/damage
 execute if block ~ ~ ~ air positioned ^ ^ ^0.25 unless block ~ ~ ~ #florcraft:not_solid run setblock ^ ^ ^-0.25 fire
 execute if block ~ ~ ~ cave_air positioned ^ ^ ^0.25 unless block ~ ~ ~ #florcraft:not_solid run setblock ^ ^ ^-0.25 fire
 tag @s remove flor.user

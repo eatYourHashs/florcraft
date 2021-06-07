@@ -9,6 +9,7 @@ scoreboard players operation flor.damage flor.dummy = $in flor.dummy
   execute store result score flor.temp_0 flor.dummy run attribute @s minecraft:generic.armor get 10
   execute store result score flor.temp_1 flor.dummy run attribute @s minecraft:generic.armor_toughness get 10
 
+execute unless score flor.temp_0 flor.dummy matches 0 run function florcraft:utils/damage/player/operations/magic_resistance
 execute unless score flor.temp_0 flor.dummy matches 0 unless score flor.ignore_armor flor.dummy matches 1 run function florcraft:utils/damage/player/operations/armor
 execute unless score flor.temp_0 flor.dummy matches 0 unless score flor.ignore_armor flor.dummy matches 1 run function florcraft:utils/damage/player/operations/protection
 execute if data entity @s ActiveEffects[{Id:11b}] run function florcraft:utils/damage/player/operations/resistance

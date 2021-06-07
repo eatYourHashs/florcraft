@@ -62,6 +62,9 @@
     {"predicate": {"custom_model_data": 423056}, "model": "florcraft:item/reinforced_vessel_verdant_4"},
     {"predicate": {"custom_model_data": 423057}, "model": "florcraft:item/reinforced_vessel_verdant_5"},
     {"predicate": {"custom_model_data": 423058}, "model": "florcraft:item/mineroot_sapling"},
-    {"predicate": {"custom_model_data": 423059}, "model": "florcraft:item/charm_of_invocation"}
+    {"predicate": {"custom_model_data": 423059}, "model": "florcraft:item/charm_of_invocation"},
+    {"predicate": {"custom_model_data": 423060}, "model": "florcraft:item/arid_mastery_circlet"},
+    {"predicate": {"custom_model_data": 423061}, "model": "florcraft:item/aqueous_mastery_circlet"},
+    {"predicate": {"custom_model_data": 423062}, "model": "florcraft:item/verdant_mastery_circlet"}
   ]
 }

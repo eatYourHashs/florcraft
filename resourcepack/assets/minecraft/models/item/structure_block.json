@@ -49,6 +49,7 @@
     {"predicate": {"custom_model_data": 423045}, "model": "florcraft:block/reinforced_pylon"},
     {"predicate": {"custom_model_data": 423046}, "model": "florcraft:item/mineroot_sapling"},
     {"predicate": {"custom_model_data": 423047}, "model": "florcraft:block/mineroot_sapling"},
-    {"predicate": {"custom_model_data": 423048}, "model": "florcraft:item/charm_of_invocation"}
+    {"predicate": {"custom_model_data": 423048}, "model": "florcraft:item/charm_of_invocation"},
+    {"predicate": {"custom_model_data": 423049}, "model": "florcraft:item/arid_mastery_circlet"}
   ]
 }

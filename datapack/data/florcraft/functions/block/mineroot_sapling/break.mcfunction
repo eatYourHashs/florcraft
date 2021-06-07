@@ -11,6 +11,7 @@ execute if score @s flor.coal matches 1.. run function florcraft:block/mineroot_
 execute if score @s flor.iron matches 1.. run function florcraft:block/mineroot_sapling/spawn_iron
 execute if score @s flor.gold matches 1.. run function florcraft:block/mineroot_sapling/spawn_gold
 execute if score @s flor.lapis matches 1.. run function florcraft:block/mineroot_sapling/spawn_lapis
+execute if score @s flor.copper matches 1.. run function florcraft:block/mineroot_sapling/spawn_copper
 execute if score @s flor.redstone matches 1.. run function florcraft:block/mineroot_sapling/spawn_redstone
 execute if score @s flor.diamond matches 1.. run function florcraft:block/mineroot_sapling/spawn_diamond
 execute if score @s flor.emerald matches 1.. run function florcraft:block/mineroot_sapling/spawn_emerald

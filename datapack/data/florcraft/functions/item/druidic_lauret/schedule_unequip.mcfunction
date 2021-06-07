@@ -37,4 +37,3 @@ loot replace entity @s[nbt={Inventory:[{Slot:32b,id:"minecraft:carrot_on_a_stick
 loot replace entity @s[nbt={Inventory:[{Slot:33b,id:"minecraft:carrot_on_a_stick",tag:{flor_dat:{druidic_lauret:1b}}}]}] container.33 loot florcraft:technical/leather_helmet_copy_nbt
 loot replace entity @s[nbt={Inventory:[{Slot:34b,id:"minecraft:carrot_on_a_stick",tag:{flor_dat:{druidic_lauret:1b}}}]}] container.34 loot florcraft:technical/leather_helmet_copy_nbt
 loot replace entity @s[nbt={Inventory:[{Slot:35b,id:"minecraft:carrot_on_a_stick",tag:{flor_dat:{druidic_lauret:1b}}}]}] container.35 loot florcraft:technical/leather_helmet_copy_nbt
-say unequip

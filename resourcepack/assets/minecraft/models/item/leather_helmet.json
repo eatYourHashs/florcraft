@@ -9,5 +9,23 @@
       "custom_model_data": 423041
     },
     "model": "florcraft:item/druidic_lauret"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 423060
+    },
+    "model": "florcraft:item/arid_mastery_circlet"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 423061
+    },
+    "model": "florcraft:item/aqueous_mastery_circlet"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 423062
+    },
+    "model": "florcraft:item/verdant_mastery_circlet"
   }]
 }
