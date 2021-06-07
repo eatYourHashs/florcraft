@@ -81,3 +81,5 @@ scoreboard players set $cons.30 flor.dummy 30
 scoreboard players set $cons.60 flor.dummy 60
 scoreboard players set $cons.100 flor.dummy 100
 scoreboard players set $cons.115 flor.dummy 115
+
+scoreboard players set flor.ignore_armor flor.dummy 0

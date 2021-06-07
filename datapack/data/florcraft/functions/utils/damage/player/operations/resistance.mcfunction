@@ -13,4 +13,4 @@ scoreboard players set flor.temp_1 flor.dummy 5
 scoreboard players operation flor.temp_1 flor.dummy -= flor.temp_0 flor.dummy
 
 scoreboard players operation flor.damage flor.dummy *= flor.temp_1 flor.dummy
-scoreboard players operation flor.damage flor.dummy /= flor.const.5 flor.dummy
+scoreboard players operation flor.damage flor.dummy /= $cons.5 flor.dummy

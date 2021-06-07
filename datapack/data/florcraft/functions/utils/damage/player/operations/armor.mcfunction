@@ -15,7 +15,7 @@
   # Create value for first portion of max(armor ÷ 5, ATF)
   # This leads to armor ÷ 5 being stored in flor.temp_2
 scoreboard players operation flor.temp_2 flor.dummy = flor.temp_0 flor.dummy
-scoreboard players operation flor.temp_2 flor.dummy /= flor.const.5 flor.dummy
+scoreboard players operation flor.temp_2 flor.dummy /= $cons.5 flor.dummy
 
  ##### SEPARATOR SO YOUR BRAIN DOESN'T MELT
 
@@ -36,9 +36,9 @@ scoreboard players operation flor.temp_5 flor.dummy = flor.temp_1 flor.dummy
 
 
   # Divide by 4 (working inside -> out), so (toughness ÷ 4) first.
-  # flor.const.4 always has the value of 4.
+  # $cons.4 always has the value of 4.
 
-scoreboard players operation flor.temp_5 flor.dummy /= flor.const.4 flor.dummy
+scoreboard players operation flor.temp_5 flor.dummy /= $cons.4 flor.dummy
 
 
   # Then we add 2 to that, again working inside -> out. (2 + (toughness ÷ 4))
@@ -49,7 +49,7 @@ scoreboard players add flor.temp_5 flor.dummy 20
   # Then, divide the damage by that value. (damage ÷ (2 + (toughness ÷ 4)))
 
 scoreboard players operation flor.temp_4 flor.dummy /= flor.temp_5 flor.dummy
-scoreboard players operation flor.temp_4 flor.dummy *= flor.const.10 flor.dummy
+scoreboard players operation flor.temp_4 flor.dummy *= $cons.10 flor.dummy
 
   # Then subtract that value from armor, and you have the final result of the armor toughness formula.
 
@@ -76,9 +76,9 @@ execute if score flor.temp_2 flor.dummy matches 200.. run scoreboard players set
  # The REALLY MESSY MATH
 
   # Multiply by 10 to maintain precision
-scoreboard players operation flor.temp_2 flor.dummy *= flor.const.10 flor.dummy
+scoreboard players operation flor.temp_2 flor.dummy *= $cons.10 flor.dummy
   # Divide by 25 per the formula
-scoreboard players operation flor.temp_2 flor.dummy /= flor.const.25 flor.dummy
+scoreboard players operation flor.temp_2 flor.dummy /= $cons.25 flor.dummy
 
   # Then subtract it all from 1 (100)
 
@@ -87,4 +87,4 @@ scoreboard players operation flor.temp_0 flor.dummy -= flor.temp_2 flor.dummy
 
   # Multiply the damage by the end result, then divide by 100 to get proper precision back.
 scoreboard players operation flor.damage flor.dummy *= flor.temp_0 flor.dummy
-scoreboard players operation flor.damage flor.dummy /= flor.const.100 flor.dummy
+scoreboard players operation flor.damage flor.dummy /= $cons.100 flor.dummy

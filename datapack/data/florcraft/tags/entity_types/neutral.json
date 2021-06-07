@@ -2,11 +2,11 @@
     "replace": false,
     "values": [
         "minecraft:wolf",
-        "minecraft:horse",
-        "minecraft:cat",
-        "minecraft:llama",
-        "minecraft:donkey",
-        "minecraft:mule",
-        "minecraft:parrot"
+        "minecraft:zombified_piglin",
+        "minecraft:piglin",
+        "minecraft:iron_golem",
+        "minecraft:enderman",
+        "minecraft:bee",
+        "minecraft:polar_bear"
     ]
 }

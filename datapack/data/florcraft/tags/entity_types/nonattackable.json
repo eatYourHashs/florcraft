@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:marker",
     "minecraft:armor_stand",
     "minecraft:painting",
     "minecraft:area_effect_cloud",
@@ -36,9 +37,6 @@
     "minecraft:wither_skull",
     "minecraft:experience_bottle",
     "minecraft:experience_orb",
-    "minecraft:boat",
-    "minecraft:player",
-    "minecraft:ender_dragon",
-    "minecraft:enderman"
+    "minecraft:boat"
   ]
 }
