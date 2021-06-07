@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Arid axe",
+                "text": "Arid Axe",
                 "color": "white",
                 "italic": false
               }
