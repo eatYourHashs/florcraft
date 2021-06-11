@@ -1,7 +1,7 @@
-scoreboard players set $math.in_0 flor.dummy 120
+scoreboard players set $math.in_0 flor.dummy 60
 function florcraft:utils/random
 scoreboard players operation @s flor.ess_time = $math.out_0 flor.dummy
-scoreboard players add @s flor.ess_time 240
+scoreboard players add @s flor.ess_time 120
 execute if data entity @s Inventory[{Slot:-106b,tag:{flor_dat:{essence_flask:1b}}}] run function florcraft:entity/player/fill_flask/offhand
 execute if data entity @s Inventory[{Slot:0b,tag:{flor_dat:{essence_flask:1b}}}] run function florcraft:entity/player/fill_flask/0
 execute if data entity @s Inventory[{Slot:1b,tag:{flor_dat:{essence_flask:1b}}}] run function florcraft:entity/player/fill_flask/1
