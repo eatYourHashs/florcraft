@@ -114,6 +114,18 @@
       "predicate": {
         "biome": "minecraft:ice_spikes"
       }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:swamp"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:swamp_hills"
+      }
     }
   ]
 }
