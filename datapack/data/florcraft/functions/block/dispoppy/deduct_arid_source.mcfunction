@@ -5,4 +5,7 @@ execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.arid_acceptor,sort=nearest,
 execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.arid_acceptor,sort=nearest,tag=flor.in_range] if entity @s[tag=flor.infused_workbench] run function florcraft:block/dispoppy/add_arid_workbench
 execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.arid_acceptor,sort=nearest,tag=flor.in_range] if entity @s[tag=flor.mystical_furnace] run function florcraft:block/dispoppy/add_arid_workbench
 execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.arid_acceptor,sort=nearest,tag=flor.in_range] if entity @s[tag=flor.mineroot_sapling] run function florcraft:block/dispoppy/add_arid_workbench
+execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.arid_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=item_frame,tag=!global.ignore,nbt={Item:{tag:{flor_dat:{essence_flask:1b}}}}] run function florcraft:block/dispoppy/add_arid_frame_flask
+execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.arid_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=item_frame,tag=!global.ignore,nbt={Item:{tag:{flor_dat:{essence_vessel:1b}}}}] run function florcraft:block/dispoppy/add_arid_frame_vessel
+execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.arid_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=item_frame,tag=!global.ignore,nbt={Item:{tag:{flor_dat:{reinforced_vessel:1b}}}}] run function florcraft:block/dispoppy/add_arid_frame_reinforced_vessel
 tag @s remove flor.arid_source
