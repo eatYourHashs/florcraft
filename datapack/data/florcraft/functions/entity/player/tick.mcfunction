@@ -35,8 +35,8 @@ execute if score @s flor.dredstone matches 1.. if data storage flor:storage Sele
 execute if score @s flor.demerald matches 1.. if data storage flor:storage SelectedItem.tag.flor_dat.raging_river_pickaxe run function florcraft:item/raging_river_pickaxe/deepslate_emerald_cast
 execute if score @s flor.diron matches 1.. if data storage flor:storage SelectedItem.tag.flor_dat.raging_river_pickaxe run function florcraft:item/raging_river_pickaxe/deepslate_iron_cast
 execute if score @s flor.dcopper matches 1.. if data storage flor:storage SelectedItem.tag.flor_dat.raging_river_pickaxe run function florcraft:item/raging_river_pickaxe/deepslate_copper_cast
-execute if entity @s[tag=flor.inside_natures_oculus_gui] run function florcraft:entity/player/check_action_scores
-execute if entity @s[tag=flor.inside_infused_workbench_gui] run function florcraft:entity/player/check_action_scores
+execute unless score @s flor.since_gui matches 3.. if entity @s[tag=flor.inside_natures_oculus_gui] run function florcraft:entity/player/check_action_scores
+execute unless score @s flor.since_gui matches 3.. if entity @s[tag=flor.inside_infused_workbench_gui] run function florcraft:entity/player/check_action_scores
 scoreboard players set @s flor.deal_damage 0
 scoreboard players set @s flor.take_damage 0
 scoreboard players set @s flor.res_damage 0
@@ -65,4 +65,5 @@ scoreboard players set @s flor.elytra 0
 scoreboard players set @s flor.swim 0
 scoreboard players set @s flor.water_walk 0
 scoreboard players set @s flor.sneak 0
+scoreboard players add @s flor.since_gui 1
 data remove storage flor:storage SelectedItem
