@@ -10,3 +10,4 @@ execute if entity @s[type=armor_stand,tag=flor.aqueous_attuned_pylon] run functi
 execute if entity @s[type=armor_stand,tag=flor.verdant_attuned_pylon] run function florcraft:block/verdant_attuned_pylon/20tick
 execute if entity @s[type=item_frame,tag=flor.mineroot_sapling] run function florcraft:block/mineroot_sapling/20tick
 execute if entity @s[type=wolf,tag=flor.verdant_invo_wolf] run function florcraft:item/charm_of_invocation/verdant_wolf_20tick
+execute if entity @s[type=wandering_trader,tag=flor.arid_guardian] run function florcraft:entity/arid_guardian/20tick
