@@ -1,0 +1,4 @@
+execute if entity @s[tag=!flor.know_spirit_binder_staff,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:9b,tag:{flor_dat:{advanced_rune:1b}}}] run function florcraft:block/natures_oculus/recipe_checks/spirit_binder_staff
+execute if entity @s[tag=!flor.know_reinforced_vessel,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:10b,id:"minecraft:diamond"}] run function florcraft:block/natures_oculus/recipe_checks/reinforced_vessel
+execute if entity @s[tag=!flor.know_reinforced_pylons,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:11b,id:"minecraft:diamond"}] run function florcraft:block/natures_oculus/recipe_checks/reinforced_pylon
+execute if entity @s[tag=flor.know_essence_alloys,tag=!flor.know_mastery_circlets,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:12b,tag:{flor_dat:{advanced_rune:1b}}}] run function florcraft:block/natures_oculus/recipe_checks/mastery_circlets
