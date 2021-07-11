@@ -87,3 +87,6 @@ scoreboard players set flor.ignore_armor flor.dummy 0
 schedule function florcraft:5tick 5t replace
 schedule function florcraft:20tick 20t replace
 schedule function florcraft:100tick 100t replace
+
+team add global.antivil
+team modify global.antivil friendlyFire false

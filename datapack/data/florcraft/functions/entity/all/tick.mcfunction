@@ -25,3 +25,5 @@ execute if entity @s[tag=flor.spirit_orb] run scoreboard players set @s flor.dum
 execute if entity @s[tag=flor.spirit_orb] run function florcraft:item/spirit_binder_staff/tick
 execute if entity @s[tag=flor.mineroot_sapling] run function florcraft:block/mineroot_sapling/tick
 execute if entity @s[tag=flor.verdant_invo_wolf] run particle dust 0 0.878 0.322 1 ~ ~0.4 ~ 0.1 0.1 0.1 1 3
+execute if entity @s[tag=flor.arid_guardian] run function florcraft:entity/arid_guardian/tick
+execute if entity @s[tag=flor.arid_fireball] run function florcraft:entity/arid_guardian/fireball_tick

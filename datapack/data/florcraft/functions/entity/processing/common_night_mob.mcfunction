@@ -1,0 +1,3 @@
+execute if entity @a[tag=flor.know_basic_runes,distance=..64] if predicate florcraft:random/one_twentieth if predicate florcraft:location/arid run function florcraft:entity/arid_guardian/summon
+execute if entity @a[tag=flor.know_basic_runes,distance=..64] if predicate florcraft:random/one_twentieth if predicate florcraft:location/aqueous run function florcraft:entity/aqueous_guardian/summon
+execute if entity @a[tag=flor.know_basic_runes,distance=..64] if predicate florcraft:random/one_twentieth if predicate florcraft:location/verdant run function florcraft:entity/verdant_guardian/summon
