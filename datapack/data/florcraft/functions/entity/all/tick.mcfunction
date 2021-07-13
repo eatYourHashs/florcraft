@@ -27,3 +27,5 @@ execute if entity @s[tag=flor.mineroot_sapling] run function florcraft:block/min
 execute if entity @s[tag=flor.verdant_invo_wolf] run particle dust 0 0.878 0.322 1 ~ ~0.4 ~ 0.1 0.1 0.1 1 3
 execute if entity @s[tag=flor.arid_guardian] run function florcraft:entity/arid_guardian/tick
 execute if entity @s[tag=flor.arid_fireball] run function florcraft:entity/arid_guardian/fireball_tick
+execute if entity @s[tag=flor.aqueous_guardian] run function florcraft:entity/aqueous_guardian/tick
+execute if entity @s[tag=flor.aqueous_bolt] run function florcraft:entity/aqueous_guardian/bolt_tick

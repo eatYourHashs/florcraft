@@ -1,0 +1,10 @@
+{
+  "pools": [{
+    "rolls": 5,
+    "entries": [{
+      "type": "minecraft:loot_table",
+      "weight": 1,
+      "name": "florcraft:item/aqueous_essence"
+    }]
+  }]
+}
