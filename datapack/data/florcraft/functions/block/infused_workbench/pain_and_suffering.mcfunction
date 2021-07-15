@@ -26,4 +26,3 @@ execute unless data block ~ ~ ~ Items[{Slot:16b}] run data modify entity @s Armo
 data remove storage flor:crafting Output
 data remove storage flor:crafting OutputCopy
 data remove storage flor:crafting Items
-data remove storage flor:crafting OutputCopy
