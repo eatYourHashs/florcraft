@@ -1,6 +1,6 @@
-function florcraft:entity/player/get_aqueous_ess
+function florcraft:entity/player/get_ess/aqueous_ess
 scoreboard players set $in flor.aqueous_ess 1
-execute if score $out flor.aqueous_ess matches 1.. run function florcraft:entity/player/use_aqueous_ess
+execute if score $out flor.aqueous_ess matches 1.. run function florcraft:entity/player/use_ess/aqueous_ess
 execute if score $out flor.aqueous_ess matches 1.. run playsound minecraft:block.snow.break player @a ~ ~ ~ 1 0.7
 execute if score $out flor.aqueous_ess matches 1.. run playsound minecraft:block.snow.break player @a ~ ~ ~ 1 0.7
 execute if score $out flor.aqueous_ess matches 1.. run playsound minecraft:block.snow.break player @a ~ ~ ~ 1 0.7

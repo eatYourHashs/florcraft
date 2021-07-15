@@ -1,5 +1,5 @@
 scoreboard players set $in flor.verdant_ess 2
-execute at @s run function florcraft:entity/player/use_verdant_ess
+execute at @s run function florcraft:entity/player/use_ess/verdant_ess
 particle minecraft:happy_villager ~ ~ ~ 0.2 0.2 0.2 0 20
 playsound minecraft:block.grass.place player @a ~ ~ ~ 1 0.7
 tag @e[distance=..5,sort=nearest,limit=1,tag=!global.ignore,tag=!flor.user,type=!#florcraft:nonattackable,tag=!flor.invoked_verdant] add flor.vined

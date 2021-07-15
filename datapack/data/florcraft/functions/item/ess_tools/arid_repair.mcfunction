@@ -6,5 +6,5 @@ execute store result block -30000000 0 24576 Items[0].tag.Damage int 1 run score
 loot replace entity @s weapon.mainhand 1 mine -30000000 0 24576 air{drop_contents: 1b}
 setblock -30000000 0 24576 minecraft:yellow_shulker_box
 scoreboard players set $in flor.arid_ess 1
-function florcraft:entity/player/use_arid_ess
+function florcraft:entity/player/use_ess/arid_ess
 playsound minecraft:entity.zombie_villager.converted player @a ~ ~ ~ 0.5 2

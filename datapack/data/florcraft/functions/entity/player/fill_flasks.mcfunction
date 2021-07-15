@@ -12,9 +12,9 @@ execute if data entity @s Inventory[{Slot:5b,tag:{flor_dat:{essence_flask:1b}}}]
 execute if data entity @s Inventory[{Slot:6b,tag:{flor_dat:{essence_flask:1b}}}] run function florcraft:entity/player/fill_flask/6
 execute if data entity @s Inventory[{Slot:7b,tag:{flor_dat:{essence_flask:1b}}}] run function florcraft:entity/player/fill_flask/7
 execute if data entity @s Inventory[{Slot:8b,tag:{flor_dat:{essence_flask:1b}}}] run function florcraft:entity/player/fill_flask/8
-execute if predicate florcraft:location/arid run function florcraft:entity/player/spawn_arid_spirit
-execute if predicate florcraft:location/aqueous run function florcraft:entity/player/spawn_aqueous_spirit
-execute if predicate florcraft:location/verdant run function florcraft:entity/player/spawn_verdant_spirit
-execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_arid_spirit
-execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_aqueous_spirit
-execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_verdant_spirit
+execute if predicate florcraft:location/arid run function florcraft:entity/player/spawn_spirit/arid_spirit
+execute if predicate florcraft:location/aqueous run function florcraft:entity/player/spawn_spirit/aqueous_spirit
+execute if predicate florcraft:location/verdant run function florcraft:entity/player/spawn_spirit/verdant_spirit
+execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_spirit/arid_spirit
+execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_spirit/aqueous_spirit
+execute if predicate florcraft:random/one_tenth run function florcraft:entity/player/spawn_spirit/verdant_spirit
