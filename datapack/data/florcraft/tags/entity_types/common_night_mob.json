@@ -6,6 +6,7 @@
 		"minecraft:skeleton",
 		"minecraft:stray",
 		"minecraft:spider",
-		"minecraft:creeper"
+		"minecraft:creeper",
+		"minecraft:zombified_piglin"
 	]
 }

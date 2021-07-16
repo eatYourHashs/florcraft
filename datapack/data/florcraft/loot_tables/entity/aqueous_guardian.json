@@ -1,6 +1,6 @@
 {
   "pools": [{
-    "rolls": 5,
+    "rolls": 10,
     "entries": [{
       "type": "minecraft:loot_table",
       "weight": 1,
