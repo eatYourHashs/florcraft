@@ -12,6 +12,7 @@
     {"predicate": {"custom_model_data": 423008}, "model": "florcraft:block/verdant_attuned_pylon"},
     {"predicate": {"custom_model_data": 423009}, "model": "florcraft:block/redstone_control_matrix"},
     {"predicate": {"custom_model_data": 423010}, "model": "florcraft:block/reinforced_pylon"},
-    {"predicate": {"custom_model_data": 423011}, "model": "florcraft:block/redstone_resonance_matrix"}
+    {"predicate": {"custom_model_data": 423011}, "model": "florcraft:block/redstone_resonance_matrix"},
+    {"predicate": {"custom_model_data": 423012}, "model": "florcraft:block/enchanting_station"}
   ]
 }

@@ -1,5 +1,6 @@
 function florcraft:entity/player/get_ess/verdant_ess
 scoreboard players set $in flor.verdant_ess 2
+execute unless score $out flor.verdant_ess matches 2.. run playsound minecraft:block.fire.extinguish player @a ~ ~ ~ 1 1
 execute if score $out flor.verdant_ess matches 2.. run function florcraft:entity/player/use_ess/verdant_ess
 execute if score $out flor.verdant_ess matches 2.. run playsound minecraft:block.grass.break player @a ~ ~ ~ 1 1
 execute if score $out flor.verdant_ess matches 2.. run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,ShowArms:0b,Small:0b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["global.ignore","flor.ticking","flor.snare_scepter"]}

@@ -1,0 +1,21 @@
+{
+	"criteria": {
+	  "click_undercrafter": {
+		"trigger": "minecraft:item_used_on_block",
+		"conditions": {
+		  "location": {
+			"block": {
+			  "block": "minecraft:barrel",
+			  "state": {
+				"open": "true"
+			  },
+			  "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"florcraft:enchanting_station\",\"text\":\"\uF001\ua000\"}'}"
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "florcraft:block/enchanting_station/interact/enter"
+	}
+  }

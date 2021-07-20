@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423032,flor_dat:{alloy:3b}}"
+              "tag": "{CustomModelData:423032,flor_dat:{verdant_cost:10b,alloy:3b}}"
             }
           ]
         }

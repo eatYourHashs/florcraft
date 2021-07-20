@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423031,flor_dat:{alloy:2b}}"
+              "tag": "{CustomModelData:423031,flor_dat:{aqueous_cost:10b,alloy:2b}}"
             }
           ]
         }

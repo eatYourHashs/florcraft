@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423002,flor_dat:{ess_tool:2b,ess_repair:2b}}"
+              "tag": "{CustomModelData:423002,flor_dat:{aqueous_cost:10b,ess_tool:2b,ess_repair:2b}}"
             }
           ]
         }
