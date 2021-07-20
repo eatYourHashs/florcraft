@@ -52,6 +52,7 @@
     {"predicate": {"custom_model_data": 423048}, "model": "florcraft:item/charm_of_invocation"},
     {"predicate": {"custom_model_data": 423049}, "model": "florcraft:item/arid_mastery_circlet"},
     {"predicate": {"custom_model_data": 423050}, "model": "florcraft:item/enchant_icon"},
-    {"predicate": {"custom_model_data": 423051}, "model": "florcraft:item/enchant_icon_grey"}
+    {"predicate": {"custom_model_data": 423051}, "model": "florcraft:item/enchant_icon_grey"},
+    {"predicate": {"custom_model_data": 423052}, "model": "florcraft:block/enchanting_station"}
   ]
 }

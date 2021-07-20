@@ -1,11 +1,3 @@
 scoreboard players remove @s flor.verdant_ess 1
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=player,predicate=florcraft:dispoppy/accepts_verdant_flask] run function florcraft:block/dispoppy/add_verdant_player_flask
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=player,predicate=florcraft:dispoppy/accepts_verdant_vessel] run function florcraft:block/dispoppy/add_verdant_player_vessel
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=player,predicate=florcraft:dispoppy/accepts_verdant_reinforced_vessel] run function florcraft:block/dispoppy/add_verdant_player_reinforced_vessel
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[tag=flor.infused_workbench] run function florcraft:block/dispoppy/add_verdant_workbench
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[tag=flor.enchanting_station] run function florcraft:block/dispoppy/add_verdant_workbench
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[tag=flor.mineroot_sapling] run function florcraft:block/dispoppy/add_verdant_workbench
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=item_frame,tag=!global.ignore,nbt={Item:{tag:{flor_dat:{essence_flask:1b}}}}] run function florcraft:block/dispoppy/add_verdant_frame_flask
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=item_frame,tag=!global.ignore,nbt={Item:{tag:{flor_dat:{essence_vessel:1b}}}}] run function florcraft:block/dispoppy/add_verdant_frame_vessel
-execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range] if entity @s[type=item_frame,tag=!global.ignore,nbt={Item:{tag:{flor_dat:{reinforced_vessel:1b}}}}] run function florcraft:block/dispoppy/add_verdant_frame_reinforced_vessel
+execute at @e[tag=flor.poppy,limit=1] as @e[tag=flor.verdant_acceptor,sort=nearest,tag=flor.in_range,limit=1] run function florcraft:block/dispoppy/as_verdant_acceptor
 tag @s remove flor.verdant_source
