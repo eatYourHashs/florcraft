@@ -4,6 +4,30 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
+        "biome": "minecraft:shattered_savanna_plateau"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:shattered_savanna"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:savanna_plateau"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:savanna"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
         "dimension": "minecraft:the_nether"
       }
     },

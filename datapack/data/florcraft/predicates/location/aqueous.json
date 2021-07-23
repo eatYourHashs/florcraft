@@ -4,6 +4,36 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
+        "biome": "minecraft:stone_shore"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:mountain_edge"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:modified_gravelly_mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:modified_gravelly_mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
         "biome": "minecraft:swamp_hills"
       }
     },

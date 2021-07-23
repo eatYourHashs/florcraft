@@ -4,6 +4,18 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
+        "biome": "minecraft:sunflower_plains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:plains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
         "biome": "minecraft:taiga_mountains"
       }
     },
