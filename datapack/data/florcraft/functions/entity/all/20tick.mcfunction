@@ -14,3 +14,4 @@ execute if entity @s[type=wolf,tag=flor.verdant_invo_wolf] run function florcraf
 execute if entity @s[type=wandering_trader,tag=flor.arid_guardian] run function florcraft:entity/arid_guardian/20tick
 execute if entity @s[type=wandering_trader,tag=flor.aqueous_guardian] run function florcraft:entity/aqueous_guardian/20tick
 execute if entity @s[type=wandering_trader,tag=flor.verdant_guardian] run function florcraft:entity/verdant_guardian/20tick
+execute if entity @s[tag=flor.capacitor] run function florcraft:block/essence_capacitor/20tick

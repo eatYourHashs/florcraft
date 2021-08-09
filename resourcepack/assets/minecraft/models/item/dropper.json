@@ -13,6 +13,16 @@
     {"predicate": {"custom_model_data": 423009}, "model": "florcraft:block/redstone_control_matrix"},
     {"predicate": {"custom_model_data": 423010}, "model": "florcraft:block/reinforced_pylon"},
     {"predicate": {"custom_model_data": 423011}, "model": "florcraft:block/redstone_resonance_matrix"},
-    {"predicate": {"custom_model_data": 423012}, "model": "florcraft:block/enchanting_station"}
+    {"predicate": {"custom_model_data": 423012}, "model": "florcraft:block/enchanting_station"},
+    {"predicate": {"custom_model_data": 423013}, "model": "florcraft:block/essence_capacitor_empty"},
+    {"predicate": {"custom_model_data": 423014}, "model": "florcraft:block/essence_capacitor_arid_1"},
+    {"predicate": {"custom_model_data": 423015}, "model": "florcraft:block/essence_capacitor_arid_2"},
+    {"predicate": {"custom_model_data": 423016}, "model": "florcraft:block/essence_capacitor_arid_3"},
+    {"predicate": {"custom_model_data": 423017}, "model": "florcraft:block/essence_capacitor_aqueous_1"},
+    {"predicate": {"custom_model_data": 423018}, "model": "florcraft:block/essence_capacitor_aqueous_2"},
+    {"predicate": {"custom_model_data": 423019}, "model": "florcraft:block/essence_capacitor_aqueous_3"},
+    {"predicate": {"custom_model_data": 423020}, "model": "florcraft:block/essence_capacitor_verdant_1"},
+    {"predicate": {"custom_model_data": 423021}, "model": "florcraft:block/essence_capacitor_verdant_2"},
+    {"predicate": {"custom_model_data": 423022}, "model": "florcraft:block/essence_capacitor_verdant_3"}
   ]
 }

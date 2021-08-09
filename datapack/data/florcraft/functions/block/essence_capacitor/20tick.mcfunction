@@ -1,0 +1,11 @@
+execute unless score @s flor.arid_ess matches 1.. unless score @s flor.aqueous_ess matches 1.. unless score @s flor.verdant_ess matches 1.. unless data entity @s ArmorItems[3].tag{CustomModelData:423013} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423013}
+execute if score @s flor.arid_ess matches 1..9 unless data entity @s ArmorItems[3].tag{CustomModelData:423014} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423014}
+execute if score @s flor.arid_ess matches 10..19 unless data entity @s ArmorItems[3].tag{CustomModelData:423015} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423015}
+execute if score @s flor.arid_ess matches 20.. unless data entity @s ArmorItems[3].tag{CustomModelData:423016} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423016}
+execute if score @s flor.aqueous_ess matches 1..9 unless data entity @s ArmorItems[3].tag{CustomModelData:423017} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423017}
+execute if score @s flor.aqueous_ess matches 10..19 unless data entity @s ArmorItems[3].tag{CustomModelData:423018} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423018}
+execute if score @s flor.aqueous_ess matches 20.. unless data entity @s ArmorItems[3].tag{CustomModelData:423019} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423019}
+execute if score @s flor.verdant_ess matches 1..9 unless data entity @s ArmorItems[3].tag{CustomModelData:423020} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423020}
+execute if score @s flor.verdant_ess matches 10..19 unless data entity @s ArmorItems[3].tag{CustomModelData:423021} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423021}
+execute if score @s flor.verdant_ess matches 20.. unless data entity @s ArmorItems[3].tag{CustomModelData:423022} run item replace entity @s armor.head with minecraft:dropper{CustomModelData:423022}
+stopsound @a * minecraft:item.armor.equip_generic

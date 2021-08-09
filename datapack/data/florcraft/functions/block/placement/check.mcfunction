@@ -10,3 +10,4 @@ execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"verda
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"redstone_control_matrix"}}}]} run function florcraft:block/redstone_control_matrix/place
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"reinforced_pylon"}}}]} run function florcraft:block/reinforced_pylon/place
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"redstone_resonance_matrix"}}}]} run function florcraft:block/redstone_resonance_matrix/place
+execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"essence_capacitor"}}}]} run function florcraft:block/essence_capacitor/place

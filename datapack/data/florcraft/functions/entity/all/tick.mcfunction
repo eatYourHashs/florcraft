@@ -33,3 +33,4 @@ execute if entity @s[tag=flor.aqueous_bolt] run function florcraft:entity/aqueou
 execute if entity @s[tag=flor.verdant_guardian] run function florcraft:entity/verdant_guardian/tick
 execute if entity @s[tag=flor.verdant_spike] run function florcraft:entity/verdant_guardian/spike/tick
 execute if entity @s[tag=flor.verdant_spike_model] run function florcraft:entity/verdant_guardian/spike/model_tick
+execute if entity @s[tag=flor.capacitor] run function florcraft:block/essence_capacitor/tick
