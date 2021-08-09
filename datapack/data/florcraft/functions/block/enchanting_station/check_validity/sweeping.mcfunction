@@ -1,6 +1,6 @@
 execute store result score $temp flor.dummy run data get storage flor:storage root.enchant_item.tag.Enchantments[{id:"minecraft:sweeping"}].lvl
 scoreboard players add $temp flor.dummy 1
-scoreboard players set $temp.0 flor.dummy 6
+scoreboard players set $temp.0 flor.dummy 5
 scoreboard players set $temp.1 flor.dummy 0
 scoreboard players set $temp.2 flor.dummy 0
 scoreboard players operation $temp.0 flor.dummy *= $temp flor.dummy
