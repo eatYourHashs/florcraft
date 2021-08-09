@@ -1,5 +1,6 @@
 execute if entity @s[type=item_frame,tag=!global.ignore] run function florcraft:entity/item_frame/20tick
 execute if entity @s[type=item_frame,tag=flor.dispoppy] run function florcraft:block/dispoppy/20tick
+execute if entity @s[type=item_frame,tag=flor.relilay] run function florcraft:block/relilay/20tick
 execute if entity @s[type=item_frame,tag=flor.absorbloom] run function florcraft:block/absorbloom/20tick
 execute if entity @s[type=armor_stand,tag=flor.pylon] run function florcraft:block/pylon/20tick
 execute if entity @s[type=armor_stand,tag=flor.mystical_furnace] run function florcraft:block/mystical_furnace/20tick
