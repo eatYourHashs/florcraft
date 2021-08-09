@@ -20,8 +20,9 @@ execute if entity @s[tag=flor.know_essence_vessel,tag=!flor.know_runic_pylons,sc
 execute if entity @s[tag=!flor.know_essence_alloys,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:18b,id:"minecraft:iron_ingot"}] run function florcraft:block/natures_oculus/recipe_checks/essence_alloys
 # Essence Tools
 execute if entity @s[tag=flor.know_essence_alloys,tag=!flor.know_essence_tools,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:19b,id:"minecraft:iron_pickaxe"}] run function florcraft:block/natures_oculus/recipe_checks/essence_tools
-# Attuned Pylons
-execute if entity @s[tag=flor.know_essence_alloys,tag=!flor.know_attuned_pylons,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:20b,tag:{flor_dat:{basic_rune:1b}}}] run function florcraft:block/natures_oculus/recipe_checks/attuned_pylon
+# Essence Capacitors
+#execute if entity @s[tag=flor.know_essence_alloys,tag=!flor.know_attuned_pylons,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:20b,tag:{flor_dat:{basic_rune:1b}}}] run function florcraft:block/natures_oculus/recipe_checks/attuned_pylon
+execute if entity @s[tag=flor.know_relilay,tag=!flor.know_essence_capacitors,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:20b,id:"minecraft:redstone_block"}] run function florcraft:block/natures_oculus/recipe_checks/essence_capacitors
 # Searing Arc Sword
 execute if entity @s[tag=flor.know_essence_tools,tag=!flor.know_searing_arc_sword,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:21b,id:"minecraft:iron_sword",tag:{flor_dat:{ess_tool:1b}}}] run function florcraft:block/natures_oculus/recipe_checks/scorching_arc_sword
 # Burning Fire Axe
