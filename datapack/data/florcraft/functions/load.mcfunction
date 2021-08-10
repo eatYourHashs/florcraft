@@ -12,6 +12,7 @@ scoreboard objectives add flor.water_walk minecraft.custom:minecraft.walk_under_
 scoreboard objectives add flor.deal_damage minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add flor.take_damage minecraft.custom:minecraft.damage_taken
 scoreboard objectives add flor.res_damage minecraft.custom:minecraft.damage_resisted
+scoreboard objectives add flor.shoot_bow minecraft.used:minecraft.bow
 scoreboard objectives add flor.page dummy
 scoreboard objectives add flor.knowledge dummy
 scoreboard objectives add flor.arid_ess dummy

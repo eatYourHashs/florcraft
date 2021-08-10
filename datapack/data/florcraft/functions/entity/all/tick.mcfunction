@@ -34,3 +34,4 @@ execute if entity @s[tag=flor.verdant_guardian] run function florcraft:entity/ve
 execute if entity @s[tag=flor.verdant_spike] run function florcraft:entity/verdant_guardian/spike/tick
 execute if entity @s[tag=flor.verdant_spike_model] run function florcraft:entity/verdant_guardian/spike/model_tick
 execute if entity @s[tag=flor.capacitor] run function florcraft:block/essence_capacitor/tick
+execute if entity @s[tag=flor.tempest_arrow] run function florcraft:item/thundering_tempest_bow/arrow_tick

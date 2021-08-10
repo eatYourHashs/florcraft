@@ -13,6 +13,8 @@ execute if score @s flor.res_damage matches 1.. run function florcraft:entity/pl
 
 execute if score @s flor.deal_damage matches 1.. run function florcraft:entity/player/deal_damage
 
+execute if score @s flor.shoot_bow matches 1.. run function florcraft:entity/player/shoot_bow
+
 # If the player is holding a fire axe
 execute if data storage flor:storage SelectedItem.tag.flor_dat.burning_fire_axe run function florcraft:item/burning_fire_axe/pick_cast
 
