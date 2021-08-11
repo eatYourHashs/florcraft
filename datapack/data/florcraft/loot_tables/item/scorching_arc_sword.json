@@ -32,7 +32,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423000,flor_dat:{scorching_arc_sword:1b,ess_repair:1b}}"
+              "tag": "{CustomModelData:423000,flor_dat:{arid_cost:15b,scorching_arc_sword:1b,ess_repair:1b}}"
             }
           ]
         }
