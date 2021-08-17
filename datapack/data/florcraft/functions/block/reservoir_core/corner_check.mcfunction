@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ iron_block run function florcraft:block/reservoir_core/blocks/iron_block
+execute if block ~ ~ ~ gold_block run function florcraft:block/reservoir_core/blocks/gold_block
+execute if block ~ ~ ~ #florcraft:copper_blocks run function florcraft:block/reservoir_core/blocks/copper_block
+execute if block ~ ~ ~ diamond_block run function florcraft:block/reservoir_core/blocks/diamond_block
+execute if block ~ ~ ~ emerald_block run function florcraft:block/reservoir_core/blocks/emerald_block
+execute if block ~ ~ ~ coal_block run function florcraft:block/reservoir_core/blocks/coal_block
+execute if block ~ ~ ~ lapis_block run function florcraft:block/reservoir_core/blocks/lapis_block
+execute if block ~ ~ ~ redstone_block run function florcraft:block/reservoir_core/blocks/redstone_block
+execute if block ~ ~ ~ netherite_block run function florcraft:block/reservoir_core/blocks/netherite_block
