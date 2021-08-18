@@ -4,6 +4,7 @@ execute if entity @s[type=player,predicate=florcraft:dispoppy/accepts_arid_vesse
 execute if entity @s[type=player,predicate=florcraft:dispoppy/accepts_arid_reinforced_vessel] run function florcraft:block/dispoppy/add_arid_player_reinforced_vessel
 execute if entity @s[tag=flor.infused_workbench] run function florcraft:block/dispoppy/add_arid_workbench
 execute if entity @s[tag=flor.capacitor] run function florcraft:block/dispoppy/add_arid_workbench
+execute if entity @s[tag=flor.reservoir_core] run function florcraft:block/dispoppy/add_arid_workbench
 execute if entity @s[tag=flor.enchanting_station] run function florcraft:block/dispoppy/add_arid_workbench
 execute if entity @s[tag=flor.mystical_furnace] run function florcraft:block/dispoppy/add_arid_workbench
 execute if entity @s[tag=flor.mineroot_sapling] run function florcraft:block/dispoppy/add_arid_workbench

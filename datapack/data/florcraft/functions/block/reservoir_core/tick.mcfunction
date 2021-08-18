@@ -11,10 +11,7 @@ tag @s remove flor.verdant_acceptor
 
 execute if entity @s[tag=flor.valid] unless entity @s[tag=flor.toggled] run tag @s add flor.interacts_with_bloom
 
-execute if entity @s[tag=flor.valid,tag=flor.toggled] unless score @s flor.arid_ess matches 1.. unless score @s flor.aqueous_ess matches 1.. unless score @s flor.verdant_ess matches 1.. run tag @s add flor.arid_acceptor
-execute if entity @s[tag=flor.valid,tag=flor.toggled] unless score @s flor.arid_ess matches 1.. unless score @s flor.aqueous_ess matches 1.. unless score @s flor.verdant_ess matches 1.. run tag @s add flor.aqueous_acceptor
-execute if entity @s[tag=flor.valid,tag=flor.toggled] unless score @s flor.arid_ess matches 1.. unless score @s flor.aqueous_ess matches 1.. unless score @s flor.verdant_ess matches 1.. run tag @s add flor.verdant_acceptor
-execute if entity @s[tag=flor.valid,tag=flor.toggled] if score @s flor.arid_ess matches 1..19 run tag @s add flor.arid_acceptor
-execute if entity @s[tag=flor.valid,tag=flor.toggled] if score @s flor.aqueous_ess matches 1..19 run tag @s add flor.aqueous_acceptor
-execute if entity @s[tag=flor.valid,tag=flor.toggled] if score @s flor.verdant_ess matches 1..19 run tag @s add flor.verdant_acceptor
+execute if entity @s[tag=flor.valid,tag=flor.toggled] if score @s flor.arid_ess < @s flor.arid_cap run tag @s add flor.arid_acceptor
+execute if entity @s[tag=flor.valid,tag=flor.toggled] if score @s flor.aqueous_ess < @s flor.aqueous_cap run tag @s add flor.aqueous_acceptor
+execute if entity @s[tag=flor.valid,tag=flor.toggled] if score @s flor.verdant_ess < @s flor.verdant_cap run tag @s add flor.verdant_acceptor
 execute if entity @s[tag=flor.valid,tag=flor.toggled] run tag @s remove flor.interacts_with_bloom

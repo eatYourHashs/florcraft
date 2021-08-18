@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Place essence-tied blocks around the",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "core to create a Reservoir.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Reservoir Core",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"reservoir_core\"}}}]},CustomModelData:423023,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,reservoir_core:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

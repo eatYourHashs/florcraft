@@ -17,6 +17,6 @@ execute if score $temp.x flor.dummy matches 3.. run scoreboard players set $temp
 execute if score $temp.y flor.dummy matches 3.. run scoreboard players add $temp.z flor.dummy 1
 execute if score $temp.y flor.dummy matches 3.. run tag @s add flor.zshift
 execute if score $temp.y flor.dummy matches 3.. run scoreboard players set $temp.y flor.dummy 0
-execute unless entity @s[tag=flor.yshift] positioned ~1 ~ ~ run function florcraft:block/reservoir_core/validation_step
-execute if entity @s[tag=flor.yshift] positioned ~-2 ~1 ~ run function florcraft:block/reservoir_core/validation_step
+execute unless entity @s[tag=flor.yshift] unless score $temp.z flor.dummy matches 3.. positioned ~1 ~ ~ run function florcraft:block/reservoir_core/validation_step
+execute if entity @s[tag=flor.yshift] unless entity @s[tag=flor.zshift] unless score $temp.z flor.dummy matches 3.. positioned ~-2 ~1 ~ run function florcraft:block/reservoir_core/validation_step
 execute if entity @s[tag=flor.zshift] unless score $temp.z flor.dummy matches 3.. positioned ~-2 ~-2 ~1 run function florcraft:block/reservoir_core/validation_step
