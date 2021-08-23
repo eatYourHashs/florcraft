@@ -10,5 +10,6 @@ kill @s[tag=!flor.tag,tag=!global.ignore.kill]
 execute if entity @s[tag=!flor.tag,scores={flor.dummy=1},tag=flor.arid_dmg] run tellraw @a ["",{"selector":"@s"}," was incinerated with arid magic"]
 execute if entity @s[tag=!flor.tag,scores={flor.dummy=1},tag=flor.aqueous_dmg] run tellraw @a ["",{"selector":"@s"}," was frozen with aqueous magic"]
 execute if entity @s[tag=!flor.tag,scores={flor.dummy=1},tag=flor.verdant_dmg] run tellraw @a ["",{"selector":"@s"}," was drained with verdant magic"]
+execute if entity @s[tag=!flor.tag,scores={flor.dummy=1},tag=flor.chaos_dmg] run tellraw @a ["",{"selector":"@s"}," was discorporated with chaos magic"]
 execute if entity @s[tag=!flor.tag,scores={flor.dummy=1}] run gamerule showDeathMessages true
 tag @s remove flor.tag

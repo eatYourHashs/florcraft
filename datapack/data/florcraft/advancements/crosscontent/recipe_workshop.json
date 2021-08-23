@@ -1,0 +1,19 @@
+{
+  "parent": "florcraft:crosscontent/root",
+  "rewards": {
+    "function": "florcraft:crosscontent/siteplanner/init_workshop"
+  },
+  "criteria": {
+    "open_dropper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:dropper",
+			      "nbt":"{Items:[{Slot:0b,id:\"minecraft:oak_leaves\",Count:8b},{Slot:1b,id:\"minecraft:carrot_on_a_stick\",Count:1b,tag:{flor_dat:{dispoppy:1b}}},{Slot:2b,id:\"minecraft:oak_leaves\",Count:8b},{Slot:3b,id:\"minecraft:oak_log\",Count:8b},{Slot:4b,id:\"minecraft:paper\",Count:1b,tag:{HideFlags:1,display:{Lore:['{\"text\":\"The final ingredient\"}','{\"text\":\"in new town structures.\"}'],Name:'{\"text\":\"Building Permit\"}'},Enchantments:[{lvl:0,id:\"minecraft:protection\"}]}},{Slot:5b,id:\"minecraft:oak_log\",Count:8b},{Slot:6b,id:\"minecraft:stone\",Count:8b},{Slot:7b,id:\"minecraft:dropper\",Count:1b,tag:{flor_dat:{infused_workbench:1b}}},{Slot:8b,id:\"minecraft:stone\",Count:8b}]}"
+          }
+        }
+      }
+    }
+  }
+}

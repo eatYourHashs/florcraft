@@ -20,3 +20,7 @@ data remove block ~ ~ ~ Items[{Slot:23b}]
 data remove block ~ ~ ~ Items[{Slot:24b}]
 data remove block ~ ~ ~ Items[{Slot:25b}]
 data remove block ~ ~ ~ Items[{Slot:26b}]
+execute if score @s flor.page matches 1 run item replace block ~ ~ ~ container.0 with structure_block{display:{Name:'{"text":"To Cross-Content Knowledge","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423001,flor_dat:{back_button:1b,cleared:1b}}
+execute if score @s flor.page matches 2.. run item replace block ~ ~ ~ container.0 with structure_block{display:{Name:'{"text":"Back","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423001,flor_dat:{back_button:1b,cleared:1b}}
+execute if score @s flor.page matches 0 run item replace block ~ ~ ~ container.8 with structure_block{display:{Name:'{"text":"To Standard Knowledge","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423002,flor_dat:{next_button:1b,cleared:1b}}
+execute if score @s flor.page matches 1.. if score @s flor.page < @s flor.pages run item replace block ~ ~ ~ container.8 with structure_block{display:{Name:'{"text":"Next","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423002,flor_dat:{next_button:1b,cleared:1b}}

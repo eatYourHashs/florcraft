@@ -4,3 +4,4 @@ execute unless entity @s[type=player] unless entity @s[tag=flor.arid_guardian,ta
 tag @s remove flor.arid_dmg
 tag @s remove flor.aqueous_dmg
 tag @s remove flor.verdant_dmg
+tag @s remove flor.chaos_dmg

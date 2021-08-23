@@ -56,6 +56,7 @@
     {"predicate": {"custom_model_data": 423052}, "model": "florcraft:block/enchanting_station"},
     {"predicate": {"custom_model_data": 423053}, "model": "florcraft:block/essence_capacitor_empty"},
     {"predicate": {"custom_model_data": 423054}, "model": "florcraft:item/thundering_tempest_bow"},
-    {"predicate": {"custom_model_data": 423055}, "model": "florcraft:block/reservoir_core"}
+    {"predicate": {"custom_model_data": 423055}, "model": "florcraft:block/reservoir_core"},
+    {"predicate": {"custom_model_data": 423056}, "model": "florcraft:block/infused_workbench"}
   ]
 }
