@@ -1,5 +1,4 @@
 # Store the SelectedItem for more performant checks later on
-data modify storage flor:storage SelectedItem set from entity @s SelectedItem
 
 execute if entity @s[tag=flor.inside_natures_oculus_gui] as @e[type=armor_stand,tag=flor.natures_oculus,distance=..12,sort=arbitrary] at @s if block ~ ~ ~ barrel[open=true] run function florcraft:block/natures_oculus/open_tick
 
@@ -16,11 +15,11 @@ execute if score @s flor.deal_damage matches 1.. run function florcraft:entity/p
 execute if score @s flor.shoot_bow matches 1.. run function florcraft:entity/player/shoot_bow
 
 # If the player is holding a fire axe
-execute if data storage flor:storage SelectedItem.tag.flor_dat.burning_fire_axe run function florcraft:item/burning_fire_axe/pick_cast
+execute if predicate florcraft:item/holding_elem_axe run function florcraft:item/burning_fire_axe/pick_cast
 
 scoreboard players set $cast.temp flor.dummy 0
 # If the player is holding a raging river pickaxe
-execute if data storage flor:storage SelectedItem.tag.flor_dat.raging_river_pickaxe run function florcraft:item/raging_river_pickaxe/pick_cast
+execute if predicate florcraft:item/holding_elem_pickaxe run function florcraft:item/raging_river_pickaxe/pick_cast
 
 execute unless score @s flor.since_gui matches 3.. run function florcraft:entity/player/tick/reset_guis
 
