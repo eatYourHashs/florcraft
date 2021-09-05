@@ -86,29 +86,20 @@
       }
     },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:ancient_sands" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:black_beach" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:cold_shrubland" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:gravel_beach" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:gravel_desert" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:hot_shrubland" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:modified_savanna_plateau" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:monument_valley" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:red_beach" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:red_mountains" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:salt_flats" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:salt_mountains" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:salty_shores" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:sandstone_valley" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:sandstone_valley_r" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:savanna_badlands" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:savanna_heights" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:scarlet_mountains" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:scarlet_heights" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:scarlet_tundra" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:shrubland" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:stardust_valley" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:yellowstone" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:yosemite_cliffs" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:yosemite_lowlands" } }
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:yosemite_lowlands" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:tropical_volcano" } }
   ]
 }

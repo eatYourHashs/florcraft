@@ -191,9 +191,9 @@
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:ominous_grove" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:redwood_forest" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:siberian_taiga" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:tropical_volcano" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:wheat_fields" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:wintry_forest" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:shrubland" } },
 	
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:zreserved/10/midland_plains" } },
     { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:zreserved/11/midland_taiga" } },
