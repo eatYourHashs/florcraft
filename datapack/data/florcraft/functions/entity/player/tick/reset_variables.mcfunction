@@ -25,6 +25,5 @@ scoreboard players set @s flor.fly 0
 scoreboard players set @s flor.elytra 0
 scoreboard players set @s flor.swim 0
 scoreboard players set @s flor.water_walk 0
-scoreboard players set @s flor.sneak 0
 scoreboard players add @s flor.since_gui 1
 data remove storage flor:storage SelectedItem

@@ -16,3 +16,6 @@ execute if data storage flor:storage SelectedItem.tag.flor_dat{barrier_scepter:1
 execute if data storage flor:storage SelectedItem.tag.flor_dat{mending_scepter:1b} run function florcraft:item/mending_scepter/use
 execute if data storage flor:storage SelectedItem.tag.flor_dat{spirit_binder_staff:1b} run function florcraft:item/spirit_binder_staff/use
 execute if data storage flor:storage SelectedItem.tag.flor_dat{charm_of_invocation:1b} run function florcraft:item/charm_of_invocation/use
+execute if data storage flor:storage SelectedItem.tag.flor_dat{floramancers_wand:1b} run function florcraft:item/floramancers_wand/use
+execute if data storage flor:storage SelectedItem.tag.flor_dat{adept_floramancers_scepter:1b} run function florcraft:item/floramancers_wand/use_adept
+execute if data storage flor:storage SelectedItem.tag.flor_dat{master_floramancers_staff:1b} run function florcraft:item/floramancers_wand/use_master
