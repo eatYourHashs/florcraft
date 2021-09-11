@@ -78,6 +78,7 @@
     {"predicate": {"custom_model_data": 423072}, "model": "florcraft:entity/verdant_guardian_body_attacked"},
     {"predicate": {"custom_model_data": 423073}, "model": "florcraft:item/floramancers_wand"},
     {"predicate": {"custom_model_data": 423074}, "model": "florcraft:item/adept_floramancers_scepter"},
-    {"predicate": {"custom_model_data": 423075}, "model": "florcraft:item/master_floramancers_staff"}
+    {"predicate": {"custom_model_data": 423075}, "model": "florcraft:item/master_floramancers_staff"},
+    {"predicate": {"custom_model_data": 423076}, "model": "florcraft:item/erosion_scepter"}
   ]
 }

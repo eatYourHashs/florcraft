@@ -19,3 +19,4 @@ execute if data storage flor:storage SelectedItem.tag.flor_dat{charm_of_invocati
 execute if data storage flor:storage SelectedItem.tag.flor_dat{floramancers_wand:1b} run function florcraft:item/floramancers_wand/use
 execute if data storage flor:storage SelectedItem.tag.flor_dat{adept_floramancers_scepter:1b} run function florcraft:item/floramancers_wand/use_adept
 execute if data storage flor:storage SelectedItem.tag.flor_dat{master_floramancers_staff:1b} run function florcraft:item/floramancers_wand/use_master
+execute if data storage flor:storage SelectedItem.tag.flor_dat{erosion_scepter:1b} run function florcraft:item/erosion_scepter/use

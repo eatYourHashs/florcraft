@@ -1,0 +1,26 @@
+{
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:structure_block",
+    "minecraft:structure_void",
+    "minecraft:barrier",
+    "minecraft:light",
+    "minecraft:end_portal_frame",
+    "minecraft:end_portal",
+    "minecraft:end_gateway",
+    "minecraft:jigsaw",
+    "minecraft:ancient_debris",
+    "minecraft:netherite_block",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:enchanting_table",
+    "minecraft:respawn_anchor",
+    "minecraft:anvil",
+    "minecraft:ender_chest",
+    "minecraft:water",
+    "minecraft:lava"
+  ]
+}

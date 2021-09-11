@@ -21,6 +21,8 @@ scoreboard players set $cast.temp flor.dummy 0
 # If the player is holding a raging river pickaxe
 execute if predicate florcraft:item/holding_elem_pickaxe run function florcraft:item/raging_river_pickaxe/pick_cast
 
+execute if score @s flor.erosion matches 1.. run function florcraft:item/erosion_scepter/fire
+
 execute unless score @s flor.since_gui matches 3.. run function florcraft:entity/player/tick/reset_guis
 
 function florcraft:entity/player/tick/reset_variables

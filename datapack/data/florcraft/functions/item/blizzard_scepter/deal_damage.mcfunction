@@ -9,6 +9,6 @@ execute store result storage flor:storage root.temp.UUID[0] int 1 run scoreboard
 execute store result storage flor:storage root.temp.UUID[1] int 1 run scoreboard players get @s flor.uuid2
 execute store result storage flor:storage root.temp.UUID[2] int 1 run scoreboard players get @s flor.uuid3
 execute store result storage flor:storage root.temp.UUID[3] int 1 run scoreboard players get @s flor.uuid4
-effect give @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!global.ignore,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] slowness 6 1 true
+effect give @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!global.ignore,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] slowness 6 2 true
 tag @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!global.ignore,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] add flor.aqueous_dmg
 execute as @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!global.ignore,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
