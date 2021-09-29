@@ -22,17 +22,12 @@
                   "text": "Cleaves out entire ore clusters at once, teleporting their drops to you.",
                   "color": "gray",
                   "italic": false
-                },
-                {
-                  "text": "Sometimes consumes Aqueous Essence to do this.",
-                  "color": "gray",
-                  "italic": false
                 }
               ]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423000,flor_dat:{raging_river_pickaxe:1b,ess_repair:2b}}"
+              "tag": "{CustomModelData:423000,flor_dat:{aqueous_cost:15b,raging_river_pickaxe:1b,ess_repair:2b}}"
             }
           ]
         }

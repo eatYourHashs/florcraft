@@ -37,7 +37,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423000,flor_dat:{arid_cost:4b,aqueous_cost:4b,verdant_cost:4b,druidic_scepter:1b}}"
+              "tag": "{CustomModelData:423000,flor_dat:{arid_cost:3b,aqueous_cost:3b,verdant_cost:3b,druidic_scepter:1b}}"
             }
           ]
         }

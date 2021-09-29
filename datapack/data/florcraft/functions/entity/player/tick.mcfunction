@@ -26,3 +26,5 @@ execute if score @s flor.erosion matches 1.. run function florcraft:item/erosion
 execute unless score @s flor.since_gui matches 3.. run function florcraft:entity/player/tick/reset_guis
 
 function florcraft:entity/player/tick/reset_variables
+
+tag @s remove flor.hit_this_tick

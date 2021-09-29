@@ -27,7 +27,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423000,flor_dat:{druidic_scepter:1b,bountiful_earth_hoe:1b,ess_repair:3b}}"
+              "tag": "{CustomModelData:423000,flor_dat:{verdant_cost:15b,druidic_scepter:1b,bountiful_earth_hoe:1b,ess_repair:3b}}"
             }
           ]
         }

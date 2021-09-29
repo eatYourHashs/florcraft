@@ -31,7 +31,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "text": "Master Floramancer's Staff",
-                "color": "white",
+                "color": "yellow",
                 "italic": false
               }
             },
