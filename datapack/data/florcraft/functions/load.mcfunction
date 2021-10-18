@@ -58,10 +58,6 @@ scoreboard objectives add flor.demerald minecraft.mined:minecraft.deepslate_emer
 
 forceload add -30000000 24576
 setblock -30000000 0 24576 yellow_shulker_box
-execute in minecraft:the_nether run forceload add -30000000 24576
-execute in minecraft:the_nether run setblock -30000000 0 24576 yellow_shulker_box
-execute in minecraft:the_end run forceload add -30000000 24576
-execute in minecraft:the_end run setblock -30000000 0 24576 yellow_shulker_box
 
 scoreboard players set $cons.rng_a flor.dummy 1103515245
 execute store result score $cons.rng_seed flor.dummy run data get entity @e[limit=1,sort=random] UUID[0]
