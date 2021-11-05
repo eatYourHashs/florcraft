@@ -1,7 +1,7 @@
 data modify storage flor:temp Items set from block ~ ~ ~ Items
 
 execute if data storage flor:temp Items[{Slot:0b}] unless data storage flor:temp Items[{Slot:0b}].tag.flor_dat.back_button run function florcraft:block/natures_oculus/restore/0
-execute if data storage flor:temp Items[{Slot:1b}] unless data storage flor:temp Items[{Slot:1b}].tag.flor_dat.knowledge_point run function florcraft:block/natures_oculus/restore/1
+execute if data storage flor:temp Items[{Slot:1b}] unless data storage flor:temp Items[{Slot:1b}].tag.flor_dat.knowledge run function florcraft:block/natures_oculus/restore/1
 execute if data storage flor:temp Items[{Slot:2b}] run function florcraft:block/natures_oculus/restore/2
 execute if data storage flor:temp Items[{Slot:3b}] run function florcraft:block/natures_oculus/restore/3
 execute if data storage flor:temp Items[{Slot:4b}] run function florcraft:block/natures_oculus/restore/4

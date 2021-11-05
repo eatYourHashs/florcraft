@@ -5,6 +5,6 @@ execute if score $temp flor.dummy matches 4.. run scoreboard players remove @s[d
 execute if score $temp flor.dummy matches 4.. run scoreboard players remove $temp flor.dummy 4
 execute store result storage flor:temp Items[{Slot:12b}].Count byte 1 run scoreboard players get $temp flor.dummy
 execute at @s[distance=..12] run summon item ~ ~ ~ {Item:{id:"minecraft:stone",Count:1b},Tags:[flor.new_drop]}
-data modify entity @e[type=item,tag=flor.new_drop] Item set from storage flor:temp Items[{Slot:12b}]
+data modify entity @e[type=item,tag=flor.new_drop,limit=1] Item set from storage flor:temp Items[{Slot:12b}]
 tag @e[type=item] remove flor.new_drop
 data remove block ~ ~ ~ Items[{Slot:12b}]
