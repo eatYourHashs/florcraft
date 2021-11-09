@@ -12,3 +12,5 @@ execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"reinf
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"redstone_resonance_matrix"}}}]} run function florcraft:block/redstone_resonance_matrix/place
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"essence_capacitor"}}}]} run function florcraft:block/essence_capacitor/place
 execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"reservoir_core"}}}]} run function florcraft:block/reservoir_core/place
+execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"transmission_beacon"}}}]} run function florcraft:block/transmission_beacon/place
+execute if data block ~ ~ ~ {Items:[{tag:{flor_dat:{placed_block:1b,block:"transmission_receiver"}}}]} run function florcraft:block/transmission_receiver/place
