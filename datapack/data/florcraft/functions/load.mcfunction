@@ -29,6 +29,7 @@ scoreboard objectives add flor.arid_cap dummy
 scoreboard objectives add flor.aqueous_cap dummy
 scoreboard objectives add flor.verdant_cap dummy
 scoreboard objectives add flor.erosion dummy
+scoreboard objectives add flor.stored_id dummy
 
 scoreboard objectives add flor.oak minecraft.mined:minecraft.oak_log
 scoreboard objectives add flor.birch minecraft.mined:minecraft.birch_log
@@ -80,6 +81,7 @@ scoreboard players set $cons.15 flor.dummy 15
 scoreboard players set $cons.16 flor.dummy 16
 scoreboard players set $cons.25 flor.dummy 25
 scoreboard players set $cons.30 flor.dummy 30
+scoreboard players set $cons.50 flor.dummy 50
 scoreboard players set $cons.60 flor.dummy 60
 scoreboard players set $cons.100 flor.dummy 100
 scoreboard players set $cons.125 flor.dummy 125
@@ -92,3 +94,6 @@ schedule function florcraft:100tick 100t replace
 
 team add global.antivil
 team modify global.antivil friendlyFire false
+
+scoreboard players set #scale_factor flor.dummy 1
+scoreboard players set block_id flor.dummy 0
