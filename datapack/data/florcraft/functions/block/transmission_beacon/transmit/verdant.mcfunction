@@ -18,14 +18,14 @@ scoreboard players operation #input flor.dummy += $temp.z flor.dummy
 scoreboard players set #output flor.dummy 0
 execute if entity @s[tag=flor.transmissing] run function florcraft:utils/sqrt/main
 scoreboard players operation #output flor.dummy /= $cons.50 flor.dummy
-scoreboard players operation #output flor.dummy -= @s flor.arid_cap
+scoreboard players operation #output flor.dummy -= @s flor.verdant_cap
 execute if score #output flor.dummy matches ..-1 run scoreboard players set #output flor.dummy 0
 execute if score #output flor.dummy matches 20.. run scoreboard players set #output flor.dummy 19
-scoreboard players operation @s flor.arid_ess -= #output flor.dummy
-scoreboard players operation @e[type=armor_stand,tag=flor.target,limit=1] flor.arid_ess = @s flor.arid_ess
+scoreboard players operation @s flor.verdant_ess -= #output flor.dummy
+scoreboard players operation @e[type=armor_stand,tag=flor.target,limit=1] flor.verdant_ess = @s flor.verdant_ess
 execute if entity @s[tag=flor.transmissing] run playsound minecraft:block.beacon.activate block @a ~ ~ ~ 1 1.25
-execute if entity @s[tag=flor.transmissing] run particle dust 1 0.569 0.22 1 ~ ~5 ~ 0.1 2 0.1 0 200
-execute if entity @s[tag=flor.transmissing] run scoreboard players set @s flor.arid_ess 0
+execute if entity @s[tag=flor.transmissing] run particle dust 0 0.878 0.322 1 ~ ~5 ~ 0.1 2 0.1 0 200
+execute if entity @s[tag=flor.transmissing] run scoreboard players set @s flor.verdant_ess 0
 execute if entity @s[tag=flor.transmissing] run scoreboard players set @s flor.dummy2 0
 tag @s remove flor.transmissing
 tag @e[tag=flor.target] remove flor.target
