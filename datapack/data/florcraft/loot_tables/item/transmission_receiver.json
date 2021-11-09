@@ -11,12 +11,12 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Place essence-tied blocks around the",
+                  "text": "Receives essence from a Transmission Beacon.",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "core to create a Reservoir.",
+                  "text": "Releases the essence like a Capacitor does.",
                   "color": "gray",
                   "italic": false
                 }
@@ -25,14 +25,14 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Reservoir Core",
-                "color": "yellow",
+                "text": "Transmission Receiver",
+                "color": "white",
                 "italic": false
               }
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"reservoir_core\"}}}]},CustomModelData:423023,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,reservoir_core:1b}}"
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"transmission_receiver\"}}}]},CustomModelData:423024,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,transmission_receiver:1b}}"
             }
           ]
         }

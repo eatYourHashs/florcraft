@@ -11,12 +11,17 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Place essence-tied blocks around the",
+                  "text": "Transmits essence over unlimited distances",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "core to create a Reservoir.",
+                  "text": "when bound to a Receiver and filled up.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Loss rate depends on distance and essence-tied blocks used.",
                   "color": "gray",
                   "italic": false
                 }
@@ -25,14 +30,14 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Reservoir Core",
+                "text": "Transmission Beacon",
                 "color": "yellow",
                 "italic": false
               }
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"reservoir_core\"}}}]},CustomModelData:423023,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,reservoir_core:1b}}"
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"transmission_beacon\"}}}]},CustomModelData:423024,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,transmission_beacon:1b}}"
             }
           ]
         }

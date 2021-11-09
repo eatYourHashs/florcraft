@@ -1,4 +1,4 @@
-execute as @e[tag=flor.transmission_reciever,tag=flor.ready] if score @s flor.dummy = @e[tag=flor.transmission_beacon,limit=1,sort=nearest] flor.dummy run tag @s add flor.target
+execute as @e[tag=flor.transmission_receiver,tag=flor.ready] if score @s flor.dummy = @e[tag=flor.transmission_beacon,limit=1,sort=nearest] flor.dummy run tag @s add flor.target
 execute if entity @e[type=armor_stand,tag=flor.target] run tag @s add flor.transmissing
 execute store result score $temp.x flor.dummy run data get entity @s Pos[0]
 execute store result score $temp.y flor.dummy run data get entity @s Pos[1]

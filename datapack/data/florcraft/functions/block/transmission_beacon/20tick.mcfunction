@@ -4,6 +4,6 @@ execute if entity @s[tag=!flor.temp_valid,tag=flor.valid] run function florcraft
 tag @s remove flor.temp_valid
 scoreboard players add flor.dummy2 1
 
-execute if score @s flor.arid_ess matches 20.. if score @s flor.dummy2 matches 60.. if entity @e[type=armor_stand,tag=flor.transmission_reciever,tag=flor.ready] run function florcraft:block/transmission_beacon/transmit/arid
-execute if score @s flor.aqueous_ess matches 20.. if score @s flor.dummy2 matches 60.. if entity @e[type=armor_stand,tag=flor.transmission_reciever,tag=flor.ready] run function florcraft:block/transmission_beacon/transmit/aqueous
-execute if score @s flor.verdant_ess matches 20.. if score @s flor.dummy2 matches 60.. if entity @e[type=armor_stand,tag=flor.transmission_reciever,tag=flor.ready] run function florcraft:block/transmission_beacon/transmit/verdant
+execute if score @s flor.arid_ess matches 20.. if score @s flor.dummy2 matches 60.. if entity @e[type=armor_stand,tag=flor.transmission_receiver,tag=flor.ready] run function florcraft:block/transmission_beacon/transmit/arid
+execute if score @s flor.aqueous_ess matches 20.. if score @s flor.dummy2 matches 60.. if entity @e[type=armor_stand,tag=flor.transmission_receiver,tag=flor.ready] run function florcraft:block/transmission_beacon/transmit/aqueous
+execute if score @s flor.verdant_ess matches 20.. if score @s flor.dummy2 matches 60.. if entity @e[type=armor_stand,tag=flor.transmission_receiver,tag=flor.ready] run function florcraft:block/transmission_beacon/transmit/verdant
