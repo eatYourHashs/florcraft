@@ -60,6 +60,7 @@
     {"predicate": {"custom_model_data": 423056}, "model": "florcraft:block/infused_workbench"},
     {"predicate": {"custom_model_data": 423057}, "model": "florcraft:item/floramancers_wand"},
     {"predicate": {"custom_model_data": 423058}, "model": "florcraft:item/adept_floramancers_scepter"},
-    {"predicate": {"custom_model_data": 423059}, "model": "florcraft:item/master_floramancers_staff"}
+    {"predicate": {"custom_model_data": 423059}, "model": "florcraft:item/master_floramancers_staff"},
+    {"predicate": {"custom_model_data": 423060}, "model": "florcraft:item/transmission_beacon"}
   ]
 }

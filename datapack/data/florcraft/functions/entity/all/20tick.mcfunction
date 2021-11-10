@@ -16,3 +16,5 @@ execute if entity @s[type=wandering_trader,tag=flor.aqueous_guardian] run functi
 execute if entity @s[type=wandering_trader,tag=flor.verdant_guardian] run function florcraft:entity/verdant_guardian/20tick
 execute if entity @s[tag=flor.capacitor] run function florcraft:block/essence_capacitor/20tick
 execute if entity @s[tag=flor.reservoir_core] run function florcraft:block/reservoir_core/20tick
+execute if entity @s[tag=flor.transmission_beacon] run function florcraft:block/transmission_beacon/20tick
+execute if entity @s[tag=flor.transmission_receiver] run function florcraft:block/transmission_receiver/20tick

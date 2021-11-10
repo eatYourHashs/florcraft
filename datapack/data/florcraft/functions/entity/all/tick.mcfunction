@@ -37,3 +37,5 @@ execute if entity @s[tag=flor.capacitor] run function florcraft:block/essence_ca
 execute if entity @s[tag=flor.tempest_arrow] run function florcraft:item/thundering_tempest_bow/arrow_tick
 execute if entity @s[tag=flor.reservoir_core] run function florcraft:block/reservoir_core/tick
 execute if entity @s[tag=flor.range_circle] run function florcraft:entity/range_circle/tick
+execute if entity @s[tag=flor.transmission_beacon] run function florcraft:block/transmission_beacon/tick
+execute if entity @s[tag=flor.transmission_receiver] run function florcraft:block/transmission_receiver/tick

@@ -3,9 +3,9 @@ execute if entity @e[type=armor_stand,tag=flor.target] run tag @s add flor.trans
 execute store result score $temp.x flor.dummy run data get entity @s Pos[0]
 execute store result score $temp.y flor.dummy run data get entity @s Pos[1]
 execute store result score $temp.z flor.dummy run data get entity @s Pos[2]
-execute as @e[tag=flor.target,limit=1] store result score $temp.dx flor.dummy run data get entity @e[type=armor_stand,tag=flor.target] Pos[0]
-execute as @e[tag=flor.target,limit=1] store result score $temp.dy flor.dummy run data get entity @e[type=armor_stand,tag=flor.target] Pos[1]
-execute as @e[tag=flor.target,limit=1] store result score $temp.dz flor.dummy run data get entity @e[type=armor_stand,tag=flor.target] Pos[2]
+execute as @e[tag=flor.target,limit=1] store result score $temp.dx flor.dummy run data get entity @e[type=armor_stand,tag=flor.target,limit=1] Pos[0]
+execute as @e[tag=flor.target,limit=1] store result score $temp.dy flor.dummy run data get entity @e[type=armor_stand,tag=flor.target,limit=1] Pos[1]
+execute as @e[tag=flor.target,limit=1] store result score $temp.dz flor.dummy run data get entity @e[type=armor_stand,tag=flor.target,limit=1] Pos[2]
 scoreboard players operation $temp.x flor.dummy -= $temp.dx flor.dummy
 scoreboard players operation $temp.x flor.dummy *= $temp.x flor.dummy
 scoreboard players operation $temp.y flor.dummy -= $temp.dy flor.dummy
