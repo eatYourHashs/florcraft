@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Right click a flower or machine to apply.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Typically upgrades speed of a block.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Aqueous Upgrade Seal",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423081,flor_dat:{aqueous_cost:10b,arid_cost:0b,verdant_cost:0b,aqueous_upgrade_seal:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

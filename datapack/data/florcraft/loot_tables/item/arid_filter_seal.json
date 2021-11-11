@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Right click a flower or machine to apply.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Limits essence flow to Arid only.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Arid Filter Seal",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423077,flor_dat:{arid_cost:5b,aqueous_cost:0b,verdant_cost:0b,arid_filter_seal:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
