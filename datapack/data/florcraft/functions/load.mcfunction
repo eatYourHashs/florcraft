@@ -30,6 +30,11 @@ scoreboard objectives add flor.aqueous_cap dummy
 scoreboard objectives add flor.verdant_cap dummy
 scoreboard objectives add flor.erosion dummy
 scoreboard objectives add flor.stored_id dummy
+scoreboard objectives add flor.seals dummy
+scoreboard objectives add flor.seal_slots dummy
+scoreboard objectives add flor.arid_upg dummy
+scoreboard objectives add flor.aqueous_upg dummy
+scoreboard objectives add flor.verdant_upg dummy
 
 scoreboard objectives add flor.oak minecraft.mined:minecraft.oak_log
 scoreboard objectives add flor.birch minecraft.mined:minecraft.birch_log

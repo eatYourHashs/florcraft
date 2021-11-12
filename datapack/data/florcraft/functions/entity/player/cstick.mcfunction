@@ -20,3 +20,5 @@ execute if data storage flor:storage SelectedItem.tag.flor_dat{floramancers_wand
 execute if data storage flor:storage SelectedItem.tag.flor_dat{adept_floramancers_scepter:1b} run function florcraft:item/floramancers_wand/use_adept
 execute if data storage flor:storage SelectedItem.tag.flor_dat{master_floramancers_staff:1b} run function florcraft:item/floramancers_wand/use_master
 execute if data storage flor:storage SelectedItem.tag.flor_dat{erosion_scepter:1b} run function florcraft:item/erosion_scepter/use
+execute if data storage flor:storage SelectedItem.tag.flor_dat{seal:1b} run function florcraft:item/seal/generic_use
+execute if data storage flor:storage SelectedItem.tag.flor_dat{arcane_pliers:1b} run function florcraft:item/arcane_pliers/use

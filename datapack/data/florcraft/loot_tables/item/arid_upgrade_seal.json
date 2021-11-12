@@ -32,7 +32,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423080,flor_dat:{arid_cost:10b,aqueous_cost:0b,verdant_cost:0b,arid_upgrade_seal:1b}}"
+              "tag": "{CustomModelData:423080,flor_dat:{arid_cost:10b,aqueous_cost:0b,verdant_cost:0b,seal:1b,arid_upgrade_seal:1b}}"
             }
           ]
         }
