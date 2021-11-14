@@ -7,6 +7,24 @@ execute if score @s flor.dummy matches 3 run fill ~ ~ ~ ~ ~2 ~ air replace #mine
 execute if score @s flor.dummy matches 4 run fill ~ ~ ~ ~ ~3 ~ air replace #minecraft:oak_logs
 scoreboard players operation @s flor.lapis *= $cons.5 flor.dummy
 scoreboard players operation @s flor.redstone *= $cons.4 flor.dummy
+scoreboard players set $multi flor.dummy 4
+scoreboard players operation $multi flor.dummy += @s flor.arid_upg
+scoreboard players operation @s flor.coal *= $multi flor.dummy
+scoreboard players operation @s flor.coal /= $cons.4 flor.dummy
+scoreboard players operation @s flor.iron *= $multi flor.dummy
+scoreboard players operation @s flor.iron /= $cons.4 flor.dummy
+scoreboard players operation @s flor.gold *= $multi flor.dummy
+scoreboard players operation @s flor.gold /= $cons.4 flor.dummy
+scoreboard players operation @s flor.lapis *= $multi flor.dummy
+scoreboard players operation @s flor.lapis /= $cons.4 flor.dummy
+scoreboard players operation @s flor.copper *= $multi flor.dummy
+scoreboard players operation @s flor.copper /= $cons.4 flor.dummy
+scoreboard players operation @s flor.redstone *= $multi flor.dummy
+scoreboard players operation @s flor.redstone /= $cons.4 flor.dummy
+scoreboard players operation @s flor.diamond *= $multi flor.dummy
+scoreboard players operation @s flor.diamond /= $cons.4 flor.dummy
+scoreboard players operation @s flor.emerald *= $multi flor.dummy
+scoreboard players operation @s flor.emerald /= $cons.4 flor.dummy
 execute if score @s flor.coal matches 1.. run function florcraft:block/mineroot_sapling/spawn_coal
 execute if score @s flor.iron matches 1.. run function florcraft:block/mineroot_sapling/spawn_iron
 execute if score @s flor.gold matches 1.. run function florcraft:block/mineroot_sapling/spawn_gold

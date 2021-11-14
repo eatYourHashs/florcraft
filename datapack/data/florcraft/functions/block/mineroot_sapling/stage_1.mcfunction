@@ -177,3 +177,6 @@ setblock ~ ~ ~-1 oak_leaves keep
 setblock ~ ~1 ~ oak_leaves keep
 particle minecraft:happy_villager ~ ~0.5 ~ 0.3 0.3 0.3 1 20
 item replace entity @s container.0 with air
+execute if score @s flor.aqueous_upg matches 1 if predicate florcraft:random/one_third run function florcraft:block/mineroot_sapling/stage_2
+execute if score @s flor.aqueous_upg matches 2 if predicate florcraft:random/two_thirds run function florcraft:block/mineroot_sapling/stage_2
+execute if score @s flor.aqueous_upg matches 3.. run function florcraft:block/mineroot_sapling/stage_2
