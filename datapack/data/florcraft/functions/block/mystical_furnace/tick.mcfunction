@@ -9,7 +9,14 @@ execute if data block ~ ~ ~ Items[{Slot:1b}] unless data block ~ ~ ~ Items[{Slot
 execute if score @s flor.arid_ess matches 1.. run function florcraft:block/mystical_furnace/show_arid_essence
 execute if score @s flor.arid_ess matches 0 run data remove block ~ ~ ~ Items[{Slot:1b}]
 
-execute if data block ~ ~ ~ {BurnTime:2399s} run scoreboard players remove @s flor.arid_ess 1
+execute store result score $temp flor.dummy run data get block ~ ~ ~ BurnTime
+
+execute if score $temp flor.dummy matches 2399 run tag @s add flor.burning
+execute if score $temp flor.dummy matches 2399 run scoreboard players set @s flor.dummy 0
+execute if score $temp flor.dummy matches 2399 run scoreboard players remove @s flor.arid_ess 1
+execute if score $temp flor.dummy matches 0 run tag @s remove flor.burning
+
+execute if entity @s[tag=flor.burning] run scoreboard players add @s flor.dummy 1
 
 execute unless score @s flor.arid_ess matches 20.. run tag @s add flor.arid_acceptor
 execute if score @s flor.arid_ess matches 20.. run tag @s remove flor.arid_acceptor
