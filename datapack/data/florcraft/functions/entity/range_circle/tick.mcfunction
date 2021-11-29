@@ -13,3 +13,5 @@ execute if entity @s[tag=flor.range_circle_21] run particle firework ^ ^ ^21
 execute if entity @s[tag=flor.range_circle_21] run particle firework ^ ^ ^-21
 execute if entity @s[tag=flor.range_circle_24] run particle firework ^ ^ ^24
 execute if entity @s[tag=flor.range_circle_24] run particle firework ^ ^ ^-24
+execute if entity @s[tag=flor.range_circle_27] run particle firework ^ ^ ^27
+execute if entity @s[tag=flor.range_circle_27] run particle firework ^ ^ ^-27

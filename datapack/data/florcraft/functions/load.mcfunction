@@ -79,6 +79,10 @@ scoreboard players set $cons.2 flor.dummy 2
 scoreboard players set $cons.3 flor.dummy 3
 scoreboard players set $cons.4 flor.dummy 4
 scoreboard players set $cons.5 flor.dummy 5
+scoreboard players set $cons.6 flor.dummy 6
+scoreboard players set $cons.7 flor.dummy 7
+scoreboard players set $cons.8 flor.dummy 8
+scoreboard players set $cons.9 flor.dummy 9
 scoreboard players set $cons.10 flor.dummy 10
 scoreboard players set $cons.11 flor.dummy 11
 scoreboard players set $cons.13 flor.dummy 13
