@@ -19,7 +19,11 @@ scoreboard players operation #input flor.dummy += $temp.y flor.dummy
 scoreboard players operation #input flor.dummy += $temp.z flor.dummy
 scoreboard players set #output flor.dummy 0
 execute if entity @s[tag=flor.transmissing] run function florcraft:utils/sqrt/main
-scoreboard players operation #output flor.dummy /= $cons.50 flor.dummy
+execute unless score @s flor.verdant_upg matches 1.. run scoreboard players operation #output flor.dummy /= $cons.50 flor.dummy
+execute if score @s flor.verdant_upg matches 1 run scoreboard players operation #output flor.dummy /= $cons.65 flor.dummy
+execute if score @s flor.verdant_upg matches 2 run scoreboard players operation #output flor.dummy /= $cons.80 flor.dummy
+execute if score @s flor.verdant_upg matches 3 run scoreboard players operation #output flor.dummy /= $cons.95 flor.dummy
+execute if score @s flor.verdant_upg matches 4 run scoreboard players operation #output flor.dummy /= $cons.110 flor.dummy
 scoreboard players operation #output flor.dummy -= @s flor.arid_cap
 execute if score #output flor.dummy matches ..-1 run scoreboard players set #output flor.dummy 0
 execute if score #output flor.dummy matches 20.. run scoreboard players set #output flor.dummy 19
@@ -30,7 +34,11 @@ execute if entity @s[tag=flor.transmissing] at @e[tag=flor.target] run particle 
 execute if entity @s[tag=flor.transmissing] run playsound minecraft:block.beacon.activate block @a ~ ~ ~ 1 1.25
 execute if entity @s[tag=flor.transmissing] run particle dust 1 0.569 0.22 1 ~ ~5 ~ 0.1 2 0.1 0 200
 execute if entity @s[tag=flor.transmissing] run scoreboard players set @s flor.arid_ess 0
-execute if entity @s[tag=flor.transmissing] run scoreboard players set @s flor.dummy2 0
+execute if entity @s[tag=flor.transmissing] unless score @s flor.aqueous_upg matches 1.. run scoreboard players set @s flor.dummy2 0
+execute if entity @s[tag=flor.transmissing] if score @s flor.aqueous_upg matches 1 run scoreboard players set @s flor.dummy2 10
+execute if entity @s[tag=flor.transmissing] if score @s flor.aqueous_upg matches 2 run scoreboard players set @s flor.dummy2 20
+execute if entity @s[tag=flor.transmissing] if score @s flor.aqueous_upg matches 3 run scoreboard players set @s flor.dummy2 30
+execute if entity @s[tag=flor.transmissing] if score @s flor.aqueous_upg matches 4 run scoreboard players set @s flor.dummy2 40
 tag @s remove flor.transmissing
 tag @e[tag=flor.true_target] remove flor.true_target
 tag @e[tag=flor.target] remove flor.target
