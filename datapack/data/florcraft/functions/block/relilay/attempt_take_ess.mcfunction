@@ -1,8 +1,8 @@
-execute unless score @s flor.verdant_upg matches 1.. run tag @e[type=armor_stand,distance=..15,tag=flor.connects_to_lily] add flor.in_range
-execute if score @s flor.verdant_upg matches 1 run tag @e[type=armor_stand,distance=..18,tag=flor.connects_to_lily] add flor.in_range
-execute if score @s flor.verdant_upg matches 2 run tag @e[type=armor_stand,distance=..21,tag=flor.connects_to_lily] add flor.in_range
-execute if score @s flor.verdant_upg matches 3 run tag @e[type=armor_stand,distance=..24,tag=flor.connects_to_lily] add flor.in_range
-execute if score @s flor.verdant_upg matches 4 run tag @e[type=armor_stand,distance=..27,tag=flor.connects_to_lily] add flor.in_range
+execute unless score @s flor.verdant_upg matches 1.. run tag @e[type=item_frame,distance=..15,tag=flor.connects_to_lily] add flor.in_range
+execute if score @s flor.verdant_upg matches 1 run tag @e[type=item_frame,distance=..18,tag=flor.connects_to_lily] add flor.in_range
+execute if score @s flor.verdant_upg matches 2 run tag @e[type=item_frame,distance=..21,tag=flor.connects_to_lily] add flor.in_range
+execute if score @s flor.verdant_upg matches 3 run tag @e[type=item_frame,distance=..24,tag=flor.connects_to_lily] add flor.in_range
+execute if score @s flor.verdant_upg matches 4 run tag @e[type=item_frame,distance=..27,tag=flor.connects_to_lily] add flor.in_range
 execute if entity @s[tag=!flor.arid_filter,tag=!flor.aqueous_filter,tag=!flor.verdant_filter] run tag @e[distance=0.1..15,tag=flor.in_range,sort=nearest,limit=1] add flor.ess
 execute if entity @s[tag=flor.arid_filter] run tag @e[distance=0.1..,tag=flor.in_range,tag=flor.arid_filter,sort=nearest,limit=1] add flor.ess
 execute if entity @s[tag=flor.aqueous_filter] run tag @e[distance=0.1..,tag=flor.in_range,tag=flor.aqueous_filter,sort=nearest,limit=1] add flor.ess

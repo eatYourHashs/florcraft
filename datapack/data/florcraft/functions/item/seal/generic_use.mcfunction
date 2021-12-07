@@ -7,3 +7,4 @@ execute positioned ~ ~1.8 ~ run function florcraft:item/seal/use_cast
 tag @s remove flor.filter
 tag @s remove flor.fail
 tag @s remove flor.user
+tag @e[tag=flor.sealing] remove flor.sealing
