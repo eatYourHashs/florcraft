@@ -8,4 +8,8 @@ execute if data storage flor:storage SelectedItem.tag.flor_dat{verdant_upgrade_s
 execute if entity @s[tag=flor.arid_filter] run tag @s add flor.filtered
 execute if entity @s[tag=flor.aqueous_filter] run tag @s add flor.filtered
 execute if entity @s[tag=flor.verdant_filter] run tag @s add flor.filtered
+execute if data storage flor:storage SelectedItem.tag.flor_dat{arid_upgrade_seal:1b} if entity @s[tag=flor.capacitor] run scoreboard players add @s flor.arid_cap 10
+execute if data storage flor:storage SelectedItem.tag.flor_dat{aqueous_upgrade_seal:1b} if entity @s[tag=flor.capacitor] run scoreboard players add @s flor.arid_cap 10
+execute if data storage flor:storage SelectedItem.tag.flor_dat{verdant_upgrade_seal:1b} if entity @s[tag=flor.capacitor] run scoreboard players add @s flor.arid_cap 10
+execute if entity @s[tag=flor.reservoir_core] run function florcraft:block/reservoir_core/20tick
 playsound minecraft:block.anvil.use player @a ~ ~ ~ 1 2
