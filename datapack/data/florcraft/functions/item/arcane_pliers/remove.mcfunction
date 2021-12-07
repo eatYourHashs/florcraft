@@ -14,4 +14,4 @@ execute if score @s flor.verdant_upg matches 1.. run function florcraft:item/arc
 execute if score @s flor.verdant_upg matches 1.. run function florcraft:item/arcane_pliers/remove_verdant_upg
 execute if score @s flor.verdant_upg matches 1.. run function florcraft:item/arcane_pliers/remove_verdant_upg
 execute if score @s flor.verdant_upg matches 1.. run function florcraft:item/arcane_pliers/remove_verdant_upg
-playsound minecraft:block.anvil.use player @a ~ ~ ~ 1 2
+playsound minecraft:ui.stonecutter.take_result player @a ~ ~ ~ 1 1
