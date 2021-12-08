@@ -6,7 +6,7 @@ execute if score $temp flor.dummy matches 8.. run scoreboard players remove @s[d
 execute if score $temp flor.dummy matches 8.. run data modify block ~ ~ ~ Items append value {Slot:8b,id:"minecraft:structure_block",Count:1b,tag:{display:{Name:'{"text":"Next","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423002,flor_dat:{next_button:1b,cleared:1b}}}
 execute if score $temp flor.dummy matches 8.. run scoreboard players remove $temp flor.dummy 8
 execute store result storage flor:temp Items[{Slot:10b}].Count byte 1 run scoreboard players get $temp flor.dummy
-execute at @s[distance=..12] run summon item ~ ~ ~ {Item:{id:"minecraft:stone",Count:1b},Tags:[flor.new_drop]}
+execute at @s[distance=..12] if score $temp flor.dummy matches 1.. run summon item ~ ~ ~ {Item:{id:"minecraft:stone",Count:1b},Tags:[flor.new_drop]}
 data modify entity @e[type=item,tag=flor.new_drop,limit=1] Item set from storage flor:temp Items[{Slot:10b}]
 tag @e[type=item] remove flor.new_drop
 data remove block ~ ~ ~ Items[{Slot:10b}]
