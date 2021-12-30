@@ -64,6 +64,7 @@
     {"predicate": {"custom_model_data": 423060}, "model": "florcraft:block/transmission_beacon"},
     {"predicate": {"custom_model_data": 423061}, "model": "florcraft:item/arid_filter_seal"},
     {"predicate": {"custom_model_data": 423062}, "model": "florcraft:item/arid_upgrade_seal"},
-    {"predicate": {"custom_model_data": 423063}, "model": "florcraft:item/arcane_pliers"}
+    {"predicate": {"custom_model_data": 423063}, "model": "florcraft:item/arcane_pliers"},
+    {"predicate": {"custom_model_data": 423064}, "model": "florcraft:item/arcane_pliers"}
   ]
 }

@@ -27,5 +27,8 @@
       "custom_model_data": 423062
     },
     "model": "florcraft:item/verdant_mastery_circlet"
-  }]
+  },
+  {"predicate": {"custom_model_data": 423064}, "model": "florcraft:item/arid_exobiotic_helmet"},
+  {"predicate": {"custom_model_data": 423065}, "model": "florcraft:item/aqueous_exobiotic_helmet"},
+  {"predicate": {"custom_model_data": 423066}, "model": "florcraft:item/verdant_exobiotic_helmet"}]
 }

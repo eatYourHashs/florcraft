@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Imbued with Arid Essence",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "",
+                  "amount": 3,
+                  "operation": "addition",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Exobiotic Helmet",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:4079175},HideFlags:64,CustomModelData:423064,Unbreakable:1b,flor_dat:{arid_cost:15b,aqueous_cost:10b,verdant_cost:10b,exobiotic_helmet:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
