@@ -4,10 +4,10 @@ execute store result score $temp.ess flor.dummy run data get storage flor:storag
 execute store result score $temp.dmg flor.dummy run data get storage flor:storage root.temp.item.tag.flor_dat.dmg
 execute store result score $temp.fill flor.dummy run data get storage flor:storage root.temp.item.tag.flor_dat.fill
 
-execute if score $temp.fill matches 1.. run tag @s add flor.item_changed
-execute if entity @s[tag=flor.item_changed] run scoreboard players add $temp.dmg 1
-execute if entity @s[tag=flor.item_changed] if score $temp.dmg matches 25.. run function florcraft:item/exobiotic/generic/lose_ess
-execute if entity @s[tag=flor.item_changed] if score $temp.fill matches ..0 run function florcraft:item/exobiotic/chestplate/deactivate
+execute if score $temp.fill flor.dummy matches 1.. run tag @s add flor.item_changed
+execute if entity @s[tag=flor.item_changed] run scoreboard players add $temp.dmg flor.dummy 1
+execute if entity @s[tag=flor.item_changed] if score $temp.dmg flor.dummy matches 25.. run function florcraft:item/exobiotic/generic/lose_ess
+execute if entity @s[tag=flor.item_changed] if score $temp.fill flor.dummy matches ..0 run function florcraft:item/exobiotic/chestplate/deactivate
 
 #powers
 execute if score $temp.ess flor.dummy matches 1 if score $temp.fill flor.dummy matches 1.. run function florcraft:
