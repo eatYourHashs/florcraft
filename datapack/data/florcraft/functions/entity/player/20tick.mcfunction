@@ -21,3 +21,6 @@ execute if predicate florcraft:dispoppy/accepts_arid_reinforced_vessel run tag @
 execute if predicate florcraft:dispoppy/accepts_aqueous_reinforced_vessel run tag @s add flor.aqueous_acceptor
 execute if predicate florcraft:dispoppy/accepts_verdant_reinforced_vessel run tag @s add flor.verdant_acceptor
 execute if data entity @s Inventory[{Slot:103b}].tag.flor_dat.exobiotic_helmet run function florcraft:item/exobiotic/helmet/20tick
+execute if data entity @s Inventory[{Slot:102b}].tag.flor_dat.exobiotic_chestplate run function florcraft:item/exobiotic/chestplate/20tick
+execute if data entity @s Inventory[{Slot:101b}].tag.flor_dat.exobiotic_leggings run function florcraft:item/exobiotic/leggings/20tick
+execute if data entity @s Inventory[{Slot:100b}].tag.flor_dat.exobiotic_boots run function florcraft:item/exobiotic/boots/20tick

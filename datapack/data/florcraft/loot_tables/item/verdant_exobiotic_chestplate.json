@@ -46,7 +46,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{color:4079177},HideFlags:64,CustomModelData:423066,Unbreakable:1b,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:15b,exobiotic_chestplate:3b}}"
+              "tag": "{display:{color:4079177},HideFlags:64,CustomModelData:423066,Unbreakable:1b,flor_dat:{fill:5b,arid_cost:10b,aqueous_cost:10b,verdant_cost:15b,exobiotic_chestplate:3b}}"
             }
           ]
         }

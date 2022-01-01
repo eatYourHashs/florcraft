@@ -25,5 +25,11 @@ scoreboard players set @s flor.fly 0
 scoreboard players set @s flor.elytra 0
 scoreboard players set @s flor.swim 0
 scoreboard players set @s flor.water_walk 0
+scoreboard players set @s flor.wood_pick 0
+scoreboard players set @s flor.stone_pick 0
+scoreboard players set @s flor.iron_pick 0
+scoreboard players set @s flor.gold_pick 0
+scoreboard players set @s flor.dia_pick 0
+scoreboard players set @s flor.neth_pick 0
 scoreboard players add @s flor.since_gui 1
 data remove storage flor:storage SelectedItem

@@ -14,6 +14,13 @@ execute if score @s flor.deal_damage matches 1.. run function florcraft:entity/p
 
 execute if score @s flor.shoot_bow matches 1.. run function florcraft:entity/player/shoot_bow
 
+execute if score @s flor.wood_pick matches 1.. run function florcraft:entity/player/mine
+execute if score @s flor.stone_pick matches 1.. run function florcraft:entity/player/mine
+execute if score @s flor.iron_pick matches 1.. run function florcraft:entity/player/mine
+execute if score @s flor.gold_pick matches 1.. run function florcraft:entity/player/mine
+execute if score @s flor.dia_pick matches 1.. run function florcraft:entity/player/mine
+execute if score @s flor.neth_pick matches 1.. run function florcraft:entity/player/mine
+
 # If the player is holding a fire axe
 execute if predicate florcraft:item/holding_elem_axe run function florcraft:item/burning_fire_axe/pick_cast
 

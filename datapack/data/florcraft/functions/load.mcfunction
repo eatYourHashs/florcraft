@@ -35,6 +35,11 @@ scoreboard objectives add flor.seal_slots dummy
 scoreboard objectives add flor.arid_upg dummy
 scoreboard objectives add flor.aqueous_upg dummy
 scoreboard objectives add flor.verdant_upg dummy
+scoreboard objectives add flor.exo_helmet_cd dummy
+scoreboard objectives add flor.exo_chestplate_cd dummy
+scoreboard objectives add flor.exo_leggings_cd dummy
+scoreboard objectives add flor.exo_boots_cd dummy
+scoreboard objectives add flor.food food
 
 scoreboard objectives add flor.oak minecraft.mined:minecraft.oak_log
 scoreboard objectives add flor.birch minecraft.mined:minecraft.birch_log
@@ -61,6 +66,13 @@ scoreboard objectives add flor.ddiamond minecraft.mined:minecraft.deepslate_diam
 scoreboard objectives add flor.dredstone minecraft.mined:minecraft.deepslate_redstone_ore
 scoreboard objectives add flor.diron minecraft.mined:minecraft.deepslate_iron_ore
 scoreboard objectives add flor.demerald minecraft.mined:minecraft.deepslate_emerald_ore
+
+scoreboard objectives add flor.wood_pick minecraft.used:minecraft.wooden_pickaxe
+scoreboard objectives add flor.stone_pick minecraft.used:minecraft.stone_pickaxe
+scoreboard objectives add flor.iron_pick minecraft.used:minecraft.iron_pickaxe
+scoreboard objectives add flor.gold_pick minecraft.used:minecraft.golden_pickaxe
+scoreboard objectives add flor.dia_pick minecraft.used:minecraft.diamond_pickaxe
+scoreboard objectives add flor.neth_pick minecraft.used:minecraft.netherite_pickaxe
 
 forceload add -30000000 24576
 setblock -30000000 0 24576 yellow_shulker_box
