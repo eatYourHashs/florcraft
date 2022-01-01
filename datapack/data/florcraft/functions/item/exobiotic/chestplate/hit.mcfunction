@@ -10,7 +10,9 @@ execute if entity @s[tag=flor.item_changed] if score $temp.dmg flor.dummy matche
 execute if entity @s[tag=flor.item_changed] if score $temp.fill flor.dummy matches ..0 run function florcraft:item/exobiotic/chestplate/deactivate
 
 #powers
-execute if score $temp.ess flor.dummy matches 1 if score $temp.fill flor.dummy matches 1.. run function florcraft:
+execute unless score @s flor.exo_chestplate_cd matches 1.. if score $temp.ess flor.dummy matches 1 if score $temp.fill flor.dummy matches 1.. run function florcraft:item/exobiotic/chestplate/wrath
+execute unless score @s flor.exo_chestplate_cd matches 1.. if score $temp.ess flor.dummy matches 2 if score $temp.fill flor.dummy matches 1.. run function florcraft:item/exobiotic/chestplate/chill
+execute if score $temp.ess flor.dummy matches 3 if score $temp.fill flor.dummy matches 1.. run scoreboard players set @s flor.exo_chestplate_cd 11
 
 #updating the item
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:storage root.temp.item.tag.flor_dat.fill set value 0b
