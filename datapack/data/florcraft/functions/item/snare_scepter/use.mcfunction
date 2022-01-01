@@ -10,4 +10,5 @@ execute if score $out flor.verdant_ess matches 2.. store result score @e[sort=ne
 execute if score $out flor.verdant_ess matches 2.. store result score @e[sort=nearest,limit=1,tag=flor.snare_scepter] flor.uuid3 run data get entity @s UUID[2]
 execute if score $out flor.verdant_ess matches 2.. store result score @e[sort=nearest,limit=1,tag=flor.snare_scepter] flor.uuid4 run data get entity @s UUID[3]
 execute if score $out flor.verdant_ess matches 2.. if entity @s[predicate=florcraft:item/druidic_lauret] run tag @e[sort=nearest,limit=1,tag=flor.snare_scepter] add flor.buffed_magic_25
+execute if score $out flor.verdant_ess matches 2.. if entity @s[predicate=florcraft:item/verdant_exobiotic_helmet] run tag @e[sort=nearest,limit=1,tag=flor.snare_scepter] add flor.buffed_magic_40
 execute if score $out flor.verdant_ess matches 2.. if entity @s[predicate=florcraft:item/verdant_mastery_circlet] run tag @e[sort=nearest,limit=1,tag=flor.snare_scepter] add flor.buffed_magic_50

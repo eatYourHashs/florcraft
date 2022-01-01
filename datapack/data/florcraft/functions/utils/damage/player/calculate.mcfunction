@@ -15,5 +15,6 @@ execute if data entity @s ActiveEffects[{Id:11b}] run function florcraft:utils/d
 function florcraft:utils/damage/player/operations/magic_resistance
 function florcraft:utils/damage/player/calculate_attributes
 function florcraft:utils/damage/player/apply_damage
+function florcraft:entity/player/armor_damage
 
 #removal of death message tags goes here

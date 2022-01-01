@@ -8,3 +8,6 @@ execute if entity @s[predicate=florcraft:item/druidic_lauret] run tag @e[sort=ne
 execute if entity @s[predicate=florcraft:item/arid_mastery_circlet] as @e[sort=nearest,limit=1,tag=flor.spirit_orb] if entity @s[tag=flor.arid_orb] run tag @s add flor.buffed_magic_50
 execute if entity @s[predicate=florcraft:item/aqueous_mastery_circlet] as @e[sort=nearest,limit=1,tag=flor.spirit_orb] if entity @s[tag=flor.aqueous_orb] run tag @s add flor.buffed_magic_50
 execute if entity @s[predicate=florcraft:item/verdant_mastery_circlet] as @e[sort=nearest,limit=1,tag=flor.spirit_orb] if entity @s[tag=flor.verdant_orb] run tag @s add flor.buffed_magic_50
+execute if entity @s[predicate=florcraft:item/arid_exobiotic_helmet] as @e[sort=nearest,limit=1,tag=flor.spirit_orb] if entity @s[tag=flor.arid_orb] run tag @s add flor.buffed_magic_40
+execute if entity @s[predicate=florcraft:item/aqueous_exobiotic_helmet] as @e[sort=nearest,limit=1,tag=flor.spirit_orb] if entity @s[tag=flor.aqueous_orb] run tag @s add flor.buffed_magic_40
+execute if entity @s[predicate=florcraft:item/verdant_exobiotic_helmet] as @e[sort=nearest,limit=1,tag=flor.spirit_orb] if entity @s[tag=flor.verdant_orb] run tag @s add flor.buffed_magic_40
