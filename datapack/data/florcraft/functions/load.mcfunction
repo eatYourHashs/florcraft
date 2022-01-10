@@ -37,9 +37,11 @@ scoreboard objectives add flor.aqueous_upg dummy
 scoreboard objectives add flor.verdant_upg dummy
 scoreboard objectives add flor.exo_helmet_cd dummy
 scoreboard objectives add flor.exo_chestplate_cd dummy
+scoreboard objectives add flor.exo_leggings_count dummy
 scoreboard objectives add flor.exo_leggings_cd dummy
 scoreboard objectives add flor.exo_boots_cd dummy
 scoreboard objectives add flor.food food
+scoreboard objectives add flor.last_tick_sprint dummy
 
 scoreboard objectives add flor.oak minecraft.mined:minecraft.oak_log
 scoreboard objectives add flor.birch minecraft.mined:minecraft.birch_log

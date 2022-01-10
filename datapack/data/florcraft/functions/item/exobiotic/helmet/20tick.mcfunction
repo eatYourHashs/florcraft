@@ -8,6 +8,7 @@ execute unless score $temp.fill flor.dummy matches 5.. run function florcraft:it
 execute if score $temp.fill flor.dummy matches 1.. if score @s flor.exo_helmet_cd matches 1.. run scoreboard players remove @s flor.exo_helmet_cd 1
 execute if score $temp.fill flor.dummy matches 1.. unless score @s flor.exo_helmet_cd matches 1.. if score $temp.ess flor.dummy matches 1 run function florcraft:item/exobiotic/helmet/glow
 execute if score $temp.fill flor.dummy matches 1.. unless score @s flor.exo_helmet_cd matches 1.. if score @s flor.food matches ..10 if score $temp.ess flor.dummy matches 3 run function florcraft:item/exobiotic/helmet/feed
+execute if score $temp.fill flor.dummy matches 1.. if score $temp.ess flor.dummy matches 2 run effect give @s water_breathing 2 0 true
 
 #updating the item
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:storage root.temp.item.tag.flor_dat.fill set value 0b

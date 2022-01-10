@@ -12,6 +12,8 @@ execute if score @s flor.res_damage matches 1.. run function florcraft:entity/pl
 
 execute if score @s flor.deal_damage matches 1.. run function florcraft:entity/player/deal_damage
 
+execute if score @s flor.take_damage matches 1.. run function florcraft:entity/player/take_damage
+
 execute if score @s flor.shoot_bow matches 1.. run function florcraft:entity/player/shoot_bow
 
 execute if score @s flor.wood_pick matches 1.. run function florcraft:entity/player/mine
@@ -21,6 +23,8 @@ execute if score @s flor.gold_pick matches 1.. run function florcraft:entity/pla
 execute if score @s flor.dia_pick matches 1.. run function florcraft:entity/player/mine
 execute if score @s flor.neth_pick matches 1.. run function florcraft:entity/player/mine
 
+execute if predicate florcraft:item/verdant_exobiotic_chestplate unless data entity @s Inventory[{Slot:102b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/chestplate/clear_dot
+
 # If the player is holding a fire axe
 execute if predicate florcraft:item/holding_elem_axe run function florcraft:item/burning_fire_axe/pick_cast
 
@@ -29,6 +33,16 @@ scoreboard players set $cast.temp flor.dummy 0
 execute if predicate florcraft:item/holding_elem_pickaxe run function florcraft:item/raging_river_pickaxe/pick_cast
 
 execute if score @s flor.erosion matches 1.. run function florcraft:item/erosion_scepter/fire
+
+execute if score @s flor.last_tick_sprint matches 1.. if score @s flor.jump matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].tag.flor_dat{fill:0b} unless score @s flor.exo_leggings_count matches 1.. unless score @s flor.exo_leggings_cd matches 1.. run function florcraft:item/exobiotic/leggings/start_dash
+execute if score @s flor.exo_leggings_count matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/dash_tick
+
+execute if predicate florcraft:item/arid_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/fire_sprint_tick
+execute unless entity @s[tag=flor.arid_leggings] run function florcraft:item/exobiotic/leggings/fire_sprint_reset
+tag @s remove flor.arid_leggings
+
+execute if score @s flor.sprint matches 1.. run scoreboard players set @s flor.last_tick_sprint 1
+execute unless score @s flor.sprint matches 1.. run scoreboard players set @s flor.last_tick_sprint 0
 
 execute unless score @s flor.since_gui matches 3.. run function florcraft:entity/player/tick/reset_guis
 

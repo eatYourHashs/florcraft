@@ -5,7 +5,7 @@ execute store result score $temp.fill flor.dummy run data get storage flor:stora
 execute unless score $temp.fill flor.dummy matches 5.. run function florcraft:item/exobiotic/generic/attempt_fill
 
 #powers
-
+execute unless predicate florcraft:item/arid_exobiotic_leggings if score $temp.fill flor.dummy matches 1.. if score @s flor.exo_leggings_cd matches 1.. run scoreboard players remove @s flor.exo_leggings_cd 1
 
 #updating the item
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:storage root.temp.item.tag.flor_dat.fill set value 0b
