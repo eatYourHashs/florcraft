@@ -34,7 +34,7 @@ execute if predicate florcraft:item/holding_elem_pickaxe run function florcraft:
 
 execute if score @s flor.erosion matches 1.. run function florcraft:item/erosion_scepter/fire
 
-execute if score @s flor.last_tick_sprint matches 1.. if score @s flor.jump matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].tag.flor_dat{fill:0b} unless score @s flor.exo_leggings_count matches 1.. unless score @s flor.exo_leggings_cd matches 1.. run function florcraft:item/exobiotic/leggings/start_dash
+execute if score @s flor.last_tick_sprint matches 1.. if score @s flor.sneak matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].tag.flor_dat{fill:0b} unless score @s flor.exo_leggings_count matches 1.. unless score @s flor.exo_leggings_cd matches 1.. run function florcraft:item/exobiotic/leggings/start_dash
 execute if score @s flor.exo_leggings_count matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/dash_tick
 
 execute if predicate florcraft:item/arid_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/fire_sprint_tick
