@@ -45,10 +45,8 @@ execute if block ~ ~-0.01 ~ #florcraft:air unless entity @s[tag=flor.not_on_soli
 execute if block ~ ~-0.01 ~ #florcraft:air run tag @s add flor.not_on_solid_ground
 execute unless block ~ ~-0.01 ~ #florcraft:air run tag @s remove flor.not_on_solid_ground
 
-execute if score @s flor.jump matches 1.. if score @s flor.sneak matches 1.. if predicate florcraft:item/arid_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/blast_off
-execute if score @s flor.exo_boots_cd matches 1 if predicate florcraft:item/arid_exobiotic_boots run effect clear @s levitation
-execute if score @s flor.exo_boots_cd matches -5.. if predicate florcraft:item/arid_exobiotic_boots run particle flame ~ ~ ~ 0.2 0 0.2 0.05 7
-execute if predicate florcraft:item/arid_exobiotic_boots run scoreboard players remove @s flor.exo_boots_cd 1
+execute if predicate florcraft:item/arid_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/arid_tick
+execute if predicate florcraft:item/aqueous_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/aqueous_tick
 
 execute if score @s flor.sprint matches 1.. run scoreboard players set @s flor.last_tick_sprint 1
 execute unless score @s flor.sprint matches 1.. run scoreboard players set @s flor.last_tick_sprint 0

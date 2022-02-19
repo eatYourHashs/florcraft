@@ -40,6 +40,7 @@ scoreboard objectives add flor.exo_chestplate_cd dummy
 scoreboard objectives add flor.exo_leggings_count dummy
 scoreboard objectives add flor.exo_leggings_cd dummy
 scoreboard objectives add flor.exo_boots_cd dummy
+scoreboard objectives add flor.exo_boots_chg dummy
 scoreboard objectives add flor.food food
 scoreboard objectives add flor.last_tick_sprint dummy
 
