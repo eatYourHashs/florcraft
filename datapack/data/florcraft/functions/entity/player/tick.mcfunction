@@ -47,6 +47,7 @@ execute unless block ~ ~-0.01 ~ #florcraft:air run tag @s remove flor.not_on_sol
 
 execute if predicate florcraft:item/arid_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/arid_tick
 execute if predicate florcraft:item/aqueous_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/aqueous_tick
+execute if predicate florcraft:item/verdant_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].tag.flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/verdant_tick
 
 execute if score @s flor.sprint matches 1.. run scoreboard players set @s flor.last_tick_sprint 1
 execute unless score @s flor.sprint matches 1.. run scoreboard players set @s flor.last_tick_sprint 0
