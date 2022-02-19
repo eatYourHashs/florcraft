@@ -33,6 +33,13 @@
                   "amount": 6,
                   "operation": "addition",
                   "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "",
+                  "amount": 0.2,
+                  "operation": "multiply_base",
+                  "slot": "legs"
                 }
               ]
             },

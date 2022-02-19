@@ -25,14 +25,21 @@
                   "name": "",
                   "amount": 1,
                   "operation": "addition",
-                  "slot": "head"
+                  "slot": "legs"
                 },
                 {
                   "attribute": "minecraft:generic.armor",
                   "name": "",
                   "amount": 6,
                   "operation": "addition",
-                  "slot": "head"
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "",
+                  "amount": 0.2,
+                  "operation": "multiply_base",
+                  "slot": "legs"
                 }
               ]
             },
