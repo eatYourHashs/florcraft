@@ -1,0 +1,19 @@
+{
+  "parent": "florcraft:crosscontent/root",
+  "rewards": {
+    "function": "florcraft:crosscontent/siteplanner/init_pylon_station"
+  },
+  "criteria": {
+    "open_dropper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:dropper",
+			      "nbt":"{Items:[{Slot:0b,id:\"minecraft:stone\",Count:4b},{Slot:1b,id:\"minecraft:dropper\",Count:1b,tag:{flor_dat:{pylon:1b}}},{Slot:2b,id:\"minecraft:stone\",Count:4b},{Slot:3b,id:\"minecraft:oak_log\",Count:4b},{Slot:4b,id:\"minecraft:paper\",Count:1b,tag:{HideFlags:1,display:{Lore:['{\"text\":\"The final ingredient\"}','{\"text\":\"in new town structures.\"}'],Name:'{\"text\":\"Building Permit\"}'},Enchantments:[{lvl:0,id:\"minecraft:protection\"}]}},{Slot:5b,id:\"minecraft:oak_log\",Count:4b},{Slot:6b,id:\"minecraft:stone\",Count:4b},{Slot:7b,id:\"minecraft:oak_log\",Count:4b},{Slot:8b,id:\"minecraft:stone\",Count:4b}]}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Glimpses of the essences of the wild",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "reveal themselves to you as you hold it.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Nature's Oculus",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"natures_oculus\"}}}]},CustomModelData:423000,flor_dat:{arid_cost:1b,aqueous_cost:1b,verdant_cost:1b,natures_oculus:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

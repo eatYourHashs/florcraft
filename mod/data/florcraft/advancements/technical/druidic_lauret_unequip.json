@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "pick_up_lauret": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"flor.ignore_lauret\"]}"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{flor_dat:{druidic_lauret:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "florcraft:item/druidic_lauret/schedule_unequip"
+  }
+}

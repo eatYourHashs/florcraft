@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Imbued with Verdant Essence",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "",
+                  "amount": 3,
+                  "operation": "addition",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Exobiotic Helmet",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:4079177},HideFlags:64,CustomModelData:423066,Unbreakable:1b,flor_dat:{fill:5b,verdant_cost:20b,exobiotic_helmet:3b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

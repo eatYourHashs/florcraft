@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Fortunate Seeker Shovel",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Normal drops of dirt and sand are replaced by occasional treasure.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423000,flor_dat:{verdant_cost:15b,fortunate_seeker_shovel:1b,ess_repair:3b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:stone_shore"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:mountain_edge"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:modified_gravelly_mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:modified_gravelly_mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:swamp_hills"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:swamp"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:snowy_mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:snowy_beach"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:beach"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:snowy_tundra"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:cold_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:river"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:frozen_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:deep_cold_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:deep_frozen_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:deep_lukewarm_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:deep_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:deep_warm_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:frozen_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:lukewarm_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:warm_ocean"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:ice_spikes"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:swamp"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:swamp_hills"
+      }
+    },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:dark_ocean" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:dark_swamp" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:ice_marsh" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:sakura_grove" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:tropical_archipelago" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:red_beach" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:yosemite_cliffs" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:gravel_beach" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:scarlet_mountains" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:scarlet_heights" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:scarlet_tundra" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:cold_shrubland" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:salty_shores" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:black_beach" } },
+	
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:zreserved/1/warm_river" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:zreserved/116/orchid_swamp" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:zreserved/109/highland_oasis" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:zreserved/108/desert_dunes" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:zreserved/107/highland_desert" } },
+    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:zreserved/106/midland_desert" } }
+  ]
+}

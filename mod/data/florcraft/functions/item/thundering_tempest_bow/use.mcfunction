@@ -1,0 +1,1 @@
+execute as @e[type=arrow,tag=!global.ignore,limit=1,sort=nearest] run function florcraft:item/thundering_tempest_bow/proc

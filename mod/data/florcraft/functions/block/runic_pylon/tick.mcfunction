@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ oak_wood unless block ~ ~ ~ stripped_oak_wood run function florcraft:block/runic_pylon/break

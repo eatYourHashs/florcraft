@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Right click a block to show information.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Shift right click a block to show info",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "on similar blocks in a large nearby area.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Adept Floramancer's Scepter",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423074,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,adept_floramancers_scepter:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

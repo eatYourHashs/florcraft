@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "florcraft:item/reinforced_vessel_arid_2"
+    }
+}

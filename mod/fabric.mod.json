@@ -1,0 +1,10 @@
+{
+    "schemaVersion": 1,
+    "authors": ["Hashs"],
+    "environment": "*",
+    "name": "florcraft_mod_1_14",
+    "id": "florcraft_mod__",
+    "version": "1.14",
+    "description": "",
+    "license": "MIT License"
+}

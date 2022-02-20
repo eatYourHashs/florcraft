@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "nbt": "{flor_dat:{arid_mastery_circlet:1b}}"
+      }
+    }
+  }
+}

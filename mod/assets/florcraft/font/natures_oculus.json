@@ -1,0 +1,42 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "florcraft:gui/natures_oculus/gui.png",
+      "ascent": 13,
+      "height": 71,
+      "chars": [
+        "\ua000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "florcraft:gui/negative_space.png",
+      "ascent": -32768,
+      "height": -3,
+      "chars": [
+        "\uF000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "florcraft:gui/negative_space.png",
+      "ascent": -3000,
+      "height": -10,
+      "chars": ["\uF001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "florcraft:gui/natures_oculus/crafting_icon.png",
+      "ascent": 11,
+      "height": 16,
+      "chars": ["\uc000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "florcraft:gui/natures_oculus/dropper_icon.png",
+      "ascent": 11,
+      "height": 16,
+      "chars": ["\uc001"]
+    }
+  ]
+}

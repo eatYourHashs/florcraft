@@ -1,0 +1,43 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "weight": 1,
+      "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{HideFlags:4,RepairCost:100,flor_dat:{arid_cost:3b,absorbloom:1b},CustomModelData:423014,Unbreakable:1b}"
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {
+              "text": "Siphons essence from nearby pylons.",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "Essence can then be dispersed by Dispoppies",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "or moved further by Relilays.",
+              "color": "gray",
+              "italic": false
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "text": "Absorbloom",
+            "color": "white",
+            "italic": false
+          }
+        }
+      ],
+      "name": "minecraft:carrot_on_a_stick"
+    }]
+  }]
+}

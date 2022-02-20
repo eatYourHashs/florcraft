@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "placeholder",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Increases the damage of your arid magic,",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "and greatly reduces taken damage from arid and verdant magic.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Arid Mastery Circlet",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2,CustomModelData:423060,flor_dat:{arid_cost:20b,aqueous_cost:0b,verdant_cost:0b,arid_mastery_circlet:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_axe"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 423000}, "model": "florcraft:item/burning_fire_axe"}
+  ]
+}

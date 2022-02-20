@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Thundering Tempest Bow",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Fires gale-wreathed arrows with greater velocity and pierce.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Only functions in the main hand.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423000,flor_dat:{aqueous_cost:15b,thundering_tempest_bow:1b,ess_repair:2b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/netherite_sword"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 423000}, "model": "florcraft:item/scorching_arc_sword"}
+  ]
+}

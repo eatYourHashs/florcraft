@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT License"
+
+[[mods]]
+modId="florcraft_mod__"
+displayName="Florcraft"
+version="1.14"
+authors="Hashs"
+description='''
+A nature magic datapack. Discover knowledge, wield magic, and exploit the essences of nature
+'''

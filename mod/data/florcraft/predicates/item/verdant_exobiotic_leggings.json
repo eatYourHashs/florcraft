@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "legs": {
+        "nbt": "{flor_dat:{exobiotic_leggings:3b}}"
+      }
+    }
+  }
+}

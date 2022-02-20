@@ -1,0 +1,11 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/leather_leggings",
+    "layer1": "item/leather_leggings_overlay"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 423064}, "model": "florcraft:item/arid_exobiotic_leggings"},
+    {"predicate": {"custom_model_data": 423065}, "model": "florcraft:item/aqueous_exobiotic_leggings"},
+    {"predicate": {"custom_model_data": 423066}, "model": "florcraft:item/verdant_exobiotic_leggings"}]
+}

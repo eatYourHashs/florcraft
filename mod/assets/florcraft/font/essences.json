@@ -1,0 +1,12 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "florcraft:gui/essences_icons.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\ue000\ue001\ue002"
+      ]
+    }
+  ]
+}

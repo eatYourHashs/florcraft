@@ -1,0 +1,34 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/leather_helmet",
+    "layer1": "item/leather_helmet_overlay"
+  },
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 423041
+    },
+    "model": "florcraft:item/druidic_lauret"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 423060
+    },
+    "model": "florcraft:item/arid_mastery_circlet"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 423061
+    },
+    "model": "florcraft:item/aqueous_mastery_circlet"
+  },
+  {
+    "predicate": {
+      "custom_model_data": 423062
+    },
+    "model": "florcraft:item/verdant_mastery_circlet"
+  },
+  {"predicate": {"custom_model_data": 423064}, "model": "florcraft:item/arid_exobiotic_helmet"},
+  {"predicate": {"custom_model_data": 423065}, "model": "florcraft:item/aqueous_exobiotic_helmet"},
+  {"predicate": {"custom_model_data": 423066}, "model": "florcraft:item/verdant_exobiotic_helmet"}]
+}

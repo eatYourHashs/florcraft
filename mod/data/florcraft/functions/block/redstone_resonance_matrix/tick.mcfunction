@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ barrel run function florcraft:block/redstone_resonance_matrix/break

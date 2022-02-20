@@ -1,0 +1,10 @@
+{
+  "pools": [{
+    "rolls": 10,
+    "entries": [{
+      "type": "minecraft:loot_table",
+      "weight": 1,
+      "name": "florcraft:item/arid_essence"
+    }]
+  }]
+}

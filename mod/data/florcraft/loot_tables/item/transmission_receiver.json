@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Receives essence from a Transmission Beacon.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Releases the essence like a Capacitor does.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Transmission Receiver",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"transmission_receiver\"}}}]},CustomModelData:423025,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,transmission_receiver:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

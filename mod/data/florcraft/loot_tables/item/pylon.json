@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Collects essence over time.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Placing pylons close together reduces yield.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Extract essence using Essence Flask.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Pylon",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"pylon\"}}}]},CustomModelData:423002,flor_dat:{arid_cost:2b,aqueous_cost:2b,verdant_cost:2b,pylon:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

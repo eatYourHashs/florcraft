@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "florcraft:item/aqueous_exobiotic_boots",
+        "layer1": "florcraft:item/aqueous_exobiotic_boots"
+    }
+}
