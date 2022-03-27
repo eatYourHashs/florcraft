@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#florcraft:non_arid",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "florcraft:arid_shrine/main",
+    "size": 6
+  }
+}

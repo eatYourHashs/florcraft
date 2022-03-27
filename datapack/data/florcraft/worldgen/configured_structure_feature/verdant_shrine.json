@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:village",
+  "biomes": "#florcraft:non_verdant",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "florcraft:verdant_shrine/main",
+    "size": 6
+  }
+}
