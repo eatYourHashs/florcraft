@@ -66,6 +66,7 @@
     {"predicate": {"custom_model_data": 423062}, "model": "florcraft:item/arid_upgrade_seal"},
     {"predicate": {"custom_model_data": 423063}, "model": "florcraft:item/arcane_pliers"},
     {"predicate": {"custom_model_data": 423064}, "model": "florcraft:item/arcane_pliers"},
-    {"predicate": {"custom_model_data": 423065}, "model": "florcraft:item/arid_exobiotic_chestplate"}
+    {"predicate": {"custom_model_data": 423065}, "model": "florcraft:item/arid_exobiotic_chestplate"},
+    {"predicate": {"custom_model_data": 423066}, "model": "florcraft:item/arid_exobiotic_chestplate_archmage"}
   ]
 }

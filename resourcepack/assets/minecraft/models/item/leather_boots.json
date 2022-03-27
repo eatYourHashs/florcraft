@@ -7,5 +7,8 @@
   "overrides": [
     {"predicate": {"custom_model_data": 423064}, "model": "florcraft:item/arid_exobiotic_boots"},
     {"predicate": {"custom_model_data": 423065}, "model": "florcraft:item/aqueous_exobiotic_boots"},
-    {"predicate": {"custom_model_data": 423066}, "model": "florcraft:item/verdant_exobiotic_boots"}]
+    {"predicate": {"custom_model_data": 423066}, "model": "florcraft:item/verdant_exobiotic_boots"},
+    {"predicate": {"custom_model_data": 423067}, "model": "florcraft:item/arid_exobiotic_boots_archmage"},
+    {"predicate": {"custom_model_data": 423068}, "model": "florcraft:item/aqueous_exobiotic_boots_archmage"},
+    {"predicate": {"custom_model_data": 423069}, "model": "florcraft:item/verdant_exobiotic_boots_archmage"}]
 }

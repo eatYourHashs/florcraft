@@ -1,0 +1,18 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{flor_dat:{verdant_cost:10b,arid_cost:0b,aqueous_cost:0b},CustomModelData:423069,display:{color:4079180}}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Archmage Flair",
+        "color": "light_purple",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "replace": false
+  }
+]
