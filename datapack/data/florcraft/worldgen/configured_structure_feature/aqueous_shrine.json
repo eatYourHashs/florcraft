@@ -1,6 +1,6 @@
 {
   "type": "minecraft:village",
-  "biomes": "#florcraft:non_aqueous",
+  "biomes": "#florcraft:aqueous",
   "adapt_noise": true,
   "spawn_overrides": {},
   "config": {

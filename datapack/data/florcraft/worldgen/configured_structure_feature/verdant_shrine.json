@@ -1,6 +1,6 @@
 {
   "type": "minecraft:village",
-  "biomes": "#florcraft:non_verdant",
+  "biomes": "#florcraft:verdant",
   "adapt_noise": true,
   "spawn_overrides": {},
   "config": {

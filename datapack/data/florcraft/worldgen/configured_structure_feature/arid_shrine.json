@@ -1,6 +1,6 @@
 {
   "type": "minecraft:village",
-  "biomes": "#florcraft:non_arid",
+  "biomes": "#florcraft:arid",
   "adapt_noise": true,
   "spawn_overrides": {},
   "config": {
