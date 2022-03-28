@@ -2,104 +2,82 @@
   "condition": "minecraft:alternative",
   "terms": [
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:shattered_savanna_plateau"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:desert"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:shattered_savanna"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:savanna"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:savanna_plateau"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:savanna_plateau"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:savanna"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:windswept_savanna"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "dimension": "minecraft:the_nether"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:badlands"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:wooded_badlands_plateau"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:wooded_badlands"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:modified_wooded_badlands_plateau"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:eroded_badlands"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:modified_badlands_plateau"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:nether_wastes"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:eroded_badlands"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:soul_sand_valley"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:badlands_plateau"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:crimson_forest"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:badlands"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:warped_forest"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:desert_lakes"
-      }
-    },
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:basalt_deltas"
+  }
+},
     {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:desert_hills"
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "biome": "minecraft:desert"
-      }
-    },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:ancient_sands" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:gravel_desert" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:hot_shrubland" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:modified_savanna_plateau" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:monument_valley" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:red_mountains" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:salt_flats" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:salt_mountains" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:sandstone_valley" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:sandstone_valley_r" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:savanna_badlands" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:savanna_heights" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:stardust_valley" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:yellowstone" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:yosemite_lowlands" } },
-    { "condition": "minecraft:location_check", "predicate": { "biome": "terralith:tropical_volcano" } }
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:stony_peaks"
+  }
+}
   ]
 }
