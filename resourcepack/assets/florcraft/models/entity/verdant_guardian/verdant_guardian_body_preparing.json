@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench, Modeller: ElBones",
+	"credit": "Made with Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
 		"0": "florcraft:entity/verdant_guardian",
@@ -96,14 +96,14 @@
 			"name": "Shoulder Pad",
 			"from": [-1, 17, 5.5],
 			"to": [3, 19, 9.5],
-			"rotation": {"angle": 45, "axis": "x", "origin": [3, 18, 7.5]},
+			"rotation": {"angle": 45, "axis": "x", "origin": [13, 18, 7.5]},
 			"faces": {
-				"north": {"uv": [12, 10.33333, 13.33333, 11], "texture": "#0"},
-				"east": {"uv": [10.66667, 10.33333, 12, 11], "texture": "#0"},
-				"south": {"uv": [14.66667, 10.33333, 16, 11], "texture": "#0"},
-				"west": {"uv": [13.33333, 10.33333, 14.66667, 11], "texture": "#0"},
-				"up": {"uv": [12, 9, 13.33333, 10.33333], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [13.33333, 9, 14.66667, 10.33333], "texture": "#0"}
+				"north": {"uv": [13.33333, 10.33333, 12, 11], "texture": "#0"},
+				"east": {"uv": [14.66667, 10.33333, 13.33333, 11], "texture": "#0"},
+				"south": {"uv": [16, 10.33333, 14.66667, 11], "texture": "#0"},
+				"west": {"uv": [12, 10.33333, 10.66667, 11], "texture": "#0"},
+				"up": {"uv": [13.33333, 9, 12, 10.33333], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [14.66667, 9, 13.33333, 10.33333], "texture": "#0"}
 			}
 		},
 		{
@@ -132,8 +132,7 @@
 			"name": "Torso",
 			"origin": [9, -2, 7.5],
 			"color": 0,
-			"children": [
-				0,
+			"children": [0,
 				{
 					"name": "Vines",
 					"origin": [8, 14, 8],
