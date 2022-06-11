@@ -64,6 +64,9 @@
     "minecraft:spore_blossom",
     "minecraft:water",
     "minecraft:lava",
-    {"id": "quark:root", "required": false}
+    {
+      "id": "quark:root",
+      "required": false
+    }
   ]
 }

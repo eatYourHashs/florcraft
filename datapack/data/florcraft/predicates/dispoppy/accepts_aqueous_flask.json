@@ -1,51 +1,51 @@
 [
-  {
-     "condition":"minecraft:alternative",
-     "terms":[
-        {
-           "condition":"minecraft:entity_properties",
-           "entity":"this",
-           "predicate":{
-              "equipment":{
-                 "mainhand":{
-                    "nbt":"{flor_dat:{essence_flask:1b,fill:0b}}"
-                 }
-              }
-           }
-        },
-        {
-           "condition":"minecraft:inverted",
-           "term":{
-              "condition":"minecraft:alternative",
-              "terms":[
-                 {
-                    "condition":"minecraft:entity_properties",
-                    "entity":"this",
-                    "predicate":{
-                       "equipment":{
-                          "mainhand":{
-                             "nbt":"{flor_dat:{essence_flask:1b,fill:5b}}"
-                          }
-                       }
-                    }
-                 },
-                 {
-                    "condition":"minecraft:inverted",
-                    "term":{
-                       "condition":"minecraft:entity_properties",
-                       "entity":"this",
-                       "predicate":{
-                          "equipment":{
-                             "mainhand":{
-                                "nbt":"{flor_dat:{essence_flask:1b,ess:\"aqueous\"}}"
-                             }
-                          }
-                       }
-                    }
-                 }
-              ]
-           }
-        }
-     ]
-  }
+   {
+      "condition": "minecraft:alternative",
+      "terms": [
+         {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+               "equipment": {
+                  "mainhand": {
+                     "nbt": "{flor_dat:{essence_flask:1b,fill:0b}}"
+                  }
+               }
+            }
+         },
+         {
+            "condition": "minecraft:inverted",
+            "term": {
+               "condition": "minecraft:alternative",
+               "terms": [
+                  {
+                     "condition": "minecraft:entity_properties",
+                     "entity": "this",
+                     "predicate": {
+                        "equipment": {
+                           "mainhand": {
+                              "nbt": "{flor_dat:{essence_flask:1b,fill:5b}}"
+                           }
+                        }
+                     }
+                  },
+                  {
+                     "condition": "minecraft:inverted",
+                     "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                           "equipment": {
+                              "mainhand": {
+                                 "nbt": "{flor_dat:{essence_flask:1b,ess:\"aqueous\"}}"
+                              }
+                           }
+                        }
+                     }
+                  }
+               ]
+            }
+         }
+      ]
+   }
 ]

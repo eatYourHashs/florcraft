@@ -62,6 +62,9 @@
     "minecraft:hanging_roots",
     "minecraft:glow_lichen",
     "minecraft:spore_blossom",
-    {"id": "quark:root", "required": false}
+    {
+      "id": "quark:root",
+      "required": false
+    }
   ]
 }

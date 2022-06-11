@@ -1,43 +1,48 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [{
-          "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:4,RepairCost:100,flor_dat:{aqueous_cost:3b,relilay:1b},CustomModelData:423016,Unbreakable:1b}"
-        },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_lore",
-          "lore": [
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
             {
-              "text": "Siphons essence from nearby flowers.",
-              "color": "gray",
-              "italic": false
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:4,RepairCost:100,flor_dat:{aqueous_cost:3b,relilay:1b},CustomModelData:423016,Unbreakable:1b}"
             },
             {
-              "text": "Will only ever siphon from the closest flower,",
-              "color": "gray",
-              "italic": false
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Siphons essence from nearby flowers.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Will only ever siphon from the closest flower,",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "regardless of whether or not it has essence.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             },
             {
-              "text": "regardless of whether or not it has essence.",
-              "color": "gray",
-              "italic": false
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Relilay",
+                "color": "white",
+                "italic": false
+              }
             }
-          ]
-        },
-        {
-          "function": "minecraft:set_name",
-          "name": {
-            "text": "Relilay",
-            "color": "white",
-            "italic": false
-          }
+          ],
+          "name": "minecraft:carrot_on_a_stick"
         }
-      ],
-      "name": "minecraft:carrot_on_a_stick"
-    }]
-  }]
+      ]
+    }
+  ]
 }

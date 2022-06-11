@@ -14,6 +14,9 @@
     "minecraft:skeleton_horse",
     "minecraft:zombie_horse",
     "minecraft:zoglin",
-    {"id": "quark:wrapped", "required": false}
+    {
+      "id": "quark:wrapped",
+      "required": false
+    }
   ]
 }

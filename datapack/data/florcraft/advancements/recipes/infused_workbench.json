@@ -2,7 +2,9 @@
   "parent": "florcraft:recipes/root",
   "rewards": {
     "function": "florcraft:entity/player/nbt_recipe",
-    "loot": ["florcraft:item/infused_workbench"]
+    "loot": [
+      "florcraft:item/infused_workbench"
+    ]
   },
   "criteria": {
     "has_the_recipe": {
