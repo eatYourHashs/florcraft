@@ -96,6 +96,18 @@
       "predicate": {
         "biome": "minecraft:old_growth_spruce_taiga"
       }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:deep_dark"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "minecraft:mangrove_swamp"
+      }
     }
   ]
 }
