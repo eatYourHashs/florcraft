@@ -1,0 +1,1 @@
+execute if score #smithed.prevent_aggression.patch load.status matches ..1 unless score #smithed.prevent_aggression.patch load.status matches 1 run function smithed.prevent_aggression:calls/v0.0.1/technical/enumerate/set_version

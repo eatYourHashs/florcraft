@@ -19,12 +19,12 @@ execute if entity @s[tag=flor.arid_orb] run playsound minecraft:entity.generic.e
 execute unless entity @s[tag=flor.arid_orb] run playsound minecraft:entity.generic.explode player @a ~ ~ ~ 1 2
 execute if entity @s[tag=flor.aqueous_orb] run particle minecraft:item_snowball ~ ~ ~ 0.2 0.2 0.2 0.1 50
 execute if entity @s[tag=flor.verdant_orb] run particle minecraft:block jungle_leaves ~ ~ ~ 0.2 0.2 0.2 0.1 50
-execute if entity @s[tag=flor.arid_orb] run tag @e[distance=..4,sort=arbitrary,tag=!smithed.entity,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] add flor.arid_dmg
-execute if entity @s[tag=flor.aqueous_orb] run tag @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!smithed.entity,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] add flor.aqueous_dmg
-execute if entity @s[tag=flor.verdant_orb] run tag @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!smithed.entity,type=!#florcraft:nonattackable,tag=!flor.invoked_verdant,nbt={HurtTime:0s}] add flor.verdant_dmg
-execute if entity @s[tag=flor.aqueous_orb] run effect give @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!smithed.entity,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] slowness 10 3 true
-execute if entity @s[tag=flor.verdant_orb] run effect give @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!smithed.entity,type=!#florcraft:nonattackable,tag=!flor.invoked_verdant,nbt={HurtTime:0s}] poison 6 1 true
-execute if entity @s[tag=flor.arid_orb] as @e[distance=..4,sort=arbitrary,tag=!smithed.entity,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
-execute if entity @s[tag=flor.aqueous_orb] as @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!smithed.entity,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
-execute if entity @s[tag=flor.verdant_orb] as @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!smithed.entity,type=!#florcraft:nonattackable,tag=!flor.invoked_verdant,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
+execute if entity @s[tag=flor.arid_orb] run tag @e[distance=..4,sort=arbitrary,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] add flor.arid_dmg
+execute if entity @s[tag=flor.aqueous_orb] run tag @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] add flor.aqueous_dmg
+execute if entity @s[tag=flor.verdant_orb] run tag @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,type=!#florcraft:nonattackable,tag=!flor.invoked_verdant,nbt={HurtTime:0s}] add flor.verdant_dmg
+execute if entity @s[tag=flor.aqueous_orb] run effect give @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!smithed.strict,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] slowness 10 3 true
+execute if entity @s[tag=flor.verdant_orb] run effect give @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!smithed.strict,type=!#florcraft:nonattackable,tag=!flor.invoked_verdant,nbt={HurtTime:0s}] poison 6 1 true
+execute if entity @s[tag=flor.arid_orb] as @e[distance=..4,sort=arbitrary,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
+execute if entity @s[tag=flor.aqueous_orb] as @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,type=!#florcraft:nonattackable,tag=!flor.invoked_aqueous,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
+execute if entity @s[tag=flor.verdant_orb] as @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,type=!#florcraft:nonattackable,tag=!flor.invoked_verdant,nbt={HurtTime:0s}] run function florcraft:utils/damage/damage
 kill @s

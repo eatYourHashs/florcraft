@@ -244,5 +244,49 @@
         }
       ]
     }
-  ]
+  ],
+  "__smithed__": {
+    "rules":[
+      {
+        "type": "smithed:append",
+        "target": "pools[0].entries[0].children[1].conditions",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[3].entries[0].children[1].conditions[0]"
+        }
+      },
+      {
+        "type": "smithed:append",
+        "target": "pools[1].conditions[0].term.terms",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[4].conditions[0].term.terms[0]"
+        }
+      },
+      {
+        "type": "smithed:append",
+        "target": "pools",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[0]"
+        }
+      },
+      {
+        "type": "smithed:append",
+        "target": "pools",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[1]"
+        }
+      },
+      {
+        "type": "smithed:append",
+        "target": "pools",
+        "source": {
+          "type": "smithed:reference",
+          "path": "pools[2]"
+        }
+      }
+    ]
+  }
 }
