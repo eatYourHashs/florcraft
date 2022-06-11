@@ -47,8 +47,8 @@
                     "name": "minecraft:yellow_shulker_box",
                     "conditions": [
                         {
-                            "condition":"minecraft:inverted",
-                            "predicate": {
+                            "condition": "minecraft:inverted",
+                            "term": {
                                 "condition": "minecraft:match_tool",
                                 "predicate": {
                                     "items": [
