@@ -7,4 +7,4 @@ execute if predicate florcraft:item/arid_mastery_circlet run scoreboard players 
 execute if predicate florcraft:item/arid_mastery_circlet run scoreboard players operation $in flor.dummy /= $cons.10 flor.dummy
 playsound minecraft:entity.generic.explode player @a ~ ~ ~ 1 2
 particle explosion
-execute as @e[distance=..2,sort=arbitrary,tag=!global.ignore,tag=!flor.arid_leggings,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:item/exobiotic/leggings/fire_sprint_dmg
+execute as @e[distance=..2,sort=arbitrary,tag=!smithed.entity,tag=!flor.arid_leggings,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:item/exobiotic/leggings/fire_sprint_dmg

@@ -1,4 +1,4 @@
-execute if entity @s[type=item_frame,tag=!global.ignore] run function florcraft:entity/item_frame/20tick
+execute if entity @s[type=item_frame,tag=!smithed.entity] run function florcraft:entity/item_frame/20tick
 execute if entity @s[type=item_frame,tag=flor.dispoppy] run function florcraft:block/dispoppy/20tick
 execute if entity @s[type=item_frame,tag=flor.relilay] run function florcraft:block/relilay/20tick
 execute if entity @s[type=item_frame,tag=flor.absorbloom] run function florcraft:block/absorbloom/20tick

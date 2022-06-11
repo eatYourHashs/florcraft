@@ -122,8 +122,5 @@ schedule function florcraft:5tick 5t replace
 schedule function florcraft:20tick 20t replace
 schedule function florcraft:100tick 100t replace
 
-team add global.antivil
-team modify global.antivil friendlyFire false
-
 scoreboard players set #scale_factor flor.dummy 1
 scoreboard players set block_id flor.dummy 0

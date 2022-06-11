@@ -17,4 +17,4 @@ execute if score @s flor.exo_leggings_count matches 80..89 run attribute @s mine
 execute if score @s flor.exo_leggings_count matches 90..99 run attribute @s minecraft:generic.movement_speed modifier add bbb5fcaa-9176-4b36-8676-f776cef8b345 "" 0.45 multiply_base
 execute if score @s flor.exo_leggings_count matches 100.. run attribute @s minecraft:generic.movement_speed modifier add bbb5fcaa-9176-4b36-8676-f776cef8b345 "" 0.5 multiply_base
 execute if score @s flor.exo_leggings_count matches 100.. run particle minecraft:flame ~ ~1 ~ 0.3 0.4 0.3 0.05 20
-execute if score @s flor.exo_leggings_count matches 100.. if entity @e[distance=..2,sort=arbitrary,tag=!global.ignore,tag=!flor.arid_leggings,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:item/exobiotic/leggings/fire_sprint_hit
+execute if score @s flor.exo_leggings_count matches 100.. if entity @e[distance=..2,sort=arbitrary,tag=!smithed.entity,tag=!flor.arid_leggings,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:item/exobiotic/leggings/fire_sprint_hit

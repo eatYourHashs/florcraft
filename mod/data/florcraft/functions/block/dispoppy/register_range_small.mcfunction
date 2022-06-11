@@ -8,4 +8,4 @@ tag @e[type=armor_stand,distance=..6,tag=flor.reservoir_core] add flor.in_range
 tag @e[type=armor_stand,distance=..6,tag=flor.transmission_beacon] add flor.in_range
 tag @e[type=armor_stand,distance=..6,tag=flor.transmission_receiver] add flor.in_range
 tag @e[type=item_frame,distance=..6,tag=flor.mineroot_sapling] add flor.in_range
-tag @e[type=item_frame,distance=..6,tag=!global.ignore] add flor.in_range
+tag @e[type=item_frame,distance=..6,tag=!smithed.entity] add flor.in_range
