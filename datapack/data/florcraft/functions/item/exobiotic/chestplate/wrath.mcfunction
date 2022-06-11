@@ -14,5 +14,5 @@ execute if entity @s[tag=flor.buffed_magic_40] run scoreboard players operation 
 execute if entity @s[tag=flor.buffed_magic_40] run scoreboard players operation $in flor.dummy /= $cons.10 flor.dummy
 execute if entity @s[tag=flor.buffed_magic_50] run scoreboard players operation $in flor.dummy *= $cons.15 flor.dummy
 execute if entity @s[tag=flor.buffed_magic_50] run scoreboard players operation $in flor.dummy /= $cons.10 flor.dummy
-execute as @e[distance=..6,sort=arbitrary,tag=!smithed.entity,tag=!flor.user,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:item/exobiotic/chestplate/wrath_dmg
+execute as @e[distance=..6,sort=arbitrary,tag=!flor.user,type=!#florcraft:nonattackable,type=!#florcraft:fire_immune,tag=!flor.invoked_arid,nbt={HurtTime:0s}] run function florcraft:item/exobiotic/chestplate/wrath_dmg
 tag @s remove flor.user
