@@ -5,7 +5,7 @@
     "#minecraft:saplings",
     "#minecraft:rails",
     "#minecraft:flowers",
-    "#minecraft:carpets",
+    "#minecraft:wool_carpets",
     "#minecraft:banners",
     "#minecraft:corals",
     "#minecraft:wall_corals",
@@ -64,6 +64,9 @@
     "minecraft:spore_blossom",
     "minecraft:water",
     "minecraft:lava",
-    {"id": "quark:root", "required": false}
+    {
+      "id": "quark:root",
+      "required": false
+    }
   ]
 }

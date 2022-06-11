@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "florcraft:arid_shrine",
+      "weight": 1
+    },
+    {
+      "structure": "florcraft:aqueous_shrine",
+      "weight": 1
+    },
+    {
+      "structure": "florcraft:verdant_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 7,
+    "salt": 1831596825
+  }
+}

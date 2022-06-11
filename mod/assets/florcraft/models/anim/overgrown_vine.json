@@ -1,59 +1,43 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench, Modeller: ElBones",
+	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/jungle_log",
-		"particle": "block/jungle_log"
+		"0": "florcraft:entity/overgrown_vine",
+		"particle": "florcraft:entity/overgrown_vine"
 	},
 	"elements": [
 		{
-			"from": [5, -4, 5],
-			"to": [11, 8, 11],
+			"name": "Log",
+			"from": [3.5, -4, 3.5],
+			"to": [12.5, 19, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 2, 7.5]},
 			"faces": {
-				"north": {"uv": [0, 0, 6, 12], "texture": "#0"},
-				"east": {"uv": [0, 0, 6, 12], "texture": "#0"},
-				"south": {"uv": [0, 0, 6, 12], "texture": "#0"},
-				"west": {"uv": [0, 0, 6, 12], "texture": "#0"},
-				"up": {"uv": [0, 0, 6, 6], "texture": "#0"},
-				"down": {"uv": [0, 0, 6, 6], "texture": "#0"}
+				"north": {"uv": [0, 4.5, 4.5, 16], "texture": "#0"},
+				"east": {"uv": [0, 4.5, 4.5, 16], "texture": "#0"},
+				"south": {"uv": [0, 4.5, 4.5, 16], "texture": "#0"},
+				"west": {"uv": [0, 4.5, 4.5, 16], "texture": "#0"},
+				"up": {"uv": [11.5, 0, 16, 4.5], "texture": "#0"},
+				"down": {"uv": [11.5, 4.5, 16, 9], "texture": "#0"}
 			}
 		},
 		{
-			"from": [4, 5, 4],
-			"to": [9, 17, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 9, -2]},
+			"name": "Spike0",
+			"from": [8, 19, 2.5],
+			"to": [8, 28, 13.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 19, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 5, 12], "texture": "#0"},
-				"east": {"uv": [0, 0, 5, 12], "texture": "#0"},
-				"south": {"uv": [0, 0, 5, 12], "texture": "#0"},
-				"west": {"uv": [0, 0, 5, 12], "texture": "#0"},
-				"up": {"uv": [0, 0, 5, 5], "texture": "#0"},
-				"down": {"uv": [0, 0, 5, 5], "texture": "#0"}
+				"east": {"uv": [0, 0, 4.5, 4.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 4.5, 4.5], "texture": "#0"}
 			}
 		},
 		{
-			"from": [3, 13, 6],
-			"to": [7, 22, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-4, 17, 0]},
+			"name": "Spike1",
+			"from": [8, 19, 2.5],
+			"to": [8, 28, 13.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 19, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 4, 9], "texture": "#0"},
-				"east": {"uv": [0, 0, 4, 9], "texture": "#0"},
-				"south": {"uv": [0, 0, 4, 9], "texture": "#0"},
-				"west": {"uv": [0, 0, 4, 9], "texture": "#0"},
-				"up": {"uv": [0, 0, 4, 4], "texture": "#0"},
-				"down": {"uv": [0, 0, 4, 4], "texture": "#0"}
-			}
-		},
-		{
-			"from": [4, 19, 8],
-			"to": [8, 28, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [-3, 23, 2]},
-			"faces": {
-				"north": {"uv": [0, 0, 4, 9], "texture": "#0"},
-				"east": {"uv": [0, 0, 4, 9], "texture": "#0"},
-				"south": {"uv": [0, 0, 4, 9], "texture": "#0"},
-				"west": {"uv": [0, 0, 4, 9], "texture": "#0"},
-				"up": {"uv": [0, 0, 4, 4], "texture": "#0"},
-				"down": {"uv": [0, 0, 4, 4], "texture": "#0"}
+				"east": {"uv": [0, 0, 4.5, 4.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 4.5, 4.5], "texture": "#0"}
 			}
 		}
 	],
@@ -62,5 +46,14 @@
 			"translation": [0, -25, 0],
 			"scale": [2, 2, 2]
 		}
-	}
+	},
+	"groups": [
+		0,
+		{
+			"name": "Spikes",
+			"origin": [8, 19, 8],
+			"color": 0,
+			"children": [1, 2]
+		}
+	]
 }

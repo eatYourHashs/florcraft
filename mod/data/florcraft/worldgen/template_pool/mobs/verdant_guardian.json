@@ -1,0 +1,15 @@
+{
+  "name": "florcraft:mobs/verdant_guardian",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "florcraft:mobs/verdant_guardian",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

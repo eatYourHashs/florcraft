@@ -7,7 +7,6 @@ execute unless score $temp.fill flor.dummy matches 5.. run function florcraft:it
 #powers
 execute if score $temp.fill flor.dummy matches 1.. if score @s flor.exo_chestplate_cd matches 1.. run scoreboard players remove @s flor.exo_chestplate_cd 1
 execute if score $temp.fill flor.dummy matches 1.. if score @s flor.exo_chestplate_cd matches 1 if score $temp.ess flor.dummy matches 3 run function florcraft:item/exobiotic/chestplate/medkit
-execute if score $temp.fill flor.dummy matches 1.. if score $temp.ess flor.dummy matches 1 run effect give @s fire_resistance 2 0 true
 
 #updating the item
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:storage root.temp.item.tag.flor_dat.fill set value 0b

@@ -1,7 +1,10 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "florcraft:block/enchanting_station_side",
-		"1": "florcraft:block/enchanting_station_top"
+		"1": "florcraft:block/enchanting_station_top",
+		"2": "florcraft:block/enchanting_station_bottom",
+		"particle": "florcraft:block/enchanting_station_bottom"
 	},
 	"elements": [
 		{
@@ -13,7 +16,7 @@
 				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
 			}
 		}
 	],

@@ -2,9 +2,9 @@
     "schemaVersion": 1,
     "authors": ["Hashs"],
     "environment": "*",
-    "name": "florcraft_mod_1_14",
+    "name": "florcraft_mod_1_15",
     "id": "florcraft_mod__",
-    "version": "1.14",
+    "version": "1.15",
     "description": "",
     "license": "MIT License"
 }

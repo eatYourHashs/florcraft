@@ -5,7 +5,7 @@
     "#minecraft:saplings",
     "#minecraft:rails",
     "#minecraft:flowers",
-    "#minecraft:carpets",
+    "#minecraft:wool_carpets",
     "#minecraft:banners",
     "#minecraft:corals",
     "#minecraft:wall_corals",
@@ -62,6 +62,9 @@
     "minecraft:hanging_roots",
     "minecraft:glow_lichen",
     "minecraft:spore_blossom",
-    {"id": "quark:root", "required": false}
+    {
+      "id": "quark:root",
+      "required": false
+    }
   ]
 }

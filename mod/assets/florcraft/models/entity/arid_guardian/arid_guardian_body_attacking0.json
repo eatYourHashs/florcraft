@@ -1,0 +1,144 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 48],
+	"textures": {
+		"0": "florcraft:entity/arid_guardian",
+		"particle": "florcraft:entity/arid_guardian"
+	},
+	"elements": [
+		{
+			"name": "Torso",
+			"from": [4, 10, 6],
+			"to": [12, 18, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
+			"faces": {
+				"north": {"uv": [1.33333, 7.33333, 4, 10], "texture": "#0"},
+				"east": {"uv": [0, 7.33333, 1.33333, 10], "texture": "#0"},
+				"south": {"uv": [5.33333, 7.33333, 8, 10], "texture": "#0"},
+				"west": {"uv": [4, 7.33333, 5.33333, 10], "texture": "#0"},
+				"up": {"uv": [1.33333, 6, 4, 7.33333], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 6, 6.66667, 7.33333], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Disembody",
+			"from": [5, 2, 6.5],
+			"to": [11, 10, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 6, 7.5]},
+			"faces": {
+				"north": {"uv": [1, 10, 3, 12.66667], "texture": "#0"},
+				"east": {"uv": [0, 10, 1, 12.66667], "texture": "#0"},
+				"south": {"uv": [4, 10, 6, 12.66667], "texture": "#0"},
+				"west": {"uv": [3, 10, 4, 12.66667], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Disembody Inverted",
+			"from": [11, 10, 9.5],
+			"to": [5, 2, 6.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 6, 7.5]},
+			"faces": {
+				"north": {"uv": [4, 12.66667, 6, 10], "texture": "#0"},
+				"east": {"uv": [3, 12.66667, 4, 10], "texture": "#0"},
+				"south": {"uv": [1, 12.66667, 3, 10], "texture": "#0"},
+				"west": {"uv": [0, 12.66667, 1, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [13, 5, 6],
+			"to": [16, 17, 9],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [13, 18, 7.5]},
+			"faces": {
+				"north": {"uv": [11.66667, 12, 12.66667, 16], "texture": "#0"},
+				"east": {"uv": [10.66667, 12, 11.66667, 16], "texture": "#0"},
+				"south": {"uv": [13.66667, 12, 14.66667, 16], "texture": "#0"},
+				"west": {"uv": [12.66667, 12, 13.66667, 16], "texture": "#0"},
+				"up": {"uv": [11.66667, 11, 12.66667, 12], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [12.66667, 11, 13.66667, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Shoulder Pad",
+			"from": [13, 17, 5.5],
+			"to": [17, 19, 9.5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [13, 18, 7.5]},
+			"faces": {
+				"north": {"uv": [12, 10.33333, 13.33333, 11], "texture": "#0"},
+				"east": {"uv": [10.66667, 10.33333, 12, 11], "texture": "#0"},
+				"south": {"uv": [14.66667, 10.33333, 16, 11], "texture": "#0"},
+				"west": {"uv": [13.33333, 10.33333, 14.66667, 11], "texture": "#0"},
+				"up": {"uv": [12, 9, 13.33333, 10.33333], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [13.33333, 9, 14.66667, 10.33333], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [0, 5, 6],
+			"to": [3, 17, 9],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3, 18, 7.5]},
+			"faces": {
+				"north": {"uv": [12.66667, 12, 11.66667, 16], "texture": "#0"},
+				"east": {"uv": [13.66667, 12, 12.66667, 16], "texture": "#0"},
+				"south": {"uv": [14.66667, 12, 13.66667, 16], "texture": "#0"},
+				"west": {"uv": [11.66666, 12, 10.66666, 16], "texture": "#0"},
+				"up": {"uv": [12.66667, 11, 11.66667, 12], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [13.66667, 11, 12.66667, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Shoulder Pad",
+			"from": [-1, 17, 5.5],
+			"to": [3, 19, 9.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3, 18, 7.5]},
+			"faces": {
+				"north": {"uv": [12, 10.33333, 13.33333, 11], "texture": "#0"},
+				"east": {"uv": [10.66667, 10.33333, 12, 11], "texture": "#0"},
+				"south": {"uv": [14.66667, 10.33333, 16, 11], "texture": "#0"},
+				"west": {"uv": [13.33333, 10.33333, 14.66667, 11], "texture": "#0"},
+				"up": {"uv": [12, 9, 13.33333, 10.33333], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [13.33333, 9, 14.66667, 10.33333], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -3.5, -6.4]
+		}
+	},
+	"groups": [
+		{
+			"name": "Torso",
+			"origin": [9, -2, 7.5],
+			"color": 0,
+			"children": [0,
+				{
+					"name": "Disembody",
+					"origin": [9, -2, 7.5],
+					"color": 0,
+					"children": [1, 2]
+				},
+				{
+					"name": "Arms",
+					"origin": [9, -2, 7.5],
+					"color": 0,
+					"children": [
+						{
+							"name": "Arm0",
+							"origin": [9, -2, 7.5],
+							"color": 0,
+							"children": [3, 4]
+						},
+						{
+							"name": "Arm0",
+							"origin": [9, -2, 7.5],
+							"color": 0,
+							"children": [5, 6]
+						}
+					]
+				}
+			]
+		}
+	]
+}

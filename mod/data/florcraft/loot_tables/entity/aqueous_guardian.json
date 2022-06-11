@@ -1,10 +1,14 @@
 {
-  "pools": [{
-    "rolls": 10,
-    "entries": [{
-      "type": "minecraft:loot_table",
-      "weight": 1,
-      "name": "florcraft:item/aqueous_essence"
-    }]
-  }]
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "florcraft:item/aqueous_essence"
+        }
+      ]
+    }
+  ]
 }
