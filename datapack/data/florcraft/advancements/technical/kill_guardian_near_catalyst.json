@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"flor.guardian\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "florcraft:entity/player/kill_guardian_near_catalyst"
+  }
+}

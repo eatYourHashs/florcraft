@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Deeproot",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Pulsating root of sculk, formed from a creature of essence.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Eat to reveal new domains of floramancy.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423000,flor_dat:{deeproot:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
