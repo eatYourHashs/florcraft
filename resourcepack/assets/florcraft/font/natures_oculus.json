@@ -37,6 +37,13 @@
       "ascent": 11,
       "height": 16,
       "chars": ["\uc001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "florcraft:gui/natures_oculus/book_icon.png",
+      "ascent": 11,
+      "height": 16,
+      "chars": ["\uc002"]
     }
   ]
 }
