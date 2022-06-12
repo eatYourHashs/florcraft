@@ -108,6 +108,240 @@
       "predicate": {
         "biome": "minecraft:mangrove_swamp"
       }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:alpha_islands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:alpine_highlands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:amethyst_canyon"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:amethyst_rainforest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:birch_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:blooming_plateau"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:blooming_valley"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:brushland"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:bryce_canyon"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:cloud_forest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:forested_highlands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:haze_mountain"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:highlands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:cave/fungal_caves"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:cave/underground_jungle"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:cave/infested_caves"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:jungle_mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:lavender_forest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:lavender_valley"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:lush_valley"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:mirage_isles"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:moonlight_grove"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:rocky_jungle"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:moonlight_valley"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:rocky_mountains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:sakura_grove"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:sakura_valley"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:shield_clearing"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:shield"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:shrubland"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:siberian_taiga"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:steppe"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:temperate_highlands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:tropical_jungle"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:valley_clearing"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:white_cliffs"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:yosemite_lowlands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:desert_oasis"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biome": "terralith:red_oasis"
+      }
     }
   ]
 }
