@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "eat_deeproot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{flor_dat:{deeproot:1b}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "florcraft:entity/player/eat_deeproot"
+  }
+}

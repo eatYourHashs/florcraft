@@ -54,6 +54,10 @@ execute unless score @s flor.sprint matches 1.. run scoreboard players set @s fl
 
 execute unless score @s flor.since_gui matches 3.. run function florcraft:entity/player/tick/reset_guis
 
+execute if score @s flor.deeproot_prog matches 1.. run scoreboard players remove @s flor.deeproot_prog 1
+execute if score @s flor.deeproot_prog matches 64 run playsound minecraft:entity.warden.sonic_charge player @s ~ ~ ~ 1 0.5
+execute if score @s flor.deeproot_prog matches 1 run function florcraft:entity/player/deeproot_awakening
+
 function florcraft:entity/player/tick/reset_variables
 
 tag @s remove flor.hit_this_tick
