@@ -1,0 +1,2 @@
+execute store success score $temp flor.dummy run clone ~-8 ~-8 ~-8 ~8 ~8 ~8 ~-8 ~-8 ~-8 filtered sculk_catalyst force
+execute if score $temp flor.dummy matches 1.. run function florcraft:entity/item/deeproot_drop

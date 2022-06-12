@@ -1,2 +1,0 @@
-advancement revoke @s only florcraft:technical/kill_guardian_near_catalyst
-execute as @e[type=item,limit=1,sort=nearest,distance=..12,nbt={Item:{tag:{flor_dat:{guardian_drop_marker:1b}}}}] at @s run function florcraft:entity/item/deeproot

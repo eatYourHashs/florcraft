@@ -1,7 +1,7 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
           "type": "minecraft:wandering_trader",
@@ -11,6 +11,6 @@
     }
   },
   "rewards": {
-    "function": "florcraft:entity/player/kill_guardian_near_catalyst"
+    "function": "florcraft:entity/player/kill_guardian"
   }
 }
