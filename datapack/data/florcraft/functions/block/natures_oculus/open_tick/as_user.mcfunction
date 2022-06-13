@@ -13,6 +13,7 @@ execute if score page flor.dummy matches 1 run function florcraft:block/natures_
 execute if score page flor.dummy matches 2 run function florcraft:block/natures_oculus/page_tick/2_recipes
 execute if score page flor.dummy matches 3 run function florcraft:block/natures_oculus/page_tick/3_recipes
 execute if score page flor.dummy matches 4 run function florcraft:block/natures_oculus/page_tick/4_recipes
+execute if score page flor.dummy matches 5 run function florcraft:block/natures_oculus/page_tick/5_recipes
 
 execute if data storage flor:temp Items[{Slot:9b}] unless data storage flor:temp Items[{Slot:9b}].tag.flor_dat.recipe run function florcraft:block/natures_oculus/restore/9
 execute if data storage flor:temp Items[{Slot:10b}] unless data storage flor:temp Items[{Slot:10b}].tag.flor_dat.recipe run function florcraft:block/natures_oculus/restore/10
@@ -38,4 +39,5 @@ execute if score page flor.dummy matches 1 run function florcraft:block/natures_
 execute if score page flor.dummy matches 2 run function florcraft:block/natures_oculus/page_tick/2_items
 execute if score page flor.dummy matches 3 run function florcraft:block/natures_oculus/page_tick/3_items
 execute if score page flor.dummy matches 4 run function florcraft:block/natures_oculus/page_tick/4_items
+execute if score page flor.dummy matches 5 run function florcraft:block/natures_oculus/page_tick/5_items
 
