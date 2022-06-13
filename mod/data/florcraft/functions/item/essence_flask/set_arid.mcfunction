@@ -1,4 +1,4 @@
-loot insert -30000000 0 24576 loot florcraft:item/essence_flask
+execute in minecraft:overworld run loot insert -30000000 0 24576 loot florcraft:item/essence_flask
 execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.flor_dat.ess set value "arid"
 execute if score $temp flor.dummy matches 1..2 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423001
 execute if score $temp flor.dummy matches 3..4 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423002
