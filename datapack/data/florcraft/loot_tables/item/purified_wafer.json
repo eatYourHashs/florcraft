@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Purified Wafer",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Clears all potion effects when eaten.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:423000,flor_dat:{purified_wafer:1b,arid_cost:5b,aqueous_cost:5b,verdant_cost:5b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute if entity @s[tag=!flor.know_purified_wafers,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:9b,id:"minecraft:cake"}] run function florcraft:block/natures_oculus/recipe_checks/purified_wafers

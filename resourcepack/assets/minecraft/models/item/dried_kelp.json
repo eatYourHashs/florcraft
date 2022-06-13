@@ -1,0 +1,9 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/dried_kelp"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 423000}, "model": "florcraft:item/purified_wafer"}
+  ]
+}
