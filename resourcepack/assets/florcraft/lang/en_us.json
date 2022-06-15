@@ -186,6 +186,7 @@
 	"block.flor.natures_oculus.back": "Back",
 	"block.flor.natures_oculus.next": "Next",
 	"block.flor.natures_oculus.knowlegepoint": "Knowledge Points",
+  "block.flor.natures_oculus.to_unlock": "To Unlock:",
     "block.flor.natures_oculus.theres_nothing_here_yet": " There's nothing here yet...",
     "block.flor.natures_oculus.essence_flask": " Essence Flask",
     "block.flor.natures_oculus.essence_flask.lore.0": "When placed on your hotbar, this flask",
