@@ -1,27 +1,27 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_block",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Basic Rune",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423020,flor_dat:{arid_cost:5b,aqueous_cost:5b,verdant_cost:5b,basic_rune:1b}}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "white",
+                                "italic": false,
+                                "translate": "item.flor.basic_rune"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:423020,flor_dat:{arid_cost:5b,aqueous_cost:5b,verdant_cost:5b,basic_rune:1b}}"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

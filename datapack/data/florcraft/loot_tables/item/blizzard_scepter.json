@@ -1,42 +1,42 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Right click to shoot a gust of cold using Aqueous Essence,",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "dealing damage and slowing entities.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.blizzard_scepter.lore.0"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.blizzard_scepter.lore.1"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "white",
+                                "italic": false,
+                                "translate": "item.flor.blizzard_scepter"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:423018,flor_dat:{arid_cost:0b,aqueous_cost:15b,verdant_cost:0b,blizzard_scepter:1b}}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Blizzard Scepter",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423018,flor_dat:{arid_cost:0b,aqueous_cost:15b,verdant_cost:0b,blizzard_scepter:1b}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

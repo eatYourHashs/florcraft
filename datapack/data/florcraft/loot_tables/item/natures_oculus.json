@@ -1,42 +1,42 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dropper",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Glimpses of the essences of the wild",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "reveal themselves to you as you hold it.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:dropper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.natures_oculus.lore.0"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.natures_oculus.lore.1"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "white",
+                                "italic": false,
+                                "translate": "item.flor.natures_oculus"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"natures_oculus\"}}}]},CustomModelData:423000,flor_dat:{arid_cost:1b,aqueous_cost:1b,verdant_cost:1b,natures_oculus:1b}}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Nature's Oculus",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"natures_oculus\"}}}]},CustomModelData:423000,flor_dat:{arid_cost:1b,aqueous_cost:1b,verdant_cost:1b,natures_oculus:1b}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,47 +1,47 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dropper",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Stores up to 20 essence.",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "A redstone signal enables essence intake via Dispoppy.",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "Disable redstone to allow Absorblooms to remove the essence.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:dropper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.essence_capacitor.lore.0"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.essence_capacitor.lore.1"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.essence_capacitor.lore.2"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "white",
+                                "italic": false,
+                                "translate": "item.flor.essence_capacitor"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"essence_capacitor\"}}}]},CustomModelData:423013,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,capacitor:1b}}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Essence Capacitor",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"essence_capacitor\"}}}]},CustomModelData:423013,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,capacitor:1b}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,27 +1,27 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_hoe",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Verdant Hoe",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423003,flor_dat:{verdant_cost:10b,ess_tool:3b,ess_repair:3b}}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_hoe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "white",
+                                "italic": false,
+                                "translate": "item.flor.verdant_hoe"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:423003,flor_dat:{verdant_cost:10b,ess_tool:3b,ess_repair:3b}}"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

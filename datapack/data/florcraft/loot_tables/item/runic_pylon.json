@@ -1,47 +1,47 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dropper",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Collects essence faster.",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "Placing pylons close together reduces yield.",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "Extract essence using Essence Flask.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:dropper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.runic_pylon.lore.0"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.runic_pylon.lore.1"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.runic_pylon.lore.2"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "white",
+                                "italic": false,
+                                "translate": "item.flor.runic_pylon"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"runic_pylon\"}}}]},CustomModelData:423005,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,runic_pylon:1b}}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Runic Pylon",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"runic_pylon\"}}}]},CustomModelData:423005,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,runic_pylon:1b}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

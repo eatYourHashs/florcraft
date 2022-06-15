@@ -1,19 +1,19 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "florcraft:item/purified_wafer",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 16
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "florcraft:item/purified_wafer",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

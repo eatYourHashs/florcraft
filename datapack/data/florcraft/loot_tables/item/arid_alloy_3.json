@@ -1,19 +1,19 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "florcraft:item/arid_alloy",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "florcraft:item/arid_alloy",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
