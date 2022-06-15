@@ -1,5 +1,8 @@
 {
   "item.minecraft.knowledge_book": "Click to craft",
+  "block.flor.generic.arid_essence": "Arid Essence",
+  "block.flor.generic.aqueous_essence": "Aqueous Essence",
+  "block.flor.generic.verdant_essence": "Verdant Essence",
 	"block.flor.natures_oculus.cross_content": "To Cross-Content Knowledge",
 	"block.flor.natures_oculus.standard": "To Standard Knowledge",
 	"block.flor.natures_oculus.back": "Back",
