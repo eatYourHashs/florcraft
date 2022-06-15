@@ -1,42 +1,42 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Right click a flower or machine to apply.",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "Limits essence flow to Aqueous only.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.aqueous_filter_seal.lore.0"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.aqueous_filter_seal.lore.1"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "white",
+                                "italic": false,
+                                "translate": "item.flor.aqueous_filter_seal"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:423078,flor_dat:{arid_cost:0b,aqueous_cost:5b,verdant_cost:0b,seal:1b,aqueous_filter_seal:1b}}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Aqueous Filter Seal",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423078,flor_dat:{arid_cost:0b,aqueous_cost:5b,verdant_cost:0b,seal:1b,aqueous_filter_seal:1b}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

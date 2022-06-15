@@ -1,37 +1,37 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Raging River Pickaxe",
-                "color": "yellow",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Cleaves out entire ore clusters at once, teleporting their drops to you.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "yellow",
+                                "italic": false,
+                                "translate": "item.flor.raging_river_pickaxe"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.raging_river_pickaxe.lore"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:423000,flor_dat:{aqueous_cost:15b,raging_river_pickaxe:1b,ess_repair:2b}}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423000,flor_dat:{aqueous_cost:15b,raging_river_pickaxe:1b,ess_repair:2b}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

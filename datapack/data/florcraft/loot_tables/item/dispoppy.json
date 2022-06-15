@@ -1,48 +1,48 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:4,RepairCost:100,flor_dat:{verdant_cost:3b,dispoppy:1b},CustomModelData:423015,Unbreakable:1b}"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Disperses essence from the nearest Absorbloom",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "to nearby players holding essence-storing items",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "and essence-consuming blocks.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:4,RepairCost:100,flor_dat:{verdant_cost:3b,dispoppy:1b},CustomModelData:423015,Unbreakable:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.dispoppy.lore.0"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.dispoppy.lore.1"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.dispoppy.lore.2"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "white",
+                                "italic": false,
+                                "translate": "item.flor.dispoppy"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:carrot_on_a_stick"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Dispoppy",
-                "color": "white",
-                "italic": false
-              }
-            }
-          ],
-          "name": "minecraft:carrot_on_a_stick"
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

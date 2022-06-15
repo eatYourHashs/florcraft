@@ -1,47 +1,47 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Right click a block to show information.",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "Hold essence in the offhand and shift right click",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": "to insert it directly into a flower.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.master_floramancers_staff.lore.0"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.master_floramancers_staff.lore.1"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.master_floramancers_staff.lore.2"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "yellow",
+                                "italic": false,
+                                "translate": "item.flor.master_floramancers_staff"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:423075,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,master_floramancers_staff:1b}}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Master Floramancer's Staff",
-                "color": "yellow",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:423075,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,master_floramancers_staff:1b}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

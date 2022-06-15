@@ -1,56 +1,56 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Imbued with Arid Essence",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.arid_exobiotic_chestplate.lore"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.armor_toughness",
+                                    "name": "",
+                                    "amount": 1,
+                                    "operation": "addition",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "",
+                                    "amount": 8,
+                                    "operation": "addition",
+                                    "slot": "chest"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "yellow",
+                                "italic": false,
+                                "translate": "item.flor.arid_exobiotic_chestplate"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{color:4079175},HideFlags:64,CustomModelData:423064,Unbreakable:1b,flor_dat:{fill:5b,arid_cost:20b,exobiotic_chestplate:1b}}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:generic.armor_toughness",
-                  "name": "",
-                  "amount": 1,
-                  "operation": "addition",
-                  "slot": "chest"
-                },
-                {
-                  "attribute": "minecraft:generic.armor",
-                  "name": "",
-                  "amount": 8,
-                  "operation": "addition",
-                  "slot": "chest"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Exobiotic Chestplate",
-                "color": "yellow",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{color:4079175},HideFlags:64,CustomModelData:423064,Unbreakable:1b,flor_dat:{fill:5b,arid_cost:20b,exobiotic_chestplate:1b}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
