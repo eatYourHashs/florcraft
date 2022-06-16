@@ -18,6 +18,9 @@ execute if entity @s[tag=flor.verdant_take] as @e[type=armor_stand,tag=flor.take
 execute if entity @s[tag=flor.arid_take] run scoreboard players set @e[type=armor_stand,tag=flor.take_ess,scores={flor.arid_ess=1..}] flor.arid_ess 0
 execute if entity @s[tag=flor.aqueous_take] run scoreboard players set @e[type=armor_stand,tag=flor.take_ess,scores={flor.aqueous_ess=1..}] flor.aqueous_ess 0
 execute if entity @s[tag=flor.verdant_take] run scoreboard players set @e[type=armor_stand,tag=flor.take_ess,scores={flor.verdant_ess=1..}] flor.verdant_ess 0
+execute if score @s flor.arid_ess >= @s flor.arid_cap run scoreboard players operation @s flor.arid_ess = @s flor.arid_cap
+execute if score @s flor.aqueous_ess >= @s flor.aqueous_cap run scoreboard players operation @s flor.aqueous_ess = @s flor.aqueous_cap
+execute if score @s flor.verdant_ess >= @s flor.verdant_cap run scoreboard players operation @s flor.verdant_ess = @s flor.verdant_cap
 tag @e[type=armor_stand,tag=flor.take_ess,limit=1] remove flor.take_ess
 tag @s remove flor.bloom
 tag @s remove flor.arid_take
