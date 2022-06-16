@@ -7,5 +7,6 @@ execute if block ~ ~ ~ redstone_lamp align xyz positioned ~0.5 ~0.5 ~0.5 as @e[t
 execute if block ~ ~ ~ redstone_lamp align xyz positioned ~0.5 ~0.5 ~0.5 as @e[type=armor_stand,distance=..0.6,tag=flor.transmission_receiver] run function florcraft:item/floramancers_wand/check_receiver
 execute if block ~ ~ ~ crimson_fungus align xyz positioned ~0.5 ~0.5 ~0.5 as @e[type=item_frame,distance=..0.6,tag=flor.absorbloom] run function florcraft:item/floramancers_wand/check_absorbloom_dispoppy
 execute if block ~ ~ ~ crimson_fungus align xyz positioned ~0.5 ~0.5 ~0.5 as @e[type=item_frame,distance=..0.6,tag=flor.dispoppy] run function florcraft:item/floramancers_wand/check_absorbloom_dispoppy
+execute if block ~ ~ ~ crimson_fungus align xyz positioned ~0.5 ~0.5 ~0.5 as @e[type=item_frame,distance=..0.6,tag=flor.echoroot] run function florcraft:item/floramancers_wand/check_absorbloom_dispoppy
 execute if block ~ ~ ~ crimson_fungus align xyz positioned ~0.5 ~0.5 ~0.5 as @e[type=item_frame,distance=..0.6,tag=flor.relilay] run function florcraft:item/floramancers_wand/check_relilay
 execute unless score $cast.temp flor.dummy matches 14.. positioned ^ ^ ^0.25 run function florcraft:item/floramancers_wand/use_cast
