@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:4,RepairCost:100,flor_dat:{arid_cost:10b,echoroot:1b},CustomModelData:423099,Unbreakable:1b}"
+                            "tag": "{HideFlags:4,RepairCost:100,flor_dat:{arid_cost:15b,echoroot:1b},CustomModelData:423099,Unbreakable:1b}"
                         },
                         {
                             "function": "minecraft:set_lore",
