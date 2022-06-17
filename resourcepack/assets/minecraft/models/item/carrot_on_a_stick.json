@@ -101,6 +101,8 @@
     {"predicate": {"custom_model_data": 423095}, "model": "florcraft:entity/aqueous_spirit"},
     {"predicate": {"custom_model_data": 423096}, "model": "florcraft:entity/verdant_spirit"},
     {"predicate": {"custom_model_data": 423097}, "model": "florcraft:entity/arid_guardian/arid_guardian_body_attacking5"},
-    {"predicate": {"custom_model_data": 423098}, "model": "florcraft:entity/arid_guardian/arid_guardian_body_attacking6"}
+    {"predicate": {"custom_model_data": 423098}, "model": "florcraft:entity/arid_guardian/arid_guardian_body_attacking6"},
+    {"predicate": {"custom_model_data": 423099}, "model": "florcraft:item/echoroot"},
+    {"predicate": {"custom_model_data": 423100}, "model": "florcraft:item/shryroot"}
   ]
 }
