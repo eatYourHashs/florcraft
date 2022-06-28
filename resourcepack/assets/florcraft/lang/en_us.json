@@ -924,12 +924,12 @@
     "item.flor.shryroot.lore.1": "nearby flowers away as projectiles",
     "item.flor.shryroot.lore.2": "that deposit their essence in any block hit.",
     "item.flor.shryroot": "Shryroot",
-    "item.flor.visions.0": "I have seen something unfamiliar within the nature surrounding me. It has shown me an epiphany of sorts.\\\\\\\\n\\\\\\\\nI believe there are a few objects I can create to learn more about the world around me.",
-    "item.flor.visions.1.line.0": "\\\\\\\\n\\\\\\\\n\\\\\\\\n\\\\\\\\n\\\\\\\\uc022\\\\\\\\n\\\\\\\\n",
+    "item.flor.visions.0": "I have seen something unfamiliar within the nature surrounding me. It has shown me an epiphany of sorts.\n\nI believe there are a few objects I can create to learn more about the world around me.",
+    "item.flor.visions.1.line.0": "\n\n\n\n\uc022\n\n",
     "item.flor.visions.1.line.1": "This Infused Workbench will allow me to harness the raw essence dropped by the spirits that flit around at times.",
     "item.flor.visions.2": "The workbench has a slot into which essence can be inserted. Recipes in this workbench will use up that essence to create objects. There are three flavors of essence, each obtainable from different spirits in different locales.",
-    "item.flor.visions.3.line.0": "\\\\\\\\n\\\\\\\\n\\\\\\\\n\\\\\\\\n\\\\\\\\uc023\\\\\\\\n\\\\\\\\n",
+    "item.flor.visions.3.line.0": "\n\n\n\n\uc023\n\n",
     "item.flor.visions.3.line.1": "Within that workbench, this Oculus can be made in order to allow me insight deeper into this magic.",
     "item.flor.visions.4": "Using the knowledge points the spirits grant me, I can unlock new recipes. Simply place the requisite materials on the locked slot representing a specific recipe to unlock it.",
-    "item.flor.visions.5": "I am sure there are many deeper, much more powerful secrets I can discover by delving into the mysterious magic of nature. \\\\\\\\n\\\\\\\\nBut before I can put these secrets to use, I will have to unearth them."
+    "item.flor.visions.5": "I am sure there are many deeper, much more powerful secrets I can discover by delving into the mysterious magic of nature. \n\nBut before I can put these secrets to use, I will have to unearth them."
 }
