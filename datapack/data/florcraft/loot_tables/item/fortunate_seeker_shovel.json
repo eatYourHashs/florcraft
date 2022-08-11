@@ -27,7 +27,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{verdant_cost:15b,fortunate_seeker_shovel:1b,ess_repair:3b}}"
+                            "tag": "{CustomModelData:423000,flor_dat:{verdant_cost:15b,fortunate_seeker_shovel:1b,ess_repair:3b,bonus_lvls:{verdant:1b}}}"
                         }
                     ]
                 }

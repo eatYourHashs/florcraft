@@ -10,6 +10,14 @@ tag @s remove flor.helmet
 tag @s remove flor.boots
 tag @s remove flor.armor
 
+tag @s remove flor.bonus_lvl_arid
+tag @s remove flor.bonus_lvl_aqueous
+tag @s remove flor.bonus_lvl_verdant
+
+execute if data storage flor:storage root.enchant_item{tag:{flor_dat:{bonus_lvls:{arid:1b}}}} run tag @s add flor.bonus_lvl_arid
+execute if data storage flor:storage root.enchant_item{tag:{flor_dat:{bonus_lvls:{aqueous:1b}}}} run tag @s add flor.bonus_lvl_aqueous
+execute if data storage flor:storage root.enchant_item{tag:{flor_dat:{bonus_lvls:{verdant:1b}}}} run tag @s add flor.bonus_lvl_verdant
+
 #remove existing icons if present
 data remove block ~ ~ ~ Items[{Slot:3b}]
 data remove block ~ ~ ~ Items[{Slot:4b}]
@@ -66,8 +74,6 @@ execute if data storage flor:storage root.enchant_item{id:"minecraft:shield"} ru
 execute if data storage flor:storage root.enchant_item{id:"minecraft:flint_and_steel"} run function florcraft:block/enchanting_station/show_enchantments/unbreaking
 execute if data storage flor:storage root.enchant_item{id:"minecraft:shears"} run function florcraft:block/enchanting_station/show_enchantments/unbreaking
 execute if data storage flor:storage root.enchant_item{id:"minecraft:elytra"} run function florcraft:block/enchanting_station/show_enchantments/unbreaking
-execute if data storage flor:storage root.enchant_item{id:"minecraft:carrot_on_a_stick"} run function florcraft:block/enchanting_station/show_enchantments/unbreaking
-execute if data storage flor:storage root.enchant_item{id:"minecraft:warped_fungus_on_a_stick"} run function florcraft:block/enchanting_station/show_enchantments/unbreaking
 execute if data storage flor:storage root.enchant_item{id:"minecraft:bow"} run function florcraft:block/enchanting_station/show_enchantments/bow
 execute if data storage flor:storage root.enchant_item{id:"minecraft:crossbow"} run function florcraft:block/enchanting_station/show_enchantments/crossbow
 execute if data storage flor:storage root.enchant_item{id:"minecraft:trident"} run function florcraft:block/enchanting_station/show_enchantments/trident

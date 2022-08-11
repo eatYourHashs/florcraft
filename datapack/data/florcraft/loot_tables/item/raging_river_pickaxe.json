@@ -27,7 +27,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{aqueous_cost:15b,raging_river_pickaxe:1b,ess_repair:2b}}"
+                            "tag": "{CustomModelData:423000,flor_dat:{aqueous_cost:15b,raging_river_pickaxe:1b,ess_repair:2b,bonus_lvls:{aqueous:1b}}}"
                         }
                     ]
                 }

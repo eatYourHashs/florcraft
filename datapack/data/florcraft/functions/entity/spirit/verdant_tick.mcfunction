@@ -1,4 +1,4 @@
-particle dust 0 0.878 0.322 1 ~ ~0.3 ~ 0.05 0.05 0.05 1 2
+#particle dust 0 0.878 0.322 1 ~ ~0.3 ~ 0.05 0.05 0.05 1 2
 execute if entity @s[nbt={HurtTime:9s}] run function florcraft:entity/spirit/verdant_death
 effect give @s minecraft:invisibility 1 1 true
 scoreboard players add @s flor.dummy 1

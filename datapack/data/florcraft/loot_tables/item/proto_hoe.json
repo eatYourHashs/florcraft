@@ -5,14 +5,14 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:diamond_axe",
+                    "name": "minecraft:netherite_hoe",
                     "functions": [
                         {
                             "function": "minecraft:set_name",
                             "name": {
                                 "color": "yellow",
                                 "italic": false,
-                                "translate": "item.flor.burning_fire_axe"
+                                "translate": "item.flor.proto_hoe"
                             }
                         },
                         {
@@ -21,13 +21,13 @@
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.flor.burning_fire_axe.lore"
+                                    "translate": "item.flor.proto_hoe.lore"
                                 }
                             ]
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{arid_cost:15b,burning_fire_axe:1b,ess_repair:1b,bonus_lvls:{arid:1b}}}"
+                            "tag": "{CustomModelData:423001,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,proto_hoe:1b,bonus_lvls:{arid:1b,aqueous:1b,verdant:1b}}}"
                         }
                     ]
                 }
