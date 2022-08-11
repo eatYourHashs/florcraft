@@ -21,7 +21,17 @@
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.flor.proto_pickaxe.lore"
+                                    "translate": "item.flor.proto_pickaxe.lore.0"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.proto_pickaxe.lore.1"
                                 }
                             ]
                         },

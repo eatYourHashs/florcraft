@@ -7,4 +7,5 @@ scoreboard players operation $temp.0 flor.dummy *= $temp flor.dummy
 scoreboard players operation $temp.1 flor.dummy *= $temp flor.dummy
 scoreboard players operation $temp.2 flor.dummy *= $temp flor.dummy
 execute unless score $temp flor.dummy matches 3.. if score @s flor.arid_ess >= $temp.0 flor.dummy if score @s flor.aqueous_ess >= $temp.1 flor.dummy if score @s flor.verdant_ess >= $temp.2 flor.dummy run function florcraft:block/enchanting_station/enchant/fire_aspect
+execute if score $temp flor.dummy matches 3 if entity @s[tag=flor.bonus_lvl_arid] if score @s flor.arid_ess >= $temp.0 flor.dummy if score @s flor.aqueous_ess >= $temp.1 flor.dummy if score @s flor.verdant_ess >= $temp.2 flor.dummy run function florcraft:block/enchanting_station/enchant/fire_aspect
 tag @s add flor.items_removed

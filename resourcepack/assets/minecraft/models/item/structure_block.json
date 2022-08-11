@@ -73,6 +73,7 @@
     {"predicate": {"custom_model_data": 423069}, "model": "florcraft:item/echoroot"},
     {"predicate": {"custom_model_data": 423070}, "model": "florcraft:item/shryroot"},
     {"predicate": {"custom_model_data": 423071}, "model": "florcraft:block/echoroot"},
-    {"predicate": {"custom_model_data": 423072}, "model": "florcraft:block/shryroot"}
+    {"predicate": {"custom_model_data": 423072}, "model": "florcraft:block/shryroot"},
+    {"predicate": {"custom_model_data": 423073}, "model": "florcraft:item/proto_pickaxe"}
   ]
 }

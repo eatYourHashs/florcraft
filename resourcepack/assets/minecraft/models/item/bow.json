@@ -1,5 +1,5 @@
 {
-  "parent": "item/handheld_bow",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "item/bow"
   },

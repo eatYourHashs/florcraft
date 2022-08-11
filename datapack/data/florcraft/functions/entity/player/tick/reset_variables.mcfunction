@@ -16,6 +16,15 @@ scoreboard players set @s flor.diamond 0
 scoreboard players set @s flor.redstone 0
 scoreboard players set @s flor.emerald 0
 scoreboard players set @s flor.iron 0
+scoreboard players set @s flor.copper 0
+scoreboard players set @s flor.deepslate_coal 0
+scoreboard players set @s flor.deepslate_lapis 0
+scoreboard players set @s flor.deepslate_gold 0
+scoreboard players set @s flor.deepslate_diamond 0
+scoreboard players set @s flor.deepslate_redstone 0
+scoreboard players set @s flor.deepslate_emerald 0
+scoreboard players set @s flor.deepslate_iron 0
+scoreboard players set @s flor.deepslate_copper 0
 scoreboard players set @s flor.debris 0
 scoreboard players set @s flor.sneak 0
 scoreboard players set @s flor.walk 0
