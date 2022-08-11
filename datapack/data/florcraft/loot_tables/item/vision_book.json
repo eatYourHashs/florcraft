@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{HideFlags:32,title:\"\",author:\"???\",generation:0,pages:['{\"translate\":\"item.flor.visions.0\"}','[{\"translate\":\"item.flor.visions.1.line.0\",\"font\":\"florcraft:oculus_recipes\",\"color\":\"white\"},{\"translate\":\"item.flor.visions.1.line.1\",\"font\":\"minecraft:default\",\"color\":\"black\"}]','{\"translate\":\"item.flor.visions.2\"}','[{\"translate\":\"item.flor.visions.3.line.0\",\"font\":\"florcraft:oculus_recipes\",\"color\":\"white\"},{\"translate\":\"item.flor.visions.3.line.1\",\"font\":\"minecraft:default\",\"color\":\"black\"}]','{\"translate\":\"item.flor.visions.4\"}','{\"translate\":\"item.flor.visions.5\"}']}"
+                            "tag": "{flor_dat:{the_vision:1b},HideFlags:32,title:\"\",author:\"???\",generation:0,pages:['{\"translate\":\"item.flor.visions.0\"}','[{\"translate\":\"item.flor.visions.1.line.0\",\"font\":\"florcraft:oculus_recipes\",\"color\":\"white\"},{\"translate\":\"item.flor.visions.1.line.1\",\"font\":\"minecraft:default\",\"color\":\"black\"}]','{\"translate\":\"item.flor.visions.2\"}','[{\"translate\":\"item.flor.visions.3.line.0\",\"font\":\"florcraft:oculus_recipes\",\"color\":\"white\"},{\"translate\":\"item.flor.visions.3.line.1\",\"font\":\"minecraft:default\",\"color\":\"black\"}]','{\"translate\":\"item.flor.visions.4\"}','{\"translate\":\"item.flor.visions.5\"}']}"
                         },
                         {
                             "function": "set_name",
