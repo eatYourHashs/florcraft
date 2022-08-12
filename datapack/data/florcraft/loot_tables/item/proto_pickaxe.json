@@ -37,7 +37,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423001,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,proto_pickaxe:1b,bonus_lvls:{arid:1b,aqueous:1b,verdant:1b}}}"
+                            "tag": "{CustomModelData:423001,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,proto_pickaxe:1b,bonus_lvls:{arid:1b,aqueous:1b,verdant:1b}}}"
                         }
                     ]
                 }
