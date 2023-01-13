@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "florcraft:gui/negative_space"
+    },
+    {
+      "type": "directory",
+      "source": "flor_entity",
+      "prefix": "entity/"
+    },
+    {
+      "type": "directory",
+      "source": "flor_model",
+      "prefix": "model/"
+    }
+  ]
+}
