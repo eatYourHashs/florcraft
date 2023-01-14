@@ -26,6 +26,8 @@
     {"predicate": {"custom_model_data": 423022}, "model": "florcraft:block/essence_capacitor_verdant_3"},
     {"predicate": {"custom_model_data": 423023}, "model": "florcraft:block/reservoir_core"},
     {"predicate": {"custom_model_data": 423024}, "model": "florcraft:block/transmission_beacon"},
-    {"predicate": {"custom_model_data": 423025}, "model": "florcraft:block/transmission_receiver"}
+    {"predicate": {"custom_model_data": 423025}, "model": "florcraft:block/transmission_receiver"},
+    {"predicate": {"custom_model_data": 423026}, "model": "florcraft:block/auraflow_resonator"},
+    {"predicate": {"custom_model_data": 423027}, "model": "florcraft:block/capacitance_resonator"}
   ]
 }
