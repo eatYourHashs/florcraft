@@ -4,6 +4,7 @@ tag @e[type=armor_stand,tag=flor.ess] remove flor.ess
 playsound minecraft:entity.ender_eye.death block @a ~ ~ ~ 1 2
 scoreboard players operation $temp flor.dummy = @s flor.arid_upg
 scoreboard players add $temp flor.dummy 1
+scoreboard players operation $temp.resonance flor.dummy = $temp flor.dummy
 execute if entity @s[tag=!flor.aqueous_filter,tag=!flor.verdant_filter] if score @e[type=armor_stand,tag=flor.take_ess,limit=1] flor.arid_ess >= $temp flor.dummy run tag @s add flor.arid_take
 execute if entity @s[tag=!flor.arid_filter,tag=!flor.verdant_filter] if score @e[type=armor_stand,tag=flor.take_ess,limit=1] flor.aqueous_ess >= $temp flor.dummy run tag @s add flor.aqueous_take
 execute if entity @s[tag=!flor.arid_filter,tag=!flor.aqueous_filter] if score @e[type=armor_stand,tag=flor.take_ess,limit=1] flor.verdant_ess >= $temp flor.dummy run tag @s add flor.verdant_take

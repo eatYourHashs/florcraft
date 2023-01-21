@@ -74,6 +74,8 @@
     {"predicate": {"custom_model_data": 423070}, "model": "florcraft:item/shryroot"},
     {"predicate": {"custom_model_data": 423071}, "model": "florcraft:block/echoroot"},
     {"predicate": {"custom_model_data": 423072}, "model": "florcraft:block/shryroot"},
-    {"predicate": {"custom_model_data": 423073}, "model": "florcraft:item/proto_pickaxe"}
+    {"predicate": {"custom_model_data": 423073}, "model": "florcraft:item/proto_pickaxe"},
+    {"predicate": {"custom_model_data": 423074}, "model": "florcraft:block/auraflow_resonator"},
+    {"predicate": {"custom_model_data": 423075}, "model": "florcraft:block/capacitance_resonator"}
   ]
 }
