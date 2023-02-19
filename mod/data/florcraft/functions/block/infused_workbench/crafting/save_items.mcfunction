@@ -1,1 +1,0 @@
-data modify storage flor:crafting Items set from block ~ ~ ~ Items

@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "florcraft:item/essence_flask_arid_2"
-    }
-}

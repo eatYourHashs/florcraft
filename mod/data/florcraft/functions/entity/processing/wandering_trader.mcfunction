@@ -1,1 +1,0 @@
-execute unless entity @s[tag=flor.hostile] run tag @s add flor.no_spirit_seek

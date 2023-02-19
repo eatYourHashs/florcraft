@@ -1,1 +1,0 @@
-execute as @e[type=arrow,tag=!smithed.entity,limit=1,sort=nearest] run function florcraft:item/thundering_tempest_bow/proc

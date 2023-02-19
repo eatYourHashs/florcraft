@@ -1,1 +1,0 @@
-execute unless block ~ ~ ~ crimson_fungus run function florcraft:block/absorbloom/break

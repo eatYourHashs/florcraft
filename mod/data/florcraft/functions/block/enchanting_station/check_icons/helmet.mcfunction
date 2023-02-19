@@ -1,2 +1,0 @@
-execute unless data block ~ ~ ~ Items[{Slot:12b}] run function florcraft:block/enchanting_station/check_validity/respiration
-execute unless data block ~ ~ ~ Items[{Slot:13b}] run function florcraft:block/enchanting_station/check_validity/aqua_affinity

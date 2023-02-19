@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "florcraft:item/arid_exobiotic_chestplate_archmage",
-        "layer1": "florcraft:item/arid_exobiotic_chestplate_archmage"
-    }
-}

@@ -1,2 +1,0 @@
-execute if entity @s[tag=flor.relilay] run function florcraft:item/floramancers_wand/check_relilay
-execute unless entity @s[tag=flor.relilay] run function florcraft:item/floramancers_wand/check_absorbloom_dispoppy

@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "florcraft:item/verdant_exobiotic_leggings",
-        "layer1": "florcraft:item/verdant_exobiotic_leggings"
-    }
-}
