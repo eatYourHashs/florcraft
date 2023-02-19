@@ -1,0 +1,2 @@
+execute positioned ~ ~-1.25 ~ if entity @e[distance=..0.6,tag=flor.capacity,limit=1,sort=nearest,tag=!flor.resonating] run tag @e[distance=..0.6,tag=flor.capacity,limit=1,sort=nearest] add flor.resonating
+execute positioned ~ ~-1.25 ~ unless entity @e[distance=..0.6,tag=flor.resonating,limit=1,sort=nearest] run scoreboard players set @s flor.dummy 0

@@ -16,3 +16,4 @@ execute if entity @s[tag=flor.toggled] if score @s flor.arid_ess matches 1.. if 
 execute if entity @s[tag=flor.toggled] if score @s flor.aqueous_ess matches 1.. if score @s flor.aqueous_ess < @s flor.arid_cap run tag @s add flor.aqueous_acceptor
 execute if entity @s[tag=flor.toggled] if score @s flor.verdant_ess matches 1.. if score @s flor.verdant_ess < @s flor.arid_cap run tag @s add flor.verdant_acceptor
 execute if entity @s[tag=flor.toggled] run tag @s remove flor.interacts_with_bloom
+execute if entity @s[tag=flor.resonating] run function florcraft:block/generic/resonating

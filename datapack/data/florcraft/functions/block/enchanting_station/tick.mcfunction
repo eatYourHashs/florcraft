@@ -7,3 +7,4 @@ execute unless score @s flor.verdant_ess matches 30.. run tag @s[tag=!flor.arid_
 execute if score @s flor.arid_ess matches 30.. run tag @s remove flor.arid_acceptor
 execute if score @s flor.aqueous_ess matches 30.. run tag @s remove flor.aqueous_acceptor
 execute if score @s flor.verdant_ess matches 30.. run tag @s remove flor.verdant_acceptor
+execute if entity @s[tag=flor.resonating] run function florcraft:block/generic/resonating

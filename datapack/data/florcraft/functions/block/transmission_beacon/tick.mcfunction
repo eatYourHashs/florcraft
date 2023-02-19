@@ -15,3 +15,4 @@ execute if entity @s[tag=flor.valid,tag=!flor.arid_filter,tag=!flor.aqueous_filt
 execute if entity @s[tag=flor.valid] if score @s flor.arid_ess matches 1..19 run tag @s add flor.arid_acceptor
 execute if entity @s[tag=flor.valid] if score @s flor.aqueous_ess matches 1..19 run tag @s add flor.aqueous_acceptor
 execute if entity @s[tag=flor.valid] if score @s flor.verdant_ess matches 1..19 run tag @s add flor.verdant_acceptor
+execute if entity @s[tag=flor.resonating] run function florcraft:block/generic/resonating

@@ -8,3 +8,4 @@ execute if score @s flor.dummy matches 3 unless score @s flor.aqueous_ess matche
 tag @s remove flor.verdant_acceptor
 execute unless score @s flor.dummy matches 3.. unless score @s flor.verdant_ess matches 5.. run tag @s add flor.verdant_acceptor
 execute if score @s flor.dummy matches 3 unless score @s flor.verdant_ess matches 10.. run tag @s add flor.verdant_acceptor
+execute if entity @s[tag=flor.resonating] run function florcraft:block/generic/resonating

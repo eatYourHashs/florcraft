@@ -5,3 +5,4 @@ execute if block ~ ~ ~ minecraft:redstone_lamp[lit=false] run tag @s remove flor
 
 tag @s remove flor.ready
 execute unless score @s flor.arid_ess matches 1.. unless score @s flor.aqueous_ess matches 1.. unless score @s flor.verdant_ess matches 1.. run tag @s add flor.ready
+execute if entity @s[tag=flor.resonating] run function florcraft:block/generic/resonating

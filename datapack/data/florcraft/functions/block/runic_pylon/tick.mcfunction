@@ -1,1 +1,2 @@
 execute unless block ~ ~ ~ oak_wood unless block ~ ~ ~ stripped_oak_wood run function florcraft:block/runic_pylon/break
+execute if entity @s[tag=flor.resonating] run function florcraft:block/generic/resonating

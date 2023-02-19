@@ -91,3 +91,4 @@ execute unless score @s flor.arid_ess matches 20.. run tag @s add flor.arid_acce
 execute if score @s flor.arid_ess matches 20.. run tag @s remove flor.arid_acceptor
 
 tag @s remove flor.metal
+execute if entity @s[tag=flor.resonating] run function florcraft:block/generic/resonating
