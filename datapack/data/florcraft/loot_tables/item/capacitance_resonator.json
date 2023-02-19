@@ -32,7 +32,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"capacitance_resonator\"}}}]},CustomModelData:423026,flor_dat:{arid_cost:5b,aqueous_cost:5b,verdant_cost:5b,capacitance_resonator:1b}}"
+                            "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"capacitance_resonator\"}}}]},CustomModelData:423027,flor_dat:{arid_cost:5b,aqueous_cost:5b,verdant_cost:5b,capacitance_resonator:1b}}"
                         }
                     ]
                 }
