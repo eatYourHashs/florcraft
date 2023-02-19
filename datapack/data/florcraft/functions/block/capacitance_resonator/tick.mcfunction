@@ -6,7 +6,6 @@ execute if block ~-1 ~ ~ minecraft:hopper run data modify block ~-1 ~ ~ Transfer
 execute if block ~ ~ ~1 minecraft:hopper run data modify block ~ ~ ~1 TransferCooldown set value 15
 execute if block ~ ~ ~-1 minecraft:hopper run data modify block ~ ~ ~-1 TransferCooldown set value 15
 execute if block ~ ~ ~ barrel run setblock ~ ~ ~ stone
-tellraw @p {"score":{"name":"@s","objective":"flor.dummy"},"color":"red"}
 execute if block ~ ~ ~ stone if score @s flor.dummy matches 15.. run setblock ~ ~ ~ barrel{Lock:"§",CustomName:'{"font":"florcraft:big_space","translate":"block.flor.generic.big_space"}',Items:[{id:"minecraft:white_bed",Slot:0b,Count:27b,tag:{flor_dat:{cleared:1b}}}]}
 execute if block ~ ~ ~ stone if score @s flor.dummy matches 14 run setblock ~ ~ ~ barrel{Lock:"§",CustomName:'{"font":"florcraft:big_space","translate":"block.flor.generic.big_space"}',Items:[{id:"minecraft:white_bed",Slot:0b,Count:26b,tag:{flor_dat:{cleared:1b}}}]}
 execute if block ~ ~ ~ stone if score @s flor.dummy matches 13 run setblock ~ ~ ~ barrel{Lock:"§",CustomName:'{"font":"florcraft:big_space","translate":"block.flor.generic.big_space"}',Items:[{id:"minecraft:white_bed",Slot:0b,Count:24b,tag:{flor_dat:{cleared:1b}}}]}
