@@ -47,3 +47,5 @@ execute if entity @s[tag=flor.range_circle] run function florcraft:entity/range_
 execute if entity @s[tag=flor.transmission_beacon] run function florcraft:block/transmission_beacon/tick
 execute if entity @s[tag=flor.transmission_receiver] run function florcraft:block/transmission_receiver/tick
 execute if entity @s[tag=flor.verdant_bridge] run function florcraft:item/exobiotic/leggings/bridge_tick
+execute if entity @s[tag=flor.scion_hitbox] run function florcraft:entity/scion_of_the_deep/hitbox_tick
+execute if entity @s[tag=flor.scion_model] run function florcraft:entity/scion_of_the_deep/model_tick

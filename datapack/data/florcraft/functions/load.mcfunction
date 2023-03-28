@@ -108,6 +108,7 @@ scoreboard players set $cons.16 flor.dummy 16
 scoreboard players set $cons.20 flor.dummy 20
 scoreboard players set $cons.25 flor.dummy 25
 scoreboard players set $cons.30 flor.dummy 30
+scoreboard players set $cons.40 flor.dummy 40
 scoreboard players set $cons.50 flor.dummy 50
 scoreboard players set $cons.60 flor.dummy 60
 scoreboard players set $cons.65 flor.dummy 65
@@ -116,6 +117,7 @@ scoreboard players set $cons.95 flor.dummy 95
 scoreboard players set $cons.100 flor.dummy 100
 scoreboard players set $cons.110 flor.dummy 110
 scoreboard players set $cons.125 flor.dummy 125
+scoreboard players set $cons.24000 flor.dummy 24000
 
 scoreboard players set flor.ignore_armor flor.dummy 0
 
