@@ -44,6 +44,7 @@ scoreboard objectives add flor.exo_boots_chg dummy
 scoreboard objectives add flor.food food
 scoreboard objectives add flor.last_tick_sprint dummy
 scoreboard objectives add flor.deeproot_prog dummy
+scoreboard objectives add flor.frames dummy
 
 scoreboard objectives add flor.oak minecraft.mined:minecraft.oak_log
 scoreboard objectives add flor.birch minecraft.mined:minecraft.birch_log
