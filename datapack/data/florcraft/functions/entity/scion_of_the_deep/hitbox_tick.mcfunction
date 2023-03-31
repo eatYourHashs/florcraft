@@ -1,1 +1,1 @@
-execute if entity @s[nbt={HurtTime:9b}] run function florcraft:entity/scion_of_the_deep/hurt
+execute if entity @s[nbt={HurtTime:9s}] run function florcraft:entity/scion_of_the_deep/hurt
