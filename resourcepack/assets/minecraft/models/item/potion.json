@@ -6,6 +6,7 @@
     },
   "overrides": [
 	{ "predicate": { "custom_model_data": 423000 }, "model": "florcraft:entity/scion_of_the_deep/spawn" },
-  { "predicate": { "custom_model_data": 423001 }, "model": "florcraft:entity/scion_of_the_deep/idle" }
+  { "predicate": { "custom_model_data": 423001 }, "model": "florcraft:entity/scion_of_the_deep/idle" },
+  { "predicate": { "custom_model_data": 423002 }, "model": "florcraft:entity/scion_of_the_deep/slam" }
   ]
 }
