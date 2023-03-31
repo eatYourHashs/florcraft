@@ -1,6 +1,6 @@
 scoreboard players set $math.in_0 flor.dummy 10
 function florcraft:utils/random
-execute at @s if entity @a[distance=..8,gamemode=!spectator] run tag @s add flor.close_attack
+execute if entity @a[distance=..8,gamemode=!spectator] run tag @s add flor.close_attack
 execute store result score $temp flor.dummy run data get entity @s Health
 scoreboard players remove $temp flor.dummy 400
 execute if score $temp flor.dummy matches ..400 run tag @s add flor.phase_transition
