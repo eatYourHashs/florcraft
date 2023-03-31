@@ -1,0 +1,1 @@
+playsound minecraft:entity.warden.hurt hostile @a ~ ~ ~ 0.7 0.5
