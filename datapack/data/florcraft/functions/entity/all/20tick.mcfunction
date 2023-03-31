@@ -21,3 +21,4 @@ execute if entity @s[tag=flor.reservoir_core] run function florcraft:block/reser
 execute if entity @s[tag=flor.transmission_beacon] run function florcraft:block/transmission_beacon/20tick
 execute if entity @s[tag=flor.transmission_receiver] run function florcraft:block/transmission_receiver/20tick
 execute if entity @s[tag=flor.capacitance_resonator] run function florcraft:block/capacitance_resonator/20tick
+execute if entity @s[tag=flor.scion_hitbox] run function florcraft:entity/scion_of_the_deep/hitbox_tick
