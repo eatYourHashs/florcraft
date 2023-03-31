@@ -1031,5 +1031,18 @@
     "item.flor.visions.3.line.0": "\n\n\n\n\uc023\n\n",
     "item.flor.visions.3.line.1": "Within that workbench, this Oculus can be made in order to allow me insight deeper into this magic.",
     "item.flor.visions.4": "Using the knowledge points the spirits grant me, I can unlock new recipes. Simply place the requisite materials on the locked slot representing a specific recipe to unlock it.",
-    "item.flor.visions.5": "I am sure there are many deeper, much more powerful secrets I can discover by delving into the mysterious magic of nature. \n\nBut before I can put these secrets to use, I will have to unearth them."
+    "item.flor.visions.5": "I am sure there are many deeper, much more powerful secrets I can discover by delving into the mysterious magic of nature. \n\nBut before I can put these secrets to use, I will have to unearth them.",
+    "death.attack.scion": "%s was eviscerated by %s",
+    "death.attack.scion.item": "%s was eviscerated by %s using %s",
+    "death.attack.scion_sword": "%s was bisected by %s",
+    "death.attack.scion_sword.item": "%s was bisected by %s using %s",
+    "death.attack.arid": "%s was killed by arid magic",
+    "death.attack.arid.item": "%s was killed by %s's arid magic using %s",
+    "death.attack.arid.player": "%s was killed by %s's arid magic",
+    "death.attack.aqueous": "%s was killed by aqueous magic",
+    "death.attack.aqueous.item": "%s was killed by %s's aqueous magic using %s",
+    "death.attack.aqueous.player": "%s was killed by %s's aqueous magic",
+    "death.attack.verdant": "%s was killed by verdant magic",
+    "death.attack.verdant.item": "%s was killed by %s's verdant magic using %s",
+    "death.attack.verdant.player": "%s was killed by %s's verdant magic"
 }

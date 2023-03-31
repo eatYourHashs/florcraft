@@ -82,6 +82,10 @@ scoreboard objectives add flor.neth_pick minecraft.used:minecraft.netherite_pick
 forceload add -30000000 24576
 setblock -30000000 0 24576 yellow_shulker_box
 
+bossbar add florcraft:scion_of_the_deep "Scion of the Deep"
+bossbar set florcraft:scion_of_the_deep color blue
+bossbar set florcraft:scion_of_the_deep max 600
+
 scoreboard players set $cons.rng_a flor.dummy 1103515245
 execute store result score $cons.rng_seed flor.dummy run data get entity @e[limit=1,sort=random] UUID[0]
 
