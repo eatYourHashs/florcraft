@@ -50,3 +50,4 @@ execute if entity @s[tag=flor.transmission_receiver] run function florcraft:bloc
 execute if entity @s[tag=flor.verdant_bridge] run function florcraft:item/exobiotic/leggings/bridge_tick
 execute if entity @s[tag=flor.scion_hitbox] run function florcraft:entity/scion_of_the_deep/hitbox_tick
 execute if entity @s[tag=flor.scion_model] run function florcraft:entity/scion_of_the_deep/model_tick
+execute if entity @s[tag=flor.scion_bolt] run function florcraft:entity/scion_bolt/tick

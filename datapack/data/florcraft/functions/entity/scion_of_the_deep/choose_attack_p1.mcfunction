@@ -2,6 +2,9 @@ function florcraft:entity/scion_of_the_deep/clear_attack_tags
 scoreboard players set $math.in_0 flor.dummy 10
 function florcraft:utils/random
 execute if entity @a[distance=..8,gamemode=!spectator] run tag @s add flor.close_attack
+execute positioned ^-2 ^ ^-4 if entity @a[distance=..4,gamemode=!spectator] run tag @s add flor.behind_attack
+execute positioned ^ ^ ^-4 if entity @a[distance=..5,gamemode=!spectator] run tag @s add flor.behind_attack
+execute positioned ^2 ^ ^-4 if entity @a[distance=..4,gamemode=!spectator] run tag @s add flor.behind_attack
 #execute store result score $temp.hp flor.dummy run data get entity @s Health
 #execute if score $temp.hp flor.dummy matches ..800 run tag @s add flor.phase_transition
 execute if score $math.out_0 flor.dummy matches ..7 if entity @s[tag=flor.behind_attack,tag=!flor.phase_transition] run tag @s add flor.back_strike

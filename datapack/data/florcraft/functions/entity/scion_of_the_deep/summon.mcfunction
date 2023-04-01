@@ -4,5 +4,5 @@ scoreboard players set @e[tag=flor.new_scion,tag=flor.scion_model,limit=1] flor.
 execute as @e[tag=flor.new_scion,tag=flor.scion_model,limit=1] run function florcraft:entity/all/init_anim
 tag @e[tag=flor.new_scion] remove flor.new_scion
 bossbar set florcraft:scion_of_the_deep players @a[distance=..64]
-bossbar set florcraft:scion_of_the_deep value 600
+bossbar set florcraft:scion_of_the_deep value 800
 playsound minecraft:entity.warden.dig hostile @a ~ ~ ~ 1 1
