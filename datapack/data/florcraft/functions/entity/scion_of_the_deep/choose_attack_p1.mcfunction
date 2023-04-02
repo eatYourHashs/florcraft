@@ -13,7 +13,8 @@ execute positioned ^ ^ ^4 if entity @a[distance=..5,gamemode=!spectator] run tag
 #execute if score $temp.hp flor.dummy matches ..800 run tag @s add flor.phase_transition
 execute if score $math.out_0 flor.dummy matches ..7 if entity @s[tag=flor.behind_attack,tag=!flor.phase_transition] run tag @s add flor.back_strike
 execute if score $math.out_0 flor.dummy matches 6.. if entity @s[tag=flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.slam
-execute if score $math.out_0 flor.dummy matches ..5 if entity @s[tag=flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.in_bolts
+execute if score $math.out_0 flor.dummy matches 2..5 if entity @s[tag=flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.in_bolts
+execute if score $math.out_0 flor.dummy matches 1 if entity @s[tag=flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.yank
 execute if score $math.out_0 flor.dummy matches ..4 if entity @s[tag=!flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.out_bolts
 execute if score $math.out_0 flor.dummy matches 5 if entity @s[tag=!flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.left_beam
 execute if score $math.out_0 flor.dummy matches 6 if entity @s[tag=!flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.right_beam

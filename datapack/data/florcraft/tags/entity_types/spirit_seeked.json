@@ -24,6 +24,7 @@
 		"minecraft:enderman",
 		"minecraft:piglin_brute",
 		"minecraft:ender_dragon",
-		"minecraft:wandering_trader"
+		"minecraft:wandering_trader",
+		"minecraft:giant"
 	]
 }
