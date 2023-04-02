@@ -51,3 +51,4 @@ execute if entity @s[tag=flor.verdant_bridge] run function florcraft:item/exobio
 execute if entity @s[tag=flor.scion_hitbox] run function florcraft:entity/scion_of_the_deep/hitbox_tick
 execute if entity @s[tag=flor.scion_model] run function florcraft:entity/scion_of_the_deep/model_tick
 execute if entity @s[tag=flor.scion_bolt] run function florcraft:entity/scion_bolt/tick
+execute if entity @s[tag=flor.scion_deathray] run function florcraft:entity/scion_deathray/tick
