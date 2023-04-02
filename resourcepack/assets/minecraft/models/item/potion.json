@@ -12,6 +12,8 @@
   { "predicate": { "custom_model_data": 423004 }, "model": "florcraft:entity/scion_of_the_deep/bolts_far" },
   { "predicate": { "custom_model_data": 423005 }, "model": "florcraft:entity/scion_of_the_deep/back_strike" },
   { "predicate": { "custom_model_data": 423006 }, "model": "florcraft:entity/scion_of_the_deep/beam_left" },
-  { "predicate": { "custom_model_data": 423007 }, "model": "florcraft:entity/scion_of_the_deep/beam_right" }
+  { "predicate": { "custom_model_data": 423007 }, "model": "florcraft:entity/scion_of_the_deep/beam_right" },
+  { "predicate": { "custom_model_data": 423008 }, "model": "florcraft:entity/scion_of_the_deep/small_portal" },
+  { "predicate": { "custom_model_data": 423009 }, "model": "florcraft:entity/scion_of_the_deep/yank" }
   ]
 }

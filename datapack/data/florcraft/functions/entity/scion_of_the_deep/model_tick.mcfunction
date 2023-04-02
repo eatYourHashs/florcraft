@@ -9,3 +9,4 @@ execute if entity @s[tag=flor.out_bolts] run function florcraft:entity/scion_of_
 execute if entity @s[tag=flor.back_strike] run function florcraft:entity/scion_of_the_deep/back_strike/tick
 execute if entity @s[tag=flor.left_beam] run function florcraft:entity/scion_of_the_deep/left_beam/tick
 execute if entity @s[tag=flor.right_beam] run function florcraft:entity/scion_of_the_deep/right_beam/tick
+execute if entity @s[tag=flor.yank] run function florcraft:entity/scion_of_the_deep/yank/tick
