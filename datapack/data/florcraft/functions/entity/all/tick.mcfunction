@@ -45,6 +45,7 @@ execute if entity @s[tag=flor.tempest_arrow] run function florcraft:item/thunder
 execute if entity @s[tag=flor.reservoir_core] run function florcraft:block/reservoir_core/tick
 execute if entity @s[tag=flor.range_circle] run function florcraft:entity/range_circle/tick
 execute if entity @s[tag=flor.slam_effect] run function florcraft:entity/slam_effect/tick
+execute if entity @s[tag=flor.ray_aura] run function florcraft:entity/ray_aura/tick
 execute if entity @s[tag=flor.transmission_beacon] run function florcraft:block/transmission_beacon/tick
 execute if entity @s[tag=flor.transmission_receiver] run function florcraft:block/transmission_receiver/tick
 execute if entity @s[tag=flor.verdant_bridge] run function florcraft:item/exobiotic/leggings/bridge_tick
