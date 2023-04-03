@@ -17,6 +17,11 @@
   { "predicate": { "custom_model_data": 423009 }, "model": "florcraft:entity/scion_of_the_deep/yank" },
   { "predicate": { "custom_model_data": 423010 }, "model": "florcraft:entity/scion_of_the_deep/phase_transition_p1" },
   { "predicate": { "custom_model_data": 423011 }, "model": "florcraft:entity/scion_of_the_deep/phase_transition_p2" },
-  { "predicate": { "custom_model_data": 423012 }, "model": "florcraft:entity/scion_of_the_deep/idle_p2" }
+  { "predicate": { "custom_model_data": 423012 }, "model": "florcraft:entity/scion_of_the_deep/idle_p2" },
+  { "predicate": { "custom_model_data": 423013 }, "model": "florcraft:entity/scion_of_the_deep/beam_left_p2" },
+  { "predicate": { "custom_model_data": 423014 }, "model": "florcraft:entity/scion_of_the_deep/beam_right_p2" },
+  { "predicate": { "custom_model_data": 423015 }, "model": "florcraft:entity/scion_of_the_deep/slam_p2" },
+  { "predicate": { "custom_model_data": 423016 }, "model": "florcraft:entity/scion_of_the_deep/bolts_close_p2" },
+  { "predicate": { "custom_model_data": 423017 }, "model": "florcraft:entity/scion_of_the_deep/bolts_far_p2" }
   ]
 }
