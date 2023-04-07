@@ -54,3 +54,4 @@ execute if entity @s[tag=flor.scion_model] run function florcraft:entity/scion_o
 execute if entity @s[tag=flor.scion_bolt] run function florcraft:entity/scion_bolt/tick
 execute if entity @s[tag=flor.scion_deathray] run function florcraft:entity/scion_deathray/tick
 execute if entity @s[tag=flor.scion_small_portal] run function florcraft:entity/scion_small_portal/tick
+execute if entity @s[tag=flor.scion_large_portal] run function florcraft:entity/scion_large_portal/tick
