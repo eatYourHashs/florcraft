@@ -10,14 +10,17 @@ execute positioned ^2 ^ ^-4 if entity @a[distance=..4,gamemode=!spectator] run t
 execute positioned ^ ^ ^4 if entity @a[distance=..5,gamemode=!spectator] run tag @s add flor.dont_rotate
 #execute positioned ^2 ^ ^4 if entity @a[distance=..4,gamemode=!spectator] run tag @s add flor.dont_rotate
 #execute if score $math.out_0 flor.dummy matches ..7 if entity @s[tag=flor.behind_attack] run tag @s add flor.back_strike
-execute if score $math.out_0 flor.dummy matches 6.. if entity @s[tag=flor.close_attack,tag=!flor.back_strike] run tag @s add flor.slam_p2
-execute if score $math.out_0 flor.dummy matches ..5 if entity @s[tag=flor.close_attack,tag=!flor.back_strike] run tag @s add flor.in_bolts_p2
-execute if score $math.out_0 flor.dummy matches ..2 if entity @s[tag=!flor.close_attack,tag=!flor.back_strike] run tag @s add flor.out_bolts_p2
-execute if score $math.out_0 flor.dummy matches 9.. if entity @s[tag=!flor.close_attack,tag=!flor.back_strike] run tag @s add flor.voidgate
-execute if score $math.out_0 flor.dummy matches 4..5 if entity @s[tag=!flor.close_attack,tag=!flor.back_strike] run tag @s add flor.chop
-execute if score $math.out_0 flor.dummy matches 6..7 if entity @s[tag=!flor.close_attack,tag=!flor.back_strike] run tag @s add flor.sweep
-execute if score $math.out_0 flor.dummy matches 8 if entity @s[tag=!flor.close_attack,tag=!flor.back_strike] run tag @s add flor.left_beam
-execute if score $math.out_0 flor.dummy matches 3 if entity @s[tag=!flor.close_attack,tag=!flor.back_strike] run tag @s add flor.right_beam
+execute if score @s flor.dummy2 matches 3.. run tag @s add flor.whirlwind
+execute if score $math.out_0 flor.dummy matches 6.. if entity @s[tag=flor.close_attack,tag=!flor.whirlwind] run tag @s add flor.slam_p2
+execute if score $math.out_0 flor.dummy matches ..5 if entity @s[tag=flor.close_attack,tag=!flor.whirlwind] run tag @s add flor.in_bolts_p2
+execute if score $math.out_0 flor.dummy matches ..2 if entity @s[tag=!flor.close_attack,tag=!flor.whirlwind] run tag @s add flor.out_bolts_p2
+execute if score $math.out_0 flor.dummy matches 9.. if entity @s[tag=!flor.close_attack,tag=!flor.whirlwind] run tag @s add flor.voidgate
+execute if score $math.out_0 flor.dummy matches 4..5 if entity @s[tag=!flor.close_attack,tag=!flor.whirlwind] run tag @s add flor.chop
+execute if score $math.out_0 flor.dummy matches 6..7 if entity @s[tag=!flor.close_attack,tag=!flor.whirlwind] run tag @s add flor.sweep
+execute if score $math.out_0 flor.dummy matches 8 if entity @s[tag=!flor.close_attack,tag=!flor.whirlwind] run tag @s add flor.left_beam
+execute if score $math.out_0 flor.dummy matches 3 if entity @s[tag=!flor.close_attack,tag=!flor.whirlwind] run tag @s add flor.right_beam
+execute if entity @s[tag=flor.close_attack] run scoreboard players add @s flor.dummy2 1
+execute unless entity @s[tag=flor.close_attack] run scoreboard players set @s flor.dummy2 0
 tag @s remove flor.close_attack
 tag @s remove flor.behind_attack
 tag @s remove flor.no_back_strike

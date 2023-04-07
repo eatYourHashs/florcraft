@@ -24,6 +24,7 @@
   { "predicate": { "custom_model_data": 423016 }, "model": "florcraft:entity/scion_of_the_deep/bolts_close_p2" },
   { "predicate": { "custom_model_data": 423017 }, "model": "florcraft:entity/scion_of_the_deep/bolts_far_p2" },
   { "predicate": { "custom_model_data": 423018 }, "model": "florcraft:entity/scion_of_the_deep/voidgate" },
-  { "predicate": { "custom_model_data": 423019 }, "model": "florcraft:entity/scion_of_the_deep/large_portal" }
+  { "predicate": { "custom_model_data": 423019 }, "model": "florcraft:entity/scion_of_the_deep/large_portal" },
+  { "predicate": { "custom_model_data": 423020 }, "model": "florcraft:entity/scion_of_the_deep/whirlwind" }
   ]
 }
