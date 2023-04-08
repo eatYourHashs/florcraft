@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{flor_dat:{ess:'aqueous'},CustomModelData:423102}"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{flor_dat:{ess:'arid'},CustomModelData:423101}"
+  }
+]
