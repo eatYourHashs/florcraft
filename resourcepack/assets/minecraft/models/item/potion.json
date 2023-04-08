@@ -28,7 +28,6 @@
   { "predicate": { "custom_model_data": 423020 }, "model": "florcraft:entity/scion_of_the_deep/whirlwind" },
   { "predicate": { "custom_model_data": 423021 }, "model": "florcraft:entity/scion_of_the_deep/chop" },
   { "predicate": { "custom_model_data": 423022 }, "model": "florcraft:entity/scion_of_the_deep/sweep" },
-  { "predicate": { "custom_model_data": 423023 }, "model": "florcraft:entity/scion_of_the_deep/corkscrew" },
-  { "predicate": { "custom_model_data": 423024 }, "model": "florcraft:entity/scion_of_the_deep/death" }
+  { "predicate": { "custom_model_data": 423023 }, "model": "florcraft:entity/scion_of_the_deep/death" }
   ]
 }

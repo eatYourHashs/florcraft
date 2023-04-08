@@ -8,7 +8,7 @@ execute unless score $math.out_0 flor.dummy matches 2 positioned ^-18 ^3 ^8 run 
 execute unless score $math.out_0 flor.dummy matches 3 positioned ^-12 ^3 ^8 run function florcraft:entity/scion_of_the_deep/voidgate/spawn_portal
 execute unless score $math.out_0 flor.dummy matches 4 positioned ^-6 ^3 ^8 run function florcraft:entity/scion_of_the_deep/voidgate/spawn_portal
 execute positioned ^ ^3 ^8 run function florcraft:entity/scion_of_the_deep/voidgate/spawn_portal
-execute unless score $math.out_0 flor.dummy matches 6 positioned ^8 ^3 ^8 run function florcraft:entity/scion_of_the_deep/voidgate/spawn_portal
+execute unless score $math.out_0 flor.dummy matches 6 positioned ^6 ^3 ^8 run function florcraft:entity/scion_of_the_deep/voidgate/spawn_portal
 execute unless score $math.out_0 flor.dummy matches 7 positioned ^12 ^3 ^8 run function florcraft:entity/scion_of_the_deep/voidgate/spawn_portal
 execute unless score $math.out_0 flor.dummy matches 8 positioned ^18 ^3 ^8 run function florcraft:entity/scion_of_the_deep/voidgate/spawn_portal
 execute unless score $math.out_0 flor.dummy matches 0 positioned ^24 ^3 ^8 run function florcraft:entity/scion_of_the_deep/voidgate/spawn_portal
