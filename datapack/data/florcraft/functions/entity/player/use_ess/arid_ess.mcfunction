@@ -8,6 +8,9 @@ execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{essence_item:1b} 
 #subtract the input amount of essence from score
 scoreboard players operation $temp flor.arid_ess -= $in flor.arid_ess
 
+#if pulsating pustule and xp needs to be used, do shit for that
+execute if data entity @s Inventory[{Slot:-106b}].tag.flor_dat{pulsating_pustule:1b} if score $temp flor.arid_ess matches ..-1 run function florcraft:item/pulsating_pustule/use_xp_arid
+
 #copy over the item, store the new value, then copy to shulker
 data modify storage flor:process Items prepend from entity @s Inventory[{Slot:-106b}]
 data remove storage flor:process Items[0].Slot

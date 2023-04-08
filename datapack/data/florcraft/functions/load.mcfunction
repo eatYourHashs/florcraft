@@ -79,6 +79,8 @@ scoreboard objectives add flor.gold_pick minecraft.used:minecraft.golden_pickaxe
 scoreboard objectives add flor.dia_pick minecraft.used:minecraft.diamond_pickaxe
 scoreboard objectives add flor.neth_pick minecraft.used:minecraft.netherite_pickaxe
 
+scoreboard objectives add flor.lvl level
+
 forceload add -30000000 24576
 setblock -30000000 0 24576 yellow_shulker_box
 
