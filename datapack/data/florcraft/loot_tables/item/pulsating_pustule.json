@@ -32,7 +32,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423101,flor_dat:{pulsating_pustule:1b}}"
+                            "tag": "{CustomModelData:423101,flor_dat:{pulsating_pustule:1b,ess:'arid'}}"
                         }
                     ]
                 }

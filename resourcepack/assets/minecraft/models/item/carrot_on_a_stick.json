@@ -104,6 +104,8 @@
     {"predicate": {"custom_model_data": 423098}, "model": "florcraft:entity/arid_guardian/arid_guardian_body_attacking6"},
     {"predicate": {"custom_model_data": 423099}, "model": "florcraft:item/echoroot"},
     {"predicate": {"custom_model_data": 423100}, "model": "florcraft:item/shryroot"},
-    {"predicate": {"custom_model_data": 423101}, "model": "florcraft:item/pulsating_pustule"}
+    {"predicate": {"custom_model_data": 423101}, "model": "florcraft:item/pulsating_pustule_arid"},
+    {"predicate": {"custom_model_data": 423102}, "model": "florcraft:item/pulsating_pustule_aqueous"},
+    {"predicate": {"custom_model_data": 423103}, "model": "florcraft:item/pulsating_pustule_verdant"}
   ]
 }
