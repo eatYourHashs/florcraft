@@ -1,0 +1,1 @@
+execute if entity @a[distance=..4,gamemode=!creative,gamemode=!spectator] run function florcraft:entity/anticipant/melee/init
