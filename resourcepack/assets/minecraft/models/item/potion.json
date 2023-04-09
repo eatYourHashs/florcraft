@@ -28,6 +28,10 @@
   { "predicate": { "custom_model_data": 423020 }, "model": "florcraft:entity/scion_of_the_deep/whirlwind" },
   { "predicate": { "custom_model_data": 423021 }, "model": "florcraft:entity/scion_of_the_deep/chop" },
   { "predicate": { "custom_model_data": 423022 }, "model": "florcraft:entity/scion_of_the_deep/sweep" },
-  { "predicate": { "custom_model_data": 423023 }, "model": "florcraft:entity/scion_of_the_deep/death_anim" }
+  { "predicate": { "custom_model_data": 423023 }, "model": "florcraft:entity/scion_of_the_deep/death_anim" },
+  { "predicate": { "custom_model_data": 423024 }, "model": "florcraft:entity/anticipant/idle" },
+  { "predicate": { "custom_model_data": 423025 }, "model": "florcraft:entity/anticipant/yank" },
+  { "predicate": { "custom_model_data": 423026 }, "model": "florcraft:entity/anticipant/bolt" },
+  { "predicate": { "custom_model_data": 423027 }, "model": "florcraft:entity/anticipant/melee" }
   ]
 }
