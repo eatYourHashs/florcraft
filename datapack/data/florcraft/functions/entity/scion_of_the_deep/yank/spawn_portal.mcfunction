@@ -5,6 +5,10 @@ execute as @e[tag=flor.new_portal,limit=1,type=item_display] at @s if predicate 
 execute as @e[tag=flor.new_portal,limit=1,type=item_display] at @s if predicate florcraft:random/one_half run tp ~ ~ ~4
 execute as @e[tag=flor.new_portal,limit=1,type=item_display] at @s if predicate florcraft:random/one_half run tp ~ ~ ~-6
 execute as @e[tag=flor.new_portal,limit=1,type=item_display] at @s if predicate florcraft:random/one_half run tp ~-6 ~ ~
+execute as @e[tag=flor.new_portal,limit=1,type=item_display] at @s if predicate florcraft:random/one_half run tp ~2 ~ ~
+execute as @e[tag=flor.new_portal,limit=1,type=item_display] at @s if predicate florcraft:random/one_half run tp ~-2 ~ ~
+execute as @e[tag=flor.new_portal,limit=1,type=item_display] at @s if predicate florcraft:random/one_half run tp ~ ~ ~2
+execute as @e[tag=flor.new_portal,limit=1,type=item_display] at @s if predicate florcraft:random/one_half run tp ~ ~ ~-2
 scoreboard players set @e[tag=flor.new_portal,type=item_display] flor.frames 70
 execute as @e[tag=flor.new_portal,type=item_display] run function florcraft:entity/all/init_anim
 tag @e[tag=flor.new_portal,type=item_display] remove flor.new_portal

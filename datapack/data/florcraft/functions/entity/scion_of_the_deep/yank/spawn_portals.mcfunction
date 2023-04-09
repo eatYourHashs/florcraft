@@ -18,3 +18,8 @@ function florcraft:entity/scion_of_the_deep/yank/spawn_portal
 function florcraft:entity/scion_of_the_deep/yank/spawn_portal
 function florcraft:entity/scion_of_the_deep/yank/spawn_portal
 function florcraft:entity/scion_of_the_deep/yank/spawn_portal
+function florcraft:entity/scion_of_the_deep/yank/spawn_portal
+function florcraft:entity/scion_of_the_deep/yank/spawn_portal
+function florcraft:entity/scion_of_the_deep/yank/spawn_portal
+function florcraft:entity/scion_of_the_deep/yank/spawn_portal
+function florcraft:entity/scion_of_the_deep/yank/spawn_portal
