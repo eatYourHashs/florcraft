@@ -1,8 +1,8 @@
 data merge entity @s {PierceLevel:2b}
 
-execute store result score a flor.dummy run data get entity @s Motion[0] 11500
-execute store result score b flor.dummy run data get entity @s Motion[1] 11500
-execute store result score c flor.dummy run data get entity @s Motion[2] 11500
+execute store result score a flor.dummy run data get entity @s Motion[0] 10500
+execute store result score b flor.dummy run data get entity @s Motion[1] 10500
+execute store result score c flor.dummy run data get entity @s Motion[2] 10500
 execute store result entity @s Motion[0] double 0.0001 run scoreboard players get a flor.dummy
 execute store result entity @s Motion[1] double 0.0001 run scoreboard players get b flor.dummy
 execute store result entity @s Motion[2] double 0.0001 run scoreboard players get c flor.dummy

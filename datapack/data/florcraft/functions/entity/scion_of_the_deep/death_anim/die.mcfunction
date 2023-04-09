@@ -7,3 +7,5 @@ summon experience_orb ~ ~ ~ {Value:960}
 summon experience_orb ~ ~ ~ {Value:960}
 summon experience_orb ~ ~ ~ {Value:960}
 summon experience_orb ~ ~ ~ {Value:960}
+bossbar set florcraft:scion_of_the_deep players @a[distance=1]
+playsound minecraft:entity.generic.explode hostile @a ~ ~ ~ 2 0.5
