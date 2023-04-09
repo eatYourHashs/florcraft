@@ -5,3 +5,5 @@ summon experience_orb ~ ~ ~ {Value:960}
 summon experience_orb ~ ~ ~ {Value:960}
 summon experience_orb ~ ~ ~ {Value:960}
 summon experience_orb ~ ~ ~ {Value:960}
+summon experience_orb ~ ~ ~ {Value:960}
+summon experience_orb ~ ~ ~ {Value:960}

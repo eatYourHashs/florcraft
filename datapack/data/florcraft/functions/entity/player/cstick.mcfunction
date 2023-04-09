@@ -3,6 +3,7 @@ scoreboard players set @s flor.cstick 0
 execute if data storage flor:storage SelectedItem.tag.flor_dat{essence_flask:1b} run function florcraft:item/essence_flask/use
 execute if data storage flor:storage SelectedItem.tag.flor_dat{essence_vessel:1b} run function florcraft:item/essence_vessel/use
 execute if data storage flor:storage SelectedItem.tag.flor_dat{reinforced_vessel:1b} run function florcraft:item/reinforced_vessel/use
+execute if data storage flor:storage SelectedItem.tag.flor_dat{pulsating_pustule:1b} run function florcraft:item/pulsating_pustule/use
 execute if data storage flor:storage SelectedItem.tag.flor_dat{ignition_rod:1b} run function florcraft:item/ignition_rod/use
 execute if data storage flor:storage SelectedItem.tag.flor_dat{frost_rod:1b} run function florcraft:item/frost_rod/use
 execute if data storage flor:storage SelectedItem.tag.flor_dat{overgrowth_rod:1b} run function florcraft:item/overgrowth_rod/use
