@@ -28,6 +28,8 @@
     {"predicate": {"custom_model_data": 423024}, "model": "florcraft:block/transmission_beacon"},
     {"predicate": {"custom_model_data": 423025}, "model": "florcraft:block/transmission_receiver"},
     {"predicate": {"custom_model_data": 423026}, "model": "florcraft:block/auraflow_resonator"},
-    {"predicate": {"custom_model_data": 423027}, "model": "florcraft:block/capacitance_resonator"}
+    {"predicate": {"custom_model_data": 423027}, "model": "florcraft:block/capacitance_resonator"},
+    {"predicate": {"custom_model_data": 423028}, "model": "florcraft:block/deep_signaler_broken"},
+    {"predicate": {"custom_model_data": 423029}, "model": "florcraft:block/deep_signaler"}
   ]
 }
