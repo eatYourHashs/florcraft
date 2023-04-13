@@ -5,4 +5,4 @@ execute if entity @s[nbt={HurtTime:9s}] run function florcraft:entity/anticipant
 execute if entity @s[tag=flor.melee] run function florcraft:entity/anticipant/melee/tick
 execute if entity @s[tag=flor.bolt] run function florcraft:entity/anticipant/bolt/tick
 execute if entity @s[tag=flor.yank] run function florcraft:entity/anticipant/yank/tick
-item replace entity @s weapon.mainhand with minecraft:air
+execute if entity @a[distance=..48] run item replace entity @s weapon.mainhand with minecraft:air
