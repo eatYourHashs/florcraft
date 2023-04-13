@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dropper"
+            ],
+            "nbt": "{flor_dat:{deep_signaler_broken:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "florcraft:entity/player/pick_up_signaler"
+  }
+}
