@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "florcraft:scion_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1932754187,
+    "spacing": 20,
+    "separation": 8
+  }
+}
