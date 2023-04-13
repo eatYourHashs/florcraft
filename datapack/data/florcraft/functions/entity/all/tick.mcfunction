@@ -60,3 +60,5 @@ execute if entity @s[tag=flor.scion_large_portal] run function florcraft:entity/
 execute if entity @s[tag=flor.anticipant] run function florcraft:entity/anticipant/tick
 execute if entity @s[tag=flor.anticipant_bolt] run function florcraft:entity/anticipant_bolt/tick
 execute if entity @s[tag=flor.anticipant_small_portal] run function florcraft:entity/anticipant_small_portal/tick
+execute if entity @s[tag=flor.deep_signaler_broken] run function florcraft:block/deep_signaler_broken/tick
+execute if entity @s[tag=flor.deep_signaler] run function florcraft:block/deep_signaler/tick
