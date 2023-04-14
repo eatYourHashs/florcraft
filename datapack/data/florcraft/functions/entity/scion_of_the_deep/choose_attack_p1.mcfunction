@@ -10,7 +10,7 @@ execute positioned ^2 ^ ^-4 if entity @a[distance=..4,gamemode=!spectator] run t
 execute positioned ^ ^ ^4 if entity @a[distance=..5,gamemode=!spectator] run tag @s add flor.dont_rotate
 #execute positioned ^2 ^ ^4 if entity @a[distance=..4,gamemode=!spectator] run tag @s add flor.dont_rotate
 execute store result score $temp.hp flor.dummy run data get entity @e[tag=flor.scion_hitbox,limit=1,sort=nearest] Health
-execute if score $temp.hp flor.dummy matches ..600 run tag @s add flor.phase_transition
+execute if score $temp.hp flor.dummy matches ..500 run tag @s add flor.phase_transition
 execute if score $math.out_0 flor.dummy matches ..7 if entity @s[tag=flor.behind_attack,tag=!flor.phase_transition] run tag @s add flor.back_strike
 execute if score $math.out_0 flor.dummy matches 6.. if entity @s[tag=flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.slam
 execute if score $math.out_0 flor.dummy matches 2..5 if entity @s[tag=flor.close_attack,tag=!flor.back_strike,tag=!flor.phase_transition] run tag @s add flor.in_bolts
