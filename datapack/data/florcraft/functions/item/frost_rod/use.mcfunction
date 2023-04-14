@@ -1,5 +1,5 @@
 function florcraft:entity/player/get_ess/aqueous_ess
-data modify storage flor:storage root.temp.UUID set from entity @s UUID
+tag @s add flor.attacker
 scoreboard players set $in flor.aqueous_ess 1
 execute if predicate florcraft:item/druidic_lauret run tag @s add flor.buffed_magic_25
 execute if predicate florcraft:item/aqueous_exobiotic_helmet run tag @s add flor.buffed_magic_40
@@ -12,3 +12,4 @@ execute if score $out flor.aqueous_ess matches 1.. positioned ~ ~1.8 ~ run funct
 tag @s remove flor.buffed_magic_25
 tag @s remove flor.buffed_magic_40
 tag @s remove flor.buffed_magic_50
+tag @s remove flor.attacker
