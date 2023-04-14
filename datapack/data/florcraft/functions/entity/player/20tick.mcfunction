@@ -24,3 +24,4 @@ execute if data entity @s Inventory[{Slot:103b}].tag.flor_dat.exobiotic_helmet r
 execute if data entity @s Inventory[{Slot:102b}].tag.flor_dat.exobiotic_chestplate run function florcraft:item/exobiotic/chestplate/20tick
 execute if data entity @s Inventory[{Slot:101b}].tag.flor_dat.exobiotic_leggings run function florcraft:item/exobiotic/leggings/20tick
 execute if data entity @s Inventory[{Slot:100b}].tag.flor_dat.exobiotic_boots run function florcraft:item/exobiotic/boots/20tick
+execute unless entity @s[tag=flor.uuid_done] run function florcraft:entity/player/uuid
