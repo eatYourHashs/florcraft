@@ -21,3 +21,4 @@ execute if entity @s[tag=flor.chop] run function florcraft:entity/scion_of_the_d
 execute if entity @s[tag=flor.sweep] run function florcraft:entity/scion_of_the_deep/sweep/tick
 execute if entity @s[tag=flor.phase_transition] run function florcraft:entity/scion_of_the_deep/phase_transition/tick
 execute if entity @s[tag=flor.death_anim] run function florcraft:entity/scion_of_the_deep/death_anim/tick
+execute unless entity @s[tag=flor.death_anim] as @e[distance=..3,tag=!flor.scion] run damage @s 12 florcraft:scion by @e[limit=1,sort=nearest,tag=flor.scion_hitbox]
