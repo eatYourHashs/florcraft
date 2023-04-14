@@ -1,4 +1,5 @@
 execute if entity @s[type=player] run function florcraft:utils/damage/operations/magic_resistance
+execute if entity @s[tag=flor.scion_hitbox] run function florcraft:utils/damage/operations/scion_magic_resistance
 
 #feed into right part of the tree
 execute if entity @s[tag=flor.arid_dmg] if score $in flor.dummy matches ..109 run function florcraft:utils/damage/arid/1_10
