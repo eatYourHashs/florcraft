@@ -61,3 +61,5 @@ execute if score @s flor.deeproot_prog matches 1 run function florcraft:entity/p
 function florcraft:entity/player/tick/reset_variables
 
 tag @s remove flor.hit_this_tick
+
+scoreboard players remove @s flor.mending_cd 1

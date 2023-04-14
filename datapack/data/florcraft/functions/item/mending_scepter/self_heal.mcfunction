@@ -4,3 +4,4 @@ execute if score $out flor.verdant_ess matches 2.. at @s run function florcraft:
 execute if score $out flor.verdant_ess matches 2.. at @s run particle minecraft:heart ~ ~ ~ 0.2 0.2 0.2 0 4
 execute if score $out flor.verdant_ess matches 2.. at @s run playsound minecraft:block.beacon.power_select player @a
 execute if score $out flor.verdant_ess matches 2.. run effect give @s instant_health
+execute if score $out flor.verdant_ess matches 2.. run scoreboard players set @s flor.mending_cd 100
