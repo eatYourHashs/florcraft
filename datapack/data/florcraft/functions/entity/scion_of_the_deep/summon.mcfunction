@@ -6,3 +6,4 @@ tag @e[tag=flor.new_scion] remove flor.new_scion
 bossbar set florcraft:scion_of_the_deep players @a[distance=..64]
 bossbar set florcraft:scion_of_the_deep value 800
 playsound minecraft:entity.warden.dig hostile @a ~ ~ ~ 1 1
+fill ~-5 ~ ~-5 ~5 ~9 ~5 air destroy

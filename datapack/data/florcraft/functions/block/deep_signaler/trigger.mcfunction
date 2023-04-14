@@ -1,1 +1,2 @@
 tag @s remove flor.off
+execute if score @s flor.arid_ess matches 50.. if score @s flor.aqueous_ess matches 50.. if score @s flor.verdant_ess matches 50.. unless entity @e[tag=flor.scion] run function florcraft:block/deep_signaler/signal
