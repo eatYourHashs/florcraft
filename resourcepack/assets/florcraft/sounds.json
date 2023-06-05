@@ -1,0 +1,16 @@
+{
+  "music.scion": {
+    "sounds": [
+      "florcraft:music/scion"
+    ],
+    "stream": "true",
+    "preload": "true"
+  },
+  "music.scion_no_loop": {
+    "sounds": [
+      "florcraft:music/scion_no_loop"
+    ],
+    "stream": "true",
+    "preload": "true"
+  }
+}
