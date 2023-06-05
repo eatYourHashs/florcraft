@@ -22,3 +22,6 @@ execute if entity @s[tag=flor.sweep] run function florcraft:entity/scion_of_the_
 execute if entity @s[tag=flor.phase_transition] run function florcraft:entity/scion_of_the_deep/phase_transition/tick
 execute if entity @s[tag=flor.death_anim] run function florcraft:entity/scion_of_the_deep/death_anim/tick
 execute unless entity @s[tag=flor.death_anim] as @e[distance=..3,tag=!flor.scion] run damage @s 12 florcraft:scion by @e[limit=1,sort=nearest,tag=flor.scion_hitbox]
+scoreboard players add @s flor.music_timer 1
+execute if score @s flor.music_timer matches 3830.. run playsound florcraft:music.scion master @a[distance=..64] ~ ~ ~ 1 1 1
+execute if score @s flor.music_timer matches 3830.. run scoreboard players set @s flor.music_timer 0
