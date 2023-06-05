@@ -1,15 +1,21 @@
 {
 	"criteria": {
-		"place": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"item": {
-					"nbt": "{BlockEntityTag:{Items:[{tag:{flor_dat:{placed_block:1b}}}]}}"
-				}
+	  "place": {
+		"trigger": "minecraft:placed_block",
+		"conditions": {
+		  "location": [
+			{
+			  "condition": "minecraft:match_tool",
+			  "predicate": {
+				"nbt": "{BlockEntityTag:{Items:[{tag:{flor_dat:{placed_block:1b}}}]}}"
+			  }
 			}
+		  ]
 		}
+	  }
 	},
 	"rewards": {
-		"function": "florcraft:block/placement/scan"
+	  "function": "florcraft:block/placement/scan"
 	}
-}
+  }
+  
