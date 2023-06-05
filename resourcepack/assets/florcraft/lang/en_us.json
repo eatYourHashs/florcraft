@@ -932,6 +932,8 @@
     "item.flor.overgrowth_rod": "Overgrowth Rod",
     "item.flor.purified_wafer": "Purified Wafer",
     "item.flor.purified_wafer.lore": "Clears all potion effects when eaten.",
+    "item.flor.music_disc_scion": "Music Disc",
+    "item.flor.music_disc_scion.lore": "Hashs - Scion",
     "item.flor.pylon.lore.0": "Collects essence over time.",
     "item.flor.pylon.lore.1": "Placing pylons close together reduces yield.",
     "item.flor.pylon.lore.2": "Extract essence using Essence Flask.",
