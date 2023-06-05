@@ -1,3 +1,4 @@
+execute unless entity @s[tag=flor.no_nohit] run loot spawn ~ ~ ~ loot florcraft:item/music_disc_scion
 kill @e[tag=flor.scion,sort=nearest,limit=2,distance=..48]
 particle minecraft:explosion_emitter ~ ~5 ~ 3 3 3 0 10
 particle minecraft:reverse_portal ~ ~5 ~ 3 3 3 1 1000

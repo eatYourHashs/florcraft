@@ -7,4 +7,4 @@ bossbar set florcraft:scion_of_the_deep players @a[distance=..64]
 bossbar set florcraft:scion_of_the_deep value 800
 playsound minecraft:entity.warden.dig hostile @a ~ ~ ~ 1 1
 fill ~-5 ~ ~-5 ~5 ~9 ~5 air destroy
-playsound florcraft:music.scion master @a[distance=..64] ~ ~ ~ 1 1 1
+playsound florcraft:music.scion record @a[distance=..64] ~ ~ ~ 1 1 1

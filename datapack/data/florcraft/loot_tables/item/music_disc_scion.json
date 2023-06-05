@@ -27,7 +27,7 @@
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{music_disc_scion:1b}}"
+                            "tag": "{HideFlags:32,CustomModelData:423000,flor_dat:{music_disc_scion:1b}}"
                         }
                     ]
                 }

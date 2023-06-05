@@ -8,4 +8,4 @@ effect give @e[tag=flor.scion_hitbox,limit=1,sort=nearest] resistance infinite 4
 function florcraft:entity/scion_of_the_deep/clear_attack_tags
 kill @e[tag=flor.scion_deathray]
 kill @e[tag=flor.scion_large_portal]
-stopsound @a master florcraft:music.scion
+stopsound @a record florcraft:music.scion
