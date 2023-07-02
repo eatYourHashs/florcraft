@@ -445,30 +445,33 @@ Sniff sniff...
 Place hanging sign here
 Joule is neat too!
 
-Also try The Creeper's Code!
-Also try Manic!
-Also try Sanguine!
-Also try Hashs's Critter Cadre!
-Also don't try Undermagic!
-Also try Essence RPG!
-Also try Mechanization!
-Super secret content!
-Super secret boss!
-Technical!
-The Oculus reveals all!
-Anticipant!
-Relic and ritual!
-10 beats per measure!
-Different kind of guardians!
-Exobiotic!
-Implements giants!
-Ephemeral equations!
-Balanced!
-Nohit the secret boss for a SPECIAL PRIZE!!!
-Contains no hags
-Scio-nara!
-Magic!
-It's overscience!
-Also try Thaumcraft!
-Also try Botania!
-Contains a little worldgen
+§aAlso try The Creeper's Code!
+§aAlso try Manic!
+§aAlso try Sanguine!
+§aAlso try Hashs's Critter Cadre!
+§aAlso don't try Undermagic!
+§aAlso try Essence RPG!
+§aAlso try Mechanization!
+§aSuper secret content!
+§aSuper secret boss!
+§aTechnical!
+§aThe Oculus reveals all!
+§aAnticipant!
+§aRelic and ritual!
+§a10 beats per measure!
+§aDifferent kind of guardians!
+§aExobiotic!
+§aImplements giants!
+§aEphemeral equations!
+§aBalanced!
+§aNohit the secret boss for a SPECIAL PRIZE!!!
+§aContains no hags
+§aScio-nara!
+§aMagic!
+§aIt's overscience!
+§aAlso try Thaumcraft!
+§aAlso try Botania!
+§aContains a little worldgen
+§aContains no explosions
+§ahttps://discord.gg/UYxhxDj
+§aGirl-developed!
