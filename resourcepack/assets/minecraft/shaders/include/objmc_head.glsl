@@ -7,7 +7,8 @@ float onepixel = 1./64;
 ivec2 uv = ivec2((UV0 * 64));
 vec3 posoffset = vec3(0);
 //if marker is correct
-if (textureSize(Sampler0, 0) == vec2(64) && ivec4(texelFetch(Sampler0, ivec2(0,32), 0)*255) == ivec4(12,34,56,78)) {
+ivec4 marker = ivec4(texelFetch(Sampler0, ivec2(0,32), 0)*255);
+if (textureSize(Sampler0, 0) == vec2(64) && (marker == ivec4(12,34,56,78) || marker == ivec4(13,33,56,78))) {
     isCustom = 1;
     ivec4 metan = ivec4(texelFetch(Sampler0, ivec2(1,32), 0)*255);
     int nfaces = ((metan.r>>4)<<8)+metan.g;
@@ -20,14 +21,18 @@ if (textureSize(Sampler0, 0) == vec2(64) && ivec4(texelFetch(Sampler0, ivec2(0,3
     isGUI = int(isgui(ProjMat));
     isHand = int(ishand(FogStart) && !bool(isGUI));
 
-    int eid = (gl_VertexID/48) % ((nfaces+11)/12);
+    Pos = IViewRotMat * Position;
+    ivec3 p = ivec3(Pos + 1250)/500;
+    int eid = p.x + (p.y*4) + (p.z*16);
+    Pos = mod(Pos + 1250, 500)-250;
+    Pos = Pos * IViewRotMat;
     int vid = (eid * 48) + (gl_VertexID % 48);
-    ivec4 face = ivec4(texelFetch(Sampler0, hid(vid), 0)*255);
+    ivec4 face = ivec4(texelFetch(Sampler0, huv(vid), 0)*255);
     if (vid > nvertices) Pos = posoffset = vec3(0);
     int pid = ((face.r>>4)<<8)+face.g + nvertices;
     int uid = ((face.r%32)<<8)+face.b + nvertices+npos;
-    posoffset = texelFetch(Sampler0, hid(pid), 0).rgb;
-    texCoord = texelFetch(Sampler0, hid(uid), 0).rg;
+    posoffset = texelFetch(Sampler0, huv(pid), 0).rgb;
+    texCoord = texelFetch(Sampler0, huv(uid), 0).rg;
 
     posoffset = (posoffset - vec3(0.5)) * scale * IViewRotMat;
     //final pos and uv
