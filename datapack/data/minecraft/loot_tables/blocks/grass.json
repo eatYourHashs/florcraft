@@ -111,7 +111,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:grass",
+              "name": "minecraft:short_grass",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
