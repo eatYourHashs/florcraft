@@ -1,5 +1,5 @@
 {
-  "name": "florcraft:arid_shrine/main",
+  "name": "florcraft:aqueous_shrine_wet/main",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "florcraft:arid_shrine/main",
+        "location": "florcraft:aqueous_shrine_wet/main",
         "processors": "minecraft:empty"
       }
     }

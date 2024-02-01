@@ -1,8 +1,8 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#florcraft:arid",
+  "biomes": "#florcraft:arid_shrine_yellow",
   "spawn_overrides": {},
-  "start_pool": "florcraft:arid_shrine/main",
+  "start_pool": "florcraft:arid_shrine_yellow/main",
   "size": 6,
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",

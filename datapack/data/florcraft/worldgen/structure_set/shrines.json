@@ -1,11 +1,19 @@
 {
   "structures": [
     {
-      "structure": "florcraft:arid_shrine",
+      "structure": "florcraft:arid_shrine_red",
       "weight": 1
     },
     {
-      "structure": "florcraft:aqueous_shrine",
+      "structure": "florcraft:arid_shrine_yellow",
+      "weight": 1
+    },
+    {
+      "structure": "florcraft:aqueous_shrine_cold",
+      "weight": 1
+    },
+    {
+      "structure": "florcraft:aqueous_shrine_wet",
       "weight": 1
     },
     {

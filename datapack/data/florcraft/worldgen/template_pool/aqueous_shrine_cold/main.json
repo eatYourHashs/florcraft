@@ -1,5 +1,5 @@
 {
-  "name": "florcraft:aqueous_shrine/main",
+  "name": "florcraft:aqueous_shrine_cold/main",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "florcraft:aqueous_shrine/main",
+        "location": "florcraft:aqueous_shrine_cold/main",
         "processors": "minecraft:empty"
       }
     }
