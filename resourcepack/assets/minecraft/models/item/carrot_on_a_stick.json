@@ -106,7 +106,6 @@
     {"predicate": {"custom_model_data": 423100}, "model": "florcraft:item/shryroot"},
     {"predicate": {"custom_model_data": 423101}, "model": "florcraft:item/pulsating_pustule_arid"},
     {"predicate": {"custom_model_data": 423102}, "model": "florcraft:item/pulsating_pustule_aqueous"},
-    {"predicate": {"custom_model_data": 423103}, "model": "florcraft:item/pulsating_pustule_verdant"},
-    {"predicate": {"custom_model_data": 423104}, "model": "florcraft:item/foolish/mimicry"}
+    {"predicate": {"custom_model_data": 423103}, "model": "florcraft:item/pulsating_pustule_verdant"}
   ]
 }

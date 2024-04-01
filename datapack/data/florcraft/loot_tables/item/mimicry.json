@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "color": "light_purple",
+                                "italic": false,
+                                "translate": "item.flor.mimicry"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "dark_gray",
+                                    "italic": true,
+                                    "translate": "item.flor.mimicry.lore"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:423002,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,proto_sword:1b,bonus_lvls:{arid:1b,aqueous:1b,verdant:1b}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

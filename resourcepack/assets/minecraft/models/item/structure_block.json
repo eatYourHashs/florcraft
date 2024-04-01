@@ -77,6 +77,7 @@
     {"predicate": {"custom_model_data": 423073}, "model": "florcraft:item/proto_pickaxe"},
     {"predicate": {"custom_model_data": 423074}, "model": "florcraft:block/auraflow_resonator"},
     {"predicate": {"custom_model_data": 423075}, "model": "florcraft:block/capacitance_resonator"},
-    {"predicate": {"custom_model_data": 423076}, "model": "florcraft:block/deep_signaler"}
+    {"predicate": {"custom_model_data": 423076}, "model": "florcraft:block/deep_signaler"},
+    {"predicate": {"custom_model_data": 423077}, "model": "florcraft:item/singularity_stick"}
   ]
 }
