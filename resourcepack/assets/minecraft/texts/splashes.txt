@@ -459,6 +459,7 @@ Joule is neat too!
 §aAnticipant!
 §aRelic and ritual!
 §a10 beats per measure!
+§a9 beats per measure!
 §aDifferent kind of guardians!
 §aExobiotic!
 §aImplements giants!
@@ -475,3 +476,5 @@ Joule is neat too!
 §aContains no explosions
 §ahttps://discord.gg/UYxhxDj
 §aGirl-developed!
+§aAlso try Create!
+§aNot a roguelike!
