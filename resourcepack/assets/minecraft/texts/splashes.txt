@@ -478,3 +478,4 @@ Joule is neat too!
 §aGirl-developed!
 §aAlso try Create!
 §aNot a roguelike!
+§aDo not go home until you finish reading the value of e
