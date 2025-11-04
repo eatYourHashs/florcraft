@@ -7,13 +7,13 @@
         "when": "head",
         "model": {
           "type": "minecraft:model",
-          "model": "florcraft:block/dispoppy"
+          "model": "florcraft:block/relilay"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "florcraft:item/dispoppy"
+      "model": "florcraft:item/relilay"
     }
   }
 }

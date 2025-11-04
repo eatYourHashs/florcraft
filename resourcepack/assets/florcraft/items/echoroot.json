@@ -1,6 +1,19 @@
 {
-    "model": {
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "head",
+        "model": {
+          "type": "minecraft:model",
+          "model": "florcraft:block/echoroot"
+        }
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
-      "model": "florcraft:block/echoroot"
+      "model": "florcraft:item/echoroot"
     }
   }
+}
