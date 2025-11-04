@@ -9,6 +9,16 @@
           "name": "florcraft:item/pulsating_pustule"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "florcraft:item/singularity_stick"
+        }
+      ]
     }
   ]
 }
