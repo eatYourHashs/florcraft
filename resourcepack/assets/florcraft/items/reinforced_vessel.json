@@ -1,0 +1,144 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "arid",
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_arid_1"
+              }
+            },
+            {
+              "threshold": 25,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_arid_2"
+              }
+            },
+            {
+              "threshold": 50,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_arid_3"
+              }
+            },
+            {
+              "threshold": 75,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_arid_4"
+              }
+            },
+            {
+              "threshold": 100,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_arid_5"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "aqueous",
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_aqueous_1"
+              }
+            },
+            {
+              "threshold": 25,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_aqueous_2"
+              }
+            },
+            {
+              "threshold": 50,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_aqueous_3"
+              }
+            },
+            {
+              "threshold": 75,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_aqueous_4"
+              }
+            },
+            {
+              "threshold": 100,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_aqueous_5"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "when": "verdant",
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_verdant_1"
+              }
+            },
+            {
+              "threshold": 25,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_verdant_2"
+              }
+            },
+            {
+              "threshold": 50,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_verdant_3"
+              }
+            },
+            {
+              "threshold": 75,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_verdant_4"
+              }
+            },
+            {
+              "threshold": 100,
+              "model": {
+                "type": "minecraft:model",
+                "model": "florcraft:item/reinforced_vessel_verdant_5"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "florcraft:item/reinforced_vessel_empty"
+    }
+  }
+}
