@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "florcraft:block/mystical_furnace_lit"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "florcraft:block/mystical_furnace"
+    }
+  }
+}
