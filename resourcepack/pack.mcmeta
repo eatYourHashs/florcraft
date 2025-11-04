@@ -1,6 +1,8 @@
 {
    "pack": {
-      "pack_format": 22,
+      "pack_format": 72,
+      "min_format": 72,
+      "max_format": 72,
       "description": "A nature magic datapack"
    }
 }
