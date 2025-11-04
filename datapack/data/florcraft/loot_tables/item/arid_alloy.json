@@ -1,27 +1,35 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:structure_block",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "white",
-                                "italic": false,
-                                "translate": "item.flor.arid_alloy"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423030,flor_dat:{arid_cost:10b,alloy:1b}}"
-                        }
-                    ]
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.arid_alloy"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "florcraft:arid_alloy",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "alloy": 1,
+                    "arid_cost": 10
+                  }
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

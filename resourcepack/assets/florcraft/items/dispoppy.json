@@ -6,7 +6,7 @@
       {
         "when": "head",
         "model": {
-          "type": "minecraft:model",
+          "type": "minecraft:fixed",
           "model": "florcraft:block/dispoppy"
         }
       }

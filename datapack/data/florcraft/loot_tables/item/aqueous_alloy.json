@@ -1,27 +1,35 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:structure_block",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "white",
-                                "italic": false,
-                                "translate": "item.flor.aqueous_alloy"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423031,flor_dat:{aqueous_cost:10b,alloy:2b}}"
-                        }
-                    ]
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.aqueous_alloy"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "florcraft:aqueous_alloy",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "alloy": 2,
+                    "aqueous_cost": 10
+                  }
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,47 +1,60 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.adept_floramancers_scepter.lore.0"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.adept_floramancers_scepter.lore.1"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.adept_floramancers_scepter.lore.2"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "white",
-                                "italic": false,
-                                "translate": "item.flor.adept_floramancers_scepter"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423074,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,adept_floramancers_scepter:1b}}"
-                        }
-                    ]
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.adept_floramancers_scepter.lore.0"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.adept_floramancers_scepter.lore.1"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.adept_floramancers_scepter.lore.2"
                 }
-            ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.adept_floramancers_scepter"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:adept_floramancers_scepter",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "adept_floramancers_scepter": 1,
+                    "arid_cost": 10,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 10
+                  }
+                }
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

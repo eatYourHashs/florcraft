@@ -1,48 +1,60 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:4,RepairCost:100,flor_dat:{arid_cost:3b,absorbloom:1b},CustomModelData:423014,Unbreakable:1b}"
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.absorbloom.lore.0"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.absorbloom.lore.1"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.absorbloom.lore.2"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "white",
-                                "italic": false,
-                                "translate": "item.flor.absorbloom"
-                            }
-                        }
-                    ],
-                    "name": "minecraft:carrot_on_a_stick"
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "florcraft:absorbloom",
+                "!minecraft:max_damage": {},
+                "minecraft:max_stack_size": 64,
+                "!minecraft:enchantable": {},
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "absorbloom": 1,
+                    "arid_cost": 3
+                  }
                 }
-            ]
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.absorbloom.lore.0"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.absorbloom.lore.1"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.absorbloom.lore.2"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.absorbloom"
+              }
+            }
+          ],
+          "name": "minecraft:carrot_on_a_stick"
         }
-    ]
+      ]
+    }
+  ]
 }

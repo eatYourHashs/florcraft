@@ -4,7 +4,7 @@
     "property": "minecraft:display_context",
     "cases": [
       {
-        "when": "head",
+        "when": "fixed",
         "model": {
           "type": "minecraft:model",
           "model": "florcraft:block/echoroot"

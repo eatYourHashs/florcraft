@@ -1,27 +1,37 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:structure_block",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "yellow",
-                                "italic": false,
-                                "translate": "item.flor.advanced_rune"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423041,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,advanced_rune:1b}}"
-                        }
-                    ]
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.advanced_rune"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "florcraft:advanced_rune",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "advanced_rune": 1,
+                    "arid_cost": 10,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 10
+                  }
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
