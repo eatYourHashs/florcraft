@@ -433,7 +433,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "florcraft:item/deeproot"
+            "value": "florcraft:item/deeproot"
           }
         ],
         "conditions": [
@@ -451,7 +451,7 @@
                 "target": "pools",
                 "source": {
                     "type": "smithed:reference",
-                    "path": "pools[1]"
+                    "path": "pools[2]"
                 }
             }
         ],
