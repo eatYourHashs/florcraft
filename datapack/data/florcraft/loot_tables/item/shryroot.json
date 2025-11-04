@@ -8,9 +8,21 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:4,RepairCost:100,flor_dat:{verdant_cost:15b,shryroot:1b},CustomModelData:423100,Unbreakable:1b}"
-                        },
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "florcraft:shryroot",
+                "!minecraft:max_damage": {},
+                "minecraft:max_stack_size": 64,
+                "!minecraft:enchantable": {},
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "shryroot": 1,
+                    "verdant_cost": 15
+                  }
+                }
+              }
+            },
                         {
                             "function": "minecraft:set_lore",
                             "lore": [
@@ -34,7 +46,6 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.shryroot"
                             }

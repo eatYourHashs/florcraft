@@ -8,9 +8,21 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:4,RepairCost:100,flor_dat:{aqueous_cost:3b,relilay:1b},CustomModelData:423016,Unbreakable:1b}"
-                        },
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "florcraft:relilay",
+                "!minecraft:max_damage": {},
+                "minecraft:max_stack_size": 64,
+                "!minecraft:enchantable": {},
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "relilay": 1,
+                    "aqueous_cost": 3
+                  }
+                }
+              }
+            },
                         {
                             "function": "minecraft:set_lore",
                             "lore": [
@@ -29,7 +41,8 @@
                                     "italic": false,
                                     "translate": "item.flor.relilay.lore.2"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
