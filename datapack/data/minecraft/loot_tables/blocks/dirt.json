@@ -33,19 +33,25 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:table_bonus",
-          "enchantment": "minecraft:fortune",
-          "chances": [
-            0.01,
-            0.015,
-            0.02,
-            0.025
-          ]
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.01,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.015,
+            "per_level_above_first": 0.005
+          },
+          "enchantment": "minecraft:fortune"
         },
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "nbt": "{flor_dat:{fortunate_seeker_shovel:1b}}"
+            "components": {
+              "minecraft:custom_data": {
+                "flor_dat": {
+                  "fortunate_seeker_shovel": 1
+                }
+              }
+            }
           }
         }
       ]
@@ -64,7 +70,13 @@
           "term": {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "nbt": "{flor_dat:{fortunate_seeker_shovel:1b}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "fortunate_seeker_shovel": 1
+                  }
+                }
+              }
             }
           }
         },
@@ -75,7 +87,7 @@
     }
   ],
   "__smithed__": {
-    "rules":[
+    "rules": [
       {
         "type": "smithed:append",
         "target": "pools",

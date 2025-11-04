@@ -6,22 +6,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "florcraft:item/verdant_essence",
+          "value": "florcraft:item/verdant_essence",
           "conditions": [
             {
               "condition": "minecraft:reference",
               "name": "florcraft:location/verdant"
             },
             {
-              "condition": "minecraft:table_bonus",
-              "enchantment": "minecraft:fortune",
-              "chances": [
-                0.02,
-                0.022222223,
-                0.025,
-                0.033333335,
-                0.1
-              ]
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "unenchanted_chance": 0.02,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.03,
+                "per_level_above_first": 0.01
+              },
+              "enchantment": "minecraft:fortune"
             }
           ]
         }
@@ -30,8 +29,14 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "nbt": "{flor_dat:{druidic_scepter:1b}}"
-          }
+              "components": {
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "druidic_scepter": 1
+                  }
+                }
+              }
+            }
         }
       ]
     },
@@ -40,22 +45,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "florcraft:item/aqueous_essence",
+          "value": "florcraft:item/aqueous_essence",
           "conditions": [
             {
               "condition": "minecraft:reference",
               "name": "florcraft:location/aqueous"
             },
             {
-              "condition": "minecraft:table_bonus",
-              "enchantment": "minecraft:fortune",
-              "chances": [
-                0.02,
-                0.022222223,
-                0.025,
-                0.033333335,
-                0.1
-              ]
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "unenchanted_chance": 0.02,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.03,
+                "per_level_above_first": 0.01
+              },
+              "enchantment": "minecraft:fortune"
             }
           ]
         }
@@ -64,8 +68,14 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "nbt": "{flor_dat:{druidic_scepter:1b}}"
-          }
+              "components": {
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "druidic_scepter": 1
+                  }
+                }
+              }
+            }
         }
       ]
     },
@@ -74,22 +84,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "florcraft:item/arid_essence",
+          "value": "florcraft:item/arid_essence",
           "conditions": [
             {
               "condition": "minecraft:reference",
               "name": "florcraft:location/arid"
             },
             {
-              "condition": "minecraft:table_bonus",
-              "enchantment": "minecraft:fortune",
-              "chances": [
-                0.02,
-                0.022222223,
-                0.025,
-                0.033333335,
-                0.1
-              ]
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "unenchanted_chance": 0.02,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.03,
+                "per_level_above_first": 0.01
+              },
+              "enchantment": "minecraft:fortune"
             }
           ]
         }
@@ -98,8 +107,14 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "nbt": "{flor_dat:{druidic_scepter:1b}}"
-          }
+              "components": {
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "druidic_scepter": 1
+                  }
+                }
+              }
+            }
         }
       ]
     },
@@ -155,7 +170,13 @@
           "term": {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "nbt": "{flor_dat:{druidic_scepter:1b}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "druidic_scepter": 1
+                  }
+                }
+              }
             }
           }
         }
