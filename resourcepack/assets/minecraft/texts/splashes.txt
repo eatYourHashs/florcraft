@@ -444,34 +444,50 @@ Has working bookshelves!
 Sniff sniff...
 Place hanging sign here
 Joule is neat too!
+Music by Aaron Cherof!
+Music by Kumi Tanioka!
+Music by Amos Roddy!
+Flint and Steel!
+Chicken Jockey!
 
+§aAlso try Satisfactory!
+§aAlso try Balatro!
+§aAlso try Limbus Company!
+§aAlso try Noita!
+§aAlso try Baldur's Gate 3!
+§aAlso try Elden Ring!
+§aAlso try Darkest Dungeon!
+§aAlso try Fullmetal Alchemist Brotherhood!
+§aAlso try Blockbench!
 §aAlso try The Creeper's Code!
-§aAlso try Manic!
-§aAlso try Sanguine!
-§aAlso try Hashs's Critter Cadre!
-§aAlso don't try Undermagic!
-§aAlso try Essence RPG!
-§aAlso try Mechanization!
+§aAlso try Alchemika!
+§aAlso try Risk of Rain 2!
+§aAlso try Deltarune!
+§aAlso try OMORI!
+§aAlso try Calamity Mod!
+§aAlso try Thaumcraft!
+§aAlso try Botania!
+§aAlso try PokeRogue!
+§aAlso try NieR:Automata!
+§aAlso try Doki Doki Literature Club!
+§aAlso try Deep Rock Galactic!
+§aAlso try Expedition 33!
 §aSuper secret content!
-§aSuper secret boss!
+§aRIP Scion of the Deep 2023-2024
+§aLament, Mourn, and Despair!
 §aTechnical!
 §aThe Oculus reveals all!
-§aAnticipant!
 §aRelic and ritual!
 §a10 beats per measure!
 §a9 beats per measure!
 §aDifferent kind of guardians!
 §aExobiotic!
-§aImplements giants!
 §aEphemeral equations!
 §aBalanced!
-§aNohit the secret boss for a SPECIAL PRIZE!!!
 §aContains no hags
 §aScio-nara!
 §aMagic!
 §aIt's overscience!
-§aAlso try Thaumcraft!
-§aAlso try Botania!
 §aContains a little worldgen
 §aContains no explosions
 §ahttps://discord.gg/UYxhxDj
@@ -479,3 +495,5 @@ Joule is neat too!
 §aAlso try Create!
 §aNot a roguelike!
 §aDo not go home until you finish reading the value of e
+§aContains no mundane gold
+§apain_and_suffering.mcfunction
