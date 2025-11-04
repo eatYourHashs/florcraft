@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "florcraft:item/arid_alloy",
+                    "value": "florcraft:item/arid_alloy",
                     "functions": [
                         {
                             "function": "minecraft:set_count",

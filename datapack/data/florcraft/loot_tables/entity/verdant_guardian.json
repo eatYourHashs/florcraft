@@ -6,7 +6,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "florcraft:item/verdant_essence"
+          "value": "florcraft:item/verdant_essence"
         }
       ]
     },
@@ -16,7 +16,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "florcraft:technical/guardian_drop_marker"
+          "value": "florcraft:technical/guardian_drop_marker"
         }
       ]
     }

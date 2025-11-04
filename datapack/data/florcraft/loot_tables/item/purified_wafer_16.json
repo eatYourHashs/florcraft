@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "florcraft:item/purified_wafer",
+                    "value": "florcraft:item/purified_wafer",
                     "functions": [
                         {
                             "function": "minecraft:set_count",

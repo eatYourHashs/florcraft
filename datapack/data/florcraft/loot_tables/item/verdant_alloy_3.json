@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "florcraft:item/verdant_alloy",
+                    "value": "florcraft:item/verdant_alloy",
                     "functions": [
                         {
                             "function": "minecraft:set_count",

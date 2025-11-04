@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "florcraft:item/aqueous_alloy",
+                    "value": "florcraft:item/aqueous_alloy",
                     "functions": [
                         {
                             "function": "minecraft:set_count",

@@ -6,7 +6,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "florcraft:item/aqueous_essence"
+          "value": "florcraft:item/aqueous_essence"
         }
       ]
     },
@@ -16,7 +16,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "florcraft:technical/guardian_drop_marker"
+          "value": "florcraft:technical/guardian_drop_marker"
         }
       ]
     }
