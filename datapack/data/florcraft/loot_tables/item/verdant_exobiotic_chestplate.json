@@ -57,6 +57,7 @@
                 },
                 "!minecraft:max_damage": {},
                 "minecraft:item_model": "florcraft:verdant_exobiotic_chestplate",
+                "minecraft:rarity": "uncommon",
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "fill": 5,

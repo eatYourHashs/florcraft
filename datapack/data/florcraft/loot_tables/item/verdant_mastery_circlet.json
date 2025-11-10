@@ -1,54 +1,54 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_helmet",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "minecraft:generic.luck",
-                                    "name": "placeholder",
-                                    "amount": 1,
-                                    "operation": "addition",
-                                    "slot": "chest"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.verdant_mastery_circlet.lore.0"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.verdant_mastery_circlet.lore.1"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "yellow",
-                                "italic": false,
-                                "translate": "item.flor.verdant_mastery_circlet"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:2,CustomModelData:423062,flor_dat:{arid_cost:0b,aqueous_cost:0b,verdant_cost:20b,verdant_mastery_circlet:1b}}"
-                        }
-                    ]
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.verdant_mastery_circlet.lore.0"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.verdant_mastery_circlet.lore.1"
                 }
-            ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.verdant_mastery_circlet"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "head"
+                },
+                "minecraft:item_model": "florcraft:verdant_mastery_circlet",
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "verdant_cost": 20,
+                    "verdant_mastery_circlet": 1
+                  }
+                }
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

@@ -57,6 +57,7 @@
                 },
                 "!minecraft:max_damage": {},
                 "minecraft:item_model": "florcraft:aqueous_exobiotic_boots",
+                "minecraft:rarity": "uncommon",
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "fill": 5,
