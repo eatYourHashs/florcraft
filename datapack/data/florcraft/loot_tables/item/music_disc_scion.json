@@ -10,25 +10,23 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "light_purple",
                                 "italic": false,
                                 "translate": "item.flor.music_disc_scion"
                             }
                         },
                         {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.music_disc_scion.lore"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:32,CustomModelData:423000,flor_dat:{music_disc_scion:1b}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:item_model": "florcraft:music_disc_scion",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "music_disc_scion": 1
+                  }
+                },
+                "minecraft:jukebox_playable": "florcraft:scion"
+              }
+            }
                     ]
                 }
             ]

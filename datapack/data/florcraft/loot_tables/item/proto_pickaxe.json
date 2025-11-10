@@ -10,7 +10,6 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.proto_pickaxe"
                             }
@@ -22,23 +21,35 @@
                                     "color": "gray",
                                     "italic": false,
                                     "translate": "item.flor.proto_pickaxe.lore.0"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
+                                },
                                 {
                                     "color": "gray",
                                     "italic": false,
                                     "translate": "item.flor.proto_pickaxe.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423001,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,proto_pickaxe:1b,bonus_lvls:{arid:1b,aqueous:1b,verdant:1b}}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "florcraft:proto_pickaxe",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "proto_pickaxe": 1,
+                    "arid_cost": 15,
+                    "aqueous_cost": 15,
+                    "verdant_cost": 15,
+                    "bonus_lvls": {"arid":1,"aqueous":1,"verdant":1}
+                  }
+                },
+                "minecraft:max_damage": 3355,
+                "minecraft:enchantable": {
+                  "value": 33
+                }
+              }
+            }
                     ]
                 }
             ]

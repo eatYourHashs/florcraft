@@ -26,9 +26,24 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{verdant_cost:15b,fortunate_seeker_shovel:1b,ess_repair:3b,bonus_lvls:{verdant:1b}}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "florcraft:fortunate_seeker_shovel",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "fortunate_seeker_shovel": 1,
+                    "ess_repair": 3,
+                    "verdant_cost": 15,
+                    "bonus_lvls": {"verdant":1}
+                  }
+                },
+                "minecraft:max_damage": 1800,
+                "minecraft:enchantable": {
+                  "value": 20
+                }
+              }
+            }
                     ]
                 }
             ]

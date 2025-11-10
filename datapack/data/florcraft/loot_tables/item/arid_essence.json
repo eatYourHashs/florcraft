@@ -10,15 +10,22 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.arid_essence"
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423006,flor_dat:{essence_item:1b}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "florcraft:arid_essence",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "essence_item": 1
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

@@ -10,7 +10,6 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.purified_wafer"
                             }
@@ -23,12 +22,29 @@
                                     "italic": false,
                                     "translate": "item.flor.purified_wafer.lore"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{purified_wafer:1b,arid_cost:5b,aqueous_cost:5b,verdant_cost:5b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "florcraft:purified_wafer",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "purified_wafer": 1,
+                    "arid_cost": 5,
+                    "aqueous_cost": 5,
+                    "verdant_cost": 5
+                  }
+                },
+                "minecraft:food": {
+                    "nutrition": 1,
+                    "saturation": 0.6,
+                    "can_always_eat": true
+                }
+              }
+            }
                     ]
                 }
             ]

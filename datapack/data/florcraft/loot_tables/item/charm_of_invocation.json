@@ -25,20 +25,33 @@
                                     "italic": false,
                                     "translate": "item.flor.charm_of_invocation.lore.2"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.charm_of_invocation"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423059,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,charm_of_invocation:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:charm_of_invocation",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "charm_of_invocation": 1,
+                    "arid_cost": 10,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 10
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

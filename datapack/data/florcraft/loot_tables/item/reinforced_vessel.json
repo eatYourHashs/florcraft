@@ -25,15 +25,28 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.reinforced_vessel"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423042,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,reinforced_vessel:1b,fill:0b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:reinforced_vessel",
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "reinforced_vessel": 1,
+                    "arid_cost": 15,
+                    "aqueous_cost": 15,
+                    "verdant_cost": 15,
+                    "fill": 0
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

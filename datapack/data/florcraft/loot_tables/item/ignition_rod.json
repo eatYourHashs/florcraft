@@ -20,20 +20,33 @@
                                     "italic": false,
                                     "translate": "item.flor.ignition_rod.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.ignition_rod"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423010,flor_dat:{arid_cost:5b,aqueous_cost:0b,verdant_cost:0b,ignition_rod:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:ignition_rod",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "ignition_rod": 1,
+                    "arid_cost": 5,
+                    "aqueous_cost": 0,
+                    "verdant_cost": 0
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

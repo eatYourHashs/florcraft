@@ -1,27 +1,41 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_axe",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "white",
-                                "italic": false,
-                                "translate": "item.flor.aqueous_axe"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423002,flor_dat:{aqueous_cost:10b,ess_tool:2b,ess_repair:2b}}"
-                        }
-                    ]
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "white",
+                "italic": false,
+                "translate": "item.flor.aqueous_axe"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "florcraft:aqueous_axe",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "ess_tool": 2,
+                    "ess_repair": 2,
+                    "aqueous_cost": 10
+                  }
+                },
+                "minecraft:max_damage": 500,
+                "minecraft:enchantable": {
+                  "value": 18
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

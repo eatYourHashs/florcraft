@@ -20,20 +20,33 @@
                                     "italic": false,
                                     "translate": "item.flor.burning_scepter.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.burning_scepter"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423017,flor_dat:{arid_cost:15b,aqueous_cost:0b,verdant_cost:0b,burning_scepter:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:burning_scepter",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "burning_scepter": 1,
+                    "arid_cost": 15,
+                    "aqueous_cost": 0,
+                    "verdant_cost": 0
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

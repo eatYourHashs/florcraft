@@ -20,20 +20,33 @@
                                     "italic": false,
                                     "translate": "item.flor.spirit_binder_staff.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.spirit_binder_staff"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423040,flor_dat:{arid_cost:15b,aqueous_cost:15b,verdant_cost:15b,spirit_binder_staff:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:spirit_binder_staff",
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "spirit_binder_staff": 1,
+                    "arid_cost": 15,
+                    "aqueous_cost": 15,
+                    "verdant_cost": 15
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

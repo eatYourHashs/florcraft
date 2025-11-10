@@ -8,9 +8,23 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:4,RepairCost:100,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,mineroot_sapling:1b},CustomModelData:423058,Unbreakable:1b}"
-                        },
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "florcraft:mineroot_sapling",
+                "!minecraft:max_damage": {},
+                "minecraft:max_stack_size": 64,
+                "!minecraft:enchantable": {},
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "mineroot_sapling": 1,
+                    "arid_cost": 10,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 10
+                  }
+                }
+              }
+            },
                         {
                             "function": "minecraft:set_lore",
                             "lore": [
@@ -29,12 +43,12 @@
                                     "italic": false,
                                     "translate": "item.flor.mineroot_sapling.lore.2"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.mineroot_sapling"
                             }

@@ -20,20 +20,33 @@
                                     "italic": false,
                                     "translate": "item.flor.barrier_scepter.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.barrier_scepter"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423021,flor_dat:{arid_cost:5b,aqueous_cost:10b,verdant_cost:0b,barrier_scepter:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:barrier_scepter",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "barrier_scepter": 1,
+                    "arid_cost": 5,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 0
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

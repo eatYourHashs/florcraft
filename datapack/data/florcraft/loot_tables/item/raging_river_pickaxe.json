@@ -10,7 +10,6 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.raging_river_pickaxe"
                             }
@@ -23,12 +22,28 @@
                                     "italic": false,
                                     "translate": "item.flor.raging_river_pickaxe.lore"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{aqueous_cost:15b,raging_river_pickaxe:1b,ess_repair:2b,bonus_lvls:{aqueous:1b}}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "florcraft:raging_river_pickaxe",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "raging_river_pickaxe": 1,
+                    "ess_repair": 2,
+                    "aqueous_cost": 15,
+                    "bonus_lvls": {"aqueous":1}
+                  }
+                },
+                "minecraft:max_damage": 1800,
+                "minecraft:enchantable": {
+                  "value": 20
+                }
+              }
+            }
                     ]
                 }
             ]

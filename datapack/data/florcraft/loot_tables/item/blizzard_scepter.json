@@ -20,20 +20,33 @@
                                     "italic": false,
                                     "translate": "item.flor.blizzard_scepter.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.blizzard_scepter"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423018,flor_dat:{arid_cost:0b,aqueous_cost:15b,verdant_cost:0b,blizzard_scepter:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:blizzard_scepter",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "blizzard_scepter": 1,
+                    "arid_cost": 0,
+                    "aqueous_cost": 15,
+                    "verdant_cost": 0
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

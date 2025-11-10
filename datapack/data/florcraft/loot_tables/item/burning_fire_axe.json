@@ -10,7 +10,6 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.burning_fire_axe"
                             }
@@ -23,12 +22,28 @@
                                     "italic": false,
                                     "translate": "item.flor.burning_fire_axe.lore"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{arid_cost:15b,burning_fire_axe:1b,ess_repair:1b,bonus_lvls:{arid:1b}}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "florcraft:burning_fire_axe",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "burning_fire_axe": 1,
+                    "ess_repair": 1,
+                    "arid_cost": 15,
+                    "bonus_lvls": {"arid":1}
+                  }
+                },
+                "minecraft:max_damage": 1800,
+                "minecraft:enchantable": {
+                  "value": 20
+                }
+              }
+            }
                     ]
                 }
             ]

@@ -20,20 +20,33 @@
                                     "italic": false,
                                     "translate": "item.flor.arcane_pliers.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.arcane_pliers"
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423083,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,arcane_pliers:1b}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:arcane_pliers",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "arcane_pliers": 1,
+                    "arid_cost": 10,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 10
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

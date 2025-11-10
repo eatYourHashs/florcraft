@@ -10,7 +10,6 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.thundering_tempest_bow"
                             }
@@ -28,12 +27,28 @@
                                     "italic": false,
                                     "translate": "item.flor.thundering_tempest_bow.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{aqueous_cost:15b,thundering_tempest_bow:1b,ess_repair:2b,bonus_lvls:{aqueous:1b}}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "florcraft:thundering_tempest_bow",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "thundering_tempest_bow": 1,
+                    "ess_repair": 2,
+                    "aqueous_cost": 15,
+                    "bonus_lvls": {"aqueous_cost":1}
+                  }
+                },
+                "minecraft:max_damage": 600,
+                "minecraft:enchantable": {
+                  "value": 20
+                }
+              }
+            }
                     ]
                 }
             ]

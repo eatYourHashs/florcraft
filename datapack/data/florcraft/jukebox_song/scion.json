@@ -1,0 +1,12 @@
+{
+    "sound_event": {
+        "sound_id": "florcraft:music/scion_no_loop"
+    },
+    "description": {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.flor.music_disc_scion.lore"
+                                },
+    "length_in_seconds": 197,
+    "comparator_output": 1
+}

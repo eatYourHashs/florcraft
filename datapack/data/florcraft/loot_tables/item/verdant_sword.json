@@ -16,9 +16,23 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423003,flor_dat:{verdant_cost:10b,ess_tool:3b,ess_repair:3b}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "florcraft:verdant_sword",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "ess_tool": 3,
+                    "ess_repair": 3,
+                    "verdant_cost": 10
+                  }
+                },
+                "minecraft:max_damage": 500,
+                "minecraft:enchantable": {
+                  "value": 18
+                }
+              }
+            }
                     ]
                 }
             ]

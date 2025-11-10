@@ -25,20 +25,32 @@
                                     "italic": false,
                                     "translate": "item.flor.druidic_scepter.lore.2"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.druidic_scepter"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{arid_cost:3b,aqueous_cost:3b,verdant_cost:3b,druidic_scepter:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantable": {"value":15},
+                "minecraft:item_model": "florcraft:druidic_scepter",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "druidic_scepter": 1,
+                    "arid_cost": 3,
+                    "aqueous_cost": 3,
+                    "verdant_cost": 3
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

@@ -10,15 +10,25 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.basic_rune"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423020,flor_dat:{arid_cost:5b,aqueous_cost:5b,verdant_cost:5b,basic_rune:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "florcraft:basic_rune",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "basic_rune": 1,
+                    "arid_cost": 5,
+                    "aqueous_cost": 5,
+                    "verdant_cost": 5
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

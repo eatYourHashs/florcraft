@@ -1,42 +1,59 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:carrot_on_a_stick",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.pulsating_pustule.lore.0"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.pulsating_pustule.lore.1"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "light_purple",
-                                "italic": false,
-                                "translate": "item.flor.pulsating_pustule"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423101,flor_dat:{pulsating_pustule:1b,ess:'arid'}}"
-                        }
-                    ]
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.pulsating_pustule.lore.0"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.pulsating_pustule.lore.1"
                 }
-            ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "color": "light_purple",
+                "italic": false,
+                "translate": "item.flor.pulsating_pustule"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:pulsating_pustule",
+                "minecraft:rarity": "epic",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "pulsating_pustule": 1,
+                    "ess": "arid"
+                  }
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "arid"
+                  ]
+                }
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

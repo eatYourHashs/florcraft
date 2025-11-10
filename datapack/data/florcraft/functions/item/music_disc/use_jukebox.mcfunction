@@ -1,2 +1,0 @@
-execute if entity @e[type=item,distance=..10,nbt={Item:{tag:{flor_dat:{music_disc_scion:1b}}}}] run stopsound @a record florcraft:music.scion_no_loop
-advancement revoke @s only florcraft:technical/use_jukebox

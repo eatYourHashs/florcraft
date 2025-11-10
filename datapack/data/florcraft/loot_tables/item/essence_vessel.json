@@ -20,20 +20,34 @@
                                     "italic": false,
                                     "translate": "item.flor.essence_vessel.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.essence_vessel"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423024,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,essence_vessel:1b,fill:0b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:essence_vessel",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "essence_vessel": 1,
+                    "arid_cost": 10,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 10,
+                    "fill": 0
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

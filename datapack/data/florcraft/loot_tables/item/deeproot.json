@@ -10,7 +10,6 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.deeproot"
                             }
@@ -28,12 +27,26 @@
                                     "italic": false,
                                     "translate": "item.flor.deeproot.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423000,flor_dat:{deeproot:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "florcraft:deeproot",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "deeproot": 1
+                  }
+                },
+                "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation": 1.2,
+                    "can_always_eat": true
+                }
+              }
+            }
                     ]
                 }
             ]

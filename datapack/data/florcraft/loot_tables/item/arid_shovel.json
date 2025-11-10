@@ -16,9 +16,23 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423001,flor_dat:{arid_cost:10b,ess_tool:1b,ess_repair:1b}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "florcraft:arid_shovel",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "ess_tool": 1,
+                    "ess_repair": 1,
+                    "arid_cost": 10
+                  }
+                },
+                "minecraft:max_damage": 500,
+                "minecraft:enchantable": {
+                  "value": 18
+                }
+              }
+            }
                     ]
                 }
             ]

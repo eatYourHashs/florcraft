@@ -20,7 +20,8 @@
                                     "italic": false,
                                     "translate": "item.flor.floramancers_wand.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -30,10 +31,23 @@
                                 "translate": "item.flor.floramancers_wand"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423073,flor_dat:{arid_cost:3b,aqueous_cost:3b,verdant_cost:3b,floramancers_wand:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:floramancers_wand",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "floramancers_wand": 1,
+                    "arid_cost": 3,
+                    "aqueous_cost": 3,
+                    "verdant_cost": 3
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

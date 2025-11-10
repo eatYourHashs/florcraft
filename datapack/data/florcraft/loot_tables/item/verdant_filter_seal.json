@@ -20,20 +20,33 @@
                                     "italic": false,
                                     "translate": "item.flor.verdant_filter_seal.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.verdant_filter_seal"
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423079,flor_dat:{arid_cost:0b,aqueous_cost:0b,verdant_cost:5b,seal:1b,verdant_filter_seal:1b}}"
-                        }
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "florcraft:verdant_filter_seal",
+                "!minecraft:max_damage": {},
+                "minecraft:max_stack_size": 64,
+                "!minecraft:enchantable": {},
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "seal": 1,
+                    "verdant_filter_seal": 1,
+                    "verdant_cost": 5
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]

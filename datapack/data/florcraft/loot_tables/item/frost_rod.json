@@ -20,20 +20,33 @@
                                     "italic": false,
                                     "translate": "item.flor.frost_rod.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.frost_rod"
                             }
                         },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:423011,flor_dat:{arid_cost:0b,aqueous_cost:5b,verdant_cost:0b,frost_rod:1b}}"
-                        }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:max_damage": {},
+                "!minecraft:enchantable": {},
+                "minecraft:item_model": "florcraft:frost_rod",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "frost_rod": 1,
+                    "arid_cost": 0,
+                    "aqueous_cost": 5,
+                    "verdant_cost": 0
+                  }
+                }
+              }
+            }
                     ]
                 }
             ]
