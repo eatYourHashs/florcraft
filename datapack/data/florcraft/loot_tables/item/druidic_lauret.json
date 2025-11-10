@@ -1,54 +1,56 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_helmet",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "minecraft:generic.luck",
-                                    "name": "placeholder",
-                                    "amount": 1,
-                                    "operation": "addition",
-                                    "slot": "chest"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.druidic_lauret.lore.0"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.druidic_lauret.lore.1"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "white",
-                                "italic": false,
-                                "translate": "item.flor.druidic_lauret"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{HideFlags:2,CustomModelData:423041,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,druidic_lauret:1b}}"
-                        }
-                    ]
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.druidic_lauret.lore.0"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.druidic_lauret.lore.1"
                 }
-            ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.druidic_lauret"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "head"
+                },
+                "minecraft:item_model": "florcraft:druidic_lauret",
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "arid_cost": 10,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 10,
+                    "druidic_lauret": 1
+                  }
+                }
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
