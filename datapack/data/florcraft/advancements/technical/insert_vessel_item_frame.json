@@ -7,7 +7,13 @@
           "items": [
             "minecraft:carrot_on_a_stick"
           ],
-          "nbt": "{flor_dat:{essence_vessel:1b}}"
+          "components": {
+            "minecraft:custom_data": {
+              "flor_dat": {
+                "essence_vessel": 1
+              }
+            }
+          }
         },
         "entity": {
           "type": "minecraft:item_frame"

@@ -1,25 +1,25 @@
 {
-	"criteria": {
-		"click_undercrafter": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": [
-							{
-								  "condition": "minecraft:location_check",
-								  "predicate": {
-									"block": {
-										  "blocks": [
-											  "minecraft:barrel"
-										  ],
-										  "nbt": "{CustomName:'{\"text\":\"ꀀ\",\"font\":\"florcraft:natures_oculus\",\"color\":\"white\"}'}"
-									}
-								  }
-							}
-						]
-			}
-		}
-	},
-	"rewards": {
-		"function": "florcraft:block/natures_oculus/interact/enter"
-	}
+  "criteria": {
+    "click_undercrafter": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ],
+                "nbt": "{CustomName:'{\"text\":\"ꀀ\",\"font\":\"florcraft:natures_oculus\",\"color\":\"white\"}'}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "florcraft:block/natures_oculus/interact/enter"
+  }
 }

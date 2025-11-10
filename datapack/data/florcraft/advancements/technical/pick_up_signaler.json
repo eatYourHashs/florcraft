@@ -5,10 +5,14 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:dropper"
-            ],
-            "nbt": "{flor_dat:{deep_signaler_broken:1b}}"
+            "items": "minecraft:dropper",
+            "components": {
+              "minecraft:custom_data": {
+                "flor_dat": {
+                  "deep_signaler_broken": 1
+                }
+              }
+            }
           }
         ]
       }

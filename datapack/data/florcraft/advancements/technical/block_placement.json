@@ -1,21 +1,36 @@
 {
-	"criteria": {
-	  "place": {
-		"trigger": "minecraft:placed_block",
-		"conditions": {
-		  "location": [
-			{
-			  "condition": "minecraft:match_tool",
-			  "predicate": {
-				"nbt": "{BlockEntityTag:{Items:[{tag:{flor_dat:{placed_block:1b}}}]}}"
-			  }
-			}
-		  ]
-		}
-	  }
-	},
-	"rewards": {
-	  "function": "florcraft:block/placement/scan"
-	}
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:dropper",
+                  "Items": [
+                    {
+                      "id": "minecraft:barrier",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "flor_dat": {
+                            "placed_block": 1
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "florcraft:block/placement/scan"
   }
-  
+}

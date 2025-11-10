@@ -1,25 +1,25 @@
 {
-	"criteria": {
-		"click_undercrafter": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": [
-					{
-					  	"condition": "minecraft:location_check",
-					  	"predicate": {
-							"block": {
-							  	"blocks": [
-									"minecraft:barrel"
-							  	],
-							  	"nbt": "{CustomName:'{\"text\":\"ꀀ\",\"font\":\"florcraft:enchanting_station\",\"color\":\"white\"}'}"
-							}
-					  	}
-					}
-				]
-			}
-		}
-	},
-	"rewards": {
-		"function": "florcraft:block/enchanting_station/interact/enter"
-	}
+  "criteria": {
+    "click_undercrafter": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ],
+                "nbt": "{CustomName:'{\"text\":\"ꀀ\",\"font\":\"florcraft:enchanting_station\",\"color\":\"white\"}'}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "florcraft:block/enchanting_station/interact/enter"
+  }
 }

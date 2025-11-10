@@ -4,7 +4,13 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{flor_dat:{deeproot:1b}}"
+          "components": {
+            "minecraft:custom_data": {
+              "flor_dat": {
+                "deeproot": 1
+              }
+            }
+          }
         }
       }
     }

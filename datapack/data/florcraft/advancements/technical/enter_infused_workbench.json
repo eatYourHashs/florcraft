@@ -4,18 +4,18 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
-					{
-					  	"condition": "minecraft:location_check",
-					  	"predicate": {
-							"block": {
-							  	"blocks": [
-									  "minecraft:barrel"
-							  	],
-							  	"nbt": "{CustomName:'{\"text\":\"ꀀ\",\"font\":\"florcraft:infused_workbench\",\"color\":\"white\"}'}"
-							}
-					  	}
-					}
-				]
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ],
+                "nbt": "{CustomName:'{\"text\":\"ꀀ\",\"font\":\"florcraft:infused_workbench\",\"color\":\"white\"}'}"
+              }
+            }
+          }
+        ]
       }
     }
   },

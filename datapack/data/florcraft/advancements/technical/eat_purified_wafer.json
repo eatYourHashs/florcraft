@@ -4,7 +4,13 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{flor_dat:{purified_wafer:1b}}"
+          "components": {
+            "minecraft:custom_data": {
+              "flor_dat": {
+                "purified_wafer": 1
+              }
+            }
+          }
         }
       }
     }
