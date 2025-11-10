@@ -1,42 +1,69 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:dropper",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:dropper",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.mystical_furnace.lore.0"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.mystical_furnace.lore.1"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "white",
-                                "italic": false,
-                                "translate": "item.flor.mystical_furnace"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"mystical_furnace\"}}}]},CustomModelData:423003,flor_dat:{arid_cost:10b,aqueous_cost:5b,verdant_cost:5b,infused_furnace:1b}}"
-                        }
-                    ]
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.mystical_furnace.lore.0"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.mystical_furnace.lore.1"
                 }
-            ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.mystical_furnace"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:dropper",
+                  "Items": [
+                    {
+                      "id": "minecraft:barrier",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "flor_dat": {
+                            "placed_block": 1,
+                            "block": "mystical_furnace"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "arid_cost": 10,
+                    "aqueous_cost": 5,
+                    "verdant_cost": 5,
+                    "mystical_furnace": 1
+                  }
+                },
+                "minecraft:item_model": "florcraft:mystical_furnace",
+                "minecraft:rarity": "common"
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

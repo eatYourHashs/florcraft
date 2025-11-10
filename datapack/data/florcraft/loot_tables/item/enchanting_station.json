@@ -1,37 +1,64 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:dropper",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:dropper",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.enchanting_station.lore"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "yellow",
-                                "italic": false,
-                                "translate": "item.flor.enchanting_station"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{flor_dat:{placed_block:1b,block:\"enchanting_station\"}}}]},CustomModelData:423012,flor_dat:{arid_cost:10b,aqueous_cost:10b,verdant_cost:10b,enchanting_station:1b}}"
-                        }
-                    ]
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.enchanting_station.lore"
                 }
-            ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.enchanting_station"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:dropper",
+                  "Items": [
+                    {
+                      "id": "minecraft:barrier",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "flor_dat": {
+                            "placed_block": 1,
+                            "block": "enchanting_station"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "arid_cost": 10,
+                    "aqueous_cost": 10,
+                    "verdant_cost": 10,
+                    "enchanting_station": 1
+                  }
+                },
+                "minecraft:item_model": "florcraft:enchanting_station",
+                "minecraft:rarity": "common"
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
