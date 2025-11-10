@@ -1,34 +1,86 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "pages": [
+                    {
+                      "translate": "item.flor.visions.0"
+                    },
+                    [
+                      {
+                        "translate": "item.flor.visions.1.line.0",
+                        "font": "florcraft:oculus_recipes",
+                        "color": "white"
+                      },
+                      {
+                        "translate": "item.flor.visions.1.line.1",
+                        "font": "minecraft:default",
+                        "color": "black"
+                      }
+                    ],
+                    {
+                      "translate": "item.flor.visions.2"
+                    },
+                    [
+                      {
+                        "translate": "item.flor.visions.3.line.0",
+                        "font": "florcraft:oculus_recipes",
+                        "color": "white"
+                      },
+                      {
+                        "translate": "item.flor.visions.3.line.1",
+                        "font": "minecraft:default",
+                        "color": "black"
+                      }
+                    ],
+                    {
+                      "translate": "item.flor.visions.4"
+                    },
+                    {
+                      "translate": "item.flor.visions.5"
+                    }
+                  ],
+                  "title": {
+                    "raw": "The Vision"
+                  },
+                  "author": "???",
+                  "generation": 0
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:written_book_content"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "the_vision": 1
+                  }
+                },
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
                 {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{flor_dat:{the_vision:1b},HideFlags:32,title:\"\",author:\"???\",generation:0,pages:['{\"translate\":\"item.flor.visions.0\"}','[{\"translate\":\"item.flor.visions.1.line.0\",\"font\":\"florcraft:oculus_recipes\",\"color\":\"white\"},{\"translate\":\"item.flor.visions.1.line.1\",\"font\":\"minecraft:default\",\"color\":\"black\"}]','{\"translate\":\"item.flor.visions.2\"}','[{\"translate\":\"item.flor.visions.3.line.0\",\"font\":\"florcraft:oculus_recipes\",\"color\":\"white\"},{\"translate\":\"item.flor.visions.3.line.1\",\"font\":\"minecraft:default\",\"color\":\"black\"}]','{\"translate\":\"item.flor.visions.4\"}','{\"translate\":\"item.flor.visions.5\"}']}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "The Vision",
-                                    "color": "yellow",
-                                    "italic": false
-                                }
-                            ]
-                        }
-                    ]
+                  "translate": "item.flor.visions",
+                  "italic": false
                 }
-            ]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
