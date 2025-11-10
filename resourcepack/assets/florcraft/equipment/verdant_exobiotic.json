@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "florcraft:verdant_exobiotic"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "florcraft:verdant_exobiotic"
+      }
+    ]
+  }
+}

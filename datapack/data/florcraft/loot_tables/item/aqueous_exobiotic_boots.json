@@ -13,9 +13,10 @@
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.flor.aqueous_exobiotic_boots.lore"
+                                    "translate": "item.flor.aqueous_exobiotic.lore"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_attributes",
@@ -39,9 +40,8 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "yellow",
                                 "italic": false,
-                                "translate": "item.flor.aqueous_exobiotic_boots"
+                                "translate": "item.flor.exobiotic_boots"
                             }
                         },
                         {
