@@ -1,56 +1,74 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_helmet",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.arid_exobiotic_helmet.lore"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "minecraft:generic.armor_toughness",
-                                    "name": "",
-                                    "amount": 1,
-                                    "operation": "addition",
-                                    "slot": "head"
-                                },
-                                {
-                                    "attribute": "minecraft:generic.armor",
-                                    "name": "",
-                                    "amount": 3,
-                                    "operation": "addition",
-                                    "slot": "head"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "yellow",
-                                "italic": false,
-                                "translate": "item.flor.arid_exobiotic_helmet"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{color:4079175},HideFlags:64,CustomModelData:423064,Unbreakable:1b,flor_dat:{fill:5b,arid_cost:20b,exobiotic_helmet:1b}}"
-                        }
-                    ]
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.arid_exobiotic.lore"
                 }
-            ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "florcraft:exobiotic_helmet",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "florcraft:exobiotic_helmet",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.exobiotic_helmet"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantable": {
+                  "value": 18
+                },
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_sound": "minecraft:item.armor.equip_netherite",
+                  "asset_id": "florcraft:arid_exobiotic"
+                },
+                "!minecraft:max_damage": {},
+                "minecraft:item_model": "florcraft:arid_exobiotic_helmet",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "fill": 5,
+                    "arid_cost": 20,
+                    "exobiotic_helmet": 1
+                  }
+                }
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

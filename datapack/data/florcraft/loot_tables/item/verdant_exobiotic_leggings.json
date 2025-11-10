@@ -1,63 +1,81 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_leggings",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_lore",
-                            "lore": [
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.flor.verdant_exobiotic_leggings.lore"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "minecraft:generic.armor_toughness",
-                                    "name": "",
-                                    "amount": 1,
-                                    "operation": "addition",
-                                    "slot": "legs"
-                                },
-                                {
-                                    "attribute": "minecraft:generic.armor",
-                                    "name": "",
-                                    "amount": 6,
-                                    "operation": "addition",
-                                    "slot": "legs"
-                                },
-                                {
-                                    "attribute": "minecraft:generic.movement_speed",
-                                    "name": "",
-                                    "amount": 0.2,
-                                    "operation": "multiply_base",
-                                    "slot": "legs"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "color": "yellow",
-                                "italic": false,
-                                "translate": "item.flor.verdant_exobiotic_leggings"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{display:{color:4079177},HideFlags:64,CustomModelData:423066,Unbreakable:1b,flor_dat:{fill:5b,verdant_cost:20b,exobiotic_leggings:3b}}"
-                        }
-                    ]
+                  "color": "gray",
+                  "italic": false,
+                  "translate": "item.flor.verdant_exobiotic.lore"
                 }
-            ]
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "florcraft:exobiotic_leggings",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "florcraft:exobiotic_leggings",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:movement_speed",
+                  "id": "florcraft:exobiotic_leggings",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "italic": false,
+                "translate": "item.flor.exobiotic_leggings"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantable": {
+                  "value": 18
+                },
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "equip_sound": "minecraft:item.armor.equip_netherite",
+                  "asset_id": "florcraft:verdant_exobiotic"
+                },
+                "!minecraft:max_damage": {},
+                "minecraft:item_model": "florcraft:verdant_exobiotic_leggings",
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "fill": 5,
+                    "verdant_cost": 20,
+                    "exobiotic_leggings": 3
+                  }
+                }
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
