@@ -664,6 +664,8 @@
   "block.flor.enchanting_station.incompatible.piercing": " Incompatible with Piercing",
   "block.flor.enchanting_station.incompatible.fortune": " Incompatible with Fortune",
   "block.flor.enchanting_station.incompatible.silk_touch": " Incompatible with Silk Touch",
+  "block.flor.enchanting_station.incompatible.density": " Incompatible with Density",
+  "block.flor.enchanting_station.incompatible.breach": " Incompatible with Breach",
   "block.flor.enchanting_station.protection.i": " Protection I",
   "block.flor.enchanting_station.protection.ii": " Protection II",
   "block.flor.enchanting_station.protection.iii": " Protection III",

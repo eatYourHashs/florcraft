@@ -1,4 +1,4 @@
-execute store result score $temp flor.dummy run data get storage flor:storage root.enchant_item.tag.Enchantments[{id:"minecraft:luck_of_the_sea"}].lvl
+execute store result score $temp flor.dummy run data get storage flor:storage root.enchant_item.components."minecraft:enchantments"."minecraft:luck_of_the_sea"
 scoreboard players add $temp flor.dummy 1
 scoreboard players set $temp.0 flor.dummy 0
 scoreboard players set $temp.1 flor.dummy 4

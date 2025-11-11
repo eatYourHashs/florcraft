@@ -1,4 +1,4 @@
-execute store result score $temp flor.dummy run data get storage flor:storage root.enchant_item.tag.Enchantments[{id:"minecraft:unbreaking"}].lvl
+execute store result score $temp flor.dummy run data get storage flor:storage root.enchant_item.components."minecraft:enchantments"."minecraft:unbreaking"
 scoreboard players add $temp flor.dummy 1
 scoreboard players set $temp.0 flor.dummy 2
 scoreboard players set $temp.1 flor.dummy 2
