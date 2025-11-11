@@ -13,9 +13,9 @@ execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",tag:{f
 execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",tag:{flor_dat:{essence_item:3b}}}] run function florcraft:block/infused_workbench/add_verdant_essence
 
 execute if data block ~ ~ ~ Items[{Slot:5b}] run function florcraft:block/infused_workbench/restore/5
-execute if data block ~ ~ ~ Items[{Slot:22b}] unless data block ~ ~ ~ Items[{Slot:22b}].tag.flor_dat.essence run function florcraft:block/infused_workbench/restore/22
-execute if data block ~ ~ ~ Items[{Slot:23b}] unless data block ~ ~ ~ Items[{Slot:23b}].tag.flor_dat.essence run function florcraft:block/infused_workbench/restore/23
-execute if data block ~ ~ ~ Items[{Slot:24b}] unless data block ~ ~ ~ Items[{Slot:24b}].tag.flor_dat.essence run function florcraft:block/infused_workbench/restore/24
+execute if data block ~ ~ ~ Items[{Slot:22b}] unless data block ~ ~ ~ Items[{Slot:22b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore/22
+execute if data block ~ ~ ~ Items[{Slot:23b}] unless data block ~ ~ ~ Items[{Slot:23b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore/23
+execute if data block ~ ~ ~ Items[{Slot:24b}] unless data block ~ ~ ~ Items[{Slot:24b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore/24
 
 execute if score @s flor.arid_ess matches 1.. run function florcraft:block/infused_workbench/show_arid_essence
 execute if score @s flor.arid_ess matches 0 run data remove block ~ ~ ~ Items[{Slot:22b}]

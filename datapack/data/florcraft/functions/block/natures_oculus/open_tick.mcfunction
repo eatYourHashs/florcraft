@@ -1,14 +1,14 @@
 data modify storage flor:temp Items set from block ~ ~ ~ Items
 
-execute if data storage flor:temp Items[{Slot:0b}] unless data storage flor:temp Items[{Slot:0b}].tag.flor_dat.back_button run function florcraft:block/natures_oculus/restore/0
-execute if data storage flor:temp Items[{Slot:1b}] unless data storage flor:temp Items[{Slot:1b}].tag.flor_dat.knowledge run function florcraft:block/natures_oculus/restore/1
+execute if data storage flor:temp Items[{Slot:0b}] unless data storage flor:temp Items[{Slot:0b}].components."minecraft:custom_data".flor_dat.back_button run function florcraft:block/natures_oculus/restore/0
+execute if data storage flor:temp Items[{Slot:1b}] unless data storage flor:temp Items[{Slot:1b}].components."minecraft:custom_data".flor_dat.knowledge run function florcraft:block/natures_oculus/restore/1
 execute if data storage flor:temp Items[{Slot:2b}] run function florcraft:block/natures_oculus/restore/2
 execute if data storage flor:temp Items[{Slot:3b}] run function florcraft:block/natures_oculus/restore/3
 execute if data storage flor:temp Items[{Slot:4b}] run function florcraft:block/natures_oculus/restore/4
 execute if data storage flor:temp Items[{Slot:5b}] run function florcraft:block/natures_oculus/restore/5
 execute if data storage flor:temp Items[{Slot:6b}] run function florcraft:block/natures_oculus/restore/6
 execute if data storage flor:temp Items[{Slot:7b}] run function florcraft:block/natures_oculus/restore/7
-execute if data storage flor:temp Items[{Slot:8b}] unless data storage flor:temp Items[{Slot:8b}].tag.flor_dat.next_button run function florcraft:block/natures_oculus/restore/8
+execute if data storage flor:temp Items[{Slot:8b}] unless data storage flor:temp Items[{Slot:8b}].components."minecraft:custom_data".flor_dat.next_button run function florcraft:block/natures_oculus/restore/8
 
 execute as @p[tag=flor.inside_natures_oculus_gui,distance=..12] unless score @s flor.pages matches 0.. run scoreboard players set @s flor.pages 1
 

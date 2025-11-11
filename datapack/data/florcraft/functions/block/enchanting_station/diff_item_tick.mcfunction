@@ -9,14 +9,15 @@ tag @s remove flor.trident
 tag @s remove flor.helmet
 tag @s remove flor.boots
 tag @s remove flor.armor
+tag @s remove flor.mace
 
 tag @s remove flor.bonus_lvl_arid
 tag @s remove flor.bonus_lvl_aqueous
 tag @s remove flor.bonus_lvl_verdant
 
-execute if data storage flor:storage root.enchant_item{tag:{flor_dat:{bonus_lvls:{arid:1b}}}} run tag @s add flor.bonus_lvl_arid
-execute if data storage flor:storage root.enchant_item{tag:{flor_dat:{bonus_lvls:{aqueous:1b}}}} run tag @s add flor.bonus_lvl_aqueous
-execute if data storage flor:storage root.enchant_item{tag:{flor_dat:{bonus_lvls:{verdant:1b}}}} run tag @s add flor.bonus_lvl_verdant
+execute if data storage flor:storage root.enchant_item{components:{"minecraft:custom_data":{flor_dat:{bonus_lvls:{arid:1b}}}}} run tag @s add flor.bonus_lvl_arid
+execute if data storage flor:storage root.enchant_item{components:{"minecraft:custom_data":{flor_dat:{bonus_lvls:{aqueous:1b}}}}} run tag @s add flor.bonus_lvl_aqueous
+execute if data storage flor:storage root.enchant_item{components:{"minecraft:custom_data":{flor_dat:{bonus_lvls:{verdant:1b}}}}} run tag @s add flor.bonus_lvl_verdant
 
 #remove existing icons if present
 data remove block ~ ~ ~ Items[{Slot:3b}]
@@ -102,3 +103,4 @@ execute if data storage flor:storage root.enchant_item{id:"minecraft:netherite_h
 execute if data storage flor:storage root.enchant_item{id:"minecraft:netherite_chestplate"} run function florcraft:block/enchanting_station/show_enchantments/armor
 execute if data storage flor:storage root.enchant_item{id:"minecraft:netherite_leggings"} run function florcraft:block/enchanting_station/show_enchantments/armor
 execute if data storage flor:storage root.enchant_item{id:"minecraft:netherite_boots"} run function florcraft:block/enchanting_station/show_enchantments/boots
+#execute if data storage flor:storage root.enchant_item{id:"minecraft:mace"} run function florcraft:block/enchanting_station/show_enchantments/mace

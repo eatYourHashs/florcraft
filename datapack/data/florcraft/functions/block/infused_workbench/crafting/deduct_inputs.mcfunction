@@ -1,6 +1,6 @@
-execute store result score $temp.arid_cost flor.dummy run data get entity @s ArmorItems[3].tag.flor_dat.LastOutput.tag.flor_dat.arid_cost
-execute store result score $temp.aqueous_cost flor.dummy run data get entity @s ArmorItems[3].tag.flor_dat.LastOutput.tag.flor_dat.aqueous_cost
-execute store result score $temp.verdant_cost flor.dummy run data get entity @s ArmorItems[3].tag.flor_dat.LastOutput.tag.flor_dat.verdant_cost
+execute store result score $temp.arid_cost flor.dummy run data get entity @s ArmorItems[3].components."minecraft:custom_data".flor_dat.LastOutput.components."minecraft:custom_data".flor_dat.arid_cost
+execute store result score $temp.aqueous_cost flor.dummy run data get entity @s ArmorItems[3].components."minecraft:custom_data".flor_dat.LastOutput.components."minecraft:custom_data".flor_dat.aqueous_cost
+execute store result score $temp.verdant_cost flor.dummy run data get entity @s ArmorItems[3].components."minecraft:custom_data".flor_dat.LastOutput.components."minecraft:custom_data".flor_dat.verdant_cost
 scoreboard players operation @s flor.arid_ess -= $temp.arid_cost flor.dummy
 scoreboard players operation @s flor.aqueous_ess -= $temp.aqueous_cost flor.dummy
 scoreboard players operation @s flor.verdant_ess -= $temp.verdant_cost flor.dummy

@@ -1,6 +1,6 @@
-execute if data entity @s SelectedItem.tag.flor_dat{ess:'arid'} run scoreboard players set $temp flor.dummy 1
-execute if data entity @s SelectedItem.tag.flor_dat{ess:'aqueous'} run scoreboard players set $temp flor.dummy 2
-execute if data entity @s SelectedItem.tag.flor_dat{ess:'verdant'} run scoreboard players set $temp flor.dummy 3
+execute if data entity @s SelectedItem.components."minecraft:custom_data".flor_dat{ess:'arid'} run scoreboard players set $temp flor.dummy 1
+execute if data entity @s SelectedItem.components."minecraft:custom_data".flor_dat{ess:'aqueous'} run scoreboard players set $temp flor.dummy 2
+execute if data entity @s SelectedItem.components."minecraft:custom_data".flor_dat{ess:'verdant'} run scoreboard players set $temp flor.dummy 3
 scoreboard players add $temp flor.dummy 1
 execute if score $temp flor.dummy matches 4.. run scoreboard players set $temp flor.dummy 1
 execute if score $temp flor.dummy matches 1 run item modify entity @s weapon.mainhand florcraft:pustule_arid
