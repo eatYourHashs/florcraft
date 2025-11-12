@@ -1,8 +1,8 @@
 execute if entity @s[predicate=florcraft:infused_workbench/invalid_items] run function florcraft:block/infused_workbench/crafting/move_invalids
-#execute store success score @s um.dummy run data modify entity @s ArmorItems[3].tag.um.stored_output set from block ~ ~ ~ Items[{Slot:16b}]
-#execute store success score @s um.dummy unless block ~ ~ ~ barrel{Items:[{Slot:16b}]} if data entity @s ArmorItems[3].tag.um.stored_output.id run data modify entity @s ArmorItems[3].tag.um.stored_output set value {Slot:16b}
+#execute store success score @s um.dummy run data modify entity @s equipment.head.tag.um.stored_output set from block ~ ~ ~ Items[{Slot:16b}]
+#execute store success score @s um.dummy unless block ~ ~ ~ barrel{Items:[{Slot:16b}]} if data entity @s equipment.head.tag.um.stored_output.id run data modify entity @s equipment.head.tag.um.stored_output set value {Slot:16b}
 #execute if entity @s[scores={um.dummy=1..}] run function undermagic:block/undercrafter/updated_output
-#execute store success score @s um.dummy run data modify entity @s ArmorItems[3].tag.um.stored_barrel_data set from block ~ ~ ~ Items
+#execute store success score @s um.dummy run data modify entity @s equipment.head.tag.um.stored_barrel_data set from block ~ ~ ~ Items
 #execute if entity @s[scores={um.dummy=1..}] if data block ~ ~ ~ Items run function undermagic:block/undercrafter/updated_input
 
 function florcraft:block/infused_workbench/pain_and_suffering

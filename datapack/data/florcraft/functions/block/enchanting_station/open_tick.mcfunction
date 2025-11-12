@@ -4,10 +4,10 @@ data modify storage flor:storage root.enchant_item set from block ~ ~ ~ Items[{S
 
 #if item is the same as last tick, go to subfunction, else, go to other subfunction
 data modify storage flor:storage root.temp.enchant_item set from storage flor:storage root.enchant_item
-execute store success score $temp flor.dummy run data modify storage flor:storage root.temp.enchant_item set from entity @s ArmorItems[3].components."minecraft:custom_data".flor_dat.last_input
+execute store success score $temp flor.dummy run data modify storage flor:storage root.temp.enchant_item set from entity @s equipment.head.components."minecraft:custom_data".flor_dat.last_input
 
 #copy end item after checking to head for storage till next tick
-data modify entity @s ArmorItems[3].components."minecraft:custom_data".flor_dat.last_input set from storage flor:storage root.enchant_item
+data modify entity @s equipment.head.components."minecraft:custom_data".flor_dat.last_input set from storage flor:storage root.enchant_item
 
 data modify storage flor:temp Items set from block ~ ~ ~ Items
 execute if data storage flor:temp Items[{Slot:0b}] unless data storage flor:temp Items[{Slot:0b}].components."minecraft:custom_data".flor_dat.cleared run function florcraft:block/enchanting_station/restore/0

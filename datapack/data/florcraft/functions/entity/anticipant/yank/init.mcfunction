@@ -1,4 +1,4 @@
-data modify entity @s ArmorItems[3].tag.CustomModelData set value 423025
+data modify entity @s equipment.head.tag.CustomModelData set value 423025
 scoreboard players set @s flor.frames 100
 scoreboard players set @s flor.dummy2 0
 scoreboard players set @s flor.dummy -80
