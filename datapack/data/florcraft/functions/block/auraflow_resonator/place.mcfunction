@@ -1,3 +1,3 @@
-setblock ~ ~ ~ barrel{Lock:"§",CustomName:'{"font":"florcraft:big_space","translate":"block.flor.generic.big_space"}'}
-summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["flor.auraflow_resonator","smithed.entity","smithed.block","flor.ticking"],equipment:{head:{id:"minecraft:dropper",count:1,tag:{Unbreakable:1b,CustomModelData:423026}}}
+setblock ~ ~ ~ barrel{lock:{components:{"minecraft:custom_data":{"flor_dat":{"lock":1}}}},CustomName:'{"font":"florcraft:big_space","translate":"block.flor.generic.big_space"}'}
+summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["flor.auraflow_resonator","smithed.entity","smithed.block","flor.ticking"],equipment:{head:{id:"minecraft:dropper",count:1,components:{"minecraft:item_model":"florcraft:auraflow_resonator"}}}}
 scoreboard players set @e[type=armor_stand,tag=flor.auraflow_resonator,sort=nearest,limit=1] flor.seal_slots 2
