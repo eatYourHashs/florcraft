@@ -6,5 +6,5 @@ execute if score @s flor.verdant_upg matches 4 run tag @e[type=armor_stand,dista
 execute if entity @s[tag=!flor.aqueous_filter,tag=!flor.verdant_filter] run tag @e[type=armor_stand,tag=flor.in_range,scores={flor.arid_ess=1..},tag=flor.interacts_with_bloom] add flor.ess
 execute if entity @s[tag=!flor.arid_filter,tag=!flor.verdant_filter] run tag @e[type=armor_stand,tag=flor.in_range,scores={flor.aqueous_ess=1..},tag=flor.interacts_with_bloom] add flor.ess
 execute if entity @s[tag=!flor.aqueous_filter,tag=!flor.arid_filter] run tag @e[type=armor_stand,tag=flor.in_range,scores={flor.verdant_ess=1..},tag=flor.interacts_with_bloom] add flor.ess
-execute if entity @e[type=armor_stand,tag=flor.ess] run function florcraft:block/absorbloom/take_ess
+execute if entity @e[type=armor_stand,tag=flor.ess] run function florcraft:block/echoroot/take_ess
 tag @e[type=armor_stand] remove flor.in_range
