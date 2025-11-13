@@ -1,6 +1,6 @@
 playsound minecraft:ui.button.click player @a[tag=flor.inside_natures_oculus_gui,distance=..12] ~ ~ ~ 1 2
 scoreboard players add @s flor.page 1
-clear @a[tag=flor.inside_natures_oculus_gui,distance=..12] structure_block{flor_dat:{cleared:1b}}
+clear @a[tag=flor.inside_natures_oculus_gui,distance=..12] structure_block{flor_dat:{cleared:1}}
 tag @s add flor.gui_swapped
 data remove block ~ ~ ~ Items[{Slot:9b}]
 data remove block ~ ~ ~ Items[{Slot:10b}]
@@ -20,7 +20,7 @@ data remove block ~ ~ ~ Items[{Slot:23b}]
 data remove block ~ ~ ~ Items[{Slot:24b}]
 data remove block ~ ~ ~ Items[{Slot:25b}]
 data remove block ~ ~ ~ Items[{Slot:26b}]
-execute if score @s flor.page matches 1 run item replace block ~ ~ ~ container.0 with structure_block{display:{Name:'{"translate":"block.flor.natures_oculus.cross_content","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423001,flor_dat:{back_button:1b,cleared:1b}}
-execute if score @s flor.page matches 2.. run item replace block ~ ~ ~ container.0 with structure_block{display:{Name:'{"translate":"block.flor.natures_oculus.back","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423001,flor_dat:{back_button:1b,cleared:1b}}
-execute if score @s flor.page matches 0 run item replace block ~ ~ ~ container.8 with structure_block{display:{Name:'{"translate":"block.flor.natures_oculus.standard","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423002,flor_dat:{next_button:1b,cleared:1b}}
-execute if score @s flor.page matches 1.. if score @s flor.page < @s flor.pages run item replace block ~ ~ ~ container.8 with structure_block{display:{Name:'{"translate":"block.flor.natures_oculus.next","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423002,flor_dat:{next_button:1b,cleared:1b}}
+execute if score @s flor.page matches 1 run item replace block ~ ~ ~ container.0 with structure_block{display:{Name:'{"translate":"block.flor.natures_oculus.cross_content","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423001,flor_dat:{back_button:1b,cleared:1}}
+execute if score @s flor.page matches 2.. run item replace block ~ ~ ~ container.0 with structure_block{display:{Name:'{"translate":"block.flor.natures_oculus.back","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423001,flor_dat:{back_button:1b,cleared:1}}
+execute if score @s flor.page matches 0 run item replace block ~ ~ ~ container.8 with structure_block{display:{Name:'{"translate":"block.flor.natures_oculus.standard","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423002,flor_dat:{next_button:1b,cleared:1}}
+execute if score @s flor.page matches 1.. if score @s flor.page < @s flor.pages run item replace block ~ ~ ~ container.8 with structure_block{display:{Name:'{"translate":"block.flor.natures_oculus.next","color":"white","italic":false}'},BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"},CustomModelData:423002,flor_dat:{next_button:1b,cleared:1}}
