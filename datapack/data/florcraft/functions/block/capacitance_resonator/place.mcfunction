@@ -1,4 +1,4 @@
 setblock ~ ~ ~ barrel{lock:{components:{"minecraft:custom_data":{"flor_dat":{"lock":1}}}},CustomName:'{"font":"florcraft:big_space","translate":"block.flor.generic.big_space"}'}
-summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["flor.capacitance_resonator","smithed.entity","smithed.block","flor.ticking","flor.20ticking"],equipment:{head:{id:"minecraft:dropper",count:1,tag:{Unbreakable:1b,CustomModelData:423027}}}
+summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["flor.capacitance_resonator","smithed.entity","smithed.block","flor.ticking","flor.20ticking"],equipment:{head:{id:"minecraft:dropper",count:1,components:{"minecraft:item_model":"florcraft:capacitance_resonator"}}}}
 scoreboard players set @e[type=armor_stand,tag=flor.capacitance_resonator,sort=nearest,limit=1] flor.seal_slots 2
 execute positioned ~ ~-1.25 ~ run tag @e[distance=..0.6,tag=flor.capacity,limit=1,sort=nearest] add flor.resonating
