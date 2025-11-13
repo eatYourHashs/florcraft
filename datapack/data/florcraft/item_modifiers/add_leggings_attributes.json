@@ -6,21 +6,21 @@
         "attribute": "minecraft:generic.armor",
         "name": "",
         "amount": 6,
-        "operation": "addition",
+        "operation": "add_value",
         "slot": "legs"
       },
       {
         "attribute": "minecraft:generic.armor_toughness",
         "name": "",
         "amount": 1,
-        "operation": "addition",
+        "operation": "add_value",
         "slot": "legs"
       },
       {
         "attribute": "minecraft:generic.movement_speed",
         "name": "",
         "amount": 0.2,
-        "operation": "multiply_base",
+        "operation": "add_multiplied_base",
         "slot": "legs"
       }
     ]

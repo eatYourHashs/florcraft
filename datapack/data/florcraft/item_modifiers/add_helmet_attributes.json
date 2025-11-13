@@ -6,14 +6,14 @@
         "attribute": "minecraft:generic.armor",
         "name": "",
         "amount": 3,
-        "operation": "addition",
+        "operation": "add_value",
         "slot": "head"
       },
       {
         "attribute": "minecraft:generic.armor_toughness",
         "name": "",
         "amount": 1,
-        "operation": "addition",
+        "operation": "add_value",
         "slot": "head"
       }
     ]
