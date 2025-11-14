@@ -36,9 +36,9 @@ execute if data entity @s Inventory[{Slot:101b}].tag.mechanization.upgrades.item
 execute if data entity @s Inventory[{Slot:100b}].tag.mechanization.upgrades.items[].tag.mechanization.upgrade{effect:"flor_verdant"} if entity @s[tag=flor.verdant_dmg] run scoreboard players remove $temp.mcoeff flor.dummy 2
 scoreboard players operation $in flor.dummy *= $temp.mcoeff flor.dummy
 scoreboard players operation $in flor.dummy /= $cons.10 flor.dummy
-execute if entity @s[tag=flor.arid_dmg,nbt={Inventory:[{Slot:102b,tag:{flor_dat:{exobiotic_chestplate:1b}}}]}] unless data entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".flor_dat{fill:0b} run scoreboard players operation $in flor.dummy /= $cons.2 flor.dummy
-execute if entity @s[tag=flor.aqueous_dmg,nbt={Inventory:[{Slot:102b,tag:{flor_dat:{exobiotic_chestplate:2b}}}]}] unless data entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".flor_dat{fill:0b} run scoreboard players operation $in flor.dummy /= $cons.2 flor.dummy
-execute if entity @s[tag=flor.verdant_dmg,nbt={Inventory:[{Slot:102b,tag:{flor_dat:{exobiotic_chestplate:3b}}}]}] unless data entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".flor_dat{fill:0b} run scoreboard players operation $in flor.dummy /= $cons.2 flor.dummy
+execute if entity @s[tag=flor.arid_dmg,nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{flor_dat:{exobiotic_chestplate:1b}}}}]}] unless data entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".flor_dat{fill:0b} run scoreboard players operation $in flor.dummy /= $cons.2 flor.dummy
+execute if entity @s[tag=flor.aqueous_dmg,nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{flor_dat:{exobiotic_chestplate:2b}}}}]}] unless data entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".flor_dat{fill:0b} run scoreboard players operation $in flor.dummy /= $cons.2 flor.dummy
+execute if entity @s[tag=flor.verdant_dmg,nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{flor_dat:{exobiotic_chestplate:3b}}}}]}] unless data entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".flor_dat{fill:0b} run scoreboard players operation $in flor.dummy /= $cons.2 flor.dummy
 
 
 

@@ -1,1 +1,1 @@
-execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{flor_dat:{exobiotic_helmet:2b}}}]}] unless score @s flor.exo_helmet_cd matches 1.. run function florcraft:item/exobiotic/helmet/burst
+execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{flor_dat:{exobiotic_helmet:2b}}}}]}] unless score @s flor.exo_helmet_cd matches 1.. run function florcraft:item/exobiotic/helmet/burst
