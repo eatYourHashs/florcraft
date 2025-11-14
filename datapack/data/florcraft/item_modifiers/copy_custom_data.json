@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "florcraft:copy"
+  },
+  "ops": [
+    {
+      "source": "root.flor_dat",
+      "target": "flor_dat",
+      "op": "merge"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "florcraft:item/essence_flask",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "floats": {
+                "values": [
+                  {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$temp.math"
+                    },
+                    "score": "flor.dummy"
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              "strings": {
+                "values": [
+                  "verdant"
+                ],
+                "mode": "replace_all"
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "florcraft:copy_custom_data"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
