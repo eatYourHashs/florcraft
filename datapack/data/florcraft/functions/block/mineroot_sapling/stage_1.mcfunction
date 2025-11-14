@@ -167,8 +167,8 @@ scoreboard players set @s flor.arid_ess 0
 scoreboard players set @s flor.aqueous_ess 0
 scoreboard players set @s flor.verdant_ess 0
 playsound minecraft:block.stone.break block @a ~ ~ ~ 1 0.5
-particle block coal_ore ~ ~0.5 ~ 0.3 0.3 0.3 1 50
-particle block iron_ore ~ ~0.5 ~ 0.3 0.3 0.3 1 50
+particle minecraft:block{block_state:{Name:"coal_ore"}} ~ ~0.5 ~ 0.3 0.3 0.3 1 50
+particle minecraft:block{block_state:{Name:"iron_ore"}} ~ ~0.5 ~ 0.3 0.3 0.3 1 50
 setblock ~ ~ ~ oak_log
 setblock ~1 ~ ~ oak_leaves keep
 setblock ~-1 ~ ~ oak_leaves keep

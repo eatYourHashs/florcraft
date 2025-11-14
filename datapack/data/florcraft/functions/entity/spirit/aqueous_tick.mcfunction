@@ -1,4 +1,4 @@
-particle dust 0.302 0.318 1 1 ~ ~0.3 ~ 0.05 0.05 0.05 1 2
+particle minecraft:dust{color:[0.302f,0.318f,1f],scale:1f} ~ ~0.3 ~ 0.05 0.05 0.05 1 2
 execute if entity @s[nbt={HurtTime:9s}] run function florcraft:entity/spirit/aqueous_death
 effect give @s minecraft:invisibility 1 1 true
 scoreboard players add @s flor.dummy 1

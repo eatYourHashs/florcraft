@@ -1,5 +1,5 @@
 loot spawn ~ ~ ~ loot florcraft:item/arid_essence
-particle dust 1 0.569 0.22 1 ~ ~ ~ 0.2 0.2 0.2 1 20
+particle minecraft:dust{color:[1f,0.569f,0.22f],scale:1f} ~ ~ ~ 0.2 0.2 0.2 1 20
 scoreboard players add @s flor.dummy 1200
 playsound minecraft:entity.vex.hurt neutral @a ~ ~ ~ 1 1
 playsound minecraft:entity.vex.hurt neutral @a ~ ~ ~ 1 1

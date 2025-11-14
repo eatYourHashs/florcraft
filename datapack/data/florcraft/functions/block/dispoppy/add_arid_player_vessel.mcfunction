@@ -11,5 +11,5 @@ execute in minecraft:overworld store result block -30000000 0 24576 Items[0].com
 execute in minecraft:overworld run loot replace entity @s weapon.mainhand 1 mine -30000000 0 24576 air{drop_contents: 1b}
 execute in minecraft:overworld run setblock -30000000 0 24576 minecraft:yellow_shulker_box
 execute at @s run playsound minecraft:item.bottle.fill_dragonbreath block @s ~ ~ ~ 1 1
-execute at @s run particle dust 1 0.569 0.22 1 ~ ~0.5 ~ 0.2 0.4 0.2 1 30
+execute at @s run particle minecraft:dust{color:[1f,0.569f,0.22f],scale:1f} ~ ~0.5 ~ 0.2 0.4 0.2 1 30
 tag @s remove flor.arid_acceptor

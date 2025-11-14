@@ -9,5 +9,5 @@ execute in minecraft:overworld store result block -30000000 0 24576 Items[0].com
 execute in minecraft:overworld run loot replace entity @s container.0 1 mine -30000000 0 24576 air{drop_contents: 1b}
 execute in minecraft:overworld run setblock -30000000 0 24576 minecraft:yellow_shulker_box
 execute at @s run playsound minecraft:item.bottle.fill_dragonbreath block @s ~ ~ ~ 1 1
-execute at @s run particle dust 0 0.878 0.322 1 ~ ~ ~ 0.2 0.2 0.2 1 30
+execute at @s run particle minecraft:dust{color:[0f,0.878f,0.322f],scale:1f} ~ ~ ~ 0.2 0.2 0.2 1 30
 tag @s remove flor.verdant_acceptor

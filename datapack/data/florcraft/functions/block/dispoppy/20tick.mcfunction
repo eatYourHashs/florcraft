@@ -9,4 +9,4 @@ execute if score @s flor.arid_upg matches 1.. run function florcraft:block/dispo
 execute if score @s flor.arid_upg matches 2.. run function florcraft:block/dispoppy/additional_proc
 execute if score @s flor.arid_upg matches 3.. run function florcraft:block/dispoppy/additional_proc
 execute if score @s flor.arid_upg matches 4.. run function florcraft:block/dispoppy/additional_proc
-execute if entity @s[tag=flor.disabled] run particle dust 1 0 0 1 ~ ~0.5 ~ 0.2 0.2 0.2 1 4
+execute if entity @s[tag=flor.disabled] run particle minecraft:dust{color:[1f,0f,0f],scale:1f} ~ ~0.5 ~ 0.2 0.2 0.2 1 4

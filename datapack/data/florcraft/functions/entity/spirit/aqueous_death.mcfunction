@@ -1,5 +1,5 @@
 loot spawn ~ ~ ~ loot florcraft:item/aqueous_essence
-particle dust 0.302 0.318 1 1 ~ ~ ~ 0.2 0.2 0.2 1 20
+particle minecraft:dust{color:[0.302f,0.318f,1f],scale:1f} ~ ~ ~ 0.2 0.2 0.2 1 20
 scoreboard players add @s flor.dummy 1200
 playsound minecraft:entity.vex.hurt neutral @a ~ ~ ~ 1 1
 playsound minecraft:entity.vex.hurt neutral @a ~ ~ ~ 1 1

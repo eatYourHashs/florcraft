@@ -1,2 +1,2 @@
-particle dust 0.302 0.318 1 1 ~ ~ ~ 0 0 0 1 1
+particle minecraft:dust{color:[0.302f,0.318f,1f],scale:1f} ~ ~ ~ 0 0 0 1 1
 execute unless entity @e[tag=flor.bloom,distance=..0.6] positioned ^ ^ ^0.5 run function florcraft:block/echoroot/aqueous_cast

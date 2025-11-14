@@ -28,9 +28,9 @@ execute if score #output flor.dummy matches 20.. run scoreboard players set #out
 scoreboard players operation @s flor.verdant_ess -= #output flor.dummy
 scoreboard players operation @e[type=armor_stand,tag=flor.target,limit=1] flor.verdant_ess = @s flor.verdant_ess
 execute if entity @s[tag=flor.transmissing] at @e[tag=flor.target] run playsound minecraft:block.beacon.activate block @a ~ ~ ~ 1 1.25
-execute if entity @s[tag=flor.transmissing] at @e[tag=flor.target] run particle dust 0 0.878 0.322 1 ~ ~5 ~ 0.1 2 0.1 0 200
+execute if entity @s[tag=flor.transmissing] at @e[tag=flor.target] run particle minecraft:dust{color:[0f,0.878f,0.322f],scale:1f} ~ ~5 ~ 0.1 2 0.1 0 200
 execute if entity @s[tag=flor.transmissing] run playsound minecraft:block.beacon.activate block @a ~ ~ ~ 1 1.25
-execute if entity @s[tag=flor.transmissing] run particle dust 0 0.878 0.322 1 ~ ~5 ~ 0.1 2 0.1 0 200
+execute if entity @s[tag=flor.transmissing] run particle minecraft:dust{color:[0f,0.878f,0.322f],scale:1f} ~ ~5 ~ 0.1 2 0.1 0 200
 execute if entity @s[tag=flor.transmissing] run scoreboard players set @s flor.verdant_ess 0
 execute if entity @s[tag=flor.transmissing] unless score @s flor.aqueous_upg matches 1.. run scoreboard players set @s flor.dummy2 0
 execute if entity @s[tag=flor.transmissing] if score @s flor.aqueous_upg matches 1 run scoreboard players set @s flor.dummy2 10

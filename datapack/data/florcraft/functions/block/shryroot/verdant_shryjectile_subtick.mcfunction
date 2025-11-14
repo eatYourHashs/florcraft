@@ -1,5 +1,5 @@
 tp @s ^ ^ ^0.1
-particle dust 0 0.878 0.322 1 ~ ~ ~ 0.05 0.05 0.05 1 2
+particle minecraft:dust{color:[0f,0.878f,0.322f],scale:1f} ~ ~ ~ 0.05 0.05 0.05 1 2
 scoreboard players add @s flor.dummy 1
 scoreboard players add @s flor.dummy2 1
 execute if score @s flor.dummy matches 400.. run kill @s
