@@ -8,26 +8,8 @@
           "value": "florcraft:item/essence_flask",
           "functions": [
             {
-              "function": "minecraft:set_custom_model_data",
-              "floats": {
-                "values": [
-                  {
-                    "type": "minecraft:score",
-                    "target": {
-                      "type": "minecraft:fixed",
-                      "name": "$temp.math"
-                    },
-                    "score": "flor.dummy"
-                  }
-                ],
-                "mode": "replace_all"
-              },
-              "strings": {
-                "values": [
-                  "arid"
-                ],
-                "mode": "replace_all"
-              }
+              "function": "minecraft:reference",
+              "name": "florcraft:set_cmd/aqueous"
             },
             {
               "function": "minecraft:reference",
