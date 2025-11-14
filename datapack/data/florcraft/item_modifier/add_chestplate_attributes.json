@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "chest"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "chest"
+      }
+    ]
+  }
+]
