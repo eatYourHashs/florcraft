@@ -1,3 +1,6 @@
+scoreboard players set $temp.arid_cost flor.dummy 0
+scoreboard players set $temp.aqueous_cost flor.dummy 0
+scoreboard players set $temp.verdant_cost flor.dummy 0
 execute store result score $temp.arid_cost flor.dummy run data get entity @s equipment.head.components."minecraft:custom_data".flor_dat.LastOutput.components."minecraft:custom_data".flor_dat.arid_cost
 execute store result score $temp.aqueous_cost flor.dummy run data get entity @s equipment.head.components."minecraft:custom_data".flor_dat.LastOutput.components."minecraft:custom_data".flor_dat.aqueous_cost
 execute store result score $temp.verdant_cost flor.dummy run data get entity @s equipment.head.components."minecraft:custom_data".flor_dat.LastOutput.components."minecraft:custom_data".flor_dat.verdant_cost
