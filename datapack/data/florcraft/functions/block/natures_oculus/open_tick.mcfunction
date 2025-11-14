@@ -13,7 +13,7 @@ execute if data storage flor:temp Items[{Slot:8b}] unless data storage flor:temp
 execute as @p[tag=flor.inside_natures_oculus_gui,distance=..12] unless score @s flor.pages matches 0.. run scoreboard players set @s flor.pages 1
 
 execute unless entity @s[tag=flor.gui_swapped] unless score @s flor.page >= @p[tag=flor.inside_natures_oculus_gui,distance=..12] flor.pages unless data storage flor:temp Items[{Slot:8b}] run function florcraft:block/natures_oculus/next_page
-execute unless entity @s[tag=flor.gui_swapped] unless score @s flor.page matches ..0 unless data storage flor:temp Items[{Slot:0b}] run function florcraft:block/natures_oculus/back_page
+execute unless entity @s[tag=flor.gui_swapped] unless score @s flor.page matches ..1 unless data storage flor:temp Items[{Slot:0b}] run function florcraft:block/natures_oculus/back_page
 
 
 
