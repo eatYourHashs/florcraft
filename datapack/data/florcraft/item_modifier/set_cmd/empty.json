@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:set_custom_model_data",
+  "floats": {
+    "values": [
+      {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "$temp.math"
+        },
+        "score": "flor.dummy"
+      }
+    ],
+    "mode": "replace_all"
+  },
+  "strings": {
+    "values": [],
+    "mode": "replace_all"
+  }
+}
