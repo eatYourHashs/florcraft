@@ -14,7 +14,7 @@ execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_d
 #copy over the item, store the new value, then copy to shulker
 data modify storage flor:process Items prepend from entity @s Inventory[{Slot:-106b}]
 data remove storage flor:process Items[0].Slot
-execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{ess:"arid"} store result storage flor:process Items[0].components."minecraft:custom_data".flor_dat.fill byte 1 run scoreboard players get $temp flor.arid_ess
+execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{ess:"arid"} store result storage flor:process Items[0].components."minecraft:custom_data".flor_dat.fill int 1 run scoreboard players get $temp flor.arid_ess
 execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_item:1b} store result storage flor:process Items[0].count int 1 run scoreboard players get $temp flor.arid_ess
 execute in minecraft:overworld run data modify block -30000000 0 24576 Items prepend from storage flor:process Items[0]
 

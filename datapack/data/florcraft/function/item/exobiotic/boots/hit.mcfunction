@@ -9,7 +9,7 @@ execute if entity @s[tag=flor.item_changed] if score $temp.dmg flor.dummy matche
 
 #updating the item
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.fill set value 0b
-execute if entity @s[tag=flor.item_changed] store result storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.fill byte 1 run scoreboard players get $temp.fill flor.dummy
+execute if entity @s[tag=flor.item_changed] store result storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.fill int 1 run scoreboard players get $temp.fill flor.dummy
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.dmg set value 0b
 execute if entity @s[tag=flor.item_changed] store result storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.dmg byte 1 run scoreboard players get $temp.dmg flor.dummy
 execute if entity @s[tag=flor.item_changed] run item modify entity @s armor.feet florcraft:copy_nbt
