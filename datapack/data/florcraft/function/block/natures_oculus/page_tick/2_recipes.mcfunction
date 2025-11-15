@@ -15,13 +15,13 @@ execute if entity @s[tag=flor.know_overgrowth_rod,tag=!flor.know_mending_scepter
 # Essence Vessel
 execute if entity @s[tag=flor.know_dispoppy,tag=!flor.know_essence_vessel,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:16b,id:"minecraft:ghast_tear"}] run function florcraft:block/natures_oculus/recipe_checks/essence_vessel
 # Runic Pylons
-execute if entity @s[tag=flor.know_essence_vessel,tag=!flor.know_runic_pylons,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:17b,components:{"minecraft:custom_data":{flor_dat:{basic_rune:1b}}}}] run function florcraft:block/natures_oculus/recipe_checks/runic_pylon
+execute if entity @s[tag=flor.know_essence_vessel,tag=!flor.know_runic_pylons,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:17b,components:{"minecraft:custom_data":{flor_dat:{basic_rune:1}}}}] run function florcraft:block/natures_oculus/recipe_checks/runic_pylon
 # Essence Alloys
 execute if entity @s[tag=!flor.know_essence_alloys,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:18b,id:"minecraft:iron_ingot"}] run function florcraft:block/natures_oculus/recipe_checks/essence_alloys
 # Essence Tools
 execute if entity @s[tag=flor.know_essence_alloys,tag=!flor.know_essence_tools,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:19b,id:"minecraft:iron_pickaxe"}] run function florcraft:block/natures_oculus/recipe_checks/essence_tools
 # Essence Capacitors
-#execute if entity @s[tag=flor.know_essence_alloys,tag=!flor.know_attuned_pylons,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:20b,components:{"minecraft:custom_data":{flor_dat:{basic_rune:1b}}}}] run function florcraft:block/natures_oculus/recipe_checks/attuned_pylon
+#execute if entity @s[tag=flor.know_essence_alloys,tag=!flor.know_attuned_pylons,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:20b,components:{"minecraft:custom_data":{flor_dat:{basic_rune:1}}}}] run function florcraft:block/natures_oculus/recipe_checks/attuned_pylon
 execute if entity @s[tag=flor.know_relilay,tag=!flor.know_essence_capacitors,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:20b,id:"minecraft:redstone_block"}] run function florcraft:block/natures_oculus/recipe_checks/essence_capacitors
 # Searing Arc Sword
 execute if entity @s[tag=flor.know_essence_tools,tag=!flor.know_searing_arc_sword,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:21b,id:"minecraft:iron_sword",components:{"minecraft:custom_data":{flor_dat:{ess_tool:1}}}}] run function florcraft:block/natures_oculus/recipe_checks/scorching_arc_sword
@@ -34,4 +34,4 @@ execute if entity @s[tag=flor.know_essence_tools,tag=!flor.know_fortunate_seeker
 # Bountiful Earth Hoe
 execute if entity @s[tag=flor.know_essence_tools,tag=!flor.know_bountiful_earth_hoe,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:25b,id:"minecraft:iron_hoe",components:{"minecraft:custom_data":{flor_dat:{ess_tool:3}}}}] run function florcraft:block/natures_oculus/recipe_checks/bountiful_earth_hoe
 # Druidic Lauret
-execute if entity @s[tag=!flor.know_druidic_lauret,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:26b,components:{"minecraft:custom_data":{flor_dat:{basic_rune:1b}}}}] run function florcraft:block/natures_oculus/recipe_checks/druidic_lauret
+execute if entity @s[tag=!flor.know_druidic_lauret,scores={flor.knowledge=1..}] if data storage flor:temp Items[{Slot:26b,components:{"minecraft:custom_data":{flor_dat:{basic_rune:1}}}}] run function florcraft:block/natures_oculus/recipe_checks/druidic_lauret
