@@ -8,15 +8,8 @@
           "value": "florcraft:item/arid_essence",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "$temp.math"
-                },
-                "score": "flor.dummy"
-              }
+              "function": "minecraft:reference",
+              "name": "florcraft:set_count_from_score"
             }
           ]
         }
