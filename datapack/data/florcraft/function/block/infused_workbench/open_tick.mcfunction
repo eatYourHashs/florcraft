@@ -7,15 +7,15 @@ execute if entity @s[predicate=florcraft:infused_workbench/invalid_items] run fu
 
 function florcraft:block/infused_workbench/pain_and_suffering
 
-execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:carrot_on_a_stick",tag:{flor_dat:{essence_flask:1b}}}] unless data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:carrot_on_a_stick",tag:{flor_dat:{essence_flask:1b,fill:0b}}}] run function florcraft:block/infused_workbench/add_flask_essence
-execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",tag:{flor_dat:{essence_item:1b}}}] run function florcraft:block/infused_workbench/add_arid_essence
-execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",tag:{flor_dat:{essence_item:2b}}}] run function florcraft:block/infused_workbench/add_aqueous_essence
-execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",tag:{flor_dat:{essence_item:3b}}}] run function florcraft:block/infused_workbench/add_verdant_essence
+execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{flor_dat:{essence_flask:1b}}}}] unless data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{flor_dat:{essence_flask:1b,fill:0b}}}}] run function florcraft:block/infused_workbench/add_flask_essence with block ~ ~ ~ Items[{Slot:5b}].components."minecraft:custom_data".flor_dat
+execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",components:{"minecraft:custom_data":{flor_dat:{essence_item:1b}}}}] run function florcraft:block/infused_workbench/add_essence {ess:"arid"}
+execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",components:{"minecraft:custom_data":{flor_dat:{essence_item:2b}}}}] run function florcraft:block/infused_workbench/add_essence {ess:"aqueous"}
+execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",components:{"minecraft:custom_data":{flor_dat:{essence_item:3b}}}}] run function florcraft:block/infused_workbench/add_essence {ess:"verdant"}
 
-execute if data block ~ ~ ~ Items[{Slot:5b}] run function florcraft:block/infused_workbench/restore/5
-execute if data block ~ ~ ~ Items[{Slot:22b}] unless data block ~ ~ ~ Items[{Slot:22b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore/22
-execute if data block ~ ~ ~ Items[{Slot:23b}] unless data block ~ ~ ~ Items[{Slot:23b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore/23
-execute if data block ~ ~ ~ Items[{Slot:24b}] unless data block ~ ~ ~ Items[{Slot:24b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore/24
+execute if data block ~ ~ ~ Items[{Slot:5b}] run function florcraft:block/infused_workbench/restore {Slot:5b}
+execute if data block ~ ~ ~ Items[{Slot:22b}] unless data block ~ ~ ~ Items[{Slot:22b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore {Slot:22b}
+execute if data block ~ ~ ~ Items[{Slot:23b}] unless data block ~ ~ ~ Items[{Slot:23b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore {Slot:23b}
+execute if data block ~ ~ ~ Items[{Slot:24b}] unless data block ~ ~ ~ Items[{Slot:24b}].components."minecraft:custom_data".flor_dat.essence run function florcraft:block/infused_workbench/restore {Slot:24b}
 
 execute if score @s flor.arid_ess matches 1.. run function florcraft:block/infused_workbench/show_arid_essence
 execute if score @s flor.arid_ess matches 0 run data remove block ~ ~ ~ Items[{Slot:22b}]

@@ -2,7 +2,7 @@
   "function": "minecraft:copy_custom_data",
   "source": {
     "type": "minecraft:storage",
-    "source": "florcraft:copy"
+    "source": "flor:copy"
   },
   "ops": [
     {

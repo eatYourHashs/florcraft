@@ -43,6 +43,7 @@
                     "arid_cost": 10,
                     "aqueous_cost": 10,
                     "verdant_cost": 10,
+                    "ess_holder": 25,
                     "fill": 0
                   }
                 }
