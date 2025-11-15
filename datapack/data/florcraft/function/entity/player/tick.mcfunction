@@ -23,7 +23,7 @@ execute if score @s flor.gold_pick matches 1.. run function florcraft:entity/pla
 execute if score @s flor.dia_pick matches 1.. run function florcraft:entity/player/mine
 execute if score @s flor.neth_pick matches 1.. run function florcraft:entity/player/mine
 
-execute if predicate florcraft:item/verdant_exobiotic_chestplate unless data entity @s Inventory[{Slot:102b}].components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/chestplate/clear_dot
+execute if predicate florcraft:item/verdant_exobiotic_chestplate unless data entity @s equipment.chest.components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/chestplate/clear_dot
 
 # If the player is holding a fire axe
 execute if predicate florcraft:item/holding_elem_axe run function florcraft:item/burning_fire_axe/pick_cast
@@ -34,20 +34,20 @@ execute if predicate florcraft:item/holding_elem_pickaxe run function florcraft:
 
 execute if score @s flor.erosion matches 1.. run function florcraft:item/erosion_scepter/fire
 
-execute if score @s flor.last_tick_sprint matches 1.. if score @s flor.sneak matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].components."minecraft:custom_data".flor_dat{fill:0b} unless score @s flor.exo_leggings_count matches 1.. unless score @s flor.exo_leggings_cd matches 1.. run function florcraft:item/exobiotic/leggings/start_dash
-execute if score @s flor.exo_leggings_count matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/dash_tick
+execute if score @s flor.last_tick_sprint matches 1.. if score @s flor.sneak matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s equipment.legs.components."minecraft:custom_data".flor_dat{fill:0b} unless score @s flor.exo_leggings_count matches 1.. unless score @s flor.exo_leggings_cd matches 1.. run function florcraft:item/exobiotic/leggings/start_dash
+execute if score @s flor.exo_leggings_count matches 1.. if predicate florcraft:item/aqueous_exobiotic_leggings unless data entity @s equipment.legs.components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/dash_tick
 
-execute if predicate florcraft:item/arid_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/fire_sprint_tick
+execute if predicate florcraft:item/arid_exobiotic_leggings unless data entity @s equipment.legs.components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/fire_sprint_tick
 execute unless entity @s[tag=flor.arid_leggings] run function florcraft:item/exobiotic/leggings/fire_sprint_reset
 tag @s remove flor.arid_leggings
 
-execute if block ~ ~-0.01 ~ #florcraft:air unless entity @s[tag=flor.not_on_solid_ground] if score @s flor.sneak matches 1.. if predicate florcraft:item/verdant_exobiotic_leggings unless data entity @s Inventory[{Slot:101b}].components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/place_block
+execute if block ~ ~-0.01 ~ #florcraft:air unless entity @s[tag=flor.not_on_solid_ground] if score @s flor.sneak matches 1.. if predicate florcraft:item/verdant_exobiotic_leggings unless data entity @s equipment.legs.components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/leggings/place_block
 execute if block ~ ~-0.01 ~ #florcraft:air run tag @s add flor.not_on_solid_ground
 execute unless block ~ ~-0.01 ~ #florcraft:air run tag @s remove flor.not_on_solid_ground
 
-execute if predicate florcraft:item/arid_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/arid_tick
-execute if predicate florcraft:item/aqueous_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/aqueous_tick
-execute if predicate florcraft:item/verdant_exobiotic_boots unless data entity @s Inventory[{Slot:100b}].components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/verdant_tick
+execute if predicate florcraft:item/arid_exobiotic_boots unless data entity @s equipment.feet.components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/arid_tick
+execute if predicate florcraft:item/aqueous_exobiotic_boots unless data entity @s equipment.feet.components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/aqueous_tick
+execute if predicate florcraft:item/verdant_exobiotic_boots unless data entity @s equipment.feet.components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/boots/verdant_tick
 
 execute if score @s flor.sprint matches 1.. run scoreboard players set @s flor.last_tick_sprint 1
 execute unless score @s flor.sprint matches 1.. run scoreboard players set @s flor.last_tick_sprint 0

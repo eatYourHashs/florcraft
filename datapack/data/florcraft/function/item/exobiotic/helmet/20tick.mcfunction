@@ -1,5 +1,5 @@
 #filling
-data modify storage flor:storage root.temp.item set from entity @s Inventory[{Slot:103b}]
+data modify storage flor:storage root.temp.item set from entity @s equipment.head
 execute store result score $temp.ess flor.dummy run data get storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.exobiotic_helmet
 execute store result score $temp.fill flor.dummy run data get storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.fill
 execute unless score $temp.fill flor.dummy matches 5.. run function florcraft:item/exobiotic/generic/attempt_fill

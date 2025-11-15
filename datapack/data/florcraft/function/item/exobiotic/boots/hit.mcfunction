@@ -1,5 +1,5 @@
 #get item
-data modify storage flor:storage root.temp.item set from entity @s Inventory[{Slot:100b}]
+data modify storage flor:storage root.temp.item set from entity @s equipment.feet
 execute store result score $temp.dmg flor.dummy run data get storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.dmg
 execute store result score $temp.fill flor.dummy run data get storage flor:storage root.temp.item.components."minecraft:custom_data".flor_dat.fill
 
