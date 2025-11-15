@@ -43,7 +43,7 @@
                     "bonus_lvls": {"aqueous_cost":1}
                   }
                 },
-                "minecraft:max_damage": 600,
+                "minecraft:max_damage": 500,
                 "minecraft:enchantable": {
                   "value": 20
                 }
