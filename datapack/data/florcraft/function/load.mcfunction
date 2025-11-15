@@ -83,9 +83,6 @@ scoreboard objectives add flor.neth_pick minecraft.used:minecraft.netherite_pick
 
 scoreboard objectives add flor.lvl level
 
-forceload add -30000000 24576
-setblock -30000000 0 24576 yellow_shulker_box
-
 bossbar add florcraft:scion_of_the_deep "Scion of the Deep"
 bossbar set florcraft:scion_of_the_deep color blue
 bossbar set florcraft:scion_of_the_deep max 800
