@@ -3,26 +3,26 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "attribute": "minecraft:generic.armor",
-        "name": "",
-        "amount": 6,
-        "operation": "add_value",
-        "slot": "legs"
-      },
-      {
-        "attribute": "minecraft:generic.armor_toughness",
-        "name": "",
-        "amount": 1,
-        "operation": "add_value",
-        "slot": "legs"
-      },
-      {
-        "attribute": "minecraft:generic.movement_speed",
-        "name": "",
-        "amount": 0.2,
-        "operation": "add_multiplied_base",
-        "slot": "legs"
-      }
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "florcraft:exobiotic_leggings",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "florcraft:exobiotic_leggings",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:movement_speed",
+                  "id": "florcraft:exobiotic_leggings",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "legs"
+                }
     ]
   }
 ]

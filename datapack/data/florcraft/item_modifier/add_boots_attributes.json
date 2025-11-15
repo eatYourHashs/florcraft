@@ -3,19 +3,19 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "attribute": "minecraft:generic.armor",
-        "name": "",
-        "amount": 3,
-        "operation": "add_value",
-        "slot": "feet"
-      },
-      {
-        "attribute": "minecraft:generic.armor_toughness",
-        "name": "",
-        "amount": 1,
-        "operation": "add_value",
-        "slot": "feet"
-      }
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "florcraft:exobiotic_boots",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "florcraft:exobiotic_boots",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
     ]
   }
 ]

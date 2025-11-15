@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "head": {
-        "nbt": "{flor_dat:{druidic_lauret:1b}}"
+        "components": {"minecraft:custom_data": {"flor_dat":{"druidic_lauret":1}}}
       }
     }
   }

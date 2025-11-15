@@ -3,19 +3,19 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "attribute": "minecraft:generic.armor",
-        "name": "",
-        "amount": 3,
-        "operation": "add_value",
-        "slot": "head"
-      },
-      {
-        "attribute": "minecraft:generic.armor_toughness",
-        "name": "",
-        "amount": 1,
-        "operation": "add_value",
-        "slot": "head"
-      }
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "florcraft:exobiotic_helmet",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "florcraft:exobiotic_helmet",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
     ]
   }
 ]

@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "nbt": "{flor_dat:{scorching_arc_sword:1b}}"
+        "components": {"minecraft:custom_data": {"flor_dat":{"scorching_arc_sword":1}}}
       }
     }
   }

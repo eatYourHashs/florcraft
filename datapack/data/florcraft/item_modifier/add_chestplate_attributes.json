@@ -3,19 +3,19 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "attribute": "minecraft:generic.armor",
-        "name": "",
-        "amount": 8,
-        "operation": "add_value",
-        "slot": "chest"
-      },
-      {
-        "attribute": "minecraft:generic.armor_toughness",
-        "name": "",
-        "amount": 1,
-        "operation": "add_value",
-        "slot": "chest"
-      }
+                  "attribute": "minecraft:armor_toughness",
+                  "id": "florcraft:exobiotic_chestplate",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:armor",
+                  "id": "florcraft:exobiotic_chestplate",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
     ]
   }
 ]

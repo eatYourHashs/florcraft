@@ -2,7 +2,7 @@
 #   flor.verdant_ess $in: amount of essence to use
 
 #get the amount of essence from the storage item, or the stack size for raw essence
-execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{ess:"verdant"} unless data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{fill:0b} store result score $temp flor.verdant_ess run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat.fill
+execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{ess:"verdant"} unless data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{fill:0} store result score $temp flor.verdant_ess run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat.fill
 execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_item:3b} store result score $temp flor.verdant_ess run data get entity @s Inventory[{Slot:-106b}].count
 
 #subtract the input amount of essence from score
@@ -19,10 +19,10 @@ execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_d
 execute in minecraft:overworld run data modify block -30000000 0 24576 Items prepend from storage flor:process Items[0]
 
 #modify CMD, depending on the type of storage item
-execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_flask:1b,ess:"verdant"} unless score $temp flor.verdant_ess matches 1.. in minecraft:overworld run loot replace block -30000000 0 24576 container.0 loot florcraft:item/essence_flask
-execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_flask:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 1..2 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423007
-execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_flask:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 3..4 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423008
-execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_flask:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 5 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423009
+execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_flask:1,ess:"verdant"} unless score $temp flor.verdant_ess matches 1.. in minecraft:overworld run loot replace block -30000000 0 24576 container.0 loot florcraft:item/essence_flask
+execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_flask:1,ess:"verdant"} if score $temp flor.verdant_ess matches 1..2 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423007
+execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_flask:1,ess:"verdant"} if score $temp flor.verdant_ess matches 3..4 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423008
+execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_flask:1,ess:"verdant"} if score $temp flor.verdant_ess matches 5 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423009
 execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_vessel:1b,ess:"verdant"} unless score $temp flor.verdant_ess matches 1.. in minecraft:overworld run loot replace block -30000000 0 24576 container.0 loot florcraft:item/essence_vessel
 execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 1..5 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423035
 execute if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".flor_dat{essence_vessel:1b,ess:"verdant"} if score $temp flor.verdant_ess matches 6..10 in minecraft:overworld run execute in minecraft:overworld run data modify block -30000000 0 24576 Items[0].tag.CustomModelData set value 423036

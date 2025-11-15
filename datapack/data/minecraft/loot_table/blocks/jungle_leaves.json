@@ -236,7 +236,7 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "nbt": "{flor_dat:{druidic_scepter:1b}}"
+                  "components": {"minecraft:custom_data": {"flor_dat":{"druidic_scepter":1}}}
                 }
               },
               {
