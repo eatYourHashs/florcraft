@@ -1,1 +1,0 @@
-item replace block ~ ~ ~ container.9 with structure_block{display:{Name:'[{"text":"쀀","color":"white","italic":false,"font":"florcraft:natures_oculus"},{"italic":true,"color":"dark_gray","font":"minecraft:default","translate":"block.flor.natures_oculus.there\'s_nothing_here_yet..."}]'},CustomModelData:423003,flor_dat:{recipe:1,cleared:1}}
