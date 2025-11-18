@@ -7,7 +7,7 @@
           "items": [
             "minecraft:carrot_on_a_stick"
           ],
-          "components": {
+          "predicates": {
             "minecraft:custom_data": {
               "flor_dat": {
                 "essence_vessel": 1

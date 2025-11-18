@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "components": {"minecraft:custom_data": {"flor_dat":{"bountiful_earth_hoe":1}}}
+        "predicates": {"minecraft:custom_data": {"flor_dat":{"bountiful_earth_hoe":1}}}
       }
     }
   }

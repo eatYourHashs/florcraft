@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "head": {
-        "components": {"minecraft:custom_data": {"flor_dat":{"exobiotic_helmet":3}}}
+        "predicates": {"minecraft:custom_data": {"flor_dat":{"exobiotic_helmet":3}}}
       }
     }
   }

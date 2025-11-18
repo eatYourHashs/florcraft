@@ -8,7 +8,7 @@
             "predicate": {
                "equipment": {
                   "mainhand": {
-                     "components": {"minecraft:custom_data": {"flor_dat":{"reinforced_vessel":1,"fill":0}}}
+                     "predicates": {"minecraft:custom_data": {"flor_dat":{"reinforced_vessel":1,"fill":0}}}
                   }
                }
             }
@@ -24,7 +24,7 @@
                      "predicate": {
                         "equipment": {
                            "mainhand": {
-                              "components": {"minecraft:custom_data": {"flor_dat":{"reinforced_vessel":1,"fill":100}}}
+                              "predicates": {"minecraft:custom_data": {"flor_dat":{"reinforced_vessel":1,"fill":100}}}
                            }
                         }
                      }
@@ -37,7 +37,7 @@
                         "predicate": {
                            "equipment": {
                               "mainhand": {
-                                 "components": {"minecraft:custom_data": {"flor_dat":{"reinforced_vessel":1,"ess":"aqueous"}}}
+                                 "predicates": {"minecraft:custom_data": {"flor_dat":{"reinforced_vessel":1,"ess":"aqueous"}}}
                               }
                            }
                         }

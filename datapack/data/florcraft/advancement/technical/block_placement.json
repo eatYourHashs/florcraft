@@ -7,7 +7,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "placeable": 1

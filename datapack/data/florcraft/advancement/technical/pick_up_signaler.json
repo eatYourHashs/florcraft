@@ -6,7 +6,7 @@
         "items": [
           {
             "items": "minecraft:dropper",
-            "components": {
+            "predicates": {
               "minecraft:custom_data": {
                 "flor_dat": {
                   "deep_signaler_broken": 1
