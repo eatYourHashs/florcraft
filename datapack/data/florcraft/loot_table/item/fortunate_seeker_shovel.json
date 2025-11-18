@@ -13,7 +13,8 @@
                                 "color": "yellow",
                                 "italic": false,
                                 "translate": "item.flor.fortunate_seeker_shovel"
-                            }
+                            },
+              "target": "item_name"
                         },
                         {
                             "function": "minecraft:set_lore",

@@ -26,10 +26,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "color": "light_purple",
                 "italic": false,
                 "translate": "item.flor.pulsating_pustule"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

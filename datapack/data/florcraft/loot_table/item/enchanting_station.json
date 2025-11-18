@@ -23,7 +23,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.enchanting_station"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

@@ -33,7 +33,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.runic_pylon"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

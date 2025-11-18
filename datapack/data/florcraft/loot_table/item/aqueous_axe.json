@@ -13,7 +13,8 @@
                 "color": "white",
                 "italic": false,
                 "translate": "item.flor.aqueous_axe"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

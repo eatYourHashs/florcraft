@@ -28,7 +28,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.mystical_furnace"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

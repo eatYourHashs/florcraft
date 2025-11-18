@@ -12,7 +12,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.burning_fire_axe"
-                            }
+                            },
+              "target": "item_name"
                         },
                         {
                             "function": "minecraft:set_lore",

@@ -28,7 +28,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.verdant_mastery_circlet"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

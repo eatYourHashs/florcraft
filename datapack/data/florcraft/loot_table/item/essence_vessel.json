@@ -28,7 +28,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.essence_vessel"
-                            }
+                            },
+              "target": "item_name"
                         },
             {
               "function": "minecraft:set_components",

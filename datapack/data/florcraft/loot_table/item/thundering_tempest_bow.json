@@ -12,7 +12,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.thundering_tempest_bow"
-                            }
+                            },
+              "target": "item_name"
                         },
                         {
                             "function": "minecraft:set_lore",

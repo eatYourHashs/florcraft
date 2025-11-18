@@ -47,10 +47,10 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.relilay"
-                            }
+                            },
+              "target": "item_name"
                         }
                     ],
                     "name": "minecraft:carrot_on_a_stick"

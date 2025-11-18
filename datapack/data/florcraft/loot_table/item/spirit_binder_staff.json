@@ -28,7 +28,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.spirit_binder_staff"
-                            }
+                            },
+              "target": "item_name"
                         },
             {
               "function": "minecraft:set_components",

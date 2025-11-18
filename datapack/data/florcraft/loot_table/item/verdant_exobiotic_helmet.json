@@ -42,7 +42,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.exobiotic_helmet"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

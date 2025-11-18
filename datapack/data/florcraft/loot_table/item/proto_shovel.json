@@ -12,7 +12,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.proto_shovel"
-                            }
+                            },
+              "target": "item_name"
                         },
                         {
                             "function": "minecraft:set_lore",

@@ -28,7 +28,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.druidic_lauret"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

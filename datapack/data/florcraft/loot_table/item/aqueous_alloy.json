@@ -12,7 +12,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.aqueous_alloy"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

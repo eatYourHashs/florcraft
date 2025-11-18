@@ -12,7 +12,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.music_disc_scion"
-                            }
+                            },
+              "target": "item_name"
                         },
                         {
               "function": "minecraft:set_components",

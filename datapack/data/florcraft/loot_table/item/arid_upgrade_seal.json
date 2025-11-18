@@ -28,7 +28,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.arid_upgrade_seal"
-                            }
+                            },
+              "target": "item_name"
                         },
                         {
               "function": "minecraft:set_components",

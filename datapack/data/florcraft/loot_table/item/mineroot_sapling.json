@@ -51,7 +51,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.mineroot_sapling"
-                            }
+                            },
+              "target": "item_name"
                         }
                     ],
                     "name": "minecraft:carrot_on_a_stick"

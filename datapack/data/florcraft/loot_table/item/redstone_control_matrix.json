@@ -33,7 +33,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.redstone_control_matrix"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

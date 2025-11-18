@@ -28,7 +28,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.deep_signaler"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

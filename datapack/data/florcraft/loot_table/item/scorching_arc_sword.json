@@ -12,7 +12,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.scorching_arc_sword"
-                            }
+                            },
+              "target": "item_name"
                         },
                         {
                             "function": "minecraft:set_lore",

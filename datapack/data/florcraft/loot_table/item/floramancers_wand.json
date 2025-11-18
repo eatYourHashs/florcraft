@@ -29,7 +29,8 @@
                                 "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.floramancers_wand"
-                            }
+                            },
+              "target": "item_name"
                         },
             {
               "function": "minecraft:set_components",

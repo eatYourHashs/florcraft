@@ -75,7 +75,8 @@
                 {
                   "translate": "item.flor.visions",
                   "italic": false
-                }
+                },
+              "target": "item_name"
               ]
             }
           ]

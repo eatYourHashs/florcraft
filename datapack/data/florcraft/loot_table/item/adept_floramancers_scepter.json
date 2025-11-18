@@ -33,7 +33,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.adept_floramancers_scepter"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

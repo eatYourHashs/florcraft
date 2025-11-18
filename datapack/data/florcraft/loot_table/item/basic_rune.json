@@ -12,7 +12,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.basic_rune"
-                            }
+                            },
+              "target": "item_name"
                         },
             {
               "function": "minecraft:set_components",

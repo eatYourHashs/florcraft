@@ -33,7 +33,8 @@
                             "name": {
                                 "italic": false,
                                 "translate": "item.flor.master_floramancers_staff"
-                            }
+                            },
+              "target": "item_name"
                         },
             {
               "function": "minecraft:set_components",

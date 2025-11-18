@@ -33,7 +33,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.transmission_beacon"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",

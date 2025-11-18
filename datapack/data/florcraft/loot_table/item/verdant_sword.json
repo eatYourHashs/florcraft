@@ -13,7 +13,8 @@
                                 "color": "white",
                                 "italic": false,
                                 "translate": "item.flor.verdant_sword"
-                            }
+                            },
+              "target": "item_name"
                         },
                         {
               "function": "minecraft:set_components",

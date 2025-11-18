@@ -28,7 +28,8 @@
               "name": {
                 "italic": false,
                 "translate": "item.flor.natures_oculus"
-              }
+              },
+              "target": "item_name"
             },
             {
               "function": "minecraft:set_components",
