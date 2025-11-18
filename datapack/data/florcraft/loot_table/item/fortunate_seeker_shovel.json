@@ -23,7 +23,8 @@
                                     "italic": false,
                                     "translate": "item.flor.fortunate_seeker_shovel.lore"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
               "function": "minecraft:set_components",

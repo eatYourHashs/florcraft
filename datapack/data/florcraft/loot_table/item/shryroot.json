@@ -41,7 +41,8 @@
                                     "italic": false,
                                     "translate": "item.flor.shryroot.lore.2"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",

@@ -20,7 +20,8 @@
                                     "italic": false,
                                     "translate": "item.flor.reinforced_vessel.lore.1"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_name",
