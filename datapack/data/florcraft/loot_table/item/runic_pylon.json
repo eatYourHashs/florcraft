@@ -39,10 +39,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:block_entity_data": {
-                  "id": "minecraft:dropper",
-                  "Items": [
-                    {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
                       "id": "minecraft:barrier",
                       "components": {
                         "minecraft:custom_data": {
@@ -53,8 +53,8 @@
                         }
                       }
                     }
-                  ]
-                },
+                  }
+                ],
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "arid_cost": 10,
