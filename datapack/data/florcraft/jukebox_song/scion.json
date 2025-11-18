@@ -1,6 +1,6 @@
 {
     "sound_event": {
-        "sound_id": "florcraft:music/scion_no_loop"
+        "sound_id": "florcraft:music.scion_no_loop"
     },
     "description": {
                                     "color": "gray",
