@@ -3,8 +3,8 @@ execute unless score @s flor.pages matches 0.. run scoreboard players set @s flo
 execute if score @s flor.knowledge matches 1.. run function florcraft:block/natures_oculus/show_knowledge
 execute if score @s flor.knowledge matches 0 run data remove block ~ ~ ~ Items[{Slot:1b}]
 
-execute if score page flor.dummy matches 2.. unless data block ~ ~ ~ Items[{Slot:0b}] run item replace block ~ ~ ~ container.0 with structure_block["minecraft:item_name"={"translate":"block.flor.natures_oculus.back","color":"white","italic":false},"minecraft:item_model"="florcraft:left_arrow","minecraft:custom_data"={flor_dat:{back_button:1,cleared:1}}]
-execute if score page flor.dummy < @s flor.pages unless data block ~ ~ ~ Items[{Slot:8b}] run item replace block ~ ~ ~ container.8 with structure_block["minecraft:item_name"={"translate":"block.flor.natures_oculus.next","color":"white","italic":false},"minecraft:item_model":"florcraft:right_arrow","minecraft:custom_data"={flor_dat:{next_button:1,cleared:1}}]
+execute if score page flor.dummy matches 2.. unless data block ~ ~ ~ Items[{Slot:0b}] run item replace block ~ ~ ~ container.0 with structure_block[minecraft:item_name={"translate":"block.flor.natures_oculus.back","color":"white","italic":false},minecraft:item_model="florcraft:left_arrow",minecraft:custom_data={flor_dat:{back_button:1,cleared:1}}]
+execute if score page flor.dummy < @s flor.pages unless data block ~ ~ ~ Items[{Slot:8b}] run item replace block ~ ~ ~ container.8 with structure_block[minecraft:item_name={"translate":"block.flor.natures_oculus.next","color":"white","italic":false},"minecraft:item_model":"florcraft:right_arrow",minecraft:custom_data={flor_dat:{next_button:1,cleared:1}}]
 
 execute if score page flor.dummy matches 0 run function florcraft:block/natures_oculus/page_tick/0_recipes
 execute if score page flor.dummy matches 1 run function florcraft:block/natures_oculus/page_tick/1_recipes

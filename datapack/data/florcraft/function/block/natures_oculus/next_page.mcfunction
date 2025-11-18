@@ -21,5 +21,5 @@ data remove block ~ ~ ~ Items[{Slot:24b}]
 data remove block ~ ~ ~ Items[{Slot:25b}]
 data remove block ~ ~ ~ Items[{Slot:26b}]
 
-execute if score @s flor.page matches 2.. run item replace block ~ ~ ~ container.0 with structure_block["minecraft:item_name"={"translate":"block.flor.natures_oculus.back","color":"white","italic":false},"minecraft:item_model"="florcraft:left_arrow","minecraft:custom_data"={flor_dat:{back_button:1,cleared:1}}]
-execute if score @s flor.page matches 1.. if score @s flor.page < @s flor.pages run item replace block ~ ~ ~ container.8 with structure_block["minecraft:item_name"={"translate":"block.flor.natures_oculus.next","color":"white","italic":false},"minecraft:item_model":"florcraft:right_arrow","minecraft:custom_data"={flor_dat:{next_button:1,cleared:1}}]
+execute if score @s flor.page matches 2.. run item replace block ~ ~ ~ container.0 with structure_block[minecraft:item_name={"translate":"block.flor.natures_oculus.back","color":"white","italic":false},minecraft:item_model="florcraft:left_arrow",minecraft:custom_data={flor_dat:{back_button:1,cleared:1}}]
+execute if score @s flor.page matches 1.. if score @s flor.page < @s flor.pages run item replace block ~ ~ ~ container.8 with structure_block[minecraft:item_name={"translate":"block.flor.natures_oculus.next","color":"white","italic":false},"minecraft:item_model":"florcraft:right_arrow",minecraft:custom_data={flor_dat:{next_button:1,cleared:1}}]
