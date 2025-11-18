@@ -39,7 +39,8 @@
       "minecraft:rarity": "common",
       "minecraft:item_name": {
         "italic": false,
-        "translate": "item.flor.infused_workbench"
+        "translate": "item.flor.infused_workbench",
+        "target": "item_name"
       },
       "minecraft:lore": [
         {
