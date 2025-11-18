@@ -1,7 +1,7 @@
 playsound minecraft:entity.evoker.cast_spell player @a ~ ~ ~ 1 1
 playsound minecraft:entity.wolf.howl player @a
 playsound minecraft:block.grass.break player @a ~ ~ ~ 1 0.7
-particle minecraft:flash
+particle minecraft:flash{color:[0f,0.878f,0.322f,1f]}
 particle minecraft:happy_villager ~ ~1 ~ 0.5 0.5 0.5 0.3 100
 particle minecraft:dust{color:[0f,0.878f,0.322f],scale:1f} ~ ~1 ~ 0.5 0.5 0.5 1 100
 tag @s add flor.invoked_verdant

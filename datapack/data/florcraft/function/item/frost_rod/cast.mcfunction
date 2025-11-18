@@ -1,5 +1,5 @@
 scoreboard players add $cast.temp flor.dummy 1
-particle minecraft:block blue_ice ~ ~ ~ 0.05 0.05 0.05 0 1
+particle minecraft:block{block_state:{Name:"blue_ice"}} ~ ~ ~ 0.05 0.05 0.05 0 1
 execute if entity @e[dx=0,dz=0,dy=0,distance=..5,sort=arbitrary,tag=!flor.attacker,nbt={HurtTime:0s}] run scoreboard players set $cast.temp flor.dummy 9999
 scoreboard players set $in flor.dummy 60
 execute if entity @s[tag=flor.buffed_magic_25] run scoreboard players operation $in flor.dummy *= $cons.125 flor.dummy
