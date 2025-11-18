@@ -39,6 +39,7 @@
                   "Items": [
                     {
                       "id": "minecraft:barrier",
+                      "Slot": 0,
                       "components": {
                         "minecraft:custom_data": {
                           "flor_dat": {
