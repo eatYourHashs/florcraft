@@ -1,5 +1,5 @@
 execute unless entity @s[tag=flor.trap_snare] run tp @s ^ ^ ^0.15
-particle minecraft:block vine ~ ~ ~ 0.1 0.1 0.1 0.03 3
+particle minecraft:block{block_state:{Name:"vine"}} ~ ~ ~ 0.1 0.1 0.1 0.03 3
 scoreboard players add @s flor.dummy 1
 execute if score @s flor.dummy matches 200.. run kill @s[tag=!flor.trap_snare]
 execute if score @s flor.dummy matches 1200.. run kill @s[tag=flor.trap_snare]
