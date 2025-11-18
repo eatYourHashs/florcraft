@@ -5,7 +5,7 @@ execute if score @s flor.sprint matches 1.. run scoreboard players set @s flor.e
 scoreboard players remove @s flor.exo_leggings_cd 1
 execute unless score @s flor.sprint matches 1.. unless score @s flor.exo_leggings_cd matches 1.. if score @s flor.exo_leggings_count matches 100.. run scoreboard players set @s flor.exo_leggings_count 100
 execute unless score @s flor.sprint matches 1.. unless score @s flor.exo_leggings_cd matches 1.. unless score @s flor.exo_leggings_count matches ..0 run scoreboard players remove @s flor.exo_leggings_count 1
-attribute @s minecraft:movement_speed modifier remove bbb5fcaa-9176-4b36-8676-f776cef8b345
+attribute @s minecraft:movement_speed modifier remove arid_sprint_buff
 execute if score @s flor.exo_leggings_count matches 10..19 run attribute @s minecraft:movement_speed modifier add arid_sprint_buff 0.05 add_multiplied_base
 execute if score @s flor.exo_leggings_count matches 20..29 run attribute @s minecraft:movement_speed modifier add arid_sprint_buff 0.1 add_multiplied_base
 execute if score @s flor.exo_leggings_count matches 30..39 run attribute @s minecraft:movement_speed modifier add arid_sprint_buff 0.15 add_multiplied_base
