@@ -55,7 +55,8 @@
                     "arid_cost": 5,
                     "aqueous_cost": 5,
                     "verdant_cost": 5,
-                    "capacitance_resonator": 1
+                    "capacitance_resonator": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:capacitance_resonator",

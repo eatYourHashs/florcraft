@@ -55,7 +55,8 @@
                     "arid_cost": 5,
                     "aqueous_cost": 5,
                     "verdant_cost": 5,
-                    "auraflow_resonator": 1
+                    "auraflow_resonator": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:auraflow_resonator",

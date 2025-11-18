@@ -60,7 +60,8 @@
                     "arid_cost": 15,
                     "aqueous_cost": 15,
                     "verdant_cost": 15,
-                    "transmission_beacon": 1
+                    "transmission_beacon": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:transmission_beacon",

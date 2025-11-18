@@ -52,7 +52,8 @@
                 },
                 "minecraft:custom_data": {
                   "flor_dat": {
-                    "infused_workbench": 1
+                    "infused_workbench": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:infused_workbench",

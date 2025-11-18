@@ -55,7 +55,8 @@
                     "arid_cost": 20,
                     "aqueous_cost": 20,
                     "verdant_cost": 20,
-                    "deep_signaler_broken": 1
+                    "deep_signaler_broken": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:deep_signaler_broken",

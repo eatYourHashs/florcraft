@@ -55,7 +55,8 @@
                     "arid_cost": 1,
                     "aqueous_cost": 1,
                     "verdant_cost": 1,
-                    "natures_oculus": 1
+                    "natures_oculus": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:natures_oculus",

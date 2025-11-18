@@ -60,7 +60,8 @@
                     "arid_cost": 5,
                     "aqueous_cost": 5,
                     "verdant_cost": 5,
-                    "redstone_control_matrix": 1
+                    "redstone_control_matrix": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:redstone_control_matrix",

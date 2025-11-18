@@ -55,7 +55,8 @@
                     "arid_cost": 10,
                     "aqueous_cost": 10,
                     "verdant_cost": 10,
-                    "transmission_receiver": 1
+                    "transmission_receiver": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:transmission_receiver",

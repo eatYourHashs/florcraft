@@ -60,7 +60,8 @@
                     "arid_cost": 10,
                     "aqueous_cost": 10,
                     "verdant_cost": 10,
-                    "essence_capacitor": 1
+                    "essence_capacitor": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:essence_capacitor",

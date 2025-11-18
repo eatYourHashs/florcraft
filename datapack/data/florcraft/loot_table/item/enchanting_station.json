@@ -50,7 +50,8 @@
                     "arid_cost": 10,
                     "aqueous_cost": 10,
                     "verdant_cost": 10,
-                    "enchanting_station": 1
+                    "enchanting_station": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:enchanting_station",

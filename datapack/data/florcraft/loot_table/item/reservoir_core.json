@@ -55,7 +55,8 @@
                     "arid_cost": 15,
                     "aqueous_cost": 15,
                     "verdant_cost": 15,
-                    "reservoir_core": 1
+                    "reservoir_core": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:reservoir_core",

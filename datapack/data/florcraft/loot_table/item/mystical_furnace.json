@@ -55,7 +55,8 @@
                     "arid_cost": 10,
                     "aqueous_cost": 5,
                     "verdant_cost": 5,
-                    "mystical_furnace": 1
+                    "mystical_furnace": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:mystical_furnace",

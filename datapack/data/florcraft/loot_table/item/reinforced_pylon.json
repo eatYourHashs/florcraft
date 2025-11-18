@@ -60,7 +60,8 @@
                     "arid_cost": 15,
                     "aqueous_cost": 15,
                     "verdant_cost": 15,
-                    "reinforced_pylon": 1
+                    "reinforced_pylon": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:reinforced_pylon",

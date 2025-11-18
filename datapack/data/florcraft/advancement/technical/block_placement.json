@@ -8,20 +8,10 @@
             "condition": "minecraft:match_tool",
             "predicate": {
               "components": {
-                "minecraft:block_entity_data": {
-                  "id": "minecraft:dropper",
-                  "Items": [
-                    {
-                      "id": "minecraft:barrier",
-                      "components": {
-                        "minecraft:custom_data": {
-                          "flor_dat": {
-                            "placed_block": 1
-                          }
-                        }
-                      }
-                    }
-                  ]
+                "minecraft:custom_data": {
+                  "flor_dat": {
+                    "placeable": 1
+                  }
                 }
               }
             }
