@@ -1,19 +1,9 @@
 execute if entity @s[type=player] run function florcraft:utils/damage/operations/magic_resistance
 execute if entity @s[tag=flor.scion_hitbox] run function florcraft:utils/damage/operations/scion_magic_resistance
 
-#feed into right part of the tree
-execute if entity @s[tag=flor.arid_dmg] if score $in flor.dummy matches ..109 run function florcraft:utils/damage/arid/1_10
-execute if entity @s[tag=flor.arid_dmg] if score $in flor.dummy matches 111..209 run function florcraft:utils/damage/arid/11_20
-execute if entity @s[tag=flor.arid_dmg] if score $in flor.dummy matches 210..309 run function florcraft:utils/damage/arid/21_30
-execute if entity @s[tag=flor.arid_dmg] if score $in flor.dummy matches 310..409 run function florcraft:utils/damage/arid/31_40
-execute if entity @s[tag=flor.arid_dmg] if score $in flor.dummy matches 410.. run function florcraft:utils/damage/arid/41_50
-execute if entity @s[tag=flor.aqueous_dmg] if score $in flor.dummy matches ..109 run function florcraft:utils/damage/aqueous/1_10
-execute if entity @s[tag=flor.aqueous_dmg] if score $in flor.dummy matches 111..209 run function florcraft:utils/damage/aqueous/11_20
-execute if entity @s[tag=flor.aqueous_dmg] if score $in flor.dummy matches 210..309 run function florcraft:utils/damage/aqueous/21_30
-execute if entity @s[tag=flor.aqueous_dmg] if score $in flor.dummy matches 310..409 run function florcraft:utils/damage/aqueous/31_40
-execute if entity @s[tag=flor.aqueous_dmg] if score $in flor.dummy matches 410.. run function florcraft:utils/damage/aqueous/41_50
-execute if entity @s[tag=flor.verdant_dmg] if score $in flor.dummy matches ..109 run function florcraft:utils/damage/verdant/1_10
-execute if entity @s[tag=flor.verdant_dmg] if score $in flor.dummy matches 111..209 run function florcraft:utils/damage/verdant/11_20
-execute if entity @s[tag=flor.verdant_dmg] if score $in flor.dummy matches 210..309 run function florcraft:utils/damage/verdant/21_30
-execute if entity @s[tag=flor.verdant_dmg] if score $in flor.dummy matches 310..409 run function florcraft:utils/damage/verdant/31_40
-execute if entity @s[tag=flor.verdant_dmg] if score $in flor.dummy matches 410.. run function florcraft:utils/damage/verdant/41_50
+#just macro it lol
+execute store result storage flor:storage temp.dmg.dmg float 0.1 run scoreboard players get $in flor.dummy
+execute if entity @s[tag=flor.arid_dmg] run data modify storage flor:storage temp.dmg.type set value "florcraft:arid"
+execute if entity @s[tag=flor.aqueous_dmg] run data modify storage flor:storage temp.dmg.type set value "florcraft:aqueous"
+execute if entity @s[tag=flor.verdant_dmg] run data modify storage flor:storage temp.dmg.type set value "florcraft:verdant"
+function florcraft:utils/damage/macro with storage flor:storage temp.dmg

@@ -1,0 +1,1 @@
+$damage @s $(dmg) $(type) by @e[limit=1,sort=nearest,tag=flor.attacker]
