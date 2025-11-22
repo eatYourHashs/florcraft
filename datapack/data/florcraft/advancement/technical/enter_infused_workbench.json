@@ -11,7 +11,13 @@
                 "blocks": [
                   "minecraft:barrel"
                 ],
-                "nbt": "{CustomName:{\"text\":\"ꀀ\",\"font\":\"florcraft:infused_workbench\",\"color\":\"white\"}}"
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "flor_dat": {
+                      "infused_workbench": 1
+                    }
+                  }
+                }
               }
             }
           }

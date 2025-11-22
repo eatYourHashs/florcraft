@@ -11,7 +11,13 @@
                 "blocks": [
                   "minecraft:barrel"
                 ],
-                "nbt": "{CustomName:{\"text\":\"ꀀ\",\"font\":\"florcraft:natures_oculus\",\"color\":\"white\"}}"
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "flor_dat": {
+                      "natures_oculus": 1
+                    }
+                  }
+                }
               }
             }
           }
