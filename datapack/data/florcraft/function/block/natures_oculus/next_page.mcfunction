@@ -1,6 +1,6 @@
 playsound minecraft:ui.button.click player @a[tag=flor.inside_natures_oculus_gui,distance=..12] ~ ~ ~ 1 2
 scoreboard players add @s flor.page 1
-clear @a[tag=flor.inside_natures_oculus_gui,distance=..12] structure_block[minecraft:custom_data={flor_dat:{cleared:1b}}]
+clear @a[tag=flor.inside_natures_oculus_gui,distance=..12] structure_block[minecraft:custom_data~{flor_dat:{cleared:1b}}]
 tag @s add flor.gui_swapped
 data remove block ~ ~ ~ Items[{Slot:9b}]
 data remove block ~ ~ ~ Items[{Slot:10b}]
