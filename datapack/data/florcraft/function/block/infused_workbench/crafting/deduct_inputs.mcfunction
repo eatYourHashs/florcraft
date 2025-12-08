@@ -8,12 +8,12 @@ scoreboard players operation @s flor.arid_ess -= $temp.arid_cost flor.dummy
 scoreboard players operation @s flor.aqueous_ess -= $temp.aqueous_cost flor.dummy
 scoreboard players operation @s flor.verdant_ess -= $temp.verdant_cost flor.dummy
 playsound minecraft:block.enchantment_table.use block @p[tag=flor.inside_infused_workbench_gui,distance=..12] ~ ~ ~ 1 2
-execute store result block ~ ~ ~ Items[{Slot:1b}].count int 1 run data get block ~ ~ ~ Items[{Slot:1b}].count 0.9999999999
-execute store result block ~ ~ ~ Items[{Slot:2b}].count int 1 run data get block ~ ~ ~ Items[{Slot:2b}].count 0.9999999999
-execute store result block ~ ~ ~ Items[{Slot:3b}].count int 1 run data get block ~ ~ ~ Items[{Slot:3b}].count 0.9999999999
-execute store result block ~ ~ ~ Items[{Slot:10b}].count int 1 run data get block ~ ~ ~ Items[{Slot:10b}].count 0.9999999999
-execute store result block ~ ~ ~ Items[{Slot:11b}].count int 1 run data get block ~ ~ ~ Items[{Slot:11b}].count 0.9999999999
-execute store result block ~ ~ ~ Items[{Slot:12b}].count int 1 run data get block ~ ~ ~ Items[{Slot:12b}].count 0.9999999999
-execute store result block ~ ~ ~ Items[{Slot:19b}].count int 1 run data get block ~ ~ ~ Items[{Slot:19b}].count 0.9999999999
-execute store result block ~ ~ ~ Items[{Slot:20b}].count int 1 run data get block ~ ~ ~ Items[{Slot:20b}].count 0.9999999999
-execute store result block ~ ~ ~ Items[{Slot:21b}].count int 1 run data get block ~ ~ ~ Items[{Slot:21b}].count 0.9999999999
+item modify block ~ ~ ~ container.1 florcraft:deduct_count
+item modify block ~ ~ ~ container.2 florcraft:deduct_count
+item modify block ~ ~ ~ container.3 florcraft:deduct_count
+item modify block ~ ~ ~ container.10 florcraft:deduct_count
+item modify block ~ ~ ~ container.11 florcraft:deduct_count
+item modify block ~ ~ ~ container.12 florcraft:deduct_count
+item modify block ~ ~ ~ container.19 florcraft:deduct_count
+item modify block ~ ~ ~ container.20 florcraft:deduct_count
+item modify block ~ ~ ~ container.21 florcraft:deduct_count

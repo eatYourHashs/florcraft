@@ -7,7 +7,7 @@ execute if entity @s[predicate=florcraft:infused_workbench/invalid_items] run fu
 
 function florcraft:block/infused_workbench/pain_and_suffering
 
-execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{flor_dat:{essence_flask:1b}}}}] unless data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{flor_dat:{essence_flask:1,fill:0b}}}}] run function florcraft:block/infused_workbench/add_flask_essence with block ~ ~ ~ Items[{Slot:5b}].components."minecraft:custom_data".flor_dat
+execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{flor_dat:{essence_flask:1b}}}}] unless data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{flor_dat:{essence_flask:1b,fill:0b}}}}] run function florcraft:block/infused_workbench/add_flask_essence with block ~ ~ ~ Items[{Slot:5b}].components."minecraft:custom_data".flor_dat
 execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",components:{"minecraft:custom_data":{flor_dat:{essence_item:1b}}}}] run function florcraft:block/infused_workbench/add_essence {ess:"arid"}
 execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",components:{"minecraft:custom_data":{flor_dat:{essence_item:2b}}}}] run function florcraft:block/infused_workbench/add_essence {ess:"aqueous"}
 execute if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:structure_block",components:{"minecraft:custom_data":{flor_dat:{essence_item:3b}}}}] run function florcraft:block/infused_workbench/add_essence {ess:"verdant"}
