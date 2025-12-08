@@ -14,9 +14,9 @@ execute unless score @s flor.exo_chestplate_cd matches 1.. if score $temp.ess fl
 
 #updating the item
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:copy root.flor_dat.fill set value 0
-execute if entity @s[tag=flor.item_changed] store result storage flor:copy root.flor_dat.fill int 1 run scoreboard players get $temp.fill flor.dummy
+execute if entity @s[tag=flor.item_changed] store result storage flor:copy root.flor_dat.fill byte 1 run scoreboard players get $temp.fill flor.dummy
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:copy root.flor_dat.dmg set value 0
-execute if entity @s[tag=flor.item_changed] store result storage flor:copy root.flor_dat.dmg int 1 run scoreboard players get $temp.dmg flor.dummy
+execute if entity @s[tag=flor.item_changed] store result storage flor:copy root.flor_dat.dmg byte 1 run scoreboard players get $temp.dmg flor.dummy
 execute if entity @s[tag=flor.item_changed] run item modify entity @s armor.chest florcraft:copy_custom_data
 execute if entity @s[tag=flor.item_changed] if score $temp.fill flor.dummy matches ..0 run function florcraft:item/exobiotic/chestplate/deactivate
 tag @s remove flor.item_changed

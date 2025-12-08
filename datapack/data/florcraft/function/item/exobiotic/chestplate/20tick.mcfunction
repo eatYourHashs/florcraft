@@ -12,7 +12,7 @@ execute if score $temp.fill flor.dummy matches 1.. if score @s flor.exo_chestpla
 
 #updating the item
 execute if entity @s[tag=flor.item_changed] run data modify storage flor:copy root.flor_dat.fill set value 0
-execute if entity @s[tag=flor.item_changed] store result storage flor:copy root.flor_dat.fill int 1 run scoreboard players get $temp.fill flor.dummy
+execute if entity @s[tag=flor.item_changed] store result storage flor:copy root.flor_dat.fill byte 1 run scoreboard players get $temp.fill flor.dummy
 execute if entity @s[tag=flor.item_changed] run item modify entity @s armor.chest florcraft:copy_custom_data
 execute if entity @s[tag=flor.item_changed] if score $temp.fill flor.dummy matches 1 run item modify entity @s armor.chest florcraft:add_chestplate_attributes
 tag @s remove flor.item_changed
