@@ -16,3 +16,4 @@ execute if entity @s[tag=flor.item_changed] store result storage flor:copy root.
 execute if entity @s[tag=flor.item_changed] run item modify entity @s armor.legs florcraft:copy_custom_data
 execute if entity @s[tag=flor.item_changed] if score $temp.fill flor.dummy matches ..0 run function florcraft:item/exobiotic/leggings/deactivate
 tag @s remove flor.item_changed
+stopsound @a[distance=..16] * minecraft:item.armor.equip_netherite

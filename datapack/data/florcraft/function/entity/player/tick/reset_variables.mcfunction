@@ -28,6 +28,8 @@ scoreboard players set @s flor.deepslate_copper 0
 scoreboard players set @s flor.debris 0
 scoreboard players set @s flor.sneak 0
 scoreboard players set @s flor.walk 0
+scoreboard players add @s flor.since_jump 1
+execute if score @s flor.jump matches 1.. run scoreboard players set @s flor.since_jump 0
 scoreboard players set @s flor.jump 0
 scoreboard players set @s flor.sprint 0
 scoreboard players set @s flor.fly 0
