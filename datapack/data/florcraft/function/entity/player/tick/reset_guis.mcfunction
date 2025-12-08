@@ -1,2 +1,3 @@
 execute if entity @s[tag=flor.inside_natures_oculus_gui] run function florcraft:entity/player/check_action_scores
 execute if entity @s[tag=flor.inside_infused_workbench_gui] run function florcraft:entity/player/check_action_scores
+execute if entity @s[tag=flor.inside_enchanting_station_gui] run function florcraft:entity/player/check_action_scores

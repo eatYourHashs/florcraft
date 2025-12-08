@@ -41,4 +41,3 @@ scoreboard players set @s flor.gold_pick 0
 scoreboard players set @s flor.dia_pick 0
 scoreboard players set @s flor.neth_pick 0
 scoreboard players add @s flor.since_gui 1
-data remove storage flor:storage SelectedItem

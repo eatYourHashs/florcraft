@@ -47,6 +47,7 @@ scoreboard objectives add flor.deeproot_prog dummy
 scoreboard objectives add flor.frames dummy
 scoreboard objectives add flor.mending_cd dummy
 scoreboard objectives add flor.music_timer dummy
+scoreboard objectives add flor.since_gui dummy
 
 scoreboard objectives add flor.oak minecraft.mined:minecraft.oak_log
 scoreboard objectives add flor.birch minecraft.mined:minecraft.birch_log
