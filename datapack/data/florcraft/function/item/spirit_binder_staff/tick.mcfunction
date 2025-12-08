@@ -1,5 +1,5 @@
-execute unless entity @s[tag=flor.verdant_orb] as @s at @s anchored eyes facing entity @e[sort=nearest,limit=1,distance=..12,type=#florcraft:spirit_seeked,tag=!flor.no_spirit_seek] eyes positioned ^ ^ ^0.5 rotated as @s positioned ^ ^ ^20 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
-execute if entity @s[tag=flor.verdant_orb] as @s at @s anchored eyes facing entity @e[sort=nearest,limit=1,distance=..16,type=#florcraft:spirit_seeked,tag=!flor.no_spirit_seek] eyes positioned ^ ^ ^0.5 rotated as @s positioned ^ ^ ^10 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute unless entity @s[tag=flor.verdant_orb] as @s at @s anchored eyes facing entity @n[distance=..12,type=#florcraft:spirit_seeked,tag=!flor.no_spirit_seek] eyes positioned ^ ^ ^0.5 rotated as @s positioned ^ ^ ^20 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute if entity @s[tag=flor.verdant_orb] as @s at @s anchored eyes facing entity @n[distance=..16,type=#florcraft:spirit_seeked,tag=!flor.no_spirit_seek] eyes positioned ^ ^ ^0.5 rotated as @s positioned ^ ^ ^10 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 tp @s ^ ^ ^0.1
 execute if entity @s[tag=flor.arid_orb] run particle minecraft:dust{color:[1f,0.569f,0.22f],scale:1f} ~ ~ ~ 0.05 0.05 0.05 1 2
 execute if entity @s[tag=flor.aqueous_orb] run particle minecraft:dust{color:[0.302f,0.318f,1f],scale:1f} ~ ~ ~ 0.05 0.05 0.05 1 2
