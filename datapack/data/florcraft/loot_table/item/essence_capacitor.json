@@ -23,7 +23,7 @@
                 {
                   "color": "gray",
                   "italic": false,
-                  "translate": "item.flor.essence_capacitor.lore.1"
+                  "translate": "item.flor.essence_capacitor.lore.2"
                 }
               ],
               "mode": "replace_all"

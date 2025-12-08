@@ -23,7 +23,7 @@
                 {
                   "color": "gray",
                   "italic": false,
-                  "translate": "item.flor.runic_pylon.lore.1"
+                  "translate": "item.flor.runic_pylon.lore.2"
                 }
               ],
               "mode": "replace_all"

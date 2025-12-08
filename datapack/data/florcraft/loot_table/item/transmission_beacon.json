@@ -23,7 +23,7 @@
                 {
                   "color": "gray",
                   "italic": false,
-                  "translate": "item.flor.transmission_beacon.lore.1"
+                  "translate": "item.flor.transmission_beacon.lore.2"
                 }
               ],
               "mode": "replace_all"
