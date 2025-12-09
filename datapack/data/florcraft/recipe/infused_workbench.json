@@ -14,25 +14,26 @@
   "result": {
     "id": "minecraft:dropper",
     "components": {
-      "minecraft:block_entity_data": {
-        "id": "minecraft:dropper",
-        "Items": [
-          {
-            "id": "minecraft:barrier",
-            "components": {
-              "minecraft:custom_data": {
-                "flor_dat": {
-                  "placed_block": 1,
-                  "block": "infused_workbench"
-                }
-              }
-            }
-          }
-        ]
-      },
+      "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:barrier",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "flor_dat": {
+                            "placed_block": 1,
+                            "block": "infused_workbench"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
       "minecraft:custom_data": {
         "flor_dat": {
-          "infused_workbench": 1
+          "infused_workbench": 1,
+          "placeable": 1
         }
       },
       "minecraft:item_model": "florcraft:infused_workbench",
