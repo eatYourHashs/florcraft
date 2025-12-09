@@ -1,5 +1,5 @@
 {
   "function": "minecraft:set_damage",
-  "damage": -0.075,
+  "damage": 0.075,
   "add": true
 }
