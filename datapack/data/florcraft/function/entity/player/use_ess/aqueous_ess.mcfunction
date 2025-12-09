@@ -17,7 +17,7 @@ execute if data entity @s equipment.offhand.components."minecraft:custom_data".f
 #do the new much simpler thing
 data modify storage flor:copy root set value {flor_dat:{ess:"aqueous"},fill:0b}
 execute store result storage flor:copy root.flor_dat.fill byte 1 run scoreboard players get $temp.math flor.dummy
-execute if score $temp.math flor.dummy matches 1.. unless data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{pulsating_pustule:1} run item modify entity @s weapon.offhand florcraft:set_cmd/aqueous
+execute if score $temp.math flor.dummy matches 1.. unless data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{pulsating_pustule:1b} run item modify entity @s weapon.offhand florcraft:set_cmd/aqueous
 execute if score $temp.math flor.dummy matches ..0 run data remove storage flor:copy root.flor_dat.ess
 execute if score $temp.math flor.dummy matches ..0 run item modify entity @s weapon.offhand florcraft:set_cmd/empty
 item modify entity @s weapon.offhand florcraft:copy_custom_data
