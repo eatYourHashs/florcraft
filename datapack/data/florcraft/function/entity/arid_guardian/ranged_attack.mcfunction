@@ -1,5 +1,5 @@
 playsound minecraft:entity.blaze.shoot hostile @a ~ ~ ~ 1 0.9
-execute positioned ~ ~1 ~ run summon marker ^ ^ ^1 {NoGravity:1b,Invulnerable:1b,ShowArms:0b,Small:0b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["smithed.entity","flor.ticking","flor.arid_fireball"]}
+execute positioned ~ ~1 ~ run summon marker ^ ^ ^1 {Tags:["smithed.entity","flor.ticking","flor.arid_fireball"]}
 execute as @n[tag=flor.arid_fireball] run tp @n[tag=flor.arid_guardian]
-execute as @n[tag=flor.arid_fireball] run tp ~ ~1 ~
+execute as @n[tag=flor.arid_fireball] run tp @s ~ ~1 ~ ~ ~
 scoreboard players set $cast.temp flor.dummy 100
