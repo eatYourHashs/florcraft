@@ -3,16 +3,16 @@
 
 #get the amount of essence from the storage item, or the stack size for raw essence
 execute if data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{ess:"verdant"} unless data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{fill:0b} store result score $temp.math flor.dummy run data get entity @s equipment.offhand.components."minecraft:custom_data".flor_dat.fill
-execute if data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{essence_item:3} store result score $temp.math flor.dummy run data get entity @s equipment.offhand.count
+execute if data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{essence_item:3b} store result score $temp.math flor.dummy run data get entity @s equipment.offhand.count
 
 #subtract the input amount of essence from score
 scoreboard players operation $temp.math flor.dummy -= $in flor.verdant_ess
 
 #if raw ess, replace and stop
-execute if data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{essence_item:3} run return run loot replace entity @s weapon.offhand loot florcraft:item/with/verdant_essence_from_score
+execute if data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{essence_item:3b} run return run loot replace entity @s weapon.offhand loot florcraft:item/with/verdant_essence_from_score
 
 #if pulsating pustule and xp needs to be used, do shit for that
-execute if data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{pulsating_pustule:1} if score $temp.math flor.dummy matches ..-1 run function florcraft:item/pulsating_pustule/use_xp_verdant
+execute if data entity @s equipment.offhand.components."minecraft:custom_data".flor_dat{pulsating_pustule:1b} if score $temp.math flor.dummy matches ..-1 run function florcraft:item/pulsating_pustule/use_xp_verdant
 
 #do the new much simpler thing
 data modify storage flor:copy root set value {flor_dat:{ess:"verdant"},fill:0b}
