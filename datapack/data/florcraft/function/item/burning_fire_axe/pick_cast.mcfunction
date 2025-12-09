@@ -1,6 +1,11 @@
-execute if score @s flor.oak matches 1.. run function florcraft:item/burning_fire_axe/oak_cast
-execute if score @s flor.birch matches 1.. run function florcraft:item/burning_fire_axe/birch_cast
-execute if score @s flor.spruce matches 1.. run function florcraft:item/burning_fire_axe/spruce_cast
-execute if score @s flor.jungle matches 1.. run function florcraft:item/burning_fire_axe/jungle_cast
-execute if score @s flor.acacia matches 1.. run function florcraft:item/burning_fire_axe/acacia_cast
-execute if score @s flor.dark_oak matches 1.. run function florcraft:item/burning_fire_axe/dark_oak_cast
+execute if score @s flor.oak matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:oak_log"}
+execute if score @s flor.birch matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:birch_log"}
+execute if score @s flor.spruce matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:spruce_log"}
+execute if score @s flor.jungle matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:jungle_log"}
+execute if score @s flor.acacia matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:acacia_log"}
+execute if score @s flor.dark_oak matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:dark_oak_log"}
+execute if score @s flor.mangrove matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:mangrove_log"}
+execute if score @s flor.cherry matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:cherry_log"}
+execute if score @s flor.pale_oak matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:pale_oak_log"}
+execute if score @s flor.crimson matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:crimson_stem"}
+execute if score @s flor.warped matches 1.. run function florcraft:item/burning_fire_axe/cast {block:"minecraft:warped_stem"}

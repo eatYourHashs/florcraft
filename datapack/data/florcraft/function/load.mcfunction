@@ -56,6 +56,11 @@ scoreboard objectives add flor.spruce minecraft.mined:minecraft.spruce_log
 scoreboard objectives add flor.jungle minecraft.mined:minecraft.jungle_log
 scoreboard objectives add flor.acacia minecraft.mined:minecraft.acacia_log
 scoreboard objectives add flor.dark_oak minecraft.mined:minecraft.dark_oak_log
+scoreboard objectives add flor.mangrove minecraft.mined:minecraft.mangrove_log
+scoreboard objectives add flor.cherry minecraft.mined:minecraft.cherry_log
+scoreboard objectives add flor.pale_oak minecraft.mined:minecraft.pale_oak_log
+scoreboard objectives add flor.warped minecraft.mined:minecraft.warped_stem
+scoreboard objectives add flor.crimson minecraft.mined:minecraft.crimson_stem
 scoreboard objectives add flor.coal minecraft.mined:minecraft.coal_ore
 scoreboard objectives add flor.lapis minecraft.mined:minecraft.lapis_ore
 scoreboard objectives add flor.nether_gold minecraft.mined:minecraft.nether_gold_ore
