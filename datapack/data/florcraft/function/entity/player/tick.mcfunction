@@ -26,11 +26,11 @@ execute if score @s flor.neth_pick matches 1.. run function florcraft:entity/pla
 execute if predicate florcraft:item/verdant_exobiotic_chestplate unless data entity @s equipment.chest.components."minecraft:custom_data".flor_dat{fill:0b} run function florcraft:item/exobiotic/chestplate/clear_dot
 
 # If the player is holding a fire axe
-execute if predicate florcraft:item/holding_elem_axe run function florcraft:item/burning_fire_axe/pick_cast
+execute if predicate florcraft:item/holding_elem_axe positioned ~ ~1.8 ~ run function florcraft:item/burning_fire_axe/pick_cast
 
 scoreboard players set $cast.temp flor.dummy 0
 # If the player is holding a raging river pickaxe
-execute if predicate florcraft:item/holding_elem_pickaxe run function florcraft:item/raging_river_pickaxe/pick_cast
+execute if predicate florcraft:item/holding_elem_pickaxe positioned ~ ~1.8 ~ run function florcraft:item/raging_river_pickaxe/pick_cast
 
 execute if score @s flor.erosion matches 1.. run function florcraft:item/erosion_scepter/fire
 
