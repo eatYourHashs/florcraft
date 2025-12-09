@@ -29,7 +29,7 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "druidic_scepter": 1
@@ -68,7 +68,7 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "druidic_scepter": 1
@@ -107,7 +107,7 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "druidic_scepter": 1
@@ -170,7 +170,7 @@
           "term": {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "druidic_scepter": 1

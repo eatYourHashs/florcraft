@@ -45,7 +45,7 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "components": {
+            "predicates": {
               "minecraft:custom_data": {
                 "flor_dat": {
                   "fortunate_seeker_shovel": 1
@@ -70,7 +70,7 @@
           "term": {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "flor_dat": {
                     "fortunate_seeker_shovel": 1
