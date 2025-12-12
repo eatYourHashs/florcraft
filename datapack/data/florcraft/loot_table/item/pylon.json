@@ -60,7 +60,8 @@
                     "arid_cost": 2,
                     "aqueous_cost": 2,
                     "verdant_cost": 2,
-                    "pylon": 1
+                    "pylon": 1,
+                    "placeable": 1
                   }
                 },
                 "minecraft:item_model": "florcraft:pylon",
