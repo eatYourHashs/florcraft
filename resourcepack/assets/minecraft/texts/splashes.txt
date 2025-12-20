@@ -499,3 +499,4 @@ Chicken Jockey!
 §aContains no mundane gold
 §apain_and_suffering.mcfunction
 §aOverthinking, overanalyzing!
+§aI'm blooming!
