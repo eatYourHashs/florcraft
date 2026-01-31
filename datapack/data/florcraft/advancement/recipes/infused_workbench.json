@@ -1,8 +1,6 @@
 {
   "parent": "florcraft:recipes/root",
-  "rewards": {
-    "function": "florcraft:entity/player/nbt_recipe"
-  },
+  "rewards": {},
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
